@@ -1345,3 +1345,41 @@ Tap the like heart twice within %1$d seconds. Removing a like stays immediate.	C
 Tap a comment's heart twice within %1$d seconds. A double tap on the comment needs a second one too. Removing a like stays immediate.	Chạm trái tim của bình luận hai lần trong vòng %1$d giây. Chạm hai lần vào nội dung bình luận cũng cần lần chạm thứ hai. Bỏ thích vẫn có hiệu lực ngay.
 Tap a story's heart twice within %1$d seconds. Removing a like stays immediate.	Chạm trái tim của Story hai lần trong vòng %1$d giây. Bỏ thích vẫn có hiệu lực ngay.
 Tap Repost on the bar under a video twice within %1$d seconds. A repost with a note is left alone.	Chạm Đăng lại trên thanh bên dưới video hai lần trong vòng %1$d giây. Bài đăng lại có ghi chú không bị ảnh hưởng.
+Press and hold the Home tab to open these settings. A tap on Home works as before.	Nhấn giữ tab Trang chủ để mở các cài đặt này. Chạm Trang chủ vẫn hoạt động như trước.
+Hide the streak button in a chat and the reminder message that goes with it.	Ẩn nút chuỗi liên tiếp trong cuộc trò chuyện và tin nhắn nhắc nhở đi kèm.
+How tall the main feed's floating pill is inside the bar. Compact leaves more of the video showing around it. The tabs keep their size and their taps.	Chiều cao thanh nổi dạng viên thuốc trên feed chính. Gọn giúp hiển thị nhiều video hơn xung quanh. Kích thước và thao tác chạm của các tab không đổi.
+Pill corners	Góc thanh nổi
+Rounder	Bo tròn hơn
+Fully round	Bo tròn hoàn toàn
+How round the main feed's floating pill and its glass lens are. Fully round gives them half circle ends.	Độ bo tròn của thanh nổi và thấu kính kính trên feed chính. Bo tròn hoàn toàn tạo hai đầu hình bán nguyệt.
+Liquid glass look	Giao diện kính lỏng
+Draw the main feed's floating pill as glass, lighter and more see-through, with a bright rim along its top edge. Needs Floating bottom bar.	Hiển thị thanh nổi trên feed chính như kính, sáng và trong hơn, có viền sáng ở cạnh trên. Cần bật Thanh dưới nổi.
+Glass opacity	Độ mờ của kính
+Most see-through	Trong nhất
+More see-through	Trong hơn
+Frosted	Kính mờ
+How much of the video shows through the glass pill on the main feed. Most see-through shows the most and Frosted the least.	Mức độ nhìn xuyên qua thanh kính trên feed chính. Trong nhất cho thấy video rõ nhất, Kính mờ cho thấy ít nhất.
+Glass lens on the current tab	Thấu kính kính trên tab hiện tại
+On the main feed, a raised bubble of glass sits behind the tab you're on and slides to the next tab you pick. Needs Liquid glass look.	Trên feed chính, một bong bóng kính nổi nằm sau tab đang chọn và trượt đến tab tiếp theo bạn chọn. Cần bật Giao diện kính lỏng.
+Slide across the tabs	Trượt giữa các tab
+On the main feed, slide a finger along the glass pill and the lens follows it. Let go and that tab opens. Taps and long presses work as before. Needs Glass lens on the current tab.	Trên feed chính, trượt ngón tay dọc thanh kính để thấu kính đi theo. Thả tay để mở tab đó. Chạm và nhấn giữ vẫn hoạt động như trước. Cần bật Thấu kính kính trên tab hiện tại.
+Haptics on the tabs	Rung khi chuyển tab
+On the main feed, a light tick each time the glass lens passes a tab, as it slides after a tap or under your finger. Needs Glass lens on the current tab.	Trên feed chính, tạo rung nhẹ mỗi khi thấu kính đi qua một tab khi trượt sau thao tác chạm hoặc theo ngón tay. Cần bật Thấu kính kính trên tab hiện tại.
+Haptic style	Kiểu rung
+Short pulse	Rung ngắn
+Phone's click	Tiếng/rung nhấp của điện thoại
+Soft tick	Rung nhẹ
+Full tick	Rung mạnh
+The tick on the main feed's tabs. Short pulse is one quick tap of the motor. Phone's click is the click your phone makes elsewhere. Soft tick rings a little longer. Full tick is the phone's strongest tick.	Kiểu rung khi chuyển tab trên feed chính. Rung ngắn là một nhịp nhanh; Nhấp của điện thoại dùng kiểu phản hồi ở nơi khác trên máy; Rung nhẹ kéo dài hơn một chút; Rung mạnh là nhịp mạnh nhất của điện thoại.
+Blur the video behind the bar	Làm mờ video phía sau thanh
+Blur the part of the video that sits behind the glass pill on the main feed, so it looks like frosted glass. Needs Liquid glass look and Android 12 and up.	Làm mờ phần video phía sau thanh kính trên feed chính để tạo hiệu ứng kính mờ. Cần bật Giao diện kính lỏng và Android 12 trở lên.
+Soft blur	Mờ nhẹ
+Strong blur	Mờ mạnh
+How much the video behind the glass pill on the main feed is blurred.	Mức độ làm mờ video phía sau thanh kính trên feed chính.
+See-through status bar	Thanh trạng thái trong suốt
+Prefer H.264 video	Ưu tiên video H.264
+Picks the older H.264 video format when TikTok also offers a newer one (HEVC or ByteVC2). It helps phones that stutter or run hot. Videos without an H.264 version still play.	Chọn định dạng video H.264 cũ hơn khi TikTok cũng cung cấp định dạng mới (HEVC hoặc ByteVC2). Có thể giúp điện thoại bị giật hoặc nóng khi phát. Video không có bản H.264 vẫn phát bình thường.
+That loosens the lock. It waits until %1$s.	Thay đổi này nới lỏng khóa và sẽ chờ đến %1$s.
+That loosens the budget. It waits until %1$s.	Thay đổi này nới lỏng hạn mức và sẽ chờ đến %1$s.
+Changes to %1$s at %2$s	Đổi thành %1$s lúc %2$s
+Turns off at %1$s	Tắt lúc %1$s
