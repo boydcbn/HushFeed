@@ -1393,3 +1393,67 @@ Volume	Âm lượng
 Right edge strip	Dải cạnh phải
 Edge strip width	Độ rộng dải cạnh
 How wide each edge strip is, as a percent of the screen width.	Độ rộng mỗi dải cạnh tính theo phần trăm chiều rộng màn hình.
+%1$d already matched	Đã khớp %1$d mục
+%1$d areas were checked and everything they need is here.	Đã kiểm tra %1$d khu vực và mọi thành phần cần thiết đều có sẵn.
+%1$d comments and replies loaded	Đã tải %1$d bình luận và câu trả lời
+%1$d fields overridden	Đã ghi đè %1$d trường
+%1$d fields will be overridden when requested	Sẽ ghi đè %1$d trường khi được yêu cầu
+%1$d filtered out	Đã lọc bỏ %1$d mục
+%1$d gates selected	Đã chọn %1$d cổng
+%1$d minutes left	Còn %1$d phút
+%1$d overrides were turned off because the Lab couldn't confirm their gates are unchanged in TikTok %2$s. Review them before turning them back on.	Đã tắt %1$d mục ghi đè vì Lab không xác nhận được các cổng của chúng vẫn không đổi trong TikTok %2$s. Hãy kiểm tra trước khi bật lại.
+%1$d rejected	Đã từ chối %1$d mục
+%1$d results	%1$d kết quả
+%1$d results so far	Hiện có %1$d kết quả
+%1$d results so far, and more not counted	Hiện có %1$d kết quả, còn nhiều kết quả khác chưa được tính
+%1$d results, filtered to %2$s	%1$d kết quả, đã lọc theo %2$s
+%1$d setting in that file can't be restored here and was skipped	Không thể khôi phục %1$d cài đặt trong tệp này tại đây; đã bỏ qua
+%1$d setting wasn't in that file and was left as it is	Cài đặt %1$d không có trong tệp đó nên được giữ nguyên
+%1$d settings in that file can't be restored here and were skipped	Không thể khôi phục %1$d cài đặt trong tệp này tại đây; đã bỏ qua
+%1$d settings weren't in that file and were left as they are	%1$d cài đặt không có trong tệp đó nên được giữ nguyên
+%1$d unavailable	%1$d mục không khả dụng
+%1$s (%2$s)	%1$s (%2$s)
+%1$s (TikTok value)	%1$s (giá trị TikTok)
+%1$s (custom, unverified)	%1$s (tùy chỉnh, chưa xác minh)
+%1$s (override returned)	%1$s (đã trả về giá trị ghi đè)
+%1$s (will be returned when requested)	%1$s (sẽ trả về khi được yêu cầu)
+%1$s and above	Từ %1$s trở lên
+%1$s appears more than once in this file.	%1$s xuất hiện nhiều lần trong tệp này.
+%1$s destinations must start with %2$s	Đường dẫn đích %1$s phải bắt đầu bằng %2$s
+%1$s entries skipped.	Đã bỏ qua %1$s mục.
+%1$s entry skipped.	Đã bỏ qua %1$s mục.
+%1$s has type %2$s, but the file says %3$s.	%1$s có kiểu %2$s, nhưng tệp ghi là %3$s.
+%1$s hid everything TikTok sent, %2$d times in a row. Turn it off if that's not what you wanted.	%1$s đã ẩn toàn bộ nội dung TikTok gửi trong %2$d lần liên tiếp. Hãy tắt nếu đó không phải điều bạn muốn.
+%1$s is a kind of value the Lab can't override.	%1$s là loại giá trị mà Lab không thể ghi đè.
+%1$s is already hidden	%1$s đã bị ẩn
+%1$s is imported. Restart TikTok to see it.	Đã nhập %1$s. Khởi động lại TikTok để áp dụng.
+%1$s is imported. Turn on Use an imported font to see it.	Đã nhập %1$s. Bật Dùng phông chữ đã nhập để sử dụng.
+%1$s is removed	Đã xóa %1$s
+%1$s is removed. Restart TikTok to see the change.	Đã xóa %1$s. Khởi động lại TikTok để áp dụng thay đổi.
+%1$s is too long for a settings backup. Shorten it, then save the backup again.	%1$s quá dài để đưa vào bản sao lưu cài đặt. Hãy rút ngắn rồi lưu bản sao lưu lại.
+%1$s isn't a country code, so no video would ever match it. Use two letters, like GB, IE or US.	%1$s không phải mã quốc gia nên sẽ không khớp video nào. Hãy dùng hai chữ cái, như GB, IE hoặc US.
+%1$s isn't a language code, so no video would ever match it. Use two letters, like en, es or de.	%1$s không phải mã ngôn ngữ nên sẽ không khớp video nào. Hãy dùng hai chữ cái, như en, es hoặc de.
+%1$s isn't a language code. Use two letters, like en, es or de.	%1$s không phải mã ngôn ngữ. Hãy dùng hai chữ cái, như en, es hoặc de.
+%1$s isn't in this Lab catalog.	%1$s không có trong danh mục Lab này.
+%1$s isn't installed or doesn't take links	%1$s chưa được cài đặt hoặc không nhận liên kết
+%1$s items loaded	Đã tải %1$s mục
+%1$s min left	Còn %1$s phút
+%1$s more saves waiting	Còn %1$s tác vụ lưu đang chờ
+%1$s needs fixing. %2$s	%1$s cần được sửa. %2$s
+%1$s of %2$s	%1$s trên tổng %2$s
+%1$s older seen video was dropped to keep the newest %2$s.	Đã loại bỏ %1$s video cũ đã xem để giữ lại %2$s video mới nhất.
+%1$s older seen videos were dropped to keep the newest %2$s.	Đã loại bỏ %1$s video cũ đã xem để giữ lại %2$s video mới nhất.
+%1$s picked	Đã chọn %1$s
+%1$s starts and ends at the same time. Give it a different end time.	%1$s có giờ bắt đầu và kết thúc giống nhau. Hãy đặt giờ kết thúc khác.
+%1$s to %2$s	Từ %1$s đến %2$s
+%1$s video didn't fit in the newest %2$s.	%1$s video không nằm trong nhóm %2$s video mới nhất.
+%1$s video had a date later than this phone's clock.	%1$s video có ngày đăng muộn hơn thời gian trên điện thoại.
+%1$s video was already recorded.	%1$s video đã được ghi nhận.
+%1$s video was older than Forget seen videos after allows.	%1$s video cũ hơn giới hạn trong mục Quên video đã xem sau.
+%1$s videos didn't fit in the newest %2$s.	%1$s video không nằm trong nhóm %2$s video mới nhất.
+%1$s videos had dates later than this phone's clock.	%1$s video có ngày đăng muộn hơn thời gian trên điện thoại.
+%1$s videos left	Còn %1$s video
+%1$s videos were already recorded.	%1$s video đã được ghi nhận.
+%1$s videos were older than Forget seen videos after allows.	%1$s video cũ hơn giới hạn trong mục Quên video đã xem sau.
+%1$s videos were recorded before each account kept its own list. They hide nothing until you add them here.	%1$s video được ghi nhận trước khi mỗi tài khoản có danh sách riêng. Chúng không ẩn nội dung nào cho đến khi bạn thêm vào đây.
+%1$s was rejected. %2$s	%1$s đã bị từ chối. %2$s
