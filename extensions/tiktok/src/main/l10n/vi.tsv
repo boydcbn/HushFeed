@@ -1,117 +1,35 @@
 # Settings text, English on the left, Vietnamese on the right, one entry per line, tab separated.
-# Starter Vietnamese translations for the Hushfeed settings UI.
+# Vietnamese translations for the Hushfeed settings UI.
 # Keep %s and %d placeholders, {tokens} and brand names as they are.
 
 %1$s left	Còn %1$s
 %1$s minute	%1$s phút
 %1$s minutes	%1$s phút
-%1$s result	%1$s kết quả
-%1$s results	%1$s kết quả
 %1$s video	%1$s video
 %1$s videos	%1$s video
 1 result	1 kết quả
 1 video left	Còn 1 video
+AI Self	AI Self
+AI chat	Trò chuyện AI
+AI-generated posts	Bài đăng do AI tạo
 About	Giới thiệu
 About Hushfeed	Giới thiệu Hushfeed
-Add	Thêm
-Add a creator	Thêm người sáng tạo
-Advanced	Nâng cao
-All	Tất cả
-Appearance	Giao diện
-Apply	Áp dụng
-Audio	Âm thanh
-Auto-advance	Tự động chuyển tiếp
-Auto-advance videos	Video tự động chuyển tiếp
-Back	Quay lại
-Back up settings	Sao lưu cài đặt
-Backup and restore	Sao lưu và khôi phục
-Blocked	Đã chặn
-Browse	Duyệt
-Cancel	Hủy
-Captions	Phụ đề
-Capture the feed	Ghi lại feed
-Choose what reaches your feed	Chọn nội dung đến feed của bạn
-Choose which rows and controls appear	Chọn dòng và điều khiển nào xuất hiện
-Clear	Xóa
-Clear all	Xóa tất cả
-Close	Đóng
-Comments	Bình luận
-Comments beside the video	Bình luận bên cạnh video
-Continue supported videos from where you stopped when you scroll back to them.	Tiếp tục video được hỗ trợ từ nơi bạn dừng khi cuộn trở lại
-Controls	Điều khiển
-Copy	Sao chép
-Copy quick report	Sao chép báo cáo nhanh
-Copy report	Sao chép báo cáo
-Country and network preferences	Tùy chọn quốc gia và mạng
-Country code	Mã quốc gia
-Create	Tạo
-Creator exceptions	Ngoại lệ người sáng tạo
-Creators and sounds	Người sáng tạo và âm thanh
-Current	Hiện tại
-Current %1$s	Hiện tại %1$s
-Current state	Trạng thái hiện tại
-Daily budget	Ngân sách hàng ngày
-Daily time budget	Ngân sách thời gian hàng ngày
-Daily video budget	Ngân sách video hàng ngày
-Dark	Tối
-Default	Mặc định
-Description text size	Cỡ chữ mô tả
-Diagnostics	Chẩn đoán
-Disable	Tắt
-Disabled	Đã tắt
-Downloads	Tải xuống
-Enable	Bật
-Enabled	Đã bật
-Export diagnostic report	Xuất báo cáo chẩn đoán
-Feed and navigation	Feed và điều hướng
-Feed button size	Kích thước nút feed
-Feed filter	Bộ lọc feed
-Filter settings	Cài đặt bộ lọc
-Hide profile shortcuts	Ẩn phím tắt hồ sơ
-Home	Trang chủ
-Import watch history	Nhập lịch sử xem
-Keep the language picked in TikTok	Giữ ngôn ngữ đã chọn trong TikTok
-Language	Ngôn ngữ
-Load	Tải
-Log diagnostics	Ghi nhật ký chẩn đoán
-No	Không
-Open	Mở
-Privacy	Quyền riêng tư
-Profile	Hồ sơ
-Recent searches	Tìm kiếm gần đây
-Region	Khu vực
-Remove	Xóa
-Reset	Đặt lại
-Restart TikTok	Khởi động lại TikTok
-Save	Lưu
-Save report	Lưu báo cáo
-Search	Tìm kiếm
-Search history	Lịch sử tìm kiếm
-Settings	Cài đặt
-Sound format	Định dạng âm thanh
-Start	Bắt đầu
-Stop	Dừng
-Translate into	Dịch sang
-Video	Video
-Videos	Video
-Yes	Có
-
-# Expanded Vietnamese translations for the rest of the Hushfeed settings UI
 About overrides	Giới thiệu các ghi đè
 Account facts	Thông tin tài khoản
 Account region	Khu vực tài khoản
 Active	Hoạt động
 Activity	Hoạt động
 Activity center (PIA)	Trung tâm hoạt động (PIA)
+Add	Thêm
+Add a creator	Thêm người sáng tạo
 Add apps to Share via	Thêm ứng dụng vào Chia sẻ qua
 Add hidden creator	Thêm người sáng tạo ẩn
 Add older seen videos to this account	Thêm video đã xem cũ vào tài khoản này
 Added %1$s	Đã thêm %1$s
 Added one older seen video to this account	Đã thêm một video cũ vào tài khoản này
+Advanced	Nâng cao
 Advanced JSON value	Giá trị JSON nâng cao
-AI Self	AI Self
-AI chat	Trò chuyện AI
-AI-generated posts	Bài đăng do AI tạo
+All	Tất cả
 All available languages	Tất cả ngôn ngữ có sẵn
 All events	Tất cả sự kiện
 All loaded tabs	Tất cả tab đã tải
@@ -121,21 +39,25 @@ Allow screenshots and Circle to Search	Cho phép chụp màn hình và Circle to
 Allow storage for TikTok in Android settings to save covers	Cho phép lưu trữ cho TikTok trong cài đặt Android để lưu ảnh bìa
 Allow voice comments	Cho phép bình luận bằng giọng nói
 Already marked as not interested	Đã đánh dấu là không quan tâm
-Also change the region TikTok reports internally	Cũng đổi khu vực TikTok báo cáo nội bộ
 App	Ứng dụng
 App AB	Ứng dụng AB
 Appearance	Giao diện
+Apply	Áp dụng
 Apply overrides	Áp dụng ghi đè
 Arrange your feed and bottom tabs	Sắp xếp feed và tab dưới cùng
 As TikTok sent it (M4A or MP3)	Như TikTok gửi (M4A hoặc MP3)
+Audio	Âm thanh
 Auto translate comments	Tự động dịch bình luận
+Auto-advance	Tự động chuyển tiếp
 Auto-advance in search results	Tự động chuyển tiếp trong kết quả tìm kiếm
 Auto-advance session limit	Giới hạn phiên tự động chuyển tiếp
 Auto-advance stopped after %1$d videos	Tự động chuyển tiếp dừng sau %1$d video
 Auto-advance stopped after one video	Tự động chuyển tiếp dừng sau một video
+Auto-advance videos	Video tự động chuyển tiếp
 Automatic	Tự động
 Automatic Clear display	Hiển thị rõ tự động
 Avatar and follow button	Ảnh đại diện và nút theo dõi
+Back	Quay lại
 Back up settings	Sao lưu cài đặt
 Backup and restore	Sao lưu và khôi phục
 Black	Đen
@@ -152,6 +74,7 @@ Block the advertising ID	Chặn ID quảng cáo
 Block this commenter	Chặn người bình luận này
 Block this creator	Chặn người sáng tạo này
 Block this sound	Chặn âm thanh này
+Blocked	Đã chặn
 Blocked account	Tài khoản bị chặn
 Blocked accounts	Các tài khoản bị chặn
 Blocked and hidden creators	Người sáng tạo bị chặn và ẩn
@@ -181,18 +104,18 @@ Caption background	Nền phụ đề
 Caption boldness	Độ đậm phụ đề
 Caption languages	Ngôn ngữ phụ đề
 Caption text size	Cỡ chữ phụ đề
+Captions	Phụ đề
 Capture crash reports locally	Ghi báo cáo sự cố cục bộ
-Change app name	Đổi tên ứng dụng
+Capture the feed	Ghi lại feed
 Check for already-saved videos	Kiểm tra video đã lưu
 Choose a backup file. Your current settings are kept for Undo.	Chọn tệp sao lưu. Cài đặt hiện tại của bạn được giữ để Hoàn tác.
 Choose a folder on internal storage. SD cards aren't supported.	Chọn thư mục trên bộ nhớ trong. Thẻ SD không được hỗ trợ.
 Choose a preset to fill the SIM details.	Chọn mẫu để điền thông tin SIM.
-Choose counts for this signed-in account.	Chọn số lượng cho tài khoản đã đăng nhập này.
 Choose what reaches your feed	Chọn nội dung đến feed của bạn
 Choose which bottom tabs stay visible.	Chọn những tab dưới cùng nào vẫn hiển thị.
-Choose which feed tabs stay visible.	Chọn những tab feed nào vẫn hiển thị.
 Choose which rows and controls appear	Chọn dòng và điều khiển nào xuất hiện
 Clean up shared links	Dọn dẹp liên kết đã chia sẻ
+Clear	Xóa
 Clear all	Xóa tất cả
 Clear diagnostic data	Xóa dữ liệu chẩn đoán
 Clear display	Hiển thị rõ
@@ -281,6 +204,7 @@ Dark Favorites popup	Cửa sổ yêu thích tối
 Default	Mặc định
 Default playback speed	Tốc độ phát mặc định
 Delete search	Xóa tìm kiếm
+Description text size	Cỡ chữ mô tả
 Device access	Quyền truy cập thiết bị
 Diagnostics	Chẩn đoán
 Disable	Tắt
@@ -304,9 +228,7 @@ Enter a creator handle or id	Nhập tên người dùng hoặc ID người sáng
 Enter a number.	Nhập một số.
 Enter a whole number.	Nhập một số nguyên.
 Enter true or false.	Nhập true hoặc false.
-Error	Lỗi
 Errors	Lỗi
-Everything this list has loaded is picked or saved.	Tất cả mục đã tải trong danh sách đều được chọn hoặc lưu.
 Export CSV	Xuất CSV
 Export JSON	Xuất JSON
 Export diagnostic report	Xuất báo cáo chẩn đoán
@@ -323,7 +245,6 @@ Feed capture saved to %1$s. Read it before you share it.	Đã lưu bản ghi fee
 Feed filter	Bộ lọc feed
 Feed screen	Màn hình feed
 Feed tabs	Tab feed
-Field %1$s can't be changed on this build.	Trường %1$s không thể thay đổi trên bản dựng này.
 Field edits were discarded	Các thay đổi trường đã bị bỏ
 Field edits weren't saved	Các thay đổi trường chưa được lưu
 Files	Tệp
@@ -359,7 +280,6 @@ Generated defaults	Mặc định được tạo
 Gestures	Cử chỉ
 Ghost mode	Chế độ ma
 Ghost mode diagnostics	Chẩn đoán chế độ ma
-Give each commenter's name a color of its own.	Cho mỗi tên người bình luận một màu riêng.
 Go to the screen now. Hushfeed records its layout in %1$d seconds.	Đi đến màn hình ngay bây giờ. Hushfeed sẽ ghi lại bố cục trong %1$d giây.
 Got it	Đã hiểu
 Hidden %1$s on this phone	%1$s đã bị ẩn trên điện thoại này
@@ -372,7 +292,7 @@ Hide CAPTCHA popups	Ẩn cửa sổ CAPTCHA
 Hide comments made of an image or a sticker instead of words.	Ẩn bình luận được tạo bằng hình ảnh hoặc nhãn dán thay vì chữ.
 Hide floating promotions	Ẩn quảng cáo nổi
 Hide message requests	Ẩn yêu cầu tin nhắn
-Hide search suggestions	Ẩn gợi ý tìm kiếm
+Hide profile shortcuts	Ẩn phím tắt hồ sơ
 Hide suggestions on the search page	Ẩn gợi ý trên trang tìm kiếm
 Hide the LIVE button	Ẩn nút LIVE
 Hide the search button on the feed	Ẩn nút tìm kiếm trên feed
@@ -390,10 +310,6 @@ How far each edge press moves the video.	Mỗi lần nhấn mép di chuyển vid
 Hushfeed	Hushfeed
 Hushfeed is active	Hushfeed đang hoạt động
 Hushfeed is paused	Hushfeed đã tạm dừng
-Inbox	Hộp thư
-Include diagnostic events	Bao gồm sự kiện chẩn đoán
-Included diagnostics	Chẩn đoán đã bao gồm
-Includes all diagnostic events.	Bao gồm tất cả sự kiện chẩn đoán.
 Import finished	Nhập hoàn tất
 Import loaded values	Nhập giá trị đã tải
 Import watch history	Nhập lịch sử xem
@@ -404,24 +320,23 @@ In a chat	Trong cuộc trò chuyện
 Inbox	Hộp thư
 Inbox tab name	Tên tab hộp thư
 Include diagnostic events	Bao gồm sự kiện chẩn đoán
+Included diagnostics	Chẩn đoán đã bao gồm
+Includes all diagnostic events.	Bao gồm tất cả sự kiện chẩn đoán.
 Keep a paused video paused	Giữ video đang tạm dừng ở trạng thái tạm dừng
 Keep captions available	Giữ phụ đề có sẵn
 Keep going	Tiếp tục
 Keep playing in the background	Tiếp tục phát nền
 Keep the Favorites tab	Giữ tab Yêu thích
+Keep the language picked in TikTok	Giữ ngôn ngữ đã chọn trong TikTok
 Keep the music disc still	Giữ đĩa nhạc đứng yên
 Keep the screen's refresh rate	Giữ tốc độ làm mới màn hình
 Keep this string to %1$s characters or fewer.	Giữ chuỗi này trong %1$s ký tự hoặc ít hơn.
 Kept to %1$s, the nearest value this row allows	Đã giữ ở %1$s, giá trị gần nhất mà hàng này cho phép
 Kinds of post	Loại bài đăng
 Language	Ngôn ngữ
-Large	Lớn
-Latest	Mới nhất
 Leave when TikTok says time is up	Rời đi khi TikTok nói hết giờ
 Left edge strip	Vạch mép trái
 Less than a minute left	Còn dưới một phút
-Let a LIVE fill the screen up to the top edge.	Cho LIVE chiếm toàn màn hình đến mép trên.
-Let the Offline videos menu use your own limit instead of TikTok's fixed one.	Cho menu video ngoại tuyến dùng giới hạn của bạn thay vì giới hạn cố định của TikTok.
 Licenses	Giấy phép
 Like	Thích
 Like or unlike the video	Thích hoặc bỏ thích video
@@ -444,10 +359,8 @@ Location-tagged videos	Video có nhãn vị trí
 Lock TikTok	Khóa TikTok
 Lock again after	Khóa lại sau
 Lock the feed	Khóa feed
+Log diagnostics	Ghi nhật ký chẩn đoán
 Long press	Nhấn giữ
-Long press on Comment	Nhấn giữ trên Bình luận
-Long press on Favorites	Nhấn giữ trên Yêu thích
-Long press on Share	Nhấn giữ trên Chia sẻ
 Lowest	Thấp nhất
 Manager	Trình quản lý
 Maximum	Tối đa
@@ -465,12 +378,10 @@ Move up	Di chuyển lên
 Music disc	Đĩa nhạc
 Nearby	Gần đây
 Never from these countries	Không bao giờ từ các quốc gia này
+No	Không
 No current value	Không có giá trị hiện tại
 No delay	Không có độ trễ
-No gate data is available.	Không có dữ liệu cổng sẵn.
-No hidden creators match this search.	Không có người sáng tạo ẩn nào phù hợp với tìm kiếm này.
 No limit	Không giới hạn
-No matching comments. Try a different word.	Không có bình luận phù hợp. Thử từ khác.
 No matching settings	Không có cài đặt phù hợp
 No preset selected. Choose a preset above.	Chưa chọn mẫu nào. Chọn mẫu ở trên.
 No recording yet. Start one, use a feature, then return here.	Chưa có bản ghi nào. Bắt đầu một bản ghi, dùng tính năng rồi quay lại đây.
@@ -484,15 +395,14 @@ Not seen	Chưa xem
 Not seen yet	Chưa xem
 Nothing hidden.	Không có gì bị ẩn.
 Nothing is playing to seek	Không có gì đang phát để tua
-Nothing new was imported.	Không có gì mới được nhập.
 Off	Tắt
 Offline videos	Video ngoại tuyến
 Offline videos limit	Giới hạn video ngoại tuyến
 On mobile data	Trên dữ liệu di động
-Once today's budget runs out, the hold stays.	Khi ngân sách hôm nay hết, trạng thái khóa vẫn còn.
 One minute left	Còn một phút
 One value per line	Một giá trị mỗi dòng
 Only fields the Lab can check and copy safely are shown.	Chỉ các trường mà Lab có thể kiểm tra và sao chép an toàn mới được hiển thị.
+Open	Mở
 Open comments	Mở bình luận
 Open external links directly	Mở liên kết ngoài trực tiếp
 Open messages	Mở tin nhắn
@@ -508,26 +418,20 @@ Other	Khác
 Overridden	Đã ghi đè
 Override	Ghi đè
 Override SIM details	Ghi đè thông tin SIM
-Overview	Tổng quan
 Pause the video while comments are open	Tạm dừng video khi bình luận đang mở
 People, shortcuts and sending controls	Người, phím tắt và điều khiển gửi
 Photo	Ảnh
 Photo and image posts	Bài đăng ảnh và hình ảnh
 Photo destination	Thư mục lưu ảnh
-Pick the shortcuts to remove from the row under a profile's bio.	Chọn phím tắt cần xóa khỏi hàng dưới tiểu sử hồ sơ.
 Playback	Phát lại
 Player	Trình phát
 Playlist posts	Bài đăng trong danh sách phát
 Popular	Phổ biến
-Popup	Cửa sổ bật lên
-Press and hold a story to save it.	Nhấn giữ story để lưu.
 Privacy	Quyền riêng tư
 Profile	Hồ sơ
 Profile picture saved to %1$s	Ảnh hồ sơ đã lưu vào %1$s
 Profile share actions	Hành động chia sẻ hồ sơ
-Progress	Tiến độ
 Quality	Chất lượng
-Quick actions	Hành động nhanh
 Recent searches	Tìm kiếm gần đây
 Region	Khu vực
 Remember the last speed	Ghi nhớ tốc độ cuối
@@ -540,8 +444,8 @@ Remove watermark	Xóa dấu nước
 Reset	Đặt lại
 Reset override	Đặt lại ghi đè
 Reset settings	Đặt lại cài đặt
-Restart now	Khởi động lại ngay
 Restart TikTok to apply this.	Khởi động lại TikTok để áp dụng.
+Restart now	Khởi động lại ngay
 Resume videos after scrolling	Tiếp tục video sau khi cuộn
 Retry	Thử lại
 Return after using a TikTok feature to see every gate read during the recording.	Quay lại sau khi dùng tính năng của TikTok để xem tất cả cổng được đọc trong quá trình ghi.
@@ -559,46 +463,26 @@ Saving settings backup	Đang lưu bản sao lưu cài đặt
 Search	Tìm kiếm
 Search by name, description or category.	Tìm theo tên, mô tả hoặc danh mục.
 Search settings	Cài đặt tìm kiếm
-Search within comments	Tìm trong bình luận
 Search these comments	Tìm những bình luận này
-Second	Giây
-Seconds. Zero keeps every length.	Giây. Số 0 giữ mọi độ dài.
+Search within comments	Tìm trong bình luận
 Seek by	Tua theo
 Seek from the edges	Tua từ mép
 Settings	Cài đặt
 Share sheet	Bảng chia sẻ
-Show author region	Hiển thị khu vực tác giả
-Show more	Hiển thị thêm
 Show poll results before voting	Hiển thị kết quả bình chọn trước khi đánh giá
 Show the progress bar	Hiển thị thanh tiến độ
 Show the progress bar thumbnail	Hiển thị ảnh thu nhỏ của thanh tiến độ
-Sim country preset	Mẫu quốc gia SIM
 Skip content warnings	Bỏ qua cảnh báo nội dung
-Skip first-launch setup	Bỏ qua thiết lập lần đầu
 Sound format	Định dạng âm thanh
 Spin the music disc	Quay đĩa nhạc
-Start	Bắt đầu
-Starting	Đang bắt đầu
 Stop	Dừng
-Stop saving search history	Ngừng lưu lịch sử tìm kiếm
 Stop video looping	Dừng lặp video
-Story controls	Điều khiển story
-Subtitle tools	Công cụ phụ đề
 System	Hệ thống
-Text	Văn bản
-This key isn't in Hushfeed's list, so its type can't be checked.	Khóa này không có trong danh sách của Hushfeed nên không kiểm tra đư��c kiểu dữ liệu.
-Time	Thời gian
 Top left double tap	Nhấn kép trái trên
 Top right double tap	Nhấn kép phải trên
-Translate comments	Dịch bình luận
 Translate into	Dịch sang
 Turn Clear display on or off	Bật hoặc tắt Hiển thị rõ
 Use system font	Dùng phông chữ hệ thống
-Use this account's TikTok JSON export	Dùng dữ liệu JSON xuất từ tài khoản TikTok này
 Video	Video
 Video player settings	Cài đặt trình phát video
-Videos	Video
-View replies	Xem trả lời
-Wait	Chờ
-What changed	Có gì thay đổi
 Yes	Có
