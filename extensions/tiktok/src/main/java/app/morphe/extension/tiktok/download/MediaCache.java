@@ -48,8 +48,8 @@ import java.util.concurrent.RejectedExecutionException;
 public final class MediaCache {
     static final String DIRECTORY_NAME = "hushfeed-media";
     static final long STALE_AFTER_MS = 24L * 60 * 60 * 1000;
-    private static final String PENDING_FILE_NAME = "pending-uris.tsv";
-    private static final String PENDING_LOCK_FILE_NAME = "pending-uris.lock";
+    private static final String PENDING_FILE_NAME = "p.tsv";
+    private static final String PENDING_LOCK_FILE_NAME = "p.lock";
     private static final String PENDING_INTENT_PREFIX = "intent:";
     /** What a row is called between the insert and the publish. */
     static final String TEMPORARY_NAME_PREFIX = "hushfeed-pending-";
