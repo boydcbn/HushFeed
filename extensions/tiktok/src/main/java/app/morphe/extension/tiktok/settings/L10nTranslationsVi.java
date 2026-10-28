@@ -449,7 +449,7 @@ final class L10nTranslationsVi {
         table.put("Added to this account.",
                 "Đã thêm vào tài khoản này.");
         table.put("Adds Export CSV and Export JSON buttons under the search box, so Search within comments must be on. They save the comments and replies loaded so far to a file you pick. Open the reply threads you want first.",
-                "Thêm nút Xuất CSV và Xuất JSON bên dưới ô tìm kiếm, vì vậy cần bật Tìm kiếm trong bình luận. Các nút lưu bình luận và câu trả lời đã tải vào file bạn chọn. Hãy mở trước các chuỗi trả lời muốn xuất.");
+                "Thêm nút Xuất CSV và Xuất JSON bên dưới ô tìm kiếm, vì vậy cần bật Tìm trong bình luận. Các nút lưu bình luận và câu trả lời đã tải vào tệp bạn chọn. Hãy mở trước các chuỗi trả lời muốn xuất.");
         table.put("Adds Save cover next to Download when you share a video, so you save the cover only when you want it. While this is on, Download saves just the video, even with Save the cover as well on.",
                 "Thêm nút Lưu ảnh bìa cạnh Tải xuống khi chia sẻ video để bạn chỉ lưu ảnh bìa khi cần. Khi bật, nút Tải xuống chỉ lưu video, kể cả khi đã bật Lưu cả ảnh bìa.");
         table.put("Adds TikTok's translate button next to the comment count. One tap translates every comment, and another shows the originals again.",
@@ -1669,7 +1669,7 @@ final class L10nTranslationsVi {
         table.put("Hide the Clear display controls",
                 "Ẩn các điều khiển Màn hình gọn");
         table.put("Hide the Clear display controls leaves the progress bar in sight, so you can still see and drag it.",
-                "Ẩn các điều khiển trong Màn hình sạch nhưng vẫn giữ thanh tiến trình để bạn xem và kéo thanh.");
+                "Tùy chọn Ẩn các điều khiển Màn hình gọn vẫn để lại thanh tiến trình để bạn xem và kéo thanh.");
         table.put("Hide the Footnotes banner TikTok shows on a video that has a note attached. The video and its comments stay as they are.",
                 "Ẩn biểu ngữ Footnotes TikTok hiển thị trên video có ghi chú đính kèm. Video và bình luận vẫn giữ nguyên.");
         table.put("Hide the Full screen button",
@@ -1850,7 +1850,7 @@ final class L10nTranslationsVi {
         table.put("Hide your account warning",
                 "Ẩn cảnh báo tài khoản của bạn");
         table.put("Hides rooms in the LIVE feed you swipe through, using the rules below. Blocked creators, Creators hidden on this phone and Creator exceptions apply here too, and Blocked caption words are checked against each LIVE's title. The first room the LIVE button opens isn't filtered. If every room would be hidden, one gets through so the feed keeps loading.",
-                "Ẩn các phòng trong feed LIVE mà bạn vuốt qua theo quy tắc bên dưới. Tài khoản bị chặn, tài khoản đã ẩn trên điện thoại và ngoại lệ nhà sáng tạo cũng được áp dụng; từ khóa chú thích bị chặn sẽ được so với tiêu đề LIVE. Phòng đầu tiên mở bằng nút LIVE không bị lọc. Nếu mọi phòng đều bị ẩn, một phòng vẫn được hiển thị để feed tiếp tục tải.");
+                "Ẩn các phòng trong bảng tin LIVE mà bạn vuốt qua theo quy tắc bên dưới. Người sáng tạo bị chặn, tài khoản đã ẩn trên điện thoại và Ngoại lệ người sáng tạo cũng được áp dụng; mục Các từ mô tả bị chặn được kiểm tra với tiêu đề LIVE. Phòng đầu tiên mở bằng nút LIVE không bị lọc. Nếu mọi phòng đều bị ẩn, một phòng vẫn được hiển thị để bảng tin tiếp tục tải.");
         table.put("Hides the comment count, the sort and close buttons and the suggestions above them. Use Back or swipe down to close comments.",
                 "Ẩn số bình luận, nút sắp xếp, nút đóng và các gợi ý phía trên. Dùng Quay lại hoặc vuốt xuống để đóng bình luận.");
         table.put("Hiding",
@@ -1874,7 +1874,7 @@ final class L10nTranslationsVi {
         table.put("Hold the feed after the budget",
                 "Khóa feed sau ngân sách");
         table.put("Hold the music disc at the bottom of the right column still, even where TikTok turns it. This overrides Spin the music disc.",
-                "Giữ đĩa nhạc ở cuối cột bên phải đứng yên, kể cả khi TikTok xoay nó. Tùy chọn này ghi đè Xoay đĩa nhạc.");
+                "Giữ đĩa nhạc ở cuối cột bên phải đứng yên, kể cả khi TikTok xoay nó. Tùy chọn này ghi đè Quay đĩa nhạc.");
         table.put("Home",
                 "Trang chủ");
         table.put("Home tab name",
@@ -2108,7 +2108,7 @@ final class L10nTranslationsVi {
         table.put("Leave the sound out of the saved video. Save the sound as well still writes the sound file beside it if you want both.",
                 "Không đưa âm thanh vào video đã lưu. Nếu bật Lưu cả âm thanh, file âm thanh vẫn được lưu riêng bên cạnh để bạn có cả hai.");
         table.put("Leave when TikTok says time is up",
-                "Rời đi khi TikTok nói hết giờ");
+                "Rời ứng dụng khi TikTok báo hết giờ");
         table.put("Left edge strip",
                 "Vạch mép trái");
         table.put("Length and views per like",
@@ -2532,11 +2532,11 @@ final class L10nTranslationsVi {
         table.put("On the Friends tab, hide posts, reposts and LIVEs from accounts that aren't a mutual follow, suggested accounts included. Your own posts stay.",
                 "Trong tab Bạn bè, ẩn bài đăng, bài đăng lại và LIVE từ tài khoản không theo dõi lẫn nhau, kể cả tài khoản được đề xuất. Bài đăng của bạn vẫn được giữ.");
         table.put("On the main feed, a light tick each time the glass lens passes a tab, as it slides after a tap or under your finger. Needs Glass lens on the current tab.",
-                "Trên feed chính, phát một nhịp rung nhẹ mỗi khi thấu kính đi qua tab, khi trượt sau thao tác chạm hoặc theo ngón tay. Cần bật Thấu kính kính trên tab hiện tại.");
+                "Trên bảng tin chính, phát một nhịp rung nhẹ mỗi khi hiệu ứng kính đi qua tab, khi trượt sau thao tác chạm hoặc theo ngón tay. Cần bật Hiệu ứng kính trên tab hiện tại.");
         table.put("On the main feed, a raised bubble of glass sits behind the tab you're on and slides to the next tab you pick. Needs Liquid glass look.",
                 "Trên feed chính, một bong bóng kính nổi phía sau tab hiện tại và trượt đến tab bạn chọn. Cần bật Giao diện kính lỏng.");
         table.put("On the main feed, slide a finger along the glass pill and the lens follows it. Let go and that tab opens. Taps and long presses work as before. Needs Glass lens on the current tab.",
-                "Trên feed chính, vuốt ngón tay dọc thanh kính để thấu kính đi theo. Thả tay để mở tab đó. Chạm và nhấn giữ vẫn như cũ. Cần bật Thấu kính kính trên tab hiện tại.");
+                "Trên bảng tin chính, vuốt ngón tay dọc thanh kính để hiệu ứng kính đi theo. Thả tay để mở tab đó. Chạm và nhấn giữ vẫn như cũ. Cần bật Hiệu ứng kính trên tab hiện tại.");
         table.put("On. Hushfeed hasn't seen TikTok send any reports since it started.",
                 "Bật. Hushfeed chưa thấy TikTok gửi báo cáo nào kể từ khi khởi động.");
         table.put("Once today's budget runs out, the hold stays and can't be dismissed. The budget settings are locked until the day starts over. Turn this off any time before the budget runs out.",
@@ -3106,7 +3106,7 @@ final class L10nTranslationsVi {
         table.put("Save details beside the video",
                 "Lưu thông tin bên cạnh video");
         table.put("Save every photo in the post at full size, not as the screen shows it. Each one is a JPEG unless Keep photos as TikTok sent them is on.",
-                "Lưu mọi ảnh trong bài đăng ở kích thước đầy đủ thay vì ảnh đang hiển thị trên màn hình. Mỗi ảnh là JPEG, trừ khi bật Giữ nguyên định dạng ảnh TikTok gửi.");
+                "Lưu mọi ảnh trong bài đăng ở kích thước đầy đủ thay vì ảnh đang hiển thị trên màn hình. Mỗi ảnh là JPEG, trừ khi bật Giữ nguyên ảnh như TikTok gửi.");
         table.put("Save field values",
                 "Lưu giá trị trường");
         table.put("Save full report",
@@ -3578,11 +3578,11 @@ final class L10nTranslationsVi {
         table.put("Shows TikTok's play, pause, previous and next buttons on the feed. TikTok normally shows them only to people who use a screen reader. TikTok can see when you use them.",
                 "Hiển thị các nút phát, tạm dừng, trước và tiếp theo trên feed. TikTok thường chỉ hiển thị chúng cho người dùng trình đọc màn hình và có thể ghi nhận khi bạn sử dụng.");
         table.put("Shows TikTok's text in the font file you import below. While both are on, this one wins over Use system font. If the file is removed or can't be read, the text goes back to what Use system font shows.",
-                "Hiển thị văn bản TikTok bằng file phông bạn nhập bên dưới. Nếu cả hai tùy chọn đều bật, tùy chọn này ưu tiên hơn Dùng phông hệ thống. Nếu file bị xóa hoặc không đọc được, văn bản sẽ quay về phông hệ thống.");
+                "Hiển thị văn bản TikTok bằng tệp phông bạn nhập bên dưới. Nếu cả hai tùy chọn đều bật, tùy chọn này ưu tiên hơn Dùng phông chữ hệ thống. Nếu tệp bị xóa hoặc không đọc được, văn bản sẽ quay về phông chữ hệ thống.");
         table.put("Shows TikTok's text in your phone's font instead of TikTok Sans. Icons and gift animations keep their own fonts. Restart TikTok to see the change.",
                 "Hiển thị văn bản TikTok bằng phông chữ của điện thoại thay vì TikTok Sans. Biểu tượng và hoạt ảnh quà tặng vẫn dùng phông chữ riêng. Khởi động lại TikTok để áp dụng.");
         table.put("Shows a search button at the top left of the comments instead of the box, so the comments get that room back. Tap it to search, and tap it again to put the box away. Search within comments must be on.",
-                "Hiển thị nút tìm kiếm ở góc trên trái phần bình luận thay cho ô tìm kiếm để dành thêm chỗ cho bình luận. Chạm để tìm kiếm, chạm lần nữa để ẩn ô. Cần bật Tìm kiếm trong bình luận.");
+                "Hiển thị nút tìm kiếm ở góc trên trái phần bình luận thay cho ô tìm kiếm để dành thêm chỗ cho bình luận. Chạm để tìm kiếm, chạm lần nữa để ẩn ô. Cần bật Tìm trong bình luận.");
         table.put("Shows a small count under TikTok's top tabs of what the feed filter has removed since TikTok started. It shows only on the feed, and taps on it go through to the video under it.",
                 "Hiển thị số lượng nhỏ bên dưới các tab trên cùng của TikTok, cho biết bộ lọc đã loại bao nhiêu nội dung kể từ khi TikTok khởi chạy. Chỉ hiển thị trên feed; chạm vào số sẽ mở video bên dưới.");
         table.put("Shows every emoji in your phone's own emoji font. The newest emoji your phone doesn't have yet may show as a box or in pieces.",
