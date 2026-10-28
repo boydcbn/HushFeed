@@ -1074,3 +1074,54 @@ This key isn't in Hushfeed's list, so its type can't be checked. Reset the overr
 This key touches account safety. Forcing it can change login, region, payment or security checks.	Khóa này liên quan đến an toàn tài khoản. Ép giá trị có thể ảnh hưởng đến đăng nhập, khu vực, thanh toán hoặc kiểm tra bảo mật.
 Try a different word or clear the search. Switches from patches you didn't tick in Morphe Manager aren't listed.	Hãy thử từ khác hoặc xóa nội dung tìm kiếm. Các công tắc từ bản vá bạn chưa chọn trong Morphe Manager sẽ không được liệt kê.
 Unblock	Bỏ chặn
+%1$d comments and replies loaded	Đã tải %1$d bình luận và câu trả lời
+%1$d filtered out	Đã lọc bỏ %1$d mục
+%1$s day	%1$s ngày
+%1$s days	%1$s ngày
+%1$s dp	%1$s dp
+%1$s hid everything TikTok sent, %2$d times in a row. Turn it off if that's not what you wanted.	%1$s đã ẩn toàn bộ nội dung TikTok gửi đến %2$d lần liên tiếp. Hãy tắt tính năng này nếu bạn không muốn như vậy.
+%1$s is imported. Restart TikTok to see it.	Đã nhập %1$s. Khởi động lại TikTok để thấy thay đổi.
+%1$s is imported. Turn on Use an imported font to see it.	Đã nhập %1$s. Bật Dùng phông chữ đã nhập để sử dụng.
+%1$s is removed	Đã xóa %1$s
+%1$s is removed. Restart TikTok to see the change.	Đã xóa %1$s. Khởi động lại TikTok để thấy thay đổi.
+%1$s items loaded	Đã tải %1$s mục
+%1$s millisecond	%1$s mili giây
+%1$s milliseconds	%1$s mili giây
+%1$s more saves waiting	Còn %1$s mục đang chờ lưu
+%1$s of %2$s	%1$s trên %2$s
+%1$s older seen video was dropped to keep the newest %2$s.	Đã bỏ %1$s video đã xem cũ hơn để giữ lại %2$s video mới nhất.
+%1$s older seen videos were dropped to keep the newest %2$s.	Đã bỏ %1$s video đã xem cũ hơn để giữ lại %2$s video mới nhất.
+%1$s picked	Đã chọn %1$s
+%1$s point	%1$s điểm
+%1$s points	%1$s điểm
+%1$s s	%1$s giây
+%1$s second	%1$s giây
+%1$s seconds	%1$s giây
+%1$s starts and ends at the same time. Give it a different end time.	%1$s có giờ bắt đầu và kết thúc giống nhau. Hãy chọn giờ kết thúc khác.
+%1$s time	%1$s lần
+%1$s times	%1$s lần
+%1$s video didn't fit in the newest %2$s.	Có %1$s video không nằm trong %2$s video mới nhất.
+%1$s video had a date later than this phone's clock.	Ngày của %1$s video muộn hơn ngày giờ trên điện thoại này.
+%1$s video was already recorded.	%1$s video đã được ghi nhận.
+%1$s video was older than Forget seen videos after allows.	%1$s video cũ hơn khoảng thời gian cho phép trong mục Quên video đã xem sau.
+%1$s videos didn't fit in the newest %2$s.	Có %1$s video không nằm trong %2$s video mới nhất.
+%1$s videos had dates later than this phone's clock.	Ngày của %1$s video muộn hơn ngày giờ trên điện thoại này.
+%1$s videos were already recorded.	%1$s video đã được ghi nhận.
+%1$s videos were older than Forget seen videos after allows.	%1$s video cũ hơn khoảng thời gian cho phép trong mục Quên video đã xem sau.
+%1$s view per comment	%1$s lượt xem mỗi bình luận
+%1$s view per like	%1$s lượt xem mỗi lượt thích
+%1$s views per comment	%1$s lượt xem mỗi bình luận
+%1$s views per like	%1$s lượt xem mỗi lượt thích
+%1$s were already saved	Đã lưu %1$s mục từ trước
+%1$s, %2$s or %3$s	%1$s, %2$s hoặc %3$s
+%1$s, %2$s, %3$s or %4$s	%1$s, %2$s, %3$s hoặc %4$s
+%1$s, about %2$s	%1$s, khoảng %2$s
+%1$s, size unknown	%1$s, chưa rõ kích thước
+%1$s: %2$s of %3$s files didn't finish	%1$s: %2$s trong số %3$s tệp chưa hoàn tất
+%1$s: %2$s of %3$s files might not have finished	%1$s: có thể %2$s trong số %3$s tệp chưa hoàn tất
+%1$s: didn't finish	%1$s: chưa hoàn tất
+%1$s: might not have finished	%1$s: có thể chưa hoàn tất
+%1$s: one of %3$s files didn't finish	%1$s: 1 trong số %3$s tệp chưa hoàn tất
+%1$s: one of %3$s files might not have finished	%1$s: có thể 1 trong số %3$s tệp chưa hoàn tất
+1 comment or reply loaded	Đã tải 1 bình luận hoặc câu trả lời
+1 filtered out	Đã lọc bỏ 1 mục
