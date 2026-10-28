@@ -353,11 +353,21 @@ final class RecordingRetention {
     }
 
     private static boolean isSymbolicLink(File file) throws IOException {
+        // Robolectric runs the unit suite on the host OS. Use the host NIO provider there so
+        // Windows and Unix symbolic links are both detected; java.nio.file was added to Android
+        // after this module's API-23 floor, so retain the platform lstat fallback for older phones.
         try {
-            return OsConstants.S_ISLNK(Os.lstat(file.getPath()).st_mode);
-        } catch (ErrnoException failure) {
-            if (failure.errno == OsConstants.ENOENT) return false;
-            throw new IOException("Cannot inspect recording path ownership", failure);
+            Class<?> files = Class.forName("java.nio.file.Files");
+            Class<?> path = Class.forName("java.nio.file.Path");
+            Object nioPath = File.class.getMethod("toPath").invoke(file);
+            return Boolean.TRUE.equals(files.getMethod("isSymbolicLink", path).invoke(null, nioPath));
+        } catch (ReflectiveOperationException | LinkageError unavailable) {
+            try {
+                return OsConstants.S_ISLNK(Os.lstat(file.getPath()).st_mode);
+            } catch (ErrnoException failure) {
+                if (failure.errno == OsConstants.ENOENT) return false;
+                throw new IOException("Cannot inspect recording path ownership", failure);
+            }
         }
     }
 
