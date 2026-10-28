@@ -47,7 +47,7 @@ public class MediaCacheTest {
         Context context = RuntimeEnvironment.getApplication();
         File owned = new File(context.getCacheDir(), MediaCache.DIRECTORY_NAME);
         assertTrue(owned.isDirectory() || owned.mkdirs());
-        File journal = new File(owned, "p.tsv");
+        File journal = new File(owned, "pending-uris.tsv");
         assertTrue(journal.mkdir());
         try {
             org.junit.Assert.assertThrows(IOException.class, () -> MediaCache.markPending(
