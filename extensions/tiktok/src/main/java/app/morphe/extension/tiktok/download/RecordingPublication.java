@@ -267,13 +267,16 @@ final class RecordingPublication implements MediaFileWriter.Publication {
     }
 
     private void checkLegacy(File file) throws IOException {
-        if (!file.getName().contains("_" + record.id)
-                || !file.getName().endsWith(".mp4")
+        // The publication directory is the ownership boundary; the provider may keep the
+        // requested filename unchanged, so requiring the record id in the basename rejects
+        // legitimate destinations such as live_creator.mp4.
+        File expectedDirectory = new File(
+                Environment.getExternalStorageDirectory(),
+                "Movies/HushfeedRetained-" + record.id);
+        if (!file.getName().endsWith(".mp4")
                 || !file.getCanonicalPath().equals(file.getAbsolutePath())
-                || !file.getCanonicalPath()
-                        .startsWith(
-                                Environment.getExternalStorageDirectory().getCanonicalPath()
-                                        + File.separator)) {
+                || !file.getParentFile().getCanonicalPath()
+                        .equals(expectedDirectory.getCanonicalPath())) {
             throw new IOException("Legacy recording destination ownership changed");
         }
     }
