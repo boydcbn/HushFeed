@@ -1310,3 +1310,38 @@ Floating bottom bar	Thanh dưới nổi
 Show the main feed's tabs on a rounded, see-through dark pill that floats over the video. Needs See-through bottom bar.	Hiển thị tab feed chính trên một thanh tối, bo tròn và trong suốt nổi trên video. Cần bật Thanh dưới trong suốt.
 Pill height	Chiều cao thanh nổi
 Standard	Tiêu chuẩn
+Set a sleep timer that closes TikTok	Đặt hẹn giờ để đóng TikTok
+Save the frame on screen as a photo	Lưu khung hình hiện tại thành ảnh
+Save the video's cover	Lưu ảnh bìa video
+Open the search page	Mở trang tìm kiếm
+Speed up this video, double tap again to undo	Tăng tốc video này; chạm hai lần lần nữa để hoàn tác
+Give each quarter of the video its own double tap choice. The Double tap row above is used while this is off.	Đặt thao tác chạm hai lần riêng cho từng phần tư màn hình video. Khi tắt, dùng lựa chọn Chạm hai lần ở phía trên.
+Swipe left	Vuốt sang trái
+TikTok default (open the creator's profile)	Mặc định TikTok (mở hồ sơ nhà sáng tạo)
+TikTok default (hold to speed up, quick share)	Mặc định TikTok (nhấn giữ để tăng tốc, chia sẻ nhanh)
+Like the video	Thích video
+Only on the sides of the video	Chỉ ở hai bên video
+Your Long press choice runs only on the left and right thirds of the video. A press in the middle still opens TikTok's own menu. It needs a Long press choice other than TikTok default.	Lựa chọn Nhấn giữ chỉ hoạt động ở một phần ba bên trái và bên phải video. Nhấn giữ ở giữa vẫn mở menu của TikTok. Cần chọn thao tác Nhấn giữ khác Mặc định TikTok.
+Full long-press menu on a creator's videos	Menu nhấn giữ đầy đủ trên video của nhà sáng tạo
+A long press on a video you opened from someone's profile opens the same menu as on For You, not the small share sheet. It needs Long press on TikTok default.	Nhấn giữ video mở từ hồ sơ sẽ mở menu giống mục Dành cho bạn thay vì bảng chia sẻ nhỏ. Cần đặt Nhấn giữ thành Mặc định TikTok.
+Full long-press menu in search results	Menu nhấn giữ đầy đủ trong kết quả tìm kiếm
+A long press on a video you opened from search opens the same menu as on For You. It needs Long press on TikTok default.	Nhấn giữ video mở từ tìm kiếm sẽ mở menu giống mục Dành cho bạn. Cần đặt Nhấn giữ thành Mặc định TikTok.
+Press and hold the left or right third of the screen to jump back or forward. The middle third keeps the Long press action.	Nhấn giữ một phần ba bên trái hoặc bên phải màn hình để tua lùi hoặc tới. Phần giữa vẫn dùng thao tác Nhấn giữ.
+%1$s s	%1$s giây
+Hold speed on Comment	Tăng tốc khi nhấn giữ Bình luận
+A long press on Comment plays the video at the hold speed instead of opening the emoji row. It needs Long press on TikTok default and Seek from the edges off.	Nhấn giữ Bình luận sẽ phát video ở tốc độ nhấn giữ thay vì mở hàng emoji. Cần đặt Nhấn giữ thành Mặc định TikTok và tắt Tua từ mép.
+Hold speed on Share	Tăng tốc khi nhấn giữ Chia sẻ
+A long press on Share plays the video at the hold speed instead of opening the quick share row. It needs Long press on TikTok default and Seek from the edges off.	Nhấn giữ Chia sẻ sẽ phát video ở tốc độ nhấn giữ thay vì mở hàng chia sẻ nhanh. Cần đặt Nhấn giữ thành Mặc định TikTok và tắt Tua từ mép.
+Hold speed on Favorites	Tăng tốc khi nhấn giữ Yêu thích
+A long press on Favorites plays the video at the hold speed instead of offering a new collection. It needs Long press on TikTok default and Seek from the edges off.	Nhấn giữ Yêu thích sẽ phát video ở tốc độ nhấn giữ thay vì đề xuất tạo bộ sưu tập mới. Cần đặt Nhấn giữ thành Mặc định TikTok và tắt Tua từ mép.
+Lock the hold speed with a pull down	Khóa tốc độ nhấn giữ bằng cách vuốt xuống
+Use TikTok's own hold, pull down and release gesture to keep playing at the hold speed, 2x unless Playback sets another.	Dùng cử chỉ nhấn giữ, vuốt xuống rồi thả của TikTok để tiếp tục phát ở tốc độ nhấn giữ; mặc định là 2x trừ khi mục Phát lại đặt tốc độ khác.
+Keep long press from quick sharing	Ngăn nhấn giữ mở chia sẻ nhanh
+Stop a long press on Share from opening TikTok's quick share action.	Ngăn thao tác nhấn giữ Chia sẻ mở chức năng chia sẻ nhanh của TikTok.
+Keep long press from reposting	Ngăn nhấn giữ đăng lại
+Stop a long press on Like from opening TikTok's repost action.	Ngăn thao tác nhấn giữ Thích mở chức năng đăng lại của TikTok.
+Tap the feed Follow button twice within %1$d seconds.	Chạm nút Theo dõi trên feed hai lần trong vòng %1$d giây.
+Tap the like heart twice within %1$d seconds. Removing a like stays immediate.	Chạm biểu tượng trái tim hai lần trong vòng %1$d giây. Bỏ thích vẫn có hiệu lực ngay.
+Tap a comment's heart twice within %1$d seconds. A double tap on the comment needs a second one too. Removing a like stays immediate.	Chạm trái tim của bình luận hai lần trong vòng %1$d giây. Chạm hai lần vào nội dung bình luận cũng cần lần chạm thứ hai. Bỏ thích vẫn có hiệu lực ngay.
+Tap a story's heart twice within %1$d seconds. Removing a like stays immediate.	Chạm trái tim của Story hai lần trong vòng %1$d giây. Bỏ thích vẫn có hiệu lực ngay.
+Tap Repost on the bar under a video twice within %1$d seconds. A repost with a note is left alone.	Chạm Đăng lại trên thanh bên dưới video hai lần trong vòng %1$d giây. Bài đăng lại có ghi chú không bị ảnh hưởng.
