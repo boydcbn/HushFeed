@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   l10n:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -27,13 +27,12 @@ jobs:
           java-version: '21'
           cache: gradle
 
-      - name: Accept Android SDK licenses and install platform
-        shell: bash
+      - name: Install Android platform
+        shell: pwsh
         run: |
-          SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
-          test -n "$SDKMANAGER"
-          yes | "$SDKMANAGER" --licenses || true
-          "$SDKMANAGER" "platforms;android-36"
+          $sdkManager = Get-ChildItem "$env:ANDROID_HOME\cmdline-tools" -Recurse -Filter sdkmanager.bat | Select-Object -First 1
+          if (-not $sdkManager) { throw "Android SDK manager was not found" }
+          & $sdkManager.FullName "platforms;android-36"
 
       - name: Generate translation tables
         run: python scripts/gen-l10n.py
@@ -45,4 +44,4 @@ jobs:
         env:
           GITHUB_ACTOR: ${{ github.actor }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew --no-daemon :extensions:tiktok:test
+        run: .\gradlew.bat --no-daemon :extensions:tiktok:test
