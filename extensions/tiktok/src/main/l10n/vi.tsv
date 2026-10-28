@@ -1229,3 +1229,39 @@ Hide the status bar in LIVE rooms	Ẩn thanh trạng thái trong phòng LIVE
 Show a LIVE under the status bar	Hiển thị LIVE bên dưới thanh trạng thái
 Keep the screen's brightness in the camera	Giữ nguyên độ sáng màn hình khi dùng camera
 Report a newer phone to effects	Báo với hiệu ứng rằng đây là điện thoại đời mới hơn
+Hide Search this image prompts	Ẩn lời nhắc Tìm kiếm hình ảnh này
+Hide the comment bar on opened videos	Ẩn thanh bình luận trên video đã mở
+Hide the search bar below videos	Ẩn thanh tìm kiếm bên dưới video
+Hide the playlist bar	Ẩn thanh danh sách phát
+Hide the event badge	Ẩn nhãn sự kiện
+Hide the floating promotional badge over the feed.	Ẩn nhãn quảng bá nổi trên feed.
+Hide inserted cards	Ẩn thẻ được chèn
+Popups	Cửa sổ bật lên
+Hide floating promotion badges, coins, and timer banners on the feed.	Ẩn nhãn quảng bá nổi, xu và biểu ngữ đếm giờ trên feed.
+Hide the LIVE bubble	Ẩn bong bóng LIVE
+Stop the bubble TikTok floats at the top of the feed to point you to a LIVE.	Ẩn bong bóng TikTok nổi ở đầu feed để hướng bạn đến một LIVE.
+Hide TikTok's wind-down screens	Ẩn màn hình nghỉ ngơi của TikTok
+Stops the bedtime wind-down, the breathing exercise and the daily limit screen TikTok puts over the feed. Works only on accounts TikTok knows belong to adults. Teen accounts, and ones a parent links with Family Pairing, keep them. With Leave when TikTok says time is up on, the daily limit screen still shows so that switch can work.	Ẩn màn hình thư giãn trước giờ ngủ, bài tập thở và màn hình giới hạn hằng ngày mà TikTok phủ lên feed. Chỉ áp dụng cho tài khoản TikTok xác định là người trưởng thành. Tài khoản thiếu niên và tài khoản được phụ huynh liên kết bằng Family Pairing vẫn giữ các màn hình này. Nếu bật Rời TikTok khi hết giờ, màn hình giới hạn hằng ngày vẫn xuất hiện để tùy chọn đó hoạt động.
+Plays videos that TikTok covers with a content warning without asking you to tap through first.	Phát video có cảnh báo nội dung của TikTok mà không yêu cầu bạn chạm xác nhận trước.
+Hide unverified content notices	Ẩn thông báo nội dung chưa xác minh
+Hide the Check sources banner TikTok puts on videos it marks as unverified, and the warnings it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn mà TikTok đặt trên video chưa xác minh và cảnh báo xuất hiện khi bạn chia sẻ video đó.
+Hide Check your sources warnings	Ẩn cảnh báo Kiểm tra nguồn
+Hide the Check your sources banner TikTok puts across the top of some videos, and the prompt it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn ở đầu một số video và lời nhắc TikTok hiển thị khi bạn chia sẻ.
+Hide the share prompt after a like	Ẩn lời nhắc chia sẻ sau khi thích
+Stop the bubble that asks you to share a video with friends after you like it.	Ẩn bong bóng đề nghị chia sẻ video với bạn bè sau khi bạn nhấn thích.
+Bring back TikTok's captions switch in its accessibility settings, and the caption controls on videos, when TikTok leaves them out.	Khôi phục công tắc phụ đề trong cài đặt trợ năng của TikTok và các nút điều khiển phụ đề trên video khi TikTok không hiển thị chúng.
+Use 0 for TikTok's size, or %1$d to %2$d. Applies to the next caption.	Nhập 0 để dùng kích thước của TikTok hoặc từ %1$d đến %2$d. Áp dụng cho phụ đề tiếp theo.
+Caption height	Chiều cao phụ đề
+Lifts spoken captions above TikTok's spot while the phone is upright. Use 0 for TikTok's spot, or up to %1$d.	Đẩy phụ đề lời nói lên cao hơn vị trí mặc định của TikTok khi điện thoại đặt dọc. Nhập 0 để dùng vị trí TikTok hoặc tối đa %1$d.
+Caption height in landscape	Chiều cao phụ đề khi xoay ngang
+Lifts spoken captions above TikTok's spot while the phone is sideways. Use 0 for TikTok's spot, or up to %1$d.	Đẩy phụ đề lời nói lên cao hơn vị trí mặc định của TikTok khi điện thoại đặt ngang. Nhập 0 để dùng vị trí TikTok hoặc tối đa %1$d.
+Light	Nhẹ
+Medium	Trung bình
+Semi-bold	Nửa đậm
+Bold	Đậm
+Extra bold	Rất đậm
+Transparent	Trong suốt
+Keep captions in Clear display	Giữ phụ đề trong chế độ Màn hình sạch
+Show the current spoken caption while the other controls are hidden.	Hiển thị phụ đề lời nói hiện tại khi các nút điều khiển khác bị ẩn.
+Caption height in Clear display	Chiều cao phụ đề trong Màn hình sạch
+Lifts the kept caption above its usual spot in Clear display. Use 0 for the usual spot, or up to %1$d.	Đẩy phụ đề được giữ lên cao hơn vị trí thông thường trong Màn hình sạch. Nhập 0 để dùng vị trí mặc định hoặc tối đa %1$d.
