@@ -2159,3 +2159,72 @@ That file is larger than %1$s MB. Choose a smaller font file.	Tệp lớn hơn %
 That file is larger than %1$s MB. Choose a smaller watch-history export.	Tệp lớn hơn %1$s MB. Hãy chọn bản xuất lịch sử xem nhỏ hơn.
 That file is too large to be a settings backup. Nothing was altered.	Tệp quá lớn để là bản sao lưu cài đặt. Không có gì bị thay đổi.
 That file isn't a font Android can use. Choose a .ttf or .otf file.	Đây không phải phông chữ Android có thể dùng. Hãy chọn tệp .ttf hoặc .otf.
+That file isn't a loaded-values export, or it's larger than the Lab accepts	Tệp này không phải bản xuất giá trị đã tải hoặc vượt quá kích thước Lab cho phép.
+That file isn't readable text, so it may have been damaged in transit. Nothing was altered.	Không thể đọc tệp dưới dạng văn bản; có thể tệp đã bị hỏng khi truyền. Không có gì bị thay đổi.
+That file lists more than %1$s videos. Nothing was restored.	Tệp liệt kê hơn %1$s video. Không có gì được khôi phục.
+That file was saved by a newer Hushfeed. Update Hushfeed, then try again.	Tệp được lưu bằng phiên bản Hushfeed mới hơn. Hãy cập nhật Hushfeed rồi thử lại.
+That folder name has a character Android doesn't allow. Use letters, numbers, spaces or dashes.	Tên thư mục chứa ký tự Android không cho phép. Hãy dùng chữ cái, số, dấu cách hoặc dấu gạch ngang.
+That is %1$d minutes today	Hôm nay là %1$d phút
+That is %1$d videos today	Hôm nay là %1$d video
+That is one minute today	Hôm nay là một phút
+That is one video today	Hôm nay là một video
+That isn't a Hushfeed settings backup. Nothing was altered.	Đây không phải bản sao lưu cài đặt Hushfeed. Không có gì bị thay đổi.
+That isn't a seen-history file saved by Hushfeed. For TikTok's own data export, use Import watch history.	Đây không phải tệp lịch sử đã xem do Hushfeed lưu. Để nhập dữ liệu xuất từ TikTok, hãy dùng Nhập lịch sử xem.
+That isn't an app name. Try something like com.example.downloader, or leave the box empty to keep saving in TikTok.	Đây không phải tên ứng dụng hợp lệ. Hãy thử dạng com.example.downloader hoặc để trống để tiếp tục lưu bằng TikTok.
+That isn't valid JSON. Check the brackets and quotes.	JSON không hợp lệ. Hãy kiểm tra dấu ngoặc và dấu nháy.
+That list has too many entries. Keep it to %1$s or fewer.	Danh sách có quá nhiều mục. Hãy giới hạn ở %1$s mục trở xuống.
+That list is too large. Keep it to %1$s KB or less.	Danh sách quá lớn. Hãy giữ kích thước ở mức %1$s KB trở xuống.
+That preset isn't recognized. Choose another.	Không nhận diện được mẫu này. Hãy chọn mẫu khác.
+That seen-history file is damaged or was edited. Nothing was restored.	Tệp lịch sử đã xem bị hỏng hoặc đã bị chỉnh sửa. Không có gì được khôi phục.
+That settings backup contains a feed rule list larger than Hushfeed accepts. Nothing was altered.	Bản sao lưu cài đặt chứa danh sách quy tắc feed lớn hơn giới hạn Hushfeed cho phép. Không có gì bị thay đổi.
+That settings backup holds a value Hushfeed can't read. Nothing was altered.	Bản sao lưu cài đặt chứa giá trị Hushfeed không thể đọc. Không có gì bị thay đổi.
+That settings backup holds more Feature Gate Lab rules than the Lab takes. Nothing was altered.	Bản sao lưu cài đặt chứa nhiều quy tắc Feature Gate Lab hơn mức Lab cho phép. Không có gì bị thay đổi.
+That settings backup is damaged or only partly downloaded. Nothing was altered.	Bản sao lưu cài đặt bị hỏng hoặc chỉ được tải xuống một phần. Không có gì bị thay đổi.
+That settings backup is incomplete, so it may have been cut short. Nothing was altered.	Bản sao lưu cài đặt chưa hoàn chỉnh và có thể đã bị cắt ngắn. Không có gì bị thay đổi.
+That settings change didn't go through. Nothing was altered.	Thay đổi cài đặt không thành công. Không có gì bị thay đổi.
+That sticker is in a format Hushfeed can't read	Nhãn dán này có định dạng Hushfeed không thể đọc
+That watch-history file is damaged. Nothing was imported.	Tệp lịch sử xem bị hỏng. Không có gì được nhập.
+The LIVE ended or the connection dropped. What was recorded is saved to %1$s	LIVE đã kết thúc hoặc kết nối bị ngắt. Nội dung đã ghi được lưu tại %1$s.
+The Lab can't check this. TikTok gets it exactly as typed.	Lab không thể kiểm tra mục này. TikTok sẽ nhận nguyên văn nội dung bạn nhập.
+The Lab couldn't open. Go back and open it again.	Không thể mở Lab. Hãy quay lại rồi mở lại.
+The Lab keeps at most %1$s rules. This change would make %2$s, so nothing was changed.	Lab chỉ giữ tối đa %1$s quy tắc. Thay đổi này sẽ nâng tổng số lên %2$s nên không có gì được thay đổi.
+The Translate comments button in a LIVE room also needs a Japanese SIM. Turn on Override SIM details in Hushfeed settings > Region, set SIM country preset to Japan, NTT DOCOMO (44010), then restart TikTok.	Nút Dịch bình luận trong phòng LIVE cũng cần SIM Nhật Bản. Bật Ghi đè thông tin SIM trong Cài đặt Hushfeed > Khu vực, chọn mẫu quốc gia SIM là Japan, NTT DOCOMO (44010), rồi khởi động lại TikTok.
+The already-saved check failed. Try again.	Kiểm tra video đã lưu thất bại. Hãy thử lại.
+The backup didn't start and its partial file couldn't be removed. Delete it from the folder you chose.	Sao lưu chưa bắt đầu và không thể xóa tệp tạm. Hãy xóa tệp đó trong thư mục bạn đã chọn.
+The backup wasn't saved. Back up again when the file app is ready.	Bản sao lưu chưa được lưu. Hãy sao lưu lại khi ứng dụng tệp sẵn sàng.
+The catalog says this key is %1$s and this override is %2$s. Reset the override and make a new one.	Danh mục cho biết khóa này là %1$s nhưng mục ghi đè là %2$s. Hãy đặt lại mục ghi đè rồi tạo mục mới.
+The cover couldn't be saved. Try again.	Không thể lưu ảnh bìa. Hãy thử lại.
+The diagnostic report couldn't be saved yet. Try again in a moment.	Chưa thể lưu báo cáo chẩn đoán. Hãy thử lại sau.
+The diagnostic report couldn't be saved. Try again.	Không thể lưu báo cáo chẩn đoán. Hãy thử lại.
+The downloader app you chose isn't installed. Check Send links to another app under Downloads.	Ứng dụng tải xuống bạn chọn chưa được cài đặt. Hãy kiểm tra mục Gửi liên kết sang ứng dụng khác trong Tải xuống.
+The export may be incomplete. The original recording files are still kept.	Bản xuất có thể chưa hoàn chỉnh. Các tệp ghi gốc vẫn được giữ.
+The export wasn't saved. Export again when the file app is ready.	Bản xuất chưa được lưu. Hãy xuất lại khi ứng dụng tệp sẵn sàng.
+The feed capture couldn't be saved. Tap the row to try again.	Không thể lưu bản ghi feed. Chạm vào hàng này để thử lại.
+The feed capture is still being saved	Bản ghi feed vẫn đang được lưu
+The feed doesn't end. This is a fine time to leave it.	Feed không có điểm kết thúc. Đây là lúc phù hợp để rời đi.
+The feed is locked	Feed đang bị khóa
+The feed is locked until %1$s. Messages, profiles and search still work.	Feed bị khóa đến %1$s. Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động.
+The feed is open again	Feed đã mở lại
+The feed stops when this video ends.	Feed sẽ dừng khi video này kết thúc.
+The file app still has the last file. Try again once it lets go, or restart TikTok.	Ứng dụng tệp vẫn đang giữ tệp trước đó. Hãy thử lại khi ứng dụng nhả tệp hoặc khởi động lại TikTok.
+The file hushfeed-safe-mode couldn't be removed. Delete it from TikTok's folder under Android/data to turn Hushfeed back on.	Không thể xóa tệp hushfeed-safe-mode. Hãy xóa tệp này trong thư mục TikTok dưới Android/data để bật lại Hushfeed.
+The frame couldn't be read. Try again.	Không thể đọc khung hình. Hãy thử lại.
+The frame couldn't be saved. Try again.	Không thể lưu khung hình. Hãy thử lại.
+The last feed capture wasn't saved. Tap to try again.	Bản ghi feed gần nhất chưa được lưu. Chạm để thử lại.
+The last one is still waiting for Wi-Fi	Tác vụ trước đó vẫn đang chờ Wi-Fi
+The last one is still waiting to start	Tác vụ trước đó vẫn đang chờ bắt đầu
+The list changed while loading. Results are incomplete.	Danh sách đã thay đổi trong lúc tải. Kết quả chưa đầy đủ.
+The list reached its limit. More items may remain.	Danh sách đã đạt giới hạn. Có thể vẫn còn mục khác.
+The list stopped making progress. Results are incomplete.	Danh sách không tải thêm được. Kết quả chưa đầy đủ.
+TikTok's total: %1$s. Filtered accounts: %2$s.	Tổng của TikTok: %1$s. Tài khoản bị lọc: %2$s.
+Timed logging stopped	Đã dừng ghi nhật ký theo thời gian
+Today can't start over while Wait a day to loosen the budget is on. The day starts over at %1$s.	Không thể bắt đầu lại ngày hôm nay khi bật Chờ sang ngày mới để nới hạn mức. Ngày mới bắt đầu lúc %1$s.
+Today has moved on, so there's nothing to put back	Đã sang ngày mới nên không có gì để khôi phục
+Today is back where it was	Đã khôi phục trạng thái hôm nay trước đó
+Today started over. Tap again to put the counts back.	Ngày hôm nay đã được bắt đầu lại. Chạm lần nữa để khôi phục số liệu.
+Today starts again	Ngày mới bắt đầu
+Today's budget is locked. The day starts over at %1$s.	Hạn mức hôm nay đã khóa. Ngày mới bắt đầu lúc %1$s.
+Today's budget is locked. The feed opens again at %1$s. Messages, profiles and search still work.	Hạn mức hôm nay đã khóa. Feed sẽ mở lại lúc %1$s. Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động.
+Too late to put the saved videos back	Đã quá muộn để khôi phục video đã lưu
+Too many media saves are already running. Try again in a moment.	Đã có quá nhiều tác vụ lưu phương tiện đang chạy. Hãy thử lại sau.
+Tracking, device access and links	Theo dõi, quyền truy cập thiết bị và liên kết
