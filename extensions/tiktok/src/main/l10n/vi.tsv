@@ -1383,3 +1383,13 @@ That loosens the lock. It waits until %1$s.	Thay đổi này nới lỏng khóa 
 That loosens the budget. It waits until %1$s.	Thay đổi này nới lỏng hạn mức và sẽ chờ đến %1$s.
 Changes to %1$s at %2$s	Đổi thành %1$s lúc %2$s
 Turns off at %1$s	Tắt lúc %1$s
+Let the video reach the top of the screen on the main feed, with the clock and status icons over it. The tabs at the top stay where they are.	Cho video hiển thị đến sát mép trên trên feed chính, với đồng hồ và biểu tượng trạng thái phủ lên. Các tab phía trên vẫn ở nguyên vị trí.
+Dim when idle	Làm mờ khi không thao tác
+Dim when idle and shift	Làm mờ và dịch chuyển khi không thao tác
+For OLED screens. After 5 seconds without a touch, the buttons, caption and tabs over the video dim to a quarter, and your next touch brings them back. Shift also moves everything on the feed a few pixels every 2 minutes.	Dành cho màn hình OLED. Sau 5 giây không chạm, các nút, chú thích và tab phủ trên video giảm sáng còn một phần tư; lần chạm tiếp theo khôi phục chúng. Dịch chuyển cũng đẩy mọi thành phần trên feed vài pixel mỗi 2 phút.
+Swipe for brightness and volume	Vuốt để chỉnh độ sáng và âm lượng
+Drag up or down along the left or right edge of a video to change what that edge strip is set to below. By default that's the screen brightness on the left and the volume on the right. Swiping anywhere else still scrolls the feed.	Vuốt lên hoặc xuống dọc mép trái hoặc phải video để điều chỉnh chức năng được gán cho mép đó bên dưới. Mặc định, mép trái chỉnh độ sáng màn hình và mép phải chỉnh âm lượng. Vuốt ở nơi khác vẫn cuộn feed.
+Volume	Âm lượng
+Right edge strip	Dải cạnh phải
+Edge strip width	Độ rộng dải cạnh
+How wide each edge strip is, as a percent of the screen width.	Độ rộng mỗi dải cạnh tính theo phần trăm chiều rộng màn hình.
