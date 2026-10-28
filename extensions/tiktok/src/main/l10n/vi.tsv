@@ -1457,3 +1457,70 @@ How wide each edge strip is, as a percent of the screen width.	Độ rộng mỗ
 %1$s videos were older than Forget seen videos after allows.	%1$s video cũ hơn giới hạn trong mục Quên video đã xem sau.
 %1$s videos were recorded before each account kept its own list. They hide nothing until you add them here.	%1$s video được ghi nhận trước khi mỗi tài khoản có danh sách riêng. Chúng không ẩn nội dung nào cho đến khi bạn thêm vào đây.
 %1$s was rejected. %2$s	%1$s đã bị từ chối. %2$s
+%1$s watched video added.	Đã thêm %1$s video đã xem.
+%1$s watched videos added.	Đã thêm %1$s video đã xem.
+%1$s were already saved	%1$s đã được lưu
+%1$s · Hushfeed's list only	%1$s · chỉ có trong danh sách Hushfeed
+%1$s · current value only	%1$s · chỉ có giá trị hiện tại
+%1$s · declared by TikTok	%1$s · do TikTok khai báo
+%1$s · declared by TikTok, with a current value	%1$s · do TikTok khai báo, có giá trị hiện tại
+%1$s, %2$s or %3$s	%1$s, %2$s hoặc %3$s
+%1$s, %2$s, %3$s or %4$s	%1$s, %2$s, %3$s hoặc %4$s
+%1$s, %2$s, %3$s, %4$s, %5$s	%1$s, %2$s, %3$s, %4$s, %5$s
+%1$s, about %2$s	%1$s, khoảng %2$s
+%1$s, selected	%1$s, đã chọn
+%1$s, size unknown	%1$s, chưa rõ kích thước
+%1$s. %2$s	%1$s. %2$s
+%1$s: %2$d found, %3$d missing	%1$s: tìm thấy %2$d, thiếu %3$d
+%1$s: %2$d found, %3$d missing, and more it stopped counting	%1$s: tìm thấy %2$d, thiếu %3$d và còn nhiều mục khác chưa được đếm
+%1$s: %2$d found, %3$d missing, and more it stopped counting. First missing: %4$s	%1$s: tìm thấy %2$d, thiếu %3$d và còn nhiều mục khác chưa được đếm. Mục thiếu đầu tiên: %4$s
+%1$s: %2$d found, %3$d missing. First missing: %4$s	%1$s: tìm thấy %2$d, thiếu %3$d. Mục thiếu đầu tiên: %4$s
+%1$s: %2$s	%1$s: %2$s
+%1$s: %2$s of %3$s files didn't finish	%1$s: %2$s trong số %3$s tệp chưa hoàn tất
+%1$s: %2$s of %3$s files might not have finished	%1$s: có thể %2$s trong số %3$s tệp chưa hoàn tất
+%1$s: didn't finish	%1$s: chưa hoàn tất
+%1$s: might not have finished	%1$s: có thể chưa hoàn tất
+%1$s: one of %3$s files didn't finish	%1$s: một trong %3$s tệp chưa hoàn tất
+%1$s: one of %3$s files might not have finished	%1$s: có thể một trong %3$s tệp chưa hoàn tất
+1 comment or reply loaded	Đã tải 1 bình luận hoặc câu trả lời
+1 field overridden	Đã ghi đè 1 trường
+1 field will be overridden when requested	Sẽ ghi đè 1 trường khi được yêu cầu
+1 filtered out	Đã lọc bỏ 1 mục
+1 gate selected	Đã chọn 1 cổng
+1 min left	Còn 1 phút
+1 override was turned off because the Lab couldn't confirm its gate is unchanged in TikTok %2$s. Review it before turning it back on.	Đã tắt 1 mục ghi đè vì Lab không xác nhận được cổng của nó vẫn không đổi trong TikTok %2$s. Hãy kiểm tra trước khi bật lại.
+1 result so far	Hiện có 1 kết quả
+2, from Keep playing in the background	2, từ mục Tiếp tục phát trong nền
+A Lab change is already running	Đang có một thay đổi Lab khác được thực hiện
+Couldn't clear the suggested accounts. Reopen the Inbox and try again.	Không thể xóa tài khoản được đề xuất. Hãy mở lại Hộp thư và thử lại.
+Couldn't confirm the block for %1$s. Open their profile to check.	Không thể xác nhận đã chặn %1$s. Hãy mở hồ sơ của họ để kiểm tra.
+Couldn't confirm the unblock for %1$s. Open their profile to check.	Không thể xác nhận đã bỏ chặn %1$s. Hãy mở hồ sơ của họ để kiểm tra.
+Couldn't copy the build details. Use Save build details instead.	Không thể sao chép thông tin bản dựng. Hãy dùng Lưu thông tin bản dựng.
+Couldn't find this LIVE's stream to record. Leave the room and open it again.	Không tìm thấy luồng LIVE để ghi. Hãy rời phòng rồi mở lại.
+Couldn't forget the saved videos. Try again.	Không thể quên các video đã lưu. Hãy thử lại.
+Couldn't import watch history. Your saved history is unchanged.	Không thể nhập lịch sử xem. Lịch sử đã lưu không thay đổi.
+Couldn't list your apps. Tap here to try again.	Không thể liệt kê ứng dụng. Chạm vào đây để thử lại.
+Couldn't put back the diagnostic data. Try again.	Không thể khôi phục dữ liệu chẩn đoán. Hãy thử lại.
+Couldn't put the saved videos back. Try again.	Không thể khôi phục video đã lưu. Hãy thử lại.
+Couldn't reach the proxy at %1$s. TikTok may not load until it's back or you turn the proxy off.	Không thể kết nối proxy tại %1$s. TikTok có thể không tải được cho đến khi proxy hoạt động lại hoặc bạn tắt proxy.
+Couldn't read %1$s. Write days and hours like Mon-Fri 21:00-07:00.	Không thể đọc %1$s. Hãy nhập ngày và giờ như Mon-Fri 21:00-07:00.
+Couldn't read TikTok's current values (%1$s). Refresh values from the menu to try again.	Không thể đọc giá trị hiện tại của TikTok (%1$s). Hãy làm mới giá trị từ menu rồi thử lại.
+Couldn't read that file. Choose it again.	Không thể đọc tệp đó. Hãy chọn lại.
+Couldn't read this list. Close it and try again.	Không thể đọc danh sách này. Hãy đóng rồi thử lại.
+Couldn't read who posted this comment. Open their profile and block them there.	Không thể xác định ai đã đăng bình luận này. Hãy mở hồ sơ của họ và chặn tại đó.
+Couldn't remove the imported font. Try again.	Không thể xóa phông chữ đã nhập. Hãy thử lại.
+Couldn't reset the settings. Try again.	Không thể đặt lại cài đặt. Hãy thử lại.
+Couldn't reset this override. Try again.	Không thể đặt lại mục ghi đè này. Hãy thử lại.
+Couldn't restore seen history. Your saved history is unchanged.	Không thể khôi phục lịch sử đã xem. Lịch sử đã lưu không thay đổi.
+Couldn't save the font in TikTok's storage. Free up some space and try again.	Không thể lưu phông chữ vào bộ nhớ TikTok. Hãy giải phóng dung lượng rồi thử lại.
+Couldn't save the seen-history file. Try again.	Không thể lưu tệp lịch sử đã xem. Hãy thử lại.
+Couldn't start saving the feed capture. Try again in a moment.	Không thể bắt đầu lưu bản ghi feed. Hãy thử lại sau.
+Couldn't start the export. Try again in a moment.	Không thể bắt đầu xuất. Hãy thử lại sau.
+Couldn't start the import. Try again in a moment.	Không thể bắt đầu nhập. Hãy thử lại sau.
+Couldn't tell which folder to update. Choose it again.	Không xác định được thư mục cần cập nhật. Hãy chọn lại.
+Couldn't translate this draft. Try again in a moment.	Không thể dịch bản nháp này. Hãy thử lại sau.
+Couldn't translate this message. Try again in a moment.	Không thể dịch tin nhắn này. Hãy thử lại sau.
+Couldn't undo that. Try again.	Không thể hoàn tác thao tác đó. Hãy thử lại.
+Couldn't undo the clear. Try again.	Không thể hoàn tác thao tác xóa. Hãy thử lại.
+Couldn't undo the last change. Try again.	Không thể hoàn tác thay đổi gần nhất. Hãy thử lại.
+Couldn't write the caption on this video. Saving it without.	Không thể ghi chú thích lên video này. Video sẽ được lưu mà không có chú thích.
