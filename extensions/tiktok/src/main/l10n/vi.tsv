@@ -192,7 +192,7 @@ Added 1 seen video	Đã thêm 1 video đã xem
 Added 1 seen video.	Đã thêm 1 video đã xem.
 Added one older seen video to this account	Đã thêm một video cũ vào tài khoản này
 Added to this account.	Đã thêm vào tài khoản này.
-Adds Export CSV and Export JSON buttons under the search box, so Search within comments must be on. They save the comments and replies loaded so far to a file you pick. Open the reply threads you want first.	Thêm nút Xuất CSV và Xuất JSON bên dưới ô tìm kiếm, vì vậy cần bật Tìm kiếm trong bình luận. Các nút lưu bình luận và câu trả lời đã tải vào file bạn chọn. Hãy mở trước các chuỗi trả lời muốn xuất.
+Adds Export CSV and Export JSON buttons under the search box, so Search within comments must be on. They save the comments and replies loaded so far to a file you pick. Open the reply threads you want first.	Thêm nút Xuất CSV và Xuất JSON bên dưới ô tìm kiếm, vì vậy cần bật Tìm trong bình luận. Các nút lưu bình luận và câu trả lời đã tải vào tệp bạn chọn. Hãy mở trước các chuỗi trả lời muốn xuất.
 Adds Save cover next to Download when you share a video, so you save the cover only when you want it. While this is on, Download saves just the video, even with Save the cover as well on.	Thêm nút Lưu ảnh bìa cạnh Tải xuống khi chia sẻ video để bạn chỉ lưu ảnh bìa khi cần. Khi bật, nút Tải xuống chỉ lưu video, kể cả khi đã bật Lưu cả ảnh bìa.
 Adds TikTok's translate button next to the comment count. One tap translates every comment, and another shows the originals again.	Thêm nút dịch của TikTok cạnh số bình luận. Chạm một lần để dịch tất cả bình luận, chạm lần nữa để hiện bản gốc.
 Adds a Record button to LIVE rooms. A recording starts when you tap it and ends when you tap Stop or leave the room. Nothing before that is saved.	Thêm nút Ghi hình vào phòng LIVE. Bản ghi bắt đầu khi bạn chạm nút và kết thúc khi chạm Dừng hoặc rời phòng. Nội dung trước đó không được lưu.
@@ -787,7 +787,7 @@ Hide the Add friends button at the top of your profile. The menu button stays wh
 Hide the Check sources banner TikTok puts on videos it marks as unverified, and the warnings it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn trên video TikTok đánh dấu là chưa xác minh và cảnh báo xuất hiện khi bạn chia sẻ video đó.
 Hide the Check your sources banner TikTok puts across the top of some videos, and the prompt it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn TikTok đặt ở đầu một số video và lời nhắc xuất hiện khi bạn chia sẻ.
 Hide the Clear display controls	Ẩn các điều khiển Màn hình gọn
-Hide the Clear display controls leaves the progress bar in sight, so you can still see and drag it.	Ẩn các điều khiển trong Màn hình sạch nhưng vẫn giữ thanh tiến trình để bạn xem và kéo thanh.
+Hide the Clear display controls leaves the progress bar in sight, so you can still see and drag it.	Tùy chọn Ẩn các điều khiển Màn hình gọn vẫn để lại thanh tiến trình để bạn xem và kéo thanh.
 Hide the Footnotes banner TikTok shows on a video that has a note attached. The video and its comments stay as they are.	Ẩn biểu ngữ Footnotes TikTok hiển thị trên video có ghi chú đính kèm. Video và bình luận vẫn giữ nguyên.
 Hide the Full screen button	Ẩn nút Toàn màn hình
 Hide the Full screen button over videos. Playback and automatic rotation keep working as before.	Ẩn nút Toàn màn hình trên video. Việc phát và tự động xoay màn hình vẫn hoạt động như trước.
@@ -876,7 +876,7 @@ Hide videos with blocked sounds	Ẩn video có âm thanh bị chặn
 Hide videos you have already seen	Ẩn video bạn đã xem
 Hide voting cards and poll results above the comments, including polls that have ended.	Ẩn thẻ bình chọn và kết quả khảo sát phía trên bình luận, kể cả khảo sát đã kết thúc.
 Hide your account warning	Ẩn cảnh báo tài khoản của bạn
-Hides rooms in the LIVE feed you swipe through, using the rules below. Blocked creators, Creators hidden on this phone and Creator exceptions apply here too, and Blocked caption words are checked against each LIVE's title. The first room the LIVE button opens isn't filtered. If every room would be hidden, one gets through so the feed keeps loading.	Ẩn các phòng trong feed LIVE mà bạn vuốt qua theo quy tắc bên dưới. Tài khoản bị chặn, tài khoản đã ẩn trên điện thoại và ngoại lệ nhà sáng tạo cũng được áp dụng; từ khóa chú thích bị chặn sẽ được so với tiêu đề LIVE. Phòng đầu tiên mở bằng nút LIVE không bị lọc. Nếu mọi phòng đều bị ẩn, một phòng vẫn được hiển thị để feed tiếp tục tải.
+Hides rooms in the LIVE feed you swipe through, using the rules below. Blocked creators, Creators hidden on this phone and Creator exceptions apply here too, and Blocked caption words are checked against each LIVE's title. The first room the LIVE button opens isn't filtered. If every room would be hidden, one gets through so the feed keeps loading.	Ẩn các phòng trong bảng tin LIVE mà bạn vuốt qua theo quy tắc bên dưới. Người sáng tạo bị chặn, tài khoản đã ẩn trên điện thoại và Ngoại lệ người sáng tạo cũng được áp dụng; mục Các từ mô tả bị chặn được kiểm tra với tiêu đề LIVE. Phòng đầu tiên mở bằng nút LIVE không bị lọc. Nếu mọi phòng đều bị ẩn, một phòng vẫn được hiển thị để bảng tin tiếp tục tải.
 Hides the comment count, the sort and close buttons and the suggestions above them. Use Back or swipe down to close comments.	Ẩn số bình luận, nút sắp xếp, nút đóng và các gợi ý phía trên. Dùng Quay lại hoặc vuốt xuống để đóng bình luận.
 Hiding	Đang ẩn
 Highest	Cao nhất
@@ -888,7 +888,7 @@ Hold speed on Comment	Tốc độ nhấn giữ khi bình luận
 Hold speed on Favorites	Tốc độ nhấn giữ khi yêu thích
 Hold speed on Share	Tốc độ nhấn giữ khi chia sẻ
 Hold the feed after the budget	Khóa feed sau ngân sách
-Hold the music disc at the bottom of the right column still, even where TikTok turns it. This overrides Spin the music disc.	Giữ đĩa nhạc ở cuối cột bên phải đứng yên, kể cả khi TikTok xoay nó. Tùy chọn này ghi đè Xoay đĩa nhạc.
+Hold the music disc at the bottom of the right column still, even where TikTok turns it. This overrides Spin the music disc.	Giữ đĩa nhạc ở cuối cột bên phải đứng yên, kể cả khi TikTok xoay nó. Tùy chọn này ghi đè Quay đĩa nhạc.
 Home	Trang chủ
 Home tab name	Tên tab Trang chủ
 Hook status	Trạng thái hook
@@ -1002,7 +1002,7 @@ Least viewed first	Lượt xem ít nhất trước
 Leave maximum empty to keep it unlimited.	Để trống giá trị tối đa nếu không muốn đặt giới hạn.
 Leave out the interest picker, the language and gender questions, the creators to follow, the swipe up tutorial and TikTok's notification page when TikTok runs its setup. Consent, age and sign-in screens still show.	Bỏ qua chọn sở thích, câu hỏi ngôn ngữ và giới tính, chọn nhà sáng tạo để theo dõi, hướng dẫn vuốt lên và trang thông báo khi TikTok thiết lập ban đầu. Màn hình đồng ý điều khoản, xác nhận tuổi và đăng nhập vẫn xuất hiện.
 Leave the sound out of the saved video. Save the sound as well still writes the sound file beside it if you want both.	Không đưa âm thanh vào video đã lưu. Nếu bật Lưu cả âm thanh, file âm thanh vẫn được lưu riêng bên cạnh để bạn có cả hai.
-Leave when TikTok says time is up	Rời đi khi TikTok nói hết giờ
+Leave when TikTok says time is up	Rời ứng dụng khi TikTok báo hết giờ
 Left edge strip	Vạch mép trái
 Length and views per like	Độ dài và lượt xem trên mỗi lượt thích
 Less than a minute left	Còn dưới một phút
@@ -1208,9 +1208,9 @@ On a one-photo post, Download video makes an MP4 with the post's sound and no Ti
 On mobile data	Trên dữ liệu di động
 On or off	Bật hoặc tắt
 On the Friends tab, hide posts, reposts and LIVEs from accounts that aren't a mutual follow, suggested accounts included. Your own posts stay.	Trong tab Bạn bè, ẩn bài đăng, bài đăng lại và LIVE từ tài khoản không theo dõi lẫn nhau, kể cả tài khoản được đề xuất. Bài đăng của bạn vẫn được giữ.
-On the main feed, a light tick each time the glass lens passes a tab, as it slides after a tap or under your finger. Needs Glass lens on the current tab.	Trên feed chính, phát một nhịp rung nhẹ mỗi khi thấu kính đi qua tab, khi trượt sau thao tác chạm hoặc theo ngón tay. Cần bật Thấu kính kính trên tab hiện tại.
+On the main feed, a light tick each time the glass lens passes a tab, as it slides after a tap or under your finger. Needs Glass lens on the current tab.	Trên bảng tin chính, phát một nhịp rung nhẹ mỗi khi hiệu ứng kính đi qua tab, khi trượt sau thao tác chạm hoặc theo ngón tay. Cần bật Hiệu ứng kính trên tab hiện tại.
 On the main feed, a raised bubble of glass sits behind the tab you're on and slides to the next tab you pick. Needs Liquid glass look.	Trên feed chính, một bong bóng kính nổi phía sau tab hiện tại và trượt đến tab bạn chọn. Cần bật Giao diện kính lỏng.
-On the main feed, slide a finger along the glass pill and the lens follows it. Let go and that tab opens. Taps and long presses work as before. Needs Glass lens on the current tab.	Trên feed chính, vuốt ngón tay dọc thanh kính để thấu kính đi theo. Thả tay để mở tab đó. Chạm và nhấn giữ vẫn như cũ. Cần bật Thấu kính kính trên tab hiện tại.
+On the main feed, slide a finger along the glass pill and the lens follows it. Let go and that tab opens. Taps and long presses work as before. Needs Glass lens on the current tab.	Trên bảng tin chính, vuốt ngón tay dọc thanh kính để hiệu ứng kính đi theo. Thả tay để mở tab đó. Chạm và nhấn giữ vẫn như cũ. Cần bật Hiệu ứng kính trên tab hiện tại.
 On. Hushfeed hasn't seen TikTok send any reports since it started.	Bật. Hushfeed chưa thấy TikTok gửi báo cáo nào kể từ khi khởi động.
 Once today's budget runs out, the hold stays and can't be dismissed. The budget settings are locked until the day starts over. Turn this off any time before the budget runs out.	Khi hết ngân sách hôm nay, màn hình khóa sẽ giữ nguyên và không thể đóng. Cài đặt ngân sách bị khóa đến khi ngày mới bắt đầu. Bạn có thể tắt tùy chọn này trước khi hết ngân sách.
 One area was checked and everything it needs is here.	Đã kiểm tra một khu vực và mọi thứ cần thiết đều có ở đây.
@@ -1489,7 +1489,7 @@ Save cover	Lưu ảnh bìa.
 Save cover button in the share sheet	Nút Lưu ảnh bìa trong bảng chia sẻ.
 Save details as JSON	Lưu chi tiết dưới dạng JSON
 Save details beside the video	Lưu thông tin bên cạnh video
-Save every photo in the post at full size, not as the screen shows it. Each one is a JPEG unless Keep photos as TikTok sent them is on.	Lưu mọi ảnh trong bài đăng ở kích thước đầy đủ thay vì ảnh đang hiển thị trên màn hình. Mỗi ảnh là JPEG, trừ khi bật Giữ nguyên định dạng ảnh TikTok gửi.
+Save every photo in the post at full size, not as the screen shows it. Each one is a JPEG unless Keep photos as TikTok sent them is on.	Lưu mọi ảnh trong bài đăng ở kích thước đầy đủ thay vì ảnh đang hiển thị trên màn hình. Mỗi ảnh là JPEG, trừ khi bật Giữ nguyên ảnh như TikTok gửi.
 Save field values	Lưu giá trị trường
 Save full report	Lưu báo cáo đầy đủ
 Save in which quality?	Lưu ở chất lượng nào?
@@ -1719,9 +1719,9 @@ Showing %1$s again	Đang hiển thị lại %1$s
 Shows Add to Story in the share sheet and on stories even when the creator turned off content reuse. TikTok may still refuse to post it.	Hiển thị Thêm vào Story trong bảng chia sẻ và trên các Story ngay cả khi người sáng tạo đã tắt tính năng dùng lại nội dung. TikTok vẫn có thể từ chối đăng.
 Shows TikTok's full sort menu on every post, with hot, newest, media and creator options, instead of the shorter one your account got. Restart TikTok to see the change.	Hiển thị menu sắp xếp đầy đủ của TikTok trên mọi bài đăng, gồm nổi bật, mới nhất, phương tiện và nhà sáng tạo, thay cho menu rút gọn của tài khoản. Khởi động lại TikTok để áp dụng.
 Shows TikTok's play, pause, previous and next buttons on the feed. TikTok normally shows them only to people who use a screen reader. TikTok can see when you use them.	Hiển thị các nút phát, tạm dừng, trước và tiếp theo trên feed. TikTok thường chỉ hiển thị chúng cho người dùng trình đọc màn hình và có thể ghi nhận khi bạn sử dụng.
-Shows TikTok's text in the font file you import below. While both are on, this one wins over Use system font. If the file is removed or can't be read, the text goes back to what Use system font shows.	Hiển thị văn bản TikTok bằng file phông bạn nhập bên dưới. Nếu cả hai tùy chọn đều bật, tùy chọn này ưu tiên hơn Dùng phông hệ thống. Nếu file bị xóa hoặc không đọc được, văn bản sẽ quay về phông hệ thống.
+Shows TikTok's text in the font file you import below. While both are on, this one wins over Use system font. If the file is removed or can't be read, the text goes back to what Use system font shows.	Hiển thị văn bản TikTok bằng tệp phông bạn nhập bên dưới. Nếu cả hai tùy chọn đều bật, tùy chọn này ưu tiên hơn Dùng phông chữ hệ thống. Nếu tệp bị xóa hoặc không đọc được, văn bản sẽ quay về phông chữ hệ thống.
 Shows TikTok's text in your phone's font instead of TikTok Sans. Icons and gift animations keep their own fonts. Restart TikTok to see the change.	Hiển thị văn bản TikTok bằng phông chữ của điện thoại thay vì TikTok Sans. Biểu tượng và hoạt ảnh quà tặng vẫn dùng phông chữ riêng. Khởi động lại TikTok để áp dụng.
-Shows a search button at the top left of the comments instead of the box, so the comments get that room back. Tap it to search, and tap it again to put the box away. Search within comments must be on.	Hiển thị nút tìm kiếm ở góc trên trái phần bình luận thay cho ô tìm kiếm để dành thêm chỗ cho bình luận. Chạm để tìm kiếm, chạm lần nữa để ẩn ô. Cần bật Tìm kiếm trong bình luận.
+Shows a search button at the top left of the comments instead of the box, so the comments get that room back. Tap it to search, and tap it again to put the box away. Search within comments must be on.	Hiển thị nút tìm kiếm ở góc trên trái phần bình luận thay cho ô tìm kiếm để dành thêm chỗ cho bình luận. Chạm để tìm kiếm, chạm lần nữa để ẩn ô. Cần bật Tìm trong bình luận.
 Shows a small count under TikTok's top tabs of what the feed filter has removed since TikTok started. It shows only on the feed, and taps on it go through to the video under it.	Hiển thị số lượng nhỏ bên dưới các tab trên cùng của TikTok, cho biết bộ lọc đã loại bao nhiêu nội dung kể từ khi TikTok khởi chạy. Chỉ hiển thị trên feed; chạm vào số sẽ mở video bên dưới.
 Shows every emoji in your phone's own emoji font. The newest emoji your phone doesn't have yet may show as a box or in pieces.	Hiển thị mọi emoji bằng bộ phông emoji của điện thoại. Emoji mới mà điện thoại chưa hỗ trợ có thể hiện thành ô vuông hoặc ký tự rời.
 Shows the Duet and Stitch options even when the creator turned them off. TikTok may still refuse to accept the result.	Hiển thị tùy chọn Duet và Stitch ngay cả khi người sáng tạo đã tắt chúng. TikTok vẫn có thể từ chối kết quả.
