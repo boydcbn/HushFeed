@@ -5,7 +5,7 @@
 %1$d already matched	Đã khớp %1$d mục.
 %1$d areas were checked and everything they need is here.	Đã kiểm tra %1$d khu vực và tất cả thành phần cần thiết đều có sẵn.
 %1$d comments and replies loaded	Đã tải %1$d bình luận và câu trả lời
-%1$d fields overridden	Đã ghi đè %1$d trường.
+%1$d fields overridden	Đã ghi đè %1$d trường
 %1$d fields will be overridden when requested	%1$d trường sẽ được ghi đè khi được yêu cầu.
 %1$d filtered out	Đã lọc bỏ %1$d mục
 %1$d gates selected	Đã chọn %1$d cổng.
@@ -17,9 +17,9 @@
 %1$d results so far, and more not counted	Hiện có %1$d kết quả, chưa tính các kết quả khác.
 %1$d results, filtered to %2$s	%1$d kết quả, đã lọc theo %2$s.
 %1$d setting in that file can't be restored here and was skipped	Không thể khôi phục %1$d cài đặt trong file này tại đây; mục đó đã bị bỏ qua.
-%1$d setting wasn't in that file and was left as it is	File đó không có %1$d cài đặt nên mục này được giữ nguyên.
+%1$d setting wasn't in that file and was left as it is	File đó không có %1$d cài đặt nên mục này được giữ nguyên
 %1$d settings in that file can't be restored here and were skipped	Không thể khôi phục %1$d cài đặt trong file này tại đây; các mục đó đã bị bỏ qua.
-%1$d settings weren't in that file and were left as they are	File đó không có %1$d cài đặt nên các mục này được giữ nguyên.
+%1$d settings weren't in that file and were left as they are	File đó không có %1$d cài đặt nên các mục này được giữ nguyên
 %1$d unavailable	%1$d mục không khả dụng.
 %1$s (%2$s)	%1$s (%2$s)
 %1$s (TikTok value)	%1$s (giá trị TikTok)
@@ -78,7 +78,7 @@
 %1$s videos	%1$s video
 %1$s videos didn't fit in the newest %2$s.	Có %1$s video không nằm trong %2$s video mới nhất.
 %1$s videos had dates later than this phone's clock.	Ngày của %1$s video muộn hơn ngày giờ trên điện thoại này.
-%1$s videos left	Còn %1$s video.
+%1$s videos left	Còn %1$s video
 %1$s videos were already recorded.	%1$s video đã được ghi nhận.
 %1$s videos were older than Forget seen videos after allows.	%1$s video cũ hơn khoảng thời gian cho phép trong mục Quên video đã xem sau.
 %1$s videos were recorded before each account kept its own list. They hide nothing until you add them here.	%1$s video được ghi nhận trước khi mỗi tài khoản có danh sách riêng. Chúng không ẩn nội dung nào cho đến khi bạn thêm vào đây.
@@ -114,7 +114,7 @@
 %1$s: one of %3$s files didn't finish	%1$s: 1 trong số %3$s tệp chưa hoàn tất
 %1$s: one of %3$s files might not have finished	%1$s: có thể 1 trong số %3$s tệp chưa hoàn tất
 1 comment or reply loaded	Đã tải 1 bình luận hoặc câu trả lời
-1 field overridden	Đã ghi đè 1 trường.
+1 field overridden	Đã ghi đè 1 trường
 1 field will be overridden when requested	1 trường sẽ được ghi đè khi được yêu cầu.
 1 filtered out	Đã lọc bỏ 1 mục
 1 gate selected	Đã chọn 1 cổng.
@@ -236,7 +236,7 @@ An @username in a profile's bio opens that profile when you tap it. The rest of 
 An exception names one creator, so a pattern can't be one: %1$s	Ngoại lệ chỉ định một nhà sáng tạo cụ thể nên không thể dùng mẫu: %1$s
 An exception takes a handle or id, not a display name: %1$s	Ngoại lệ cần tên người dùng hoặc ID, không phải tên hiển thị: %1$s
 An interrupted settings change couldn't be recovered, so its record was set aside. Check your settings or restore a backup.	Không thể khôi phục thay đổi cài đặt bị gián đoạn nên bản ghi đã được tách riêng. Hãy kiểm tra cài đặt hoặc khôi phục bản sao lưu.
-An operator code is five or six digits, like 310260	Mã nhà mạng gồm năm hoặc sáu chữ số, ví dụ 310260.
+An operator code is five or six digits, like 310260	Mã nhà mạng gồm năm hoặc sáu chữ số, ví dụ 310260
 An override changes the value TikTok reads from this gate. It doesn't change TikTok's saved copy or prove the named feature changed.	Ghi đè thay đổi giá trị TikTok đọc từ cổng tính năng này. Nó không sửa bản lưu của TikTok hay đảm bảo tính năng đã thay đổi.
 And %1$s more saves	Và còn %1$s mục chờ lưu
 And one more save	Và còn một mục chờ lưu
@@ -402,7 +402,7 @@ Confirm before following	Xác nhận trước khi theo dõi
 Confirm before liking	Xác nhận trước khi thích
 Confirm before liking a comment	Xác nhận trước khi thích bình luận
 Confirm before liking a story	Xác nhận trước khi thích story
-Continue supported videos from where you stopped when you scroll back to them.	Tiếp tục video được hỗ trợ từ nơi bạn dừng khi cuộn trở lại
+Continue supported videos from where you stopped when you scroll back to them.	Tiếp tục phát video được hỗ trợ từ chỗ bạn đã dừng khi cuộn quay lại.
 Controls	Điều khiển
 Conversations	Cuộc trò chuyện
 Copy	Sao chép
@@ -1189,7 +1189,7 @@ Nothing is playing to speed up	Không có nội dung nào đang phát để tăn
 Nothing is saving right now	Hiện không có tác vụ lưu nào đang chạy
 Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected.	Không có dữ liệu mới được nhập. %1$d mục đã khớp, %2$d mục không khả dụng, %3$d mục bị từ chối.
 Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected. First rejection: %4$s	Không có dữ liệu mới được nhập. %1$d mục đã khớp, %2$d mục không khả dụng, %3$d mục bị từ chối. Lỗi từ chối đầu tiên: %4$s
-Nothing on this page changes what TikTok does until they are on.	Các mục trên trang này không ảnh hưởng đến hoạt động của TikTok cho đến khi được bật
+Nothing on this page changes what TikTok does until they are on.	Các mục trên trang này không ảnh hưởng đến hoạt động của TikTok cho đến khi được bật.
 Nothing to undo yet.	Chưa có thao tác nào để hoàn tác.
 Nothing was recorded	Không có gì được ghi lại
 Nothing was recorded because Hushfeed settings were still open. Start again, then leave settings.	Không có gì được ghi lại vì cài đặt Hushfeed vẫn đang mở. Hãy bắt đầu lại rồi rời khỏi phần cài đặt.
@@ -1299,7 +1299,7 @@ Photo and image posts	Bài đăng ảnh và hình ảnh
 Photo destination	Thư mục lưu ảnh
 Photo filename	Tên tệp ảnh
 Photos and stickers	Ảnh và nhãn dán
-Photos can't be saved to the folder in that file, so your photo folder was kept	Không thể lưu ảnh vào thư mục trong file đó, nên thư mục ảnh hiện tại được giữ nguyên.
+Photos can't be saved to the folder in that file, so your photo folder was kept	Không thể lưu ảnh vào thư mục trong tệp đó nên thư mục ảnh hiện tại được giữ nguyên
 Pick a .ttf or .otf file of up to %1$s MB.	Chọn tệp .ttf hoặc .otf có dung lượng tối đa %1$s MB.
 Pick all	Chọn tất cả
 Pick apps to add to the Share via row, before More. Each gets the same link the other apps get.	Chọn ứng dụng để thêm vào hàng Chia sẻ qua, trước mục Thêm. Mỗi ứng dụng sẽ nhận cùng liên kết như các ứng dụng khác.
@@ -1781,7 +1781,7 @@ Sticker	Nhãn dán
 Sticker destination	Thư mục lưu nhãn dán
 Sticker saved to %1$s	Đã lưu nhãn dán vào %1$s
 Sticker search, PineDrama and the rest of TikTok still see the SIM above, while For You asks for videos with your phone's own SIM country and carrier. Your IP address and account history still count.	Tìm kiếm nhãn dán, PineDrama và các phần khác của TikTok vẫn thấy SIM bên trên, trong khi mục Dành cho bạn yêu cầu video theo quốc gia và nhà mạng của SIM thật trên điện thoại. Địa chỉ IP và lịch sử tài khoản vẫn có ảnh hưởng.
-Stickers can't be saved to the folder in that file, so your sticker folder was kept	Không thể lưu nhãn dán vào thư mục trong file đó, nên thư mục nhãn dán hiện tại được giữ nguyên.
+Stickers can't be saved to the folder in that file, so your sticker folder was kept	Không thể lưu nhãn dán vào thư mục trong tệp đó nên thư mục nhãn dán hiện tại được giữ nguyên
 Stickers: %1$s	Nhãn dán: %1$s
 Still here. Nothing is waiting.	Vẫn ở đây. Không có gì đang chờ.
 Still reading the record. Tap again in a moment.	Vẫn đang đọc bản ghi. Hãy chạm lại sau giây lát.
@@ -2066,7 +2066,7 @@ TikTok closed three times within a minute of starting, so Hushfeed paused itself
 TikTok closed. What was recorded is saved to %1$s	TikTok đã đóng. Phần đã ghi được lưu vào %1$s
 TikTok closes at %1$s	TikTok đóng lúc %1$s
 TikTok default	Mặc định của TikTok
-TikTok default (hold to speed up, quick share)	Mặc định TikTok (nhấn giữ để tăng tốc, chia sẻ nhanh).
+TikTok default (hold to speed up, quick share)	Mặc định TikTok (nhấn giữ để tăng tốc, chia sẻ nhanh)
 TikTok default (open the creator's profile)	Mặc định của TikTok (mở hồ sơ nhà sáng tạo)
 TikTok didn't accept the feedback. Try again later.	TikTok không chấp nhận phản hồi. Hãy thử lại sau.
 TikTok didn't block %1$s. Try again in a moment.	TikTok chưa chặn %1$s. Hãy thử lại sau giây lát.
@@ -2280,11 +2280,11 @@ Word rules only, not every feed filter:	Chỉ áp dụng quy tắc từ ngữ, k
 Words, countries and languages	Từ ngữ, quốc gia và ngôn ngữ
 Works only with YTDLnis (com.deniscerri.ytdl). Picks audio or video when the save button sends it a link.	Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Chọn âm thanh hoặc video khi nút lưu gửi liên kết sang ứng dụng này.
 Works only with YTDLnis (com.deniscerri.ytdl). Starts the download in the background without showing its download card.	Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Bắt đầu tải ở chế độ nền mà không hiển thị thẻ tải xuống.
-Write the username and caption on the video	Ghi tên người dùng và chú thích lên video.
+Write the username and caption on the video	Ghi tên người dùng và chú thích lên video
 Write the video's sound beside it, in the format picked under Sound format. Android 10 and later file audio separately, so it lands in Music under the same folder name as your videos.	Lưu âm thanh của video thành file riêng bên cạnh, theo định dạng trong mục Định dạng âm thanh. Android 10 trở lên tách âm thanh thành file riêng trong thư mục Music, cùng tên thư mục với video.
 Writes the date before the time to the second the short way your language does, like 10/7/25.	Hiển thị ngày trước thời gian chính xác đến giây theo định dạng ngắn của ngôn ngữ, ví dụ 10/7/25.
 Writing	Đang ghi
-Writing the caption on the video	Đang ghi chú thích lên video.
+Writing the caption on the video	Đang ghi chú thích lên video
 Writing the caption on the video: %1$s	Đang ghi chú thích lên video: %1$s.
 YTDLnis background mode	Chế độ chạy nền của YTDLnis
 YTDLnis download type	Loại tải xuống của YTDLnis
