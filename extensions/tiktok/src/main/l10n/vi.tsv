@@ -1715,3 +1715,113 @@ Start today over	Bắt đầu lại ngày hôm nay
 Start typing	Bắt đầu nhập
 Starts after %1$s other saves	Bắt đầu sau %1$s tác vụ lưu khác
 Starts after one other save	Bắt đầu sau một tác vụ lưu khác
+The live photo's clip couldn't be saved. Try again.	Không thể lưu đoạn video của ảnh động. Hãy thử lại.
+The loaded-values file you chose couldn't be read. Try again.	Không thể đọc tệp giá trị đã tải mà bạn chọn. Hãy thử lại.
+The message didn't go through. It tries again at %1$s.	Tin nhắn chưa được gửi. Hệ thống sẽ thử lại lúc %1$s.
+The network proxy from that file is off. Check its address before you turn it on	Proxy mạng trong tệp đó đang tắt. Hãy kiểm tra địa chỉ trước khi bật.
+The original photos aren't available, so TikTok's own save runs instead	Không có ảnh gốc, vì vậy sẽ dùng chức năng lưu của TikTok.
+The original photos aren't available. No video was saved.	Không có ảnh gốc. Video chưa được lưu.
+The override changes no fields. Edit the field values, or reset the override.	Mục ghi đè không thay đổi trường nào. Hãy sửa giá trị trường hoặc đặt lại mục ghi đè.
+The override couldn't be applied: %1$s. Edit the field values, or reset the override.	Không thể áp dụng mục ghi đè: %1$s. Hãy sửa giá trị trường hoặc đặt lại mục ghi đè.
+The override doesn't say what list to return. Edit the field values, or reset the override.	Mục ghi đè không chỉ định danh sách cần trả về. Hãy sửa giá trị trường hoặc đặt lại mục ghi đè.
+The partial file couldn't be removed. Delete it from the folder you chose.	Không thể xóa tệp chưa hoàn chỉnh. Hãy xóa tệp đó trong thư mục bạn đã chọn.
+The phone is running out of room. What was recorded is saved to %1$s	Điện thoại sắp hết dung lượng. Nội dung đã ghi được lưu tại %1$s.
+The photos saved, but their details file couldn't be written. Check your storage and save the post again to get it.	Ảnh đã lưu nhưng không thể tạo tệp thông tin. Hãy kiểm tra dung lượng rồi lưu lại bài đăng để tạo tệp này.
+The presets couldn't load. Open the Lab again.	Không thể tải các mẫu. Hãy mở lại Lab.
+The profile picture couldn't be saved. Try again.	Không thể lưu ảnh đại diện. Hãy thử lại.
+The proxy at %1$s asks for a password, and TikTok can't send one. Use a proxy that doesn't need one.	Proxy tại %1$s yêu cầu mật khẩu nhưng TikTok không thể gửi mật khẩu. Hãy dùng proxy không yêu cầu mật khẩu.
+The publication state of these older recording files is unknown. Export a copy or delete the retained files.	Không rõ trạng thái phát hành của các tệp ghi cũ này. Hãy xuất một bản sao hoặc xóa các tệp còn giữ.
+The quality choice is still open	Lựa chọn chất lượng vẫn đang mở
+The record of an interrupted settings change couldn't be read, so it was set aside. Check your settings.	Không thể đọc bản ghi của thay đổi cài đặt bị gián đoạn nên bản ghi đã được tách riêng. Hãy kiểm tra cài đặt.
+The recording couldn't be saved. Try again.	Không thể lưu bản ghi. Hãy thử lại.
+The recording reached its size limit and was saved to %1$s	Bản ghi đã đạt giới hạn kích thước và được lưu tại %1$s.
+The recovery record is damaged. Export a copy of the recording files or delete them.	Bản ghi khôi phục bị hỏng. Hãy xuất bản sao các tệp ghi hoặc xóa chúng.
+The request timed out. The list may be incomplete.	Yêu cầu đã hết thời gian chờ. Danh sách có thể chưa đầy đủ.
+The save stopped when you left Wi-Fi. Save it again on Wi-Fi.	Tác vụ lưu dừng khi bạn rời Wi-Fi. Hãy lưu lại khi kết nối Wi-Fi.
+The saved-video choice couldn't open. Try again.	Không thể mở lựa chọn video đã lưu. Hãy thử lại.
+The saved-video choice is still open	Lựa chọn video đã lưu vẫn đang mở
+The screen recording did not finish. Its files can be exported but may not play.	Bản ghi màn hình chưa hoàn tất. Có thể xuất các tệp nhưng chúng có thể không phát được.
+The server asked us to wait. Try again later.	Máy chủ yêu cầu chờ. Hãy thử lại sau.
+The setting couldn't finish updating. Its saved value is shown.	Không thể hoàn tất cập nhật cài đặt. Giá trị đã lưu đang được hiển thị.
+The settings backup was rejected. Nothing was altered.	Bản sao lưu cài đặt bị từ chối. Không có gì bị thay đổi.
+The smallest value is above the largest	Giá trị nhỏ nhất lớn hơn giá trị lớn nhất
+The sound couldn't be saved. Try again.	Không thể lưu âm thanh. Hãy thử lại.
+The sticker couldn't be saved. Try again.	Không thể lưu nhãn dán. Hãy thử lại.
+The story couldn't be saved. Try again.	Không thể lưu Story. Hãy thử lại.
+The video couldn't be made from these photos. Try again.	Không thể tạo video từ những ảnh này. Hãy thử lại.
+The video couldn't be saved. Try again, or choose Automatic.	Không thể lưu video. Hãy thử lại hoặc chọn Tự động.
+The video was saved, but its record couldn't be updated. A later save may make another copy.	Video đã được lưu nhưng không thể cập nhật bản ghi. Lần lưu sau có thể tạo bản sao khác.
+The video without the watermark couldn't be fetched, so TikTok's watermarked copy was saved to %1$s. Try again later for the clean copy.	Không lấy được video không có hình mờ nên bản có hình mờ của TikTok đã được lưu tại %1$s. Hãy thử lại sau để lấy bản sạch.
+There is no Lab change to undo.	Không có thay đổi Lab nào để hoàn tác.
+There is no diagnostic data to clear	Không có dữ liệu chẩn đoán để xóa
+There is no diagnostic data to put back	Không có dữ liệu chẩn đoán để khôi phục
+There isn't enough room on the phone to record	Điện thoại không đủ dung lượng để ghi
+There was nothing to put back	Không có gì để khôi phục
+There were no saved videos to forget	Không có video đã lưu nào để xóa ghi nhớ
+There's no video on screen to save a frame from	Không có video trên màn hình để lưu khung hình
+These are posts saved by your signed-in account. Other Favorites categories aren't included.	Đây là bài đăng đã lưu bằng tài khoản bạn đăng nhập. Các danh mục Yêu thích khác không được bao gồm.
+These loaded values are for a different TikTok version.	Các giá trị đã tải này dành cho phiên bản TikTok khác.
+These notes are in English.	Các ghi chú này bằng tiếng Anh.
+This LIVE's stream can't be saved	Không thể lưu luồng LIVE này
+This catalog entry is no longer available. Refresh the Lab and try again.	Mục danh mục này không còn khả dụng. Hãy làm mới Lab rồi thử lại.
+This change couldn't be saved. Try again.	Không thể lưu thay đổi này. Hãy thử lại.
+This configuration has no fields that can be copied and changed safely on this build.	Cấu hình này không có trường nào có thể sao chép và thay đổi an toàn trên bản dựng này.
+This file has no loaded values in it.	Tệp này không chứa giá trị đã tải.
+This file isn't a loaded-values export from the Feature Gate Lab.	Tệp này không phải bản xuất giá trị đã tải từ Feature Gate Lab.
+This gate type isn't supported.	Loại cổng này không được hỗ trợ.
+This is the video's own sound, so YouTube Music won't have it	Đây là âm thanh gốc của video nên không có trên YouTube Music.
+This key isn't in Hushfeed's list, so its type can't be checked. Reset the override.	Khóa này không có trong danh sách Hushfeed nên không thể kiểm tra kiểu. Hãy đặt lại mục ghi đè.
+This key touches account safety. Forcing it can change login, region, payment or security checks.	Khóa này liên quan đến an toàn tài khoản. Ép giá trị có thể ảnh hưởng đến đăng nhập, khu vực, thanh toán hoặc kiểm tra bảo mật.
+This line opens a rule and doesn't finish it: %1$s. Write two phrases as "a" & "b" for both, or "a" !& "b" for the first without the second.	Dòng này mở đầu quy tắc nhưng chưa hoàn chỉnh: %1$s. Nhập hai cụm là "a" & "b" để yêu cầu cả hai, hoặc "a" !& "b" để yêu cầu cụm đầu tiên nhưng không có cụm thứ hai.
+This list is too long to preview here. Saving still follows the usual limit.	Danh sách quá dài để xem trước tại đây. Việc lưu vẫn tuân theo giới hạn thông thường.
+This list isn't available on this TikTok build.	Danh sách này không có trong bản dựng TikTok hiện tại.
+This phone has no file picker, so there's no way to choose a file here	Điện thoại này không có trình chọn tệp nên không thể chọn tệp tại đây.
+This phone has no folder picker. Type the folder into the row instead.	Điện thoại này không có trình chọn thư mục. Hãy nhập đường dẫn thư mục vào dòng này.
+This preset doesn't match the installed gates. Nothing changed.	Mẫu này không khớp các cổng đã cài đặt. Không có gì thay đổi.
+This preset isn't available for your installed TikTok version.	Mẫu này không khả dụng cho phiên bản TikTok bạn đã cài.
+This profile picture isn't available to save	Không thể lưu ảnh đại diện này
+This quality isn't available as a complete file, so TikTok's own save runs instead	Không có tệp hoàn chỉnh ở chất lượng này nên sẽ dùng chức năng lưu của TikTok.
+This screen recording has no sound.	Bản ghi màn hình này không có âm thanh.
+This setting isn't available. Search for another setting.	Cài đặt này không khả dụng. Hãy tìm cài đặt khác.
+This setting's value can't be copied on this build, so it can't be overridden. Reset the override.	Không thể sao chép giá trị cài đặt này trên bản dựng hiện tại nên không thể ghi đè. Hãy đặt lại mục ghi đè.
+This story isn't available to save	Không thể lưu Story này
+This value is required.	Bắt buộc nhập giá trị này.
+This video has no cover to save	Video này không có ảnh bìa để lưu
+This video has no link to copy	Video này không có liên kết để sao chép
+This video has no link to send, so TikTok's own save runs instead	Video này không có liên kết để gửi nên sẽ dùng chức năng lưu của TikTok.
+This video has no original sound to save	Video này không có âm thanh gốc để lưu
+This video has no sound of its own	Video này không có âm thanh riêng
+This video is already saved	Video này đã được lưu
+This video is already saved. Open TikTok to save another copy.	Video này đã được lưu. Hãy mở TikTok để lưu thêm một bản sao.
+This video isn't available as a complete file. Try again later.	Không có tệp hoàn chỉnh cho video này. Hãy thử lại sau.
+This video's sound has no title to look for	Âm thanh của video này không có tiêu đề để tìm
+Those photos can't be tried again now. Save the post again to get the rest.	Không thể thử lưu lại những ảnh đó lúc này. Hãy lưu bài đăng lần nữa để lấy phần còn lại.
+TikTok account facts	Thông tin tài khoản TikTok
+TikTok closed during these saves	TikTok đã đóng trong lúc lưu các mục này
+TikTok closed three times within a minute of starting, so Hushfeed paused itself. Your settings stay as they are.	TikTok đã đóng ba lần trong vòng một phút sau khi khởi chạy nên Hushfeed tự tạm dừng. Cài đặt của bạn vẫn được giữ nguyên.
+TikTok closed. What was recorded is saved to %1$s	TikTok đã đóng. Nội dung đã ghi được lưu tại %1$s.
+TikTok closes at %1$s	TikTok sẽ đóng lúc %1$s
+TikTok didn't accept the feedback. Try again later.	TikTok không chấp nhận phản hồi. Hãy thử lại sau.
+TikTok didn't block %1$s. Try again in a moment.	TikTok chưa chặn %1$s. Hãy thử lại sau.
+TikTok didn't unblock %1$s. Try again in a moment.	TikTok chưa bỏ chặn %1$s. Hãy thử lại sau.
+TikTok hasn't loaded this setting yet. Open the part of the app that uses it, then come back.	TikTok chưa tải cài đặt này. Hãy mở phần ứng dụng sử dụng nó rồi quay lại.
+TikTok is locked	TikTok đang bị khóa
+TikTok isn't locked because this phone has no screen lock	TikTok không bị khóa vì điện thoại chưa thiết lập khóa màn hình
+TikTok may have taken this message. Delivery isn't confirmed, so it won't be retried today.	TikTok có thể đã nhận tin nhắn này. Chưa xác nhận được việc gửi thành công nên hôm nay sẽ không thử lại.
+TikTok only had its watermarked copy of this story, so that copy was saved to %1$s	TikTok chỉ cung cấp bản Story có hình mờ nên bản đó đã được lưu tại %1$s.
+TikTok read it	TikTok đã đọc giá trị
+TikTok read it, but the override couldn't be applied. Reset it and save it again.	TikTok đã đọc giá trị nhưng không thể áp dụng ghi đè. Hãy đặt lại rồi lưu lại.
+TikTok refused the follow with code %1$s	TikTok từ chối theo dõi với mã %1$s
+TikTok refused the follow with code %1$s. A hidden CAPTCHA may be the cause.	TikTok từ chối theo dõi với mã %1$s. CAPTCHA bị ẩn có thể là nguyên nhân.
+TikTok refused the follow: %1$s	TikTok từ chối theo dõi: %1$s
+TikTok refused the follow: %1$s A hidden CAPTCHA may be the cause.	TikTok từ chối theo dõi: %1$s. CAPTCHA bị ẩn có thể là nguyên nhân.
+TikTok refused this request (%1$s).	TikTok từ chối yêu cầu này (%1$s).
+TikTok reports additional filtered accounts. This list is incomplete.	TikTok báo còn các tài khoản bị lọc khác. Danh sách này chưa đầy đủ.
+TikTok reports no more items in this list.	TikTok cho biết không còn mục nào trong danh sách này.
+TikTok's background play and Auto scroll	Phát nền và Tự cuộn của TikTok
+TikTok's downloader: %1$s	Trình tải xuống của TikTok: %1$s
+TikTok's hold to speed up	Nhấn giữ để tăng tốc của TikTok
+TikTok's messages didn't start in time. It tries again at %1$s.	Tin nhắn của TikTok không bắt đầu đúng giờ. Hệ thống sẽ thử lại lúc %1$s.
+TikTok's own name	Tên gốc của TikTok
+TikTok's own value	Giá trị gốc của TikTok
+TikTok's search page couldn't be opened. Restart TikTok and try again.	Không thể mở trang tìm kiếm của TikTok. Hãy khởi động lại TikTok rồi thử lại.
