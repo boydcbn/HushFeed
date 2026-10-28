@@ -1524,3 +1524,84 @@ Couldn't undo that. Try again.	Không thể hoàn tác thao tác đó. Hãy th�
 Couldn't undo the clear. Try again.	Không thể hoàn tác thao tác xóa. Hãy thử lại.
 Couldn't undo the last change. Try again.	Không thể hoàn tác thay đổi gần nhất. Hãy thử lại.
 Couldn't write the caption on this video. Saving it without.	Không thể ghi chú thích lên video này. Video sẽ được lưu mà không có chú thích.
+No creator to hide on this video	Không có nhà sáng tạo để ẩn trong video này
+No creators are hidden yet. Hide one from a video, or add a handle above.	Chưa ẩn nhà sáng tạo nào. Hãy ẩn một người từ video hoặc thêm tên tài khoản ở trên.
+No current value and no active override	Không có giá trị hiện tại và không có mục ghi đè đang hoạt động
+No font is imported	Chưa nhập phông chữ nào
+No gate data is available. Refresh values from the menu to try again.	Không có dữ liệu cổng. Hãy làm mới giá trị từ menu rồi thử lại.
+No gates match this filter.	Không có cổng nào khớp bộ lọc này.
+No gates match this search and filter.	Không có cổng nào khớp tìm kiếm và bộ lọc này.
+No hidden creators match this search. Clear the search to see them all.	Không có nhà sáng tạo bị ẩn nào khớp tìm kiếm. Xóa nội dung tìm kiếm để xem tất cả.
+No matching comments. Try a different word, or clear the search with the X in the box.	Không tìm thấy bình luận phù hợp. Hãy thử từ khác hoặc chạm X trong ô để xóa tìm kiếm.
+No matching diagnostics found	Không tìm thấy dữ liệu chẩn đoán phù hợp
+No other app takes shared text	Không có ứng dụng nào khác nhận văn bản chia sẻ
+No popups have been seen yet	Chưa phát hiện cửa sổ bật lên nào
+No presets have been reviewed for TikTok %1$s yet	Chưa có mẫu nào được rà soát cho TikTok %1$s
+No profile shortcuts have been seen yet	Chưa phát hiện lối tắt hồ sơ nào
+No rule matches this text.	Không có quy tắc nào khớp văn bản này.
+No rules yet, so nothing would match.	Chưa có quy tắc nào nên sẽ không có nội dung nào khớp.
+No share actions match this search	Không có thao tác chia sẻ nào khớp tìm kiếm
+No sound to block on this video	Video này không có âm thanh để chặn
+No suggested accounts to clear	Không có tài khoản được đề xuất nào để xóa
+No video selected. Open a video first.	Chưa chọn video. Hãy mở một video trước.
+Nobody was signed in to TikTok. Sign in, and it tries again at %1$s.	Chưa có ai đăng nhập TikTok. Hãy đăng nhập; hệ thống sẽ thử lại lúc %1$s.
+None of the photos could be saved. Try again.	Không thể lưu ảnh nào. Hãy thử lại.
+None of the picked videos could be saved. Try again.	Không thể lưu video nào đã chọn. Hãy thử lại.
+None of these gates had an override to reset.	Không cổng nào trong số này có mục ghi đè để đặt lại.
+None recorded	Chưa ghi nhận mục nào
+Not a handle or id, so ignored: %1$s	Không phải tên tài khoản hoặc ID nên đã bỏ qua: %1$s
+Not a part Hushfeed fills in, so it's kept as typed: %1$s	Đây không phải phần Hushfeed tự điền nên giữ nguyên nội dung đã nhập: %1$s
+Not requested in this process yet	Chưa được yêu cầu trong tiến trình này
+Not saved yet	Chưa lưu
+Not sent	Chưa gửi
+Nothing has been checked yet, so there's nothing to report.	Chưa kiểm tra gì nên chưa có báo cáo.
+Nothing has been looked up yet. Use the app for a moment, then come back.	Chưa tra cứu gì. Hãy sử dụng ứng dụng một lúc rồi quay lại.
+Nothing is playing to speed up	Không có video nào đang phát để tăng tốc
+Nothing is saving right now	Hiện không có tác vụ lưu nào
+Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected.	Không có mục mới nào được nhập. %1$d mục đã khớp, %2$d không khả dụng, %3$d bị từ chối.
+Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected. First rejection: %4$s	Không có mục mới nào được nhập. %1$d mục đã khớp, %2$d không khả dụng, %3$d bị từ chối. Mục bị từ chối đầu tiên: %4$s
+Nothing on this page changes what TikTok does until they are on.	Không tùy chọn nào trên trang này thay đổi hoạt động của TikTok cho đến khi được bật.
+Nothing to undo yet.	Chưa có thao tác nào để hoàn tác.
+Nothing was recorded	Không có gì được ghi lại
+Nothing was recorded because Hushfeed settings were still open. Start again, then leave settings.	Không ghi lại gì vì cài đặt Hushfeed vẫn đang mở. Hãy bắt đầu lại rồi rời khỏi phần cài đặt.
+Nothing was sent. Check the streak settings and try again.	Chưa gửi gì. Hãy kiểm tra cài đặt chuỗi liên tiếp rồi thử lại.
+Notices from this project and the ones it's built on	Thông báo từ dự án này và các dự án nền tảng
+OK	OK
+Off forces the value to false, on forces it to true. Reset lets TikTok decide again.	Tắt buộc giá trị thành false, bật buộc thành true. Đặt lại để TikTok tự quyết định.
+Off. TikTok can report views and typing.	Tắt. TikTok có thể báo cáo lượt xem và thao tác nhập.
+On or off	Bật hoặc tắt
+On. Hushfeed hasn't seen TikTok send any reports since it started.	Bật. Hushfeed chưa thấy TikTok gửi báo cáo nào kể từ khi khởi chạy.
+One area was checked and everything it needs is here.	Đã kiểm tra một khu vực và mọi thành phần cần thiết đều có sẵn.
+One more save waiting	Còn một tác vụ lưu đang chờ
+One of the quote marks in that list has nothing to close it, so the rest of the line reads as one phrase. Add the missing quote or take the stray one out.	Một dấu ngoặc kép trong danh sách không có dấu đóng, khiến phần còn lại của dòng bị hiểu thành một cụm. Hãy thêm dấu còn thiếu hoặc xóa dấu thừa.
+One picked	Đã chọn một mục
+One video was recorded before each account kept its own list. It hides nothing until you add it here.	Một video được ghi nhận trước khi mỗi tài khoản có danh sách riêng. Video này không ẩn nội dung nào cho đến khi bạn thêm vào đây.
+One was already saved	Một mục đã được lưu
+Only bottom tabs TikTok has loaded on this device are shown here. This doesn't force unavailable tabs to appear.	Chỉ hiển thị các tab dưới cùng mà TikTok đã tải trên thiết bị này. Tùy chọn không ép các tab không khả dụng xuất hiện.
+Only tabs TikTok has loaded on this device are shown here. This doesn't force unavailable tabs to appear.	Chỉ hiển thị các tab TikTok đã tải trên thiết bị này. Tùy chọn không ép các tab không khả dụng xuất hiện.
+Only the first %1$s characters of the sample were checked.	Chỉ kiểm tra %1$s ký tự đầu tiên của mẫu.
+Open Hushfeed settings	Mở cài đặt Hushfeed
+Open setting location	Mở vị trí cài đặt
+Open the feed anyway, %1$d left today	Vẫn mở feed, còn %1$d lượt hôm nay
+Open the feed anyway, the last time today	Vẫn mở feed, đây là lượt cuối hôm nay
+Open the feed once so Hushfeed can see which bottom tabs TikTok loaded.	Mở feed một lần để Hushfeed nhận biết các tab dưới cùng mà TikTok đã tải.
+Open the feed once so Hushfeed can see which tabs TikTok loaded.	Mở feed một lần để Hushfeed nhận biết các tab TikTok đã tải.
+Open the room and tap Stop to save it.	Mở phòng rồi chạm Dừng để lưu.
+Open your profile once, then return here to choose its shortcuts.	Mở hồ sơ của bạn một lần rồi quay lại đây để chọn lối tắt.
+Opens a GitHub report with your versions and settings filled in. Add what happened.	Mở báo cáo GitHub đã điền sẵn phiên bản và cài đặt của bạn. Hãy bổ sung sự cố đã xảy ra.
+Opens github.com in your browser	Mở github.com trong trình duyệt
+Opus didn't work on this phone. Saving the sound as TikTok sent it instead.	Opus không hoạt động trên điện thoại này. Âm thanh sẽ được lưu theo định dạng TikTok gửi.
+Original message	Tin nhắn gốc
+Original photos	Ảnh gốc
+Original sound	Âm thanh gốc
+Other feed filters	Bộ lọc feed khác
+Override set, not read yet	Đã đặt ghi đè nhưng chưa đọc
+Override this configuration	Ghi đè cấu hình này
+Override this gate	Ghi đè cổng này
+Overrides are disabled in the Feature Gate Lab.	Các mục ghi đè đang bị tắt trong Feature Gate Lab.
+Overrides disabled. Restart TikTok to apply this.	Đã tắt ghi đè. Khởi động lại TikTok để áp dụng.
+Overrides enabled. Restart TikTok to apply this.	Đã bật ghi đè. Khởi động lại TikTok để áp dụng.
+Own profile counts	Số liệu hồ sơ của bạn
+Paid partnerships	Hợp tác trả phí
+Pause	Tạm dừng
+Pause Hushfeed	Tạm dừng Hushfeed
