@@ -806,3 +806,121 @@ Play the audio on videos TikTok silenced because their sound was pulled for copy
 Type a website name to use instead of tiktok.com in links you share or copy, like vxtiktok.com. Leave empty to share TikTok's own links. Only TikTok links change, and only the website name.	Nhập tên trang web dùng thay cho tiktok.com trong liên kết bạn chia sẻ hoặc sao chép, chẳng hạn vxtiktok.com. Để trống để dùng liên kết TikTok gốc. Chỉ tên miền trong liên kết TikTok được thay đổi.
 When Copy link gives a short vt.tiktok.com or vm.tiktok.com link, Hushfeed opens it once in the background to find the full video link and copies that instead. TikTok sees that visit, and it connects directly even when a proxy is on. Links you send to another app go out as they were.	Khi Sao chép liên kết trả về liên kết ngắn vt.tiktok.com hoặc vm.tiktok.com, Hushfeed sẽ mở liên kết đó một lần ở nền để tìm liên kết video đầy đủ rồi sao chép liên kết đầy đủ. TikTok ghi nhận lượt truy cập này và kết nối trực tiếp ngay cả khi bật proxy. Liên kết gửi sang ứng dụng khác không thay đổi.
 Use the preset for the region TikTok reports for your account and its shop too. May affect search.	Dùng mẫu khu vực mà TikTok báo cáo cho tài khoản của bạn và cả Shop. Có thể ảnh hưởng đến kết quả tìm kiếm.
+Reading	Đang đọc
+Translate comments as they load, using TikTok's own translator.	Dịch bình luận ngay khi tải bằng công cụ dịch của TikTok.
+Don't auto translate these languages	Không tự động dịch các ngôn ngữ này
+Don't auto translate videos	Không tự động dịch video
+Translate button in comments	Nút dịch trong bình luận
+Bring back TikTok's translation	Khôi phục bản dịch của TikTok
+Open the comments at full height	Mở bình luận toàn màn hình
+Fold the search into a button	Thu gọn tìm kiếm thành nút
+Export comments	Xuất bình luận
+More opens the comments	Nút Xem thêm mở bình luận
+Show commenters' handles	Hiển thị tên tài khoản người bình luận
+Show where commenters are from	Hiển thị quốc gia của người bình luận
+Hide comment typing suggestions	Ẩn gợi ý khi nhập bình luận
+Hide comment popup ads	Ẩn quảng cáo bật lên trong bình luận
+Hide search suggestions above comments	Ẩn gợi ý tìm kiếm phía trên bình luận
+Show TikTok's button for recording a spoken comment, on accounts that don't have it yet. It hasn't been tried on a real account, so it may not work.	Hiển thị nút ghi âm bình luận của TikTok cho tài khoản chưa có tính năng này. Chưa thử trên tài khoản thật nên có thể không hoạt động.
+Show the gallery tab in the comment box, so you can add a photo to a comment like on TikTok. PineDrama turns it off for everyone. TikTok's server still decides whether your account can post one.	Hiển thị tab thư viện trong ô bình luận để bạn thêm ảnh như trên TikTok. PineDrama tắt tính năng này cho mọi người. Máy chủ TikTok vẫn quyết định tài khoản của bạn có được đăng ảnh hay không.
+Show failures on screen	Hiển thị lỗi trên màn hình
+Diagnostic data cleared. Tap again to put it back.	Đã xóa dữ liệu chẩn đoán. Chạm lại để khôi phục.
+Save full report	Lưu toàn bộ báo cáo
+Includes these events: %1$s	Bao gồm các sự kiện: %1$s
+Saves at once	Số tác vụ lưu đồng thời
+One at a time	Mỗi lần một tác vụ
+Two at once	Hai tác vụ cùng lúc
+Three at once	Ba tác vụ cùng lúc
+Save only on Wi-Fi	Chỉ lưu qua Wi-Fi
+Video destination	Thư mục lưu video
+Sticker destination	Thư mục lưu nhãn dán
+Video filename	Tên tệp video
+Photo filename	Tên tệp ảnh
+Applies to both video and photo downloads.	Áp dụng cho cả tải video và ảnh.
+Skip the Share to sheet after a save	Bỏ qua bảng Chia sẻ đến sau khi lưu
+Video download quality	Chất lượng tải video
+Ask for the quality on each save	Hỏi chất lượng mỗi lần lưu
+Use system emoji	Dùng emoji hệ thống
+Use an imported font	Dùng phông chữ đã nhập
+Turn off haptics	Tắt phản hồi rung
+Turn off screen transitions	Tắt hiệu ứng chuyển màn hình
+Use non-personalized search	Dùng tìm kiếm không cá nhân hóa
+Show search in LIVE	Hiển thị tìm kiếm trong LIVE
+Hide search rewards	Ẩn phần thưởng tìm kiếm
+Stop search results playing on their own	Ngăn kết quả tìm kiếm tự phát
+Show follow status	Hiển thị trạng thái theo dõi
+Local verified badge	Huy hiệu xác minh cục bộ
+Hide your account warning	Ẩn cảnh báo tài khoản của bạn
+When TikTok starts and decides the phone's language changed, it forgets the language you picked in its settings and follows the phone. With this on, your pick stays. Counts from TikTok's next start.	Khi khởi động, nếu TikTok phát hiện ngôn ngữ điện thoại đã đổi, ứng dụng sẽ quên ngôn ngữ bạn chọn và dùng ngôn ngữ của điện thoại. Bật tùy chọn này để giữ lựa chọn của bạn. Có hiệu lực từ lần khởi động TikTok tiếp theo.
+Stop the two background tasks TikTok uses to check for updates, one of them when your phone starts. Some in-app update prompts may stop. Play Store updates still work.	Dừng hai tác vụ nền TikTok dùng để kiểm tra cập nhật, trong đó có một tác vụ chạy khi điện thoại khởi động. Một số lời nhắc cập nhật trong ứng dụng có thể không còn xuất hiện. Cập nhật qua Play Store vẫn hoạt động.
+Hide TikTok Shop	Ẩn TikTok Shop
+Hide TikTok Shop in search	Ẩn TikTok Shop trong tìm kiếm
+Hide LIVE videos	Ẩn video LIVE
+Hide LIVE replays	Ẩn bản phát lại LIVE
+Hide unpersonalized For You videos	Ẩn video Dành cho bạn không cá nhân hóa
+Show only mutual friends on the Friends tab	Chỉ hiển thị bạn bè theo dõi lẫn nhau trong tab Bạn bè
+Latest first on Following	Bài mới nhất trước trong Đang theo dõi
+Hide stories	Ẩn Story
+Hide photo posts	Ẩn bài đăng ảnh
+Hide Series	Ẩn Series
+Hide mini dramas	Ẩn phim ngắn dạng drama
+Hide playlist videos	Ẩn video trong danh sách phát
+Hide subscriber-only videos	Ẩn video chỉ dành cho người đăng ký
+Ads	Quảng cáo
+Choose which feed tabs stay visible. If only For You is left, its tab name is hidden.	Chọn các tab feed cần giữ hiển thị. Nếu chỉ còn Dành cho bạn, tên tab đó sẽ tự ẩn.
+Hide tabs TikTok adds later unless you allow them.	Ẩn các tab TikTok thêm về sau, trừ khi bạn cho phép.
+Hide the tab names above the feed	Ẩn tên tab phía trên feed
+Hide bottom tabs TikTok adds later unless you allow them.	Ẩn các tab dưới cùng mà TikTok thêm về sau, trừ khi bạn cho phép.
+Open TikTok on	Mở TikTok tại
+TikTok default	Mặc định của TikTok
+Show TikTok's feed buttons	Hiển thị nút feed của TikTok
+Long-press Home for Hushfeed settings	Nhấn giữ Trang chủ để mở cài đặt Hushfeed
+Long-press Profile for Watch history	Nhấn giữ Hồ sơ để mở Lịch sử xem
+Keep For You on a Home tap	Giữ Dành cho bạn khi chạm Trang chủ
+Keep For You on a pull down	Giữ Dành cho bạn khi vuốt xuống
+Pulling down at the top of For You no longer reloads it.	Vuốt xuống ở đầu mục Dành cho bạn sẽ không còn tải lại feed.
+Hide the unread badges on the bottom tabs	Ẩn huy hiệu chưa đọc trên các tab dưới cùng
+Hide the bottom tab names	Ẩn tên các tab dưới cùng
+Received message translation	Dịch tin nhắn đã nhận
+DM translation preview	Xem trước bản dịch tin nhắn
+Search loaded activity	Tìm trong hoạt động đã tải
+Hide new followers	Ẩn người theo dõi mới
+Hide activity	Ẩn Hoạt động
+Hide archive	Ẩn Lưu trữ
+Hide the Tako chat	Ẩn cuộc trò chuyện Tako
+Hide Bulletin board	Ẩn Bảng tin
+Hide conversations	Ẩn các cuộc trò chuyện
+Hide the add people icon	Ẩn biểu tượng thêm người
+Hide the Inbox search button	Ẩn nút tìm kiếm trong Hộp thư
+Hide activity status	Ẩn trạng thái hoạt động
+Hide the group chat prompt	Ẩn lời mời tạo trò chuyện nhóm
+Hide rows by title	Ẩn hàng theo tiêu đề
+App lock	Khóa ứng dụng
+Right away	Ngay lập tức
+After 1 minute	Sau 1 phút
+After 5 minutes	Sau 5 phút
+After 15 minutes	Sau 15 phút
+Tracking	Theo dõi
+Stop analytics and tracking	Tắt phân tích và theo dõi
+Stop on-device AI profiling	Tắt lập hồ sơ AI trên thiết bị
+Hide online status	Ẩn trạng thái trực tuyến
+Don't save new searches	Không lưu tìm kiếm mới
+Keep videos out of Watch history	Không lưu video vào Lịch sử xem
+Hide a VPN connection	Ẩn kết nối VPN
+Hide root	Ẩn trạng thái root
+Hide root status and details about root tools from TikTok.	Ẩn trạng thái root và thông tin về công cụ root khỏi TikTok.
+Network proxy	Proxy mạng
+Send TikTok through a proxy	Chuyển lưu lượng TikTok qua proxy
+Proxy type	Loại proxy
+HTTP	HTTP
+SOCKS5	SOCKS5
+Proxy host	Máy chủ proxy
+Proxy port	Cổng proxy
+Proxy user name	Tên người dùng proxy
+Proxy password	Mật khẩu proxy
+Keep the For You feed on your real SIM	Dùng SIM thật cho feed Dành cho bạn
+Match locale and timezone to country	Đồng bộ ngôn ngữ vùng và múi giờ theo quốc gia
+Override store region (experimental)	Ghi đè khu vực cửa hàng (thử nghiệm)
+Match region fields in requests	Đồng bộ trường khu vực trong yêu cầu
+Enter a valid two-letter country code	Nhập mã quốc gia hợp lệ gồm hai chữ cái
+An operator code is five or six digits, like 310260	Mã nhà mạng gồm 5 hoặc 6 chữ số, chẳng hạn 310260
