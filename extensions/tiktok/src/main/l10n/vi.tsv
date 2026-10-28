@@ -1155,3 +1155,77 @@ Hide videos that use a sound blocked with the player's sound button, or named be
 Days to remember a video. Zero removes the age limit. History keeps at most %1$s videos.	Số ngày ghi nhớ video. Giá trị 0 bỏ giới hạn độ cũ. Lịch sử lưu tối đa %1$s video.
 How many saves run at the same time. The others wait in line and start as each one ends.	Số tác vụ lưu chạy đồng thời. Các tác vụ còn lại xếp hàng và bắt đầu khi tác vụ trước kết thúc.
 Use {date} and {media_id} to build the name. Works for image and video stickers.	Dùng {date} và {media_id} để tạo tên tệp. Áp dụng cho nhãn dán ảnh và video.
+Share	Chia sẻ
+Hide buttons in the right column	Ẩn nút ở cột bên phải
+Pick the buttons to take off the column. The rest stay where they are.	Chọn các nút cần ẩn khỏi cột. Các nút còn lại vẫn ở nguyên vị trí.
+Hide the right column	Ẩn cột bên phải
+Larger (1.25x)	Lớn hơn (1,25 lần)
+Hide the follow button on the feed	Ẩn nút theo dõi trên feed
+Hide the save button on the feed	Ẩn nút lưu trên feed
+Always show publish date	Luôn hiển thị ngày đăng
+Show the time to the second	Hiển thị thời gian đến từng giây
+Show the time zone	Hiển thị múi giờ
+Puts your time zone after the time to the second, like EDT.	Hiển thị múi giờ của bạn sau thời gian chính xác đến giây, chẳng hạn EDT.
+Short date	Ngày dạng ngắn
+Show dates on profile grids	Hiển thị ngày trên lưới hồ sơ
+Show video length on profile grids	Hiển thị thời lượng video trên lưới hồ sơ
+Sort loaded videos on profile grids	Sắp xếp video đã tải trên lưới hồ sơ
+Original order	Thứ tự ban đầu
+Newest first	Mới nhất trước
+Oldest first	Cũ nhất trước
+Longest first	Dài nhất trước
+Shortest first	Ngắn nhất trước
+Most viewed first	Nhiều lượt xem nhất trước
+Least viewed first	Ít lượt xem nhất trước
+Most liked first	Nhiều lượt thích nhất trước
+Least liked first	Ít lượt thích nhất trước
+Hide TikTok's Auto scroll button	Ẩn nút Tự cuộn của TikTok
+Staying on a video	Giữ nguyên video
+Stay on the video in full screen	Giữ video ở chế độ toàn màn hình
+Loop a story	Lặp lại Story
+Hold a photo story	Giữ Story ảnh
+Stop LIVE previews opening by themselves	Ngăn bản xem trước LIVE tự mở
+Show exact LIVE viewer counts	Hiển thị chính xác số người xem LIVE
+Offer LIVE quality in more rooms	Cho phép chọn chất lượng LIVE ở nhiều phòng hơn
+Keep the LIVE quality after TikTok restarts	Giữ chất lượng LIVE sau khi khởi động lại TikTok
+Offer clear screen in every LIVE room	Hiển thị Màn hình sạch trong mọi phòng LIVE
+Dark LIVE panels in dark mode	Dùng bảng LIVE tối trong chế độ tối
+Record LIVEs you watch	Ghi lại LIVE bạn xem
+LIVE recording quality	Chất lượng ghi LIVE
+LIVE recording source	Nguồn ghi LIVE
+Replay in the background	Phát lại khi chạy nền
+Keep watching in a small window	Tiếp tục xem trong cửa sổ nhỏ
+Speed	Tốc độ
+Use a default playback speed	Dùng tốc độ phát mặc định
+Speed menu choices	Các lựa chọn tốc độ
+Enter up to %1$d comma-separated speeds from %2$s to %3$s	Nhập tối đa %1$d mức tốc độ, phân tách bằng dấu phẩy, từ %2$s đến %3$s
+Speed while you hold the video	Tốc độ khi nhấn giữ video
+Slide to change the hold speed	Trượt để đổi tốc độ khi nhấn giữ
+Video playback quality	Chất lượng phát video
+Play SDR instead of HDR	Phát SDR thay cho HDR
+Show only videos with this many favorites.	Chỉ hiển thị video có số lượt yêu thích trong khoảng này.
+Shares range	Khoảng lượt chia sẻ
+Show only videos with this many shares.	Chỉ hiển thị video có số lượt chia sẻ trong khoảng này.
+Hide videos with blocked sounds	Ẩn video có âm thanh bị chặn
+Words, countries and languages	Từ khóa, quốc gia và ngôn ngữ
+Sample caption to test	Chú thích mẫu để kiểm tra
+Hide videos you have already seen	Ẩn video bạn đã xem
+Count a video as seen after	Đánh dấu video đã xem sau
+%1$s%%	%1$s%%
+A few seconds	Vài giây
+Keep offline videos out of the feed	Không đưa video ngoại tuyến vào feed
+Filter TikTok's offline videos	Lọc video ngoại tuyến của TikTok
+Show how many were filtered	Hiển thị số video đã lọc
+Save photo posts as a video	Lưu bài đăng ảnh thành video
+Seconds per photo	Số giây cho mỗi ảnh
+How long each photo stays on screen in a video made from a photo post.	Thời gian hiển thị mỗi ảnh trong video tạo từ bài đăng ảnh.
+Animated sticker format	Định dạng nhãn dán động
+Video (MP4)	Video (MP4)
+WebP, exactly as TikTok sent it	WebP, giữ nguyên như TikTok gửi
+Layout	Bố cục
+Split comment minimum width	Chiều rộng tối thiểu của bình luận khi chia đôi
+%1$s dp	%1$s dp
+Hide the status bar in LIVE rooms	Ẩn thanh trạng thái trong phòng LIVE
+Show a LIVE under the status bar	Hiển thị LIVE bên dưới thanh trạng thái
+Keep the screen's brightness in the camera	Giữ nguyên độ sáng màn hình khi dùng camera
+Report a newer phone to effects	Báo với hiệu ứng rằng đây là điện thoại đời mới hơn
