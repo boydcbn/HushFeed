@@ -66,7 +66,7 @@ final class L10nTranslationsVi {
         table.put("%1$d comments and replies loaded",
                 "Đã tải %1$d bình luận và câu trả lời");
         table.put("%1$d fields overridden",
-                "Đã ghi đè %1$d trường.");
+                "Đã ghi đè %1$d trường");
         table.put("%1$d fields will be overridden when requested",
                 "%1$d trường sẽ được ghi đè khi được yêu cầu.");
         table.put("%1$d filtered out",
@@ -90,11 +90,11 @@ final class L10nTranslationsVi {
         table.put("%1$d setting in that file can't be restored here and was skipped",
                 "Không thể khôi phục %1$d cài đặt trong file này tại đây; mục đó đã bị bỏ qua.");
         table.put("%1$d setting wasn't in that file and was left as it is",
-                "File đó không có %1$d cài đặt nên mục này được giữ nguyên.");
+                "File đó không có %1$d cài đặt nên mục này được giữ nguyên");
         table.put("%1$d settings in that file can't be restored here and were skipped",
                 "Không thể khôi phục %1$d cài đặt trong file này tại đây; các mục đó đã bị bỏ qua.");
         table.put("%1$d settings weren't in that file and were left as they are",
-                "File đó không có %1$d cài đặt nên các mục này được giữ nguyên.");
+                "File đó không có %1$d cài đặt nên các mục này được giữ nguyên");
         table.put("%1$d unavailable",
                 "%1$d mục không khả dụng.");
         table.put("%1$s (%2$s)",
@@ -215,7 +215,7 @@ final class L10nTranslationsVi {
         table.put("%1$s videos had dates later than this phone's clock.",
                 "Ngày của %1$s video muộn hơn ngày giờ trên điện thoại này.");
         table.put("%1$s videos left",
-                "Còn %1$s video.");
+                "Còn %1$s video");
         table.put("%1$s videos were already recorded.",
                 "%1$s video đã được ghi nhận.");
         table.put("%1$s videos were older than Forget seen videos after allows.",
@@ -287,7 +287,7 @@ final class L10nTranslationsVi {
         table.put("1 comment or reply loaded",
                 "Đã tải 1 bình luận hoặc câu trả lời");
         table.put("1 field overridden",
-                "Đã ghi đè 1 trường.");
+                "Đã ghi đè 1 trường");
         table.put("1 field will be overridden when requested",
                 "1 trường sẽ được ghi đè khi được yêu cầu.");
         table.put("1 filtered out",
@@ -537,7 +537,7 @@ final class L10nTranslationsVi {
         table.put("An interrupted settings change couldn't be recovered, so its record was set aside. Check your settings or restore a backup.",
                 "Không thể khôi phục thay đổi cài đặt bị gián đoạn nên bản ghi đã được tách riêng. Hãy kiểm tra cài đặt hoặc khôi phục bản sao lưu.");
         table.put("An operator code is five or six digits, like 310260",
-                "Mã nhà mạng gồm năm hoặc sáu chữ số, ví dụ 310260.");
+                "Mã nhà mạng gồm năm hoặc sáu chữ số, ví dụ 310260");
         table.put("An override changes the value TikTok reads from this gate. It doesn't change TikTok's saved copy or prove the named feature changed.",
                 "Ghi đè thay đổi giá trị TikTok đọc từ cổng tính năng này. Nó không sửa bản lưu của TikTok hay đảm bảo tính năng đã thay đổi.");
         table.put("And %1$s more saves",
@@ -878,7 +878,7 @@ final class L10nTranslationsVi {
         table.put("Confirm before liking a story",
                 "Xác nhận trước khi thích story");
         table.put("Continue supported videos from where you stopped when you scroll back to them.",
-                "Tiếp tục video được hỗ trợ từ nơi bạn dừng khi cuộn trở lại");
+                "Tiếp tục phát video được hỗ trợ từ chỗ bạn đã dừng khi cuộn quay lại.");
         table.put("Controls",
                 "Điều khiển");
         table.put("Conversations",
@@ -2491,7 +2491,7 @@ final class L10nTranslationsVi {
         table.put("Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected. First rejection: %4$s",
                 "Không có dữ liệu mới được nhập. %1$d mục đã khớp, %2$d mục không khả dụng, %3$d mục bị từ chối. Lỗi từ chối đầu tiên: %4$s");
         table.put("Nothing on this page changes what TikTok does until they are on.",
-                "Các mục trên trang này không ảnh hưởng đến hoạt động của TikTok cho đến khi được bật");
+                "Các mục trên trang này không ảnh hưởng đến hoạt động của TikTok cho đến khi được bật.");
         table.put("Nothing to undo yet.",
                 "Chưa có thao tác nào để hoàn tác.");
         table.put("Nothing was recorded",
@@ -2717,7 +2717,7 @@ final class L10nTranslationsVi {
         table.put("Photos and stickers",
                 "Ảnh và nhãn dán");
         table.put("Photos can't be saved to the folder in that file, so your photo folder was kept",
-                "Không thể lưu ảnh vào thư mục trong file đó, nên thư mục ảnh hiện tại được giữ nguyên.");
+                "Không thể lưu ảnh vào thư mục trong tệp đó nên thư mục ảnh hiện tại được giữ nguyên");
         table.put("Pick a .ttf or .otf file of up to %1$s MB.",
                 "Chọn tệp .ttf hoặc .otf có dung lượng tối đa %1$s MB.");
         table.put("Pick all",
@@ -3705,7 +3705,7 @@ final class L10nTranslationsVi {
         table.put("Sticker search, PineDrama and the rest of TikTok still see the SIM above, while For You asks for videos with your phone's own SIM country and carrier. Your IP address and account history still count.",
                 "Tìm kiếm nhãn dán, PineDrama và các phần khác của TikTok vẫn thấy SIM bên trên, trong khi mục Dành cho bạn yêu cầu video theo quốc gia và nhà mạng của SIM thật trên điện thoại. Địa chỉ IP và lịch sử tài khoản vẫn có ảnh hưởng.");
         table.put("Stickers can't be saved to the folder in that file, so your sticker folder was kept",
-                "Không thể lưu nhãn dán vào thư mục trong file đó, nên thư mục nhãn dán hiện tại được giữ nguyên.");
+                "Không thể lưu nhãn dán vào thư mục trong tệp đó nên thư mục nhãn dán hiện tại được giữ nguyên");
         table.put("Stickers: %1$s",
                 "Nhãn dán: %1$s");
         table.put("Still here. Nothing is waiting.",
@@ -4290,7 +4290,7 @@ final class L10nTranslationsVi {
         table.put("TikTok default",
                 "Mặc định của TikTok");
         table.put("TikTok default (hold to speed up, quick share)",
-                "Mặc định TikTok (nhấn giữ để tăng tốc, chia sẻ nhanh).");
+                "Mặc định TikTok (nhấn giữ để tăng tốc, chia sẻ nhanh)");
         table.put("TikTok default (open the creator's profile)",
                 "Mặc định của TikTok (mở hồ sơ nhà sáng tạo)");
         table.put("TikTok didn't accept the feedback. Try again later.",
@@ -4727,7 +4727,7 @@ final class L10nTranslationsVi {
         table.put("Works only with YTDLnis (com.deniscerri.ytdl). Starts the download in the background without showing its download card.",
                 "Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Bắt đầu tải ở chế độ nền mà không hiển thị thẻ tải xuống.");
         table.put("Write the username and caption on the video",
-                "Ghi tên người dùng và chú thích lên video.");
+                "Ghi tên người dùng và chú thích lên video");
         table.put("Write the video's sound beside it, in the format picked under Sound format. Android 10 and later file audio separately, so it lands in Music under the same folder name as your videos.",
                 "Lưu âm thanh của video thành file riêng bên cạnh, theo định dạng trong mục Định dạng âm thanh. Android 10 trở lên tách âm thanh thành file riêng trong thư mục Music, cùng tên thư mục với video.");
     }
@@ -4738,7 +4738,7 @@ final class L10nTranslationsVi {
         table.put("Writing",
                 "Đang ghi");
         table.put("Writing the caption on the video",
-                "Đang ghi chú thích lên video.");
+                "Đang ghi chú thích lên video");
         table.put("Writing the caption on the video: %1$s",
                 "Đang ghi chú thích lên video: %1$s.");
         table.put("YTDLnis background mode",
