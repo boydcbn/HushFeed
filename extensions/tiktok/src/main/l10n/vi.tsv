@@ -1372,3 +1372,52 @@ Settings restored. Restart TikTok to apply all changes.	Đã khôi phục cài �
 Save, restore, reset and undo your settings	Lưu, khôi phục, đặt lại và hoàn tác cài đặt
 Put every setting back to its default straight away. Your current settings are kept for Undo.	Đặt ngay mọi cài đặt về mặc định. Cài đặt hiện tại được giữ lại để hoàn tác.
 Put back the settings saved before the last restore or reset.	Khôi phục cài đặt đã lưu trước lần khôi phục hoặc đặt lại gần nhất.
+Field %1$s can't be changed on this build. Take it out of the override, or reset the override.	Không thể thay đổi trường %1$s trong bản dựng này. Hãy bỏ trường khỏi phần ghi đè hoặc đặt lại phần ghi đè.
+Lab data reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại dữ liệu Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
+Lab data was over its rule limit, so it was cleared without an undo copy. Restart TikTok to apply this.	Dữ liệu Lab vượt quá giới hạn quy tắc nên đã bị xóa mà không tạo bản sao để hoàn tác. Khởi động lại TikTok để áp dụng.
+Lab overrides reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại các mục ghi đè của Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
+None of these gates had an override to reset.	Không có cổng tính năng nào trong số này có mục ghi đè để đặt lại.
+Nothing to undo yet.	Chưa có thao tác nào để hoàn tác.
+Off forces the value to false, on forces it to true. Reset lets TikTok decide again.	Tắt sẽ ép giá trị thành false, bật sẽ ép thành true. Đặt lại để TikTok tự quyết định.
+Preset applied. Restart TikTok to use it.	Đã áp dụng cấu hình đặt sẵn. Khởi động lại TikTok để sử dụng.
+Preset saved. Turn on overrides in the Lab to use it.	Đã lưu cấu hình đặt sẵn. Bật ghi đè trong Lab để sử dụng.
+Recording stopped early. What was recorded is saved to %1$s	Quá trình ghi đã dừng sớm. Nội dung đã ghi được lưu tại %1$s
+Recording this LIVE from now	Bắt đầu ghi LIVE này từ thời điểm hiện tại
+Recording this LIVE's screen	Đang ghi màn hình của LIVE này
+Recording this LIVE's screen from now	Bắt đầu ghi màn hình LIVE này từ thời điểm hiện tại
+Recording this LIVE's screen from now, without sound	Bắt đầu ghi màn hình LIVE này từ hiện tại, không có âm thanh
+Recording what the feed filters keep and hide. Tap to stop and save it in %1$s.	Đang ghi lại nội dung mà bộ lọc bảng tin giữ lại và ẩn đi. Nhấn để dừng và lưu tại %1$s.
+Recovered recording saved to %1$s	Bản ghi đã khôi phục được lưu tại %1$s
+Reset %1$d gates of %2$d. Restart TikTok to apply this.	Đã đặt lại %1$d/%2$d cổng tính năng. Khởi động lại TikTok để áp dụng.
+Reset %1$d gates. Restart TikTok to apply this.	Đã đặt lại %1$d cổng tính năng. Khởi động lại TikTok để áp dụng.
+Reset 1 gate of %2$d. Restart TikTok to apply this.	Đã đặt lại 1/%2$d cổng tính năng. Khởi động lại TikTok để áp dụng.
+Reset 1 gate. Restart TikTok to apply this.	Đã đặt lại 1 cổng tính năng. Khởi động lại TikTok để áp dụng.
+Seen videos cleared. You can undo until TikTok closes.	Đã xóa danh sách video đã xem. Bạn có thể hoàn tác trước khi TikTok đóng.
+Some recording files remain. Try deleting them again.	Vẫn còn một số tệp ghi. Hãy thử xóa lại.
+Still waiting for the file app.	Vẫn đang chờ ứng dụng quản lý tệp.
+Still waiting for the file app. Tap to stop waiting.	Vẫn đang chờ ứng dụng quản lý tệp. Nhấn để ngừng chờ.
+Stopped waiting for the file app. It hasn't said yet whether the backup was saved.	Đã ngừng chờ ứng dụng quản lý tệp. Chưa rõ bản sao lưu đã được lưu hay chưa.
+Stopped waiting for the file app. It hasn't said yet whether the export was saved.	Đã ngừng chờ ứng dụng quản lý tệp. Chưa rõ dữ liệu xuất đã được lưu hay chưa.
+Stopped waiting for the file app. Nothing was changed.	Đã ngừng chờ ứng dụng quản lý tệp. Không có gì thay đổi.
+Stopped waiting for the file app. Nothing was exported.	Đã ngừng chờ ứng dụng quản lý tệp. Không có dữ liệu nào được xuất.
+Stopped waiting for the file app. Nothing was imported.	Đã ngừng chờ ứng dụng quản lý tệp. Không có dữ liệu nào được nhập.
+Stopping after this file	Sẽ dừng sau tệp này
+That backup was written by a newer Hushfeed than this one. Nothing was altered.	Bản sao lưu được tạo bởi phiên bản Hushfeed mới hơn. Không có gì bị thay đổi.
+That file is larger than %1$s MB. Choose a seen-history file saved by Hushfeed.	Tệp lớn hơn %1$s MB. Hãy chọn tệp lịch sử xem do Hushfeed lưu.
+That file is too large to be a settings backup. Nothing was altered.	Tệp quá lớn để làm bản sao lưu cài đặt. Không có gì bị thay đổi.
+That file isn't a loaded-values export, or it's larger than the Lab accepts	Tệp này không phải bản xuất giá trị đã tải hoặc vượt quá dung lượng Lab cho phép.
+That file isn't readable text, so it may have been damaged in transit. Nothing was altered.	Tệp không thể đọc dưới dạng văn bản và có thể đã bị hỏng khi truyền. Không có gì bị thay đổi.
+That file lists more than %1$s videos. Nothing was restored.	Tệp liệt kê hơn %1$s video. Không có gì được khôi phục.
+That file was saved by a newer Hushfeed. Update Hushfeed, then try again.	Tệp được lưu bằng phiên bản Hushfeed mới hơn. Hãy cập nhật Hushfeed rồi thử lại.
+That isn't a Hushfeed settings backup. Nothing was altered.	Đây không phải bản sao lưu cài đặt Hushfeed. Không có gì bị thay đổi.
+That isn't a seen-history file saved by Hushfeed. For TikTok's own data export, use Import watch history.	Đây không phải tệp lịch sử xem do Hushfeed lưu. Để nhập dữ liệu xuất của TikTok, hãy dùng mục Nhập lịch sử xem.
+That isn't valid JSON. Check the brackets and quotes.	JSON không hợp lệ. Hãy kiểm tra dấu ngoặc và dấu ngoặc kép.
+That preset isn't recognized. Choose another.	Không nhận diện được cấu hình đặt sẵn này. Hãy chọn cấu hình khác.
+That seen-history file is damaged or was edited. Nothing was restored.	Tệp lịch sử xem bị hỏng hoặc đã bị chỉnh sửa. Không có gì được khôi phục.
+That settings backup contains a feed rule list larger than Hushfeed accepts. Nothing was altered.	Bản sao lưu cài đặt chứa danh sách quy tắc bảng tin lớn hơn mức Hushfeed cho phép. Không có gì bị thay đổi.
+That settings backup holds a value Hushfeed can't read. Nothing was altered.	Bản sao lưu cài đặt chứa giá trị mà Hushfeed không thể đọc. Không có gì bị thay đổi.
+That settings backup holds more Feature Gate Lab rules than the Lab takes. Nothing was altered.	Bản sao lưu chứa nhiều quy tắc Phòng thử nghiệm tính năng hơn mức Lab cho phép. Không có gì bị thay đổi.
+That settings backup is damaged or only partly downloaded. Nothing was altered.	Bản sao lưu cài đặt bị hỏng hoặc chỉ được tải xuống một phần. Không có gì bị thay đổi.
+That settings backup is incomplete, so it may have been cut short. Nothing was altered.	Bản sao lưu cài đặt chưa hoàn chỉnh và có thể đã bị cắt cụt. Không có gì bị thay đổi.
+The backup didn't start and its partial file couldn't be removed. Delete it from the folder you chose.	Quá trình sao lưu chưa bắt đầu và không thể xóa tệp dở dang. Hãy xóa tệp đó khỏi thư mục bạn đã chọn.
+The backup wasn't saved. Back up again when the file app is ready.	Bản sao lưu chưa được lưu. Hãy sao lưu lại khi ứng dụng quản lý tệp sẵn sàng.
