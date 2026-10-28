@@ -52,6 +52,13 @@ jobs:
       - name: Check whitespace errors
         run: git diff --check
 
+      - name: Check official AAPT2 Linux artifact checksum
+        run: |
+          curl --fail --location --silent --show-error \
+            "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/9.1.0-14792394/aapt2-9.1.0-14792394-linux.jar" \
+            --output "$RUNNER_TEMP/aapt2-9.1.0-14792394-linux.jar"
+          sha256sum "$RUNNER_TEMP/aapt2-9.1.0-14792394-linux.jar"
+
       - name: Run TikTok extension tests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
