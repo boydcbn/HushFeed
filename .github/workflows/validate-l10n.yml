@@ -1,0 +1,57 @@
+name: Validate TikTok localization
+
+on:
+  pull_request:
+    paths:
+      - "extensions/tiktok/src/main/l10n/**"
+      - "extensions/tiktok/src/main/java/app/morphe/extension/tiktok/settings/L10nTranslations*.java"
+      - "extensions/tiktok/src/main/java/app/morphe/extension/tiktok/settings/preference/categories/**"
+      - "scripts/gen-l10n.py"
+      - ".github/workflows/validate-l10n.yml"
+      - "extensions/tiktok/src/test/java/app/morphe/extension/tiktok/settings/SettingsL10nTest.java"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: gradle
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK components
+        run: sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Regenerate localization sources
+        run: python scripts/gen-l10n.py
+
+      - name: Check whitespace errors
+        run: git diff --check
+
+      - name: Run TikTok extension tests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
+        run: ./gradlew :extensions:tiktok:test --no-daemon
+
+      - name: Ensure generated localization files are committed
+        if: always()
+        run: git diff --exit-code -- 'extensions/tiktok/src/main/java/app/morphe/extension/tiktok/settings/L10nTranslations*.java' extensions/tiktok/src/main/l10n/en.csv
