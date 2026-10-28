@@ -486,3 +486,96 @@ Use system font	Dùng phông chữ hệ thống
 Video	Video
 Video player settings	Cài đặt trình phát video
 Yes	Có
+Hide the Share via row.	Ẩn hàng Chia sẻ qua.
+Hide the actions row of the share sheet.	Ẩn hàng hành động của bảng chia sẻ.
+A press on Share under a video copies its link instead of opening the share sheet. Press Share again right after to open the sheet.	Chạm vào Chia sẻ bên dưới video sẽ sao chép liên kết thay vì mở bảng chia sẻ. Chạm lại ngay để mở bảng này.
+Hide the row of friends at the top of the share sheet.	Ẩn hàng bạn bè ở đầu bảng chia sẻ.
+Separate names with commas, exactly as the share sheet shows them. These can be friends in the Send to row, apps such as Facebook, or actions such as Create group or Repost. The words copy, save and dislike also work before the sheet has opened.	Phân tách tên bằng dấu phẩy, đúng như cách chúng xuất hiện trong bảng chia sẻ. Đây có thể là bạn bè trong hàng Gửi đến, ứng dụng như Facebook hoặc hành động như Tạo nhóm hay Đăng lại. Các từ sao chép, lưu và không thích cũng hoạt động trước khi bảng chia sẻ mở.
+Shows the Duet and Stitch options even when the creator turned them off. TikTok may still refuse to accept the result.	Hiển thị tùy chọn Duet và Stitch ngay cả khi người sáng tạo đã tắt chúng. TikTok vẫn có thể từ chối kết quả.
+Shows Add to Story in the share sheet and on stories even when the creator turned off content reuse. TikTok may still refuse to post it.	Hiển thị Thêm vào Story trong bảng chia sẻ và trên các Story ngay cả khi người sáng tạo đã tắt tính năng dùng lại nội dung. TikTok vẫn có thể từ chối đăng.
+Wipe TikTok's data and give it a new Android ID and advertising ID on the next start, so it sees a phone it hasn't met. You'll be signed out and lose your drafts. Hushfeed's settings stay.	Xóa dữ liệu TikTok và cấp Android ID cùng ID quảng cáo mới ở lần khởi động tiếp theo, để TikTok nhận diện như một điện thoại mới. Bạn sẽ bị đăng xuất và mất bản nháp. Cài đặt Hushfeed vẫn được giữ.
+TikTok starts as a new phone after the restart. Tap again to cancel.	Sau khi khởi động lại, TikTok sẽ hoạt động như trên điện thoại mới. Chạm lại để hủy.
+Couldn't set up a new device identity. Try again.	Không thể thiết lập danh tính thiết bị mới. Hãy thử lại.
+LIVE share actions	Hành động chia sẻ LIVE
+Until you choose here, this sheet follows your choices under Hide share actions.	Cho đến khi bạn chọn tại đây, bảng này sẽ dùng các lựa chọn trong mục Ẩn hành động chia sẻ.
+Hide share actions	Ẩn hành động chia sẻ
+Pick the actions to remove from the share sheet. Names you typed by hand that TikTok hasn't shown yet stay in the list above.	Chọn hành động cần xóa khỏi bảng chia sẻ. Tên bạn tự nhập mà TikTok chưa hiển thị vẫn được giữ trong danh sách bên trên.
+No share actions have been seen yet	Chưa phát hiện hành động chia sẻ nào
+Open a share sheet once, then return here to choose its actions.	Mở bảng chia sẻ một lần, sau đó quay lại đây để chọn hành động cần ẩn.
+Couldn't save these choices. Try again.	Không thể lưu các lựa chọn này. Hãy thử lại.
+Pick apps to add to the Share via row, before More. Each gets the same link the other apps get.	Chọn ứng dụng để thêm vào hàng Chia sẻ qua, trước mục Thêm. Mỗi ứng dụng sẽ nhận cùng liên kết như các ứng dụng khác.
+Search apps	Tìm ứng dụng
+No apps found	Không tìm thấy ứng dụng nào
+No apps can receive shared links	Không có ứng dụng nào nhận được liên kết chia sẻ
+Pick the shortcuts to remove from the row under a profile's bio, such as TikTok Studio or Your orders. Restart TikTok to apply this.	Chọn phím tắt cần xóa khỏi hàng bên dưới tiểu sử hồ sơ, chẳng hạn TikTok Studio hoặc Đơn hàng của bạn. Khởi động lại TikTok để áp dụng.
+Pick the popups to stop. The list holds the ones TikTok has tried to show on this phone, so a popup appears here after its first showing. CAPTCHA, verification, sign-in, age, ban and legal consent screens are never listed or blocked.	Chọn cửa sổ bật lên cần chặn. Danh sách lưu những cửa sổ TikTok đã thử hiển thị trên điện thoại này, nên một mục sẽ xuất hiện sau lần đầu được hiển thị. CAPTCHA, xác minh, đăng nhập, tuổi, lệnh cấm và chấp thuận pháp lý sẽ không được liệt kê hoặc chặn.
+Preview a translation from a received text message's menu. The original message stays unchanged.	Xem trước bản dịch từ menu của tin nhắn nhận được. Tin nhắn gốc không thay đổi.
+Preview a translation of your draft before sending it.	Xem trước bản dịch tin nhắn nháp trước khi gửi.
+Search Activity notifications already loaded on this screen. Loading more pauses while you search.	Tìm thông báo Hoạt động đã tải trên màn hình này. Việc tải thêm sẽ tạm dừng khi bạn tìm kiếm.
+The New followers row leaves the top of the Inbox. The accounts still follow you.	Hàng Người theo dõi mới sẽ bị xóa khỏi đầu Hộp thư. Các tài khoản đó vẫn theo dõi bạn.
+The Activity row of likes and comments on your posts leaves the Inbox. Notifications about them still arrive.	Hàng Hoạt động về lượt thích và bình luận trên bài đăng sẽ bị xóa khỏi Hộp thư. Bạn vẫn nhận được thông báo về chúng.
+The Archive row leaves the Inbox. Archived chats are kept.	Hàng Lưu trữ sẽ bị xóa khỏi Hộp thư. Các cuộc trò chuyện đã lưu trữ vẫn được giữ.
+The Tako assistant's conversation leaves the Inbox list. The Tako bubble on the feed has its own switch under Feed tabs.	Cuộc trò chuyện với trợ lý Tako sẽ bị xóa khỏi danh sách Hộp thư. Bong bóng Tako trên feed có công tắc riêng trong mục Tab feed.
+Shop order updates and coupon messages no longer take up rows in the Inbox. Your orders are unchanged.	Thông báo cập nhật đơn hàng và tin nhắn mã giảm giá của Shop sẽ không còn chiếm hàng trong Hộp thư. Đơn hàng không thay đổi.
+The Message requests row leaves the Inbox. Requests keep arriving and wait there until you turn this off.	Hàng Yêu cầu tin nhắn sẽ bị xóa khỏi Hộp thư. Yêu cầu mới vẫn được nhận và chờ ở đó cho đến khi bạn tắt tùy chọn này.
+Hide every direct message conversation. Leaves the Inbox empty apart from whatever else is still turned on.	Ẩn mọi cuộc trò chuyện tin nhắn trực tiếp. Hộp thư sẽ trống, ngoại trừ các mục khác vẫn đang bật.
+The voice and video call buttons leave the top of a chat. Calls still ring, and the chat details button stays.	Các nút gọi thoại và gọi video sẽ bị xóa khỏi đầu cuộc trò chuyện. Cuộc gọi vẫn đổ chuông và nút thông tin cuộc trò chuyện vẫn được giữ.
+The sticker suggestion banner stops showing in a chat. Your own stickers are still in the sticker picker.	Biểu ngữ đề xuất nhãn dán sẽ không còn hiển thị trong cuộc trò chuyện. Nhãn dán của bạn vẫn có trong bộ chọn nhãn dán.
+TikTok's suggested reply cells and their intro banner stop showing in a chat. Messages you type or receive are untouched.	Các ô trả lời gợi ý của TikTok và biểu ngữ giới thiệu sẽ không còn hiển thị. Tin nhắn bạn gửi hoặc nhận không bị ảnh hưởng.
+A double tap on a message no longer adds a heart to it. A single tap and a long press work as before.	Chạm hai lần vào tin nhắn sẽ không còn thêm trái tim. Chạm một lần và nhấn giữ vẫn hoạt động như trước.
+Swiping a message sideways no longer starts a reply to it. Taps and long presses work as before.	Vuốt ngang tin nhắn sẽ không còn bắt đầu trả lời. Chạm và nhấn giữ vẫn hoạt động như trước.
+Stop the notifications TikTok sends about popular videos it picked for you. Messages, comments, likes, follows and videos from accounts you follow still come through.	Chặn thông báo về video phổ biến do TikTok chọn cho bạn. Tin nhắn, bình luận, lượt thích, lượt theo dõi và video từ tài khoản bạn theo dõi vẫn được gửi đến.
+Hide the notification saying somebody new followed you before it reaches the drawer. Every other notification is left alone, and the follower still appears in the Inbox.	Ẩn thông báo người mới theo dõi bạn trước khi nó xuất hiện trong ngăn thông báo. Các thông báo khác không bị ảnh hưởng và người theo dõi vẫn xuất hiện trong Hộp thư.
+Turns off TikTok's notification service, so nothing it sends reaches your notification shade and it can't wake your phone. You won't hear about new messages until you open TikTok. Notifications hidden while this is on don't come back. Ongoing ones like media controls stay.	Tắt dịch vụ thông báo của TikTok, nên thông báo mới không xuất hiện trong ngăn thông báo và TikTok không thể đánh thức điện thoại. Bạn sẽ không biết có tin nhắn mới cho đến khi mở TikTok. Thông báo bị ẩn trong thời gian này sẽ không xuất hiện lại; thông báo đang hoạt động như điều khiển phương tiện vẫn được giữ.
+Show the whole Activity and New followers lists instead of stopping at a View all button.	Hiển thị toàn bộ danh sách Hoạt động và Người theo dõi mới thay vì dừng ở nút Xem tất cả.
+Sends one message a day to each person below at the time below, so your streaks keep going on days you don't open TikTok.	Gửi một tin nhắn mỗi ngày cho từng người bên dưới vào thời gian đã chọn, giúp duy trì chuỗi ngay cả khi bạn không mở TikTok.
+Their usernames, separated by commas or new lines. Each person must already have a chat with you.	Tên người dùng, phân tách bằng dấu phẩy hoặc dòng mới. Mỗi người phải có sẵn cuộc trò chuyện với bạn.
+The time of day the message goes out.	Thời điểm trong ngày tin nhắn được gửi.
+What gets sent each day.	Nội dung được gửi mỗi ngày.
+Sends TikTok's feed, search, comments and other app traffic through the proxy below. Videos and LIVE streams still connect directly. Saves and short-link lookups from Hushfeed also connect directly, after their own address checks. Other apps aren't affected.	Chuyển feed, tìm kiếm, bình luận và lưu lượng TikTok khác qua proxy bên dưới. Video và LIVE vẫn kết nối trực tiếp. Thao tác lưu và tra cứu liên kết ngắn của Hushfeed cũng kết nối trực tiếp sau khi kiểm tra địa chỉ. Ứng dụng khác không bị ảnh hưởng.
+The proxy's address, like 192.168.1.20 or proxy.example.com.	Địa chỉ proxy, chẳng hạn 192.168.1.20 hoặc proxy.example.com.
+The port the proxy listens on, like 8080 or 1080.	Cổng proxy đang lắng nghe, chẳng hạn 8080 hoặc 1080.
+Optional. Only connections made by Android itself can sign in to a proxy, not TikTok's own. Leave empty for a proxy without a password.	Không bắt buộc. Chỉ kết nối do Android tạo mới có thể đăng nhập proxy, không áp dụng cho kết nối riêng của TikTok. Để trống nếu proxy không có mật khẩu.
+Optional, used with the user name. It isn't shown, logged or put in a backup.	Không bắt buộc, dùng cùng tên người dùng. Mật khẩu không hiển thị, không ghi nhật ký và không được đưa vào bản sao lưu.
+Makes TikTok see the country and carrier you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.	Khiến TikTok nhận quốc gia và nhà mạng bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; bất kỳ yếu tố nào vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.
+Makes TikTok see the country you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.	Khiến TikTok nhận quốc gia bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; các yếu tố này vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.
+Also change the region TikTok reports internally and set TikTok to the country's time zone. Keeps your interface language. Your IP address and your account's own rules still apply.	Đồng thời thay đổi khu vực TikTok báo cáo nội bộ và đặt múi giờ theo quốc gia. Ngôn ngữ giao diện vẫn được giữ nguyên. Địa chỉ IP và các quy tắc riêng của tài khoản vẫn được áp dụng.
+Also replaces the saved region and country code TikTok sends with every request. Signing in still sends your real region. Your IP address and your account's own rules still apply.	Đồng thời thay thế khu vực đã lưu và mã quốc gia TikTok gửi trong mỗi yêu cầu. Khi đăng nhập, khu vực thật vẫn được gửi đi. Địa chỉ IP và các quy tắc riêng của tài khoản vẫn được áp dụng.
+Two letters, like us, gb or jp.	Hai chữ cái, chẳng hạn us, gb hoặc jp.
+Your operator's numeric code, like 310260.	Mã số nhà mạng, chẳng hạn 310260.
+Your operator's name, like T-Mobile.	Tên nhà mạng, chẳng hạn T-Mobile.
+No matching countries. Try a country name or a two-letter code.	Không có quốc gia phù hợp. Hãy thử tên quốc gia hoặc mã gồm hai chữ cái.
+Search countries	Tìm quốc gia
+TikTok sometimes tests a change that empties the Favorites tab on your profile. This keeps the tab and your saved videos.	Đôi khi TikTok thử nghiệm thay đổi khiến tab Yêu thích trong hồ sơ bị trống. Tùy chọn này giữ lại tab và video đã lưu.
+When TikTok is in dark mode, the list of collections you get by holding the Favorites button is dark too instead of white.	Khi TikTok ở chế độ tối, danh sách bộ sưu tập mở ra khi nhấn giữ nút Yêu thích cũng có nền tối thay vì trắng.
+Under the @username on a profile, say whether it follows you or doesn't follow you back. Follower and following lists mark the accounts you follow that don't follow you back.	Bên dưới @username trên hồ sơ, hiển thị tài khoản đó có theo dõi bạn hay không. Danh sách người theo dõi và đang theo dõi đánh dấu các tài khoản bạn theo dõi nhưng không theo dõi lại.
+Show chosen counts on your own profile on this phone. Other people see the real counts.	Hiển thị số liệu đã chọn trên hồ sơ của bạn ở điện thoại này. Người khác vẫn thấy số liệu thật.
+Show a verified badge on your own profile on this phone. Other people see your real status.	Hiển thị dấu xác minh trên hồ sơ của bạn ở điện thoại này. Người khác vẫn thấy trạng thái thật.
+Hide the restriction notice on your own profile on this phone. TikTok's restrictions and appeals still apply.	Ẩn thông báo hạn chế trên hồ sơ của bạn ở điện thoại này. Các hạn chế và quy trình khiếu nại của TikTok vẫn được áp dụng.
+A profile's share sheet gets an Account facts button. It shows what TikTok already sent about the account: when it joined, its region and language, when its username and display name last changed, whether it's private and whether its liked videos are public. Nothing extra is fetched.	Bảng chia sẻ hồ sơ có nút Thông tin tài khoản. Nút này hiển thị dữ liệu TikTok đã gửi: thời điểm tham gia, khu vực và ngôn ngữ, lần đổi tên người dùng và tên hiển thị gần nhất, trạng thái riêng tư và việc video đã thích có công khai hay không. Không tải thêm dữ liệu.
+An @username in a profile's bio opens that profile when you tap it. The rest of the bio still translates on a tap.	Chạm vào @username trong tiểu sử sẽ mở hồ sơ đó. Phần còn lại của tiểu sử vẫn được dịch khi chạm.
+Hide the purple rewards button beside Add friends on your profile.	Ẩn nút phần thưởng màu tím bên cạnh Thêm bạn bè trên hồ sơ.
+Hide the profile views button at the top of your profile. Your profile view history setting doesn't change.	Ẩn nút lượt xem hồ sơ ở đầu hồ sơ. Cài đặt lịch sử xem hồ sơ không thay đổi.
+Hide the Add friends button at the top of your profile. The menu button stays where it is.	Ẩn nút Thêm bạn bè ở đầu hồ sơ. Nút menu vẫn giữ nguyên vị trí.
+Comma separated names exactly as the row under a profile's bio shows them, such as TikTok Studio or Your orders. Restart TikTok to apply this.	Nhập tên phân tách bằng dấu phẩy, đúng như hàng bên dưới tiểu sử hiển thị, chẳng hạn TikTok Studio hoặc Đơn hàng của bạn. Khởi động lại TikTok để áp dụng.
+Hide the Thoughts bubble TikTok shows above a profile picture, and the prompt to share one on your own profile. Restart TikTok to apply this.	Ẩn bong bóng Thoughts phía trên ảnh hồ sơ và lời nhắc chia sẻ Thoughts trên hồ sơ của bạn. Khởi động lại TikTok để áp dụng.
+Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one.	Hiển thị Thoughts trên hồ sơ và Hộp thư, cùng lời nhắc chia sẻ, cho các tài khoản chưa được TikTok bật tính năng này. Máy chủ TikTok vẫn có thể từ chối đăng.
+Hide Balance from the menu your profile's top right button opens. Your coins and gifts stay as they are.	Ẩn mục Số dư trong menu mở từ nút góc trên bên phải hồ sơ. Xu và quà tặng không thay đổi.
+Keep the TikTok Minis entry in the menu your profile's top right button opens, and hide the row of app icons under it so the menu is shorter.	Giữ mục TikTok Minis trong menu mở từ nút góc trên bên phải hồ sơ, đồng thời ẩn hàng biểu tượng ứng dụng bên dưới để menu ngắn hơn.
+Opens TikTok's own profile background editor in Edit profile, and shows the backgrounds other profiles have set. TikTok's servers may still refuse to save one for an account TikTok hasn't offered it to yet.	Mở trình chỉnh sửa nền hồ sơ của TikTok trong mục Sửa hồ sơ và hiển thị nền các hồ sơ khác đã thiết lập. Máy chủ TikTok vẫn có thể từ chối lưu nền cho tài khoản chưa được cung cấp tính năng.
+Keeps logging until you turn it off, even after a restart. TikTok can feel slower while it's on.	Tiếp tục ghi nhật ký cho đến khi bạn tắt, kể cả sau khi khởi động lại. TikTok có thể chậm hơn khi bật.
+While diagnostic logging is on, a message names the part of Hushfeed that failed. Off keeps failures in the report only.	Khi bật ghi nhật ký chẩn đoán, thông báo sẽ cho biết phần Hushfeed gặp lỗi. Khi tắt, lỗi chỉ được ghi trong báo cáo.
+Saves TikTok's latest crash report on this phone so it can go in the diagnostic report.	Lưu báo cáo sự cố TikTok gần nhất trên điện thoại để đưa vào báo cáo chẩn đoán.
+Clears the recent events, saved crash reports, a recorded screen layout and the Hook status results above.	Xóa sự kiện gần đây, báo cáo sự cố đã lưu, bố cục màn hình đã ghi và kết quả Trạng thái hook ở trên.
+Recording gate reads. Use a feature, then return here to stop.	Đang ghi các lần đọc cổng. Hãy dùng một tính năng rồi quay lại đây để dừng.
+Recorded gate reads (%1$d)	Các lần đọc cổng đã ghi (%1$d)
+Last recording: 1 gate.	Bản ghi gần nhất: 1 cổng.
+Last recording: %1$d gates.	Bản ghi gần nhất: %1$d cổng.
+No gate reads were recorded. Use a TikTok feature while recording.	Không ghi nhận lần đọc cổng nào. Hãy dùng tính năng TikTok trong khi đang ghi.
+Preview shortened. Save report keeps the full report.	Bản xem trước đã được rút gọn. Lưu báo cáo để giữ toàn bộ nội dung.
+Use Save report for this large report	Hãy dùng Lưu báo cáo cho báo cáo lớn này.
+Report saved to %1$s	Đã lưu báo cáo vào %1$s
+The last report is still being saved	Báo cáo trước đó vẫn đang được lưu
+The report couldn't be saved. Try again.	Không thể lưu báo cáo. Hãy thử lại.
+Couldn't copy the report. Use Save report instead.	Không thể sao chép báo cáo. Hãy dùng Lưu báo cáo.
+Couldn't start the report export. Try again in a moment.	Không thể bắt đầu xuất báo cáo. Hãy thử lại sau ít phút.
