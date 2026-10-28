@@ -1945,3 +1945,123 @@ Importing new history ended Undo for the earlier clear. You can clear the import
 Inserted cards	Thẻ được chèn
 Install one, then come back here.	Hãy cài đặt một ứng dụng rồi quay lại đây.
 Joined	Đã tham gia
+Feed capture started. Scroll until the problem shows up, then come back here to stop.	Đã bắt đầu ghi lại feed. Cuộn đến khi sự cố xuất hiện rồi quay lại đây để dừng.
+Keep playing in the background is on in Hushfeed's Playback settings, so TikTok gets 2 for this key and an override here has no effect until that switch is off.	Tùy chọn Tiếp tục phát trong nền đang bật trong cài đặt Phát lại của Hushfeed, nên TikTok nhận giá trị 2 cho khóa này. Ghi đè tại đây không có tác dụng cho đến khi tắt công tắc đó.
+Keep this structured value to %1$s KB or less.	Giữ giá trị có cấu trúc này ở mức %1$s KB trở xuống.
+LIVE	LIVE
+LIVE chat auto-translate	Tự động dịch trò chuyện LIVE
+LIVE recording saved to %1$s	Đã lưu bản ghi LIVE vào %1$s
+LIVE replays	Bản phát lại LIVE
+LIVE settings	Cài đặt LIVE
+LIVE videos	Video LIVE
+Lab data reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại dữ liệu Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
+Lab data was over its rule limit, so it was cleared without an undo copy. Restart TikTok to apply this.	Dữ liệu Lab vượt quá giới hạn quy tắc nên đã bị xóa mà không tạo bản sao để hoàn tác. Khởi động lại TikTok để áp dụng.
+Lab overrides reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại các mục ghi đè Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
+Lab settings put back. Restart TikTok to apply this.	Đã khôi phục cài đặt Lab. Khởi động lại TikTok để áp dụng.
+Last change put back. Restart TikTok to apply all changes.	Đã hoàn tác thay đổi gần nhất. Khởi động lại TikTok để áp dụng mọi thay đổi.
+Last change put back. The Feature Gate Lab rules were for another TikTok version and were left out. Restart TikTok to apply all changes.	Đã hoàn tác thay đổi gần nhất. Quy tắc Feature Gate Lab thuộc phiên bản TikTok khác nên bị bỏ qua. Khởi động lại TikTok để áp dụng mọi thay đổi.
+Last original value	Giá trị gốc gần nhất
+Later	Để sau
+Layout, search, profile and system	Bố cục, tìm kiếm, hồ sơ và hệ thống
+Leave maximum empty to keep it unlimited.	Để trống giới hạn tối đa để không giới hạn.
+Length and views per like	Thời lượng và lượt xem trên lượt thích
+Likes	Lượt thích
+Live photo clips: %1$s	Đoạn video ảnh động: %1$s
+Loaded-value file export failed	Xuất tệp giá trị đã tải thất bại
+Loading cancelled. The list is incomplete.	Đã hủy tải. Danh sách chưa đầy đủ.
+Loading page %1$s...	Đang tải trang %1$s...
+Loading the gate list and TikTok's current values…	Đang tải danh sách cổng và giá trị hiện tại của TikTok…
+Locked all week	Khóa cả tuần
+Locked now, until %1$s	Đang khóa đến %1$s
+Log diagnostics for 15 minutes	Ghi nhật ký chẩn đoán trong 15 phút
+Logging diagnostics until %1$s	Đang ghi nhật ký chẩn đoán đến %1$s
+Logging until %1$s. Tap to stop now.	Đang ghi đến %1$s. Chạm để dừng ngay.
+Logging, hook status and reports	Nhật ký, trạng thái hook và báo cáo
+Logs for 15 minutes, then stops on its own. Restarting TikTok doesn't move the end, and the switch above stays as you set it.	Ghi nhật ký trong 15 phút rồi tự dừng. Khởi động lại TikTok không thay đổi thời điểm kết thúc; công tắc phía trên vẫn giữ nguyên lựa chọn.
+Long-press menu on every post	Menu nhấn giữ trên mọi bài đăng
+Looking for apps	Đang tìm ứng dụng
+Make it yours.	Tùy chỉnh theo ý bạn.
+Making a video of the photos	Đang tạo video từ ảnh
+Manage topics	Quản lý chủ đề
+Marked as not interested	Đã đánh dấu Không quan tâm
+Matches the rule: %1$s	Khớp quy tắc: %1$s
+Media config (VE)	Cấu hình phương tiện (VE)
+Media save	Lưu phương tiện
+Message bubble colors, Inbox archive and sharing to more chats	Màu bong bóng tin nhắn, lưu trữ Hộp thư và chia sẻ đến nhiều cuộc trò chuyện hơn
+Mini dramas	Phim ngắn dạng drama
+More hashtags per post	Nhiều hashtag hơn cho mỗi bài đăng
+More items are available.	Còn mục khác.
+More than %1$d comments were loaded, so the rest aren't in the file.	Đã tải hơn %1$d bình luận nên phần còn lại không nằm trong tệp.
+Muted	Đã tắt tiếng
+New comment emoji	Emoji bình luận mới
+New device identity	Danh tính thiết bị mới
+New value	Giá trị mới
+Next lock starts %1$s	Lần khóa tiếp theo bắt đầu lúc %1$s
+Next message: today at %1$s.	Tin nhắn tiếp theo: hôm nay lúc %1$s.
+Next message: tomorrow at %1$s.	Tin nhắn tiếp theo: ngày mai lúc %1$s.
+No app on this phone opens that file	Không có ứng dụng nào trên điện thoại mở được tệp đó
+No app on this phone opens web links	Không có ứng dụng nào trên điện thoại mở được liên kết web
+No apps match this search	Không có ứng dụng nào khớp tìm kiếm
+No chat with @%1$s turned up on this account. Open your chat with them once, then try again.	Không tìm thấy cuộc trò chuyện với @%1$s trên tài khoản này. Hãy mở cuộc trò chuyện với họ một lần rồi thử lại.
+No cleared videos fit the current history limits.	Không có video đã xóa nào phù hợp giới hạn lịch sử hiện tại.
+No comments are loaded to export yet.	Chưa tải bình luận nào để xuất.
+No creator to block on this video	Không có nhà sáng tạo để chặn trong video này
+Pause Hushfeed's switches after TikTok restarts. Your settings stay saved. Changes made when you patched, like the app's name or icon, stay.	Tạm dừng các công tắc Hushfeed sau khi TikTok khởi động lại. Cài đặt vẫn được lưu. Những thay đổi khi vá ứng dụng như tên hoặc biểu tượng vẫn được giữ.
+Paused	Đã tạm dừng
+Photos can't be saved to the folder in that file, so your photo folder was kept	Không thể lưu ảnh vào thư mục trong tệp đó nên thư mục ảnh hiện tại được giữ nguyên
+Pick a .ttf or .otf file of up to %1$s MB.	Chọn tệp .ttf hoặc .otf có dung lượng tối đa %1$s MB.
+Pick all	Chọn tất cả
+Pick for saving	Chọn để lưu
+Picked the first %1$s. Save them, then tap Pick all again for the rest.	Đã chọn %1$s mục đầu tiên. Hãy lưu chúng rồi chạm Chọn tất cả lần nữa để chọn phần còn lại.
+Picked videos	Video đã chọn
+Play	Phát
+Playing at %1$sx	Đang phát ở tốc độ %1$sx
+Post age	Độ cũ bài đăng
+Post dates in the feed	Ngày đăng trên feed
+Preset applied. Restart TikTok to use it.	Đã áp dụng mẫu. Khởi động lại TikTok để sử dụng.
+Preset saved. Turn on overrides in the Lab to use it.	Đã lưu mẫu. Hãy bật ghi đè trong Lab để sử dụng.
+Preview translation	Xem trước bản dịch
+Preview with a made-up post:	Xem trước bằng bài đăng giả lập:
+Privacy and app	Quyền riêng tư và ứng dụng
+Private account	Tài khoản riêng tư
+Problem detected.	Đã phát hiện sự cố.
+Problem detected. Story views may still be reported. Check Ghost mode diagnostics. The warning stays until TikTok restarts.	Đã phát hiện sự cố. Lượt xem Story vẫn có thể được báo cáo. Hãy kiểm tra chẩn đoán Chế độ ẩn. Cảnh báo sẽ còn đến khi TikTok khởi động lại.
+Profile banner	Biểu ngữ hồ sơ
+Profile banner and new profile layout	Biểu ngữ hồ sơ và bố cục hồ sơ mới
+Profile picture	Ảnh đại diện
+Promotional music	Nhạc quảng bá
+Proof	Bằng chứng
+Public	Công khai
+Put %1$s in %2$s first.	Trước tiên, hãy đặt %1$s vào %2$s.
+Put back the settings saved before the last restore or reset.	Khôi phục cài đặt đã lưu trước lần khôi phục hoặc đặt lại gần nhất.
+Put every setting back to its default straight away. Your current settings are kept for Undo.	Đưa mọi cài đặt về mặc định ngay lập tức. Cài đặt hiện tại được giữ lại để hoàn tác.
+Put the comment search away	Ẩn ô tìm kiếm bình luận
+Putting seen videos back	Đang khôi phục video đã xem
+Putting the saved videos back	Đang khôi phục video đã lưu
+Putting the settings back to their defaults	Đang đưa cài đặt về mặc định
+Quality, files, subtitles and hand-off	Chất lượng, tệp, phụ đề và chuyển sang ứng dụng khác
+Quality, speed and auto-advance	Chất lượng, tốc độ và tự chuyển tiếp
+Read-only list. Accounts won't be opened or unblocked.	Danh sách chỉ đọc. Hồ sơ sẽ không được mở và tài khoản sẽ không được bỏ chặn.
+Reading the font file	Đang đọc tệp phông chữ
+Reading the seen-history file	Đang đọc tệp lịch sử đã xem
+Reading watch history	Đang đọc lịch sử xem
+Record	Ghi
+Record a screen's layout	Ghi lại bố cục màn hình
+Record this LIVE from now	Bắt đầu ghi LIVE này từ bây giờ
+Recording files need recovery	Các tệp ghi cần được khôi phục
+Recording stopped early. What was recorded is saved to %1$s	Bản ghi đã dừng sớm. Nội dung đã ghi được lưu tại %1$s
+Recording this LIVE from now	Đang ghi LIVE này từ bây giờ
+Recording this LIVE's screen	Đang ghi màn hình LIVE này
+Recording this LIVE's screen from now	Bắt đầu ghi màn hình LIVE này từ bây giờ
+Recording this LIVE's screen from now, without sound	Bắt đầu ghi màn hình LIVE này từ bây giờ, không có âm thanh
+Recording what the feed filters keep and hide. Tap to stop and save it in %1$s.	Đang ghi lại nội dung bộ lọc feed giữ và ẩn. Chạm để dừng và lưu tại %1$s.
+Recovered an interrupted settings change. Restart TikTok to apply this.	Đã khôi phục thay đổi cài đặt bị gián đoạn. Khởi động lại TikTok để áp dụng.
+Recovered recording saved to %1$s	Đã lưu bản ghi được khôi phục tại %1$s
+Refresh values	Làm mới giá trị
+Refreshing TikTok's current values…	Đang làm mới giá trị hiện tại của TikTok…
+Remove the imported font	Xóa phông chữ đã nhập
+Removed %1$s	Đã xóa %1$s
+Reopen Hushfeed settings, then choose the file	Mở lại cài đặt Hushfeed rồi chọn tệp
+Replace values when TikTok asks for them	Thay thế giá trị khi TikTok yêu cầu
+Report a problem	Báo cáo sự cố
+Repost with a comment	Đăng lại kèm bình luận
