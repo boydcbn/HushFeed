@@ -924,3 +924,125 @@ Override store region (experimental)	Ghi đè khu vực cửa hàng (thử nghi�
 Match region fields in requests	Đồng bộ trường khu vực trong yêu cầu
 Enter a valid two-letter country code	Nhập mã quốc gia hợp lệ gồm hai chữ cái
 An operator code is five or six digits, like 310260	Mã nhà mạng gồm 5 hoặc 6 chữ số, chẳng hạn 310260
+Hide comments that contain any of the words below, or that come from the accounts below.	Ẩn bình luận chứa bất kỳ từ nào bên dưới hoặc đến từ các tài khoản được liệt kê.
+Separate usernames or display names with commas. Their comments are hidden.	Phân tách tên người dùng hoặc tên hiển thị bằng dấu phẩy. Bình luận của họ sẽ bị ẩn.
+Hide picture comments	Ẩn bình luận có ảnh
+Hide spam comments	Ẩn bình luận rác
+Hide comment polls	Ẩn bình chọn trong bình luận
+Hide voting cards and poll results above the comments, including polls that have ended.	Ẩn thẻ bình chọn và kết quả bình chọn phía trên bình luận, kể cả bình chọn đã kết thúc.
+Hide reply previews	Ẩn bản xem trước câu trả lời
+Don't open a reply under each comment. View replies still shows all of them.	Không tự mở câu trả lời bên dưới từng bình luận. Mục Xem câu trả lời vẫn hiển thị đầy đủ.
+Hide comment surveys	Ẩn khảo sát trong bình luận
+Hide the question cards TikTok sometimes puts in a comment list to ask what you think.	Ẩn thẻ câu hỏi mà TikTok đôi khi chèn vào danh sách bình luận để hỏi ý kiến.
+Hide comment box buttons	Ẩn nút trong ô bình luận
+Thumbs down blocks the commenter	Nút không thích sẽ chặn người bình luận
+Block from a comment's menu	Chặn từ menu bình luận
+Writing	Đang viết
+Lift text length limits	Bỏ giới hạn độ dài văn bản
+Allow photo comments	Cho phép bình luận bằng ảnh
+Brings back the translation rows on TikTok's Language page, under Settings and privacy, for accounts that only see App language there.	Khôi phục các mục dịch trên trang Ngôn ngữ của TikTok trong Cài đặt và quyền riêng tư cho tài khoản chỉ thấy Ngôn ngữ ứng dụng.
+For accounts TikTok took translation away from. Brings back See translation under video descriptions and in captions. Restart TikTok to see the change.	Khôi phục Xem bản dịch bên dưới mô tả video và trong chú thích cho tài khoản bị TikTok tắt tính năng dịch. Khởi động lại TikTok để áp dụng.
+For accounts TikTok took translation away from. Brings back See translation under video descriptions and in captions, and the translation rows on the Language page in Settings and privacy. Restart TikTok to see it on videos.	Khôi phục Xem bản dịch bên dưới mô tả video, trong chú thích và các mục dịch trên trang Ngôn ngữ trong Cài đặt và quyền riêng tư cho tài khoản bị TikTok tắt tính năng dịch. Khởi động lại TikTok để thấy thay đổi trên video.
+Fall back to the watermarked copy	Dùng bản có hình mờ nếu cần
+Save the sound as well	Lưu cả âm thanh
+Opus (.ogg), a smaller file	Opus (.ogg), tệp nhỏ hơn
+Opus needs Android 10 or later, so sounds save as TikTok sent them.	Opus yêu cầu Android 10 trở lên; nếu không, âm thanh được lưu theo định dạng TikTok gửi.
+Save the cover as well	Lưu cả ảnh bìa
+Save cover button in the share sheet	Nút Lưu ảnh bìa trong bảng chia sẻ
+Show download progress	Hiển thị tiến trình tải xuống
+Show a progress bar while a video saves.	Hiển thị thanh tiến trình khi lưu video.
+Pick videos to save from profile grids	Chọn video để lưu từ lưới hồ sơ
+Save details beside the video	Lưu thông tin bên cạnh video
+Save details as JSON	Lưu thông tin dưới dạng JSON
+Tag saved videos with their details	Gắn thông tin vào video đã lưu
+Write the username and caption on the video	Ghi tên người dùng và chú thích lên video
+Mark saved videos	Đánh dấu video đã lưu
+Photos and stickers	Ảnh và nhãn dán
+Keep photos as TikTok sent them	Giữ nguyên ảnh theo định dạng TikTok gửi
+Choose %1$d to %2$d videos. Values outside this range use the nearest valid limit. Restart TikTok to apply this.	Chọn từ %1$d đến %2$d video. Giá trị ngoài khoảng sẽ được đưa về giới hạn hợp lệ gần nhất. Khởi động lại TikTok để áp dụng.
+Account facts on profiles	Thông tin tài khoản trên hồ sơ
+Tap @names in bios	Chạm vào @tên trong tiểu sử
+Hide the rewards shortcut	Ẩn lối tắt phần thưởng
+Hide profile views	Ẩn lượt xem hồ sơ
+Hide profile shortcuts by name	Ẩn lối tắt hồ sơ theo tên
+Hide Thoughts on profiles	Ẩn Thoughts trên hồ sơ
+Turn on Thoughts	Bật Thoughts
+Hide Balance in the profile menu	Ẩn Số dư trong menu hồ sơ
+Hide the TikTok Minis icons in the profile menu	Ẩn biểu tượng TikTok Minis trong menu hồ sơ
+Profile background	Nền hồ sơ
+Posting	Đăng bài
+Always upload in HD	Luôn tải lên ở HD
+Hide the AI Cast button	Ẩn nút AI Cast
+Hide the status bar	Ẩn thanh trạng thái
+Stop TikTok loading upcoming videos ahead of time and setting up notifications. You won't get notifications, messages included, while this is on. Videos may take a moment longer to start.	Ngăn TikTok tải trước video sắp phát và thiết lập thông báo. Khi bật, bạn sẽ không nhận thông báo, kể cả tin nhắn. Video có thể mất thêm chút thời gian để bắt đầu phát.
+Stop TikTok loading upcoming videos ahead of time. It uses less data, but videos may take a moment longer to start.	Ngăn TikTok tải trước các video tiếp theo. Tùy chọn này giảm dữ liệu sử dụng nhưng video có thể bắt đầu phát chậm hơn một chút.
+Animated stickers and GIFs decode each frame as it's shown instead of a few ahead, so they use a little less memory. Applies to the next ones that load.	Nhãn dán động và GIF sẽ giải mã từng khung hình khi hiển thị thay vì giải mã trước nhiều khung, giúp giảm nhẹ bộ nhớ sử dụng. Áp dụng cho nội dung tải sau khi bật.
+Filter location-tagged videos	Lọc video có gắn địa điểm
+Hide paid partnerships	Ẩn nội dung hợp tác trả phí
+Hide promotional music	Ẩn nhạc quảng bá
+Minimum video length	Thời lượng video tối thiểu
+%1$s second	%1$s giây
+%1$s seconds	%1$s giây
+Maximum video length	Thời lượng video tối đa
+Maximum post age	Độ cũ tối đa của bài đăng
+%1$s day	%1$s ngày
+%1$s days	%1$s ngày
+%1$s view per like	%1$s lượt xem mỗi lượt thích
+%1$s views per like	%1$s lượt xem mỗi lượt thích
+%1$s view per comment	%1$s lượt xem mỗi bình luận
+%1$s views per comment	%1$s lượt xem mỗi bình luận
+Views range	Khoảng lượt xem
+Show only videos with this many views.	Chỉ hiển thị video có số lượt xem trong khoảng này.
+Show only videos with this many likes.	Chỉ hiển thị video có số lượt thích trong khoảng này.
+Show only videos with this many comments.	Chỉ hiển thị video có số bình luận trong khoảng này.
+Home tab name	Tên tab Trang chủ
+Friends tab name	Tên tab Bạn bè
+Profile tab name	Tên tab Hồ sơ
+Shop tab name	Tên tab Shop
+Hide the Tako bubble	Ẩn bong bóng Tako
+A name of your own under this tab's icon. Leave it empty to keep TikTok's.	Tên tùy chỉnh hiển thị dưới biểu tượng tab này. Để trống để giữ tên của TikTok.
+Hide stories tray	Ẩn hàng Story
+Hide suggested accounts	Ẩn tài khoản được đề xuất
+The accounts TikTok suggests you follow no longer take up rows in the Inbox.	Các tài khoản TikTok đề xuất theo dõi sẽ không còn chiếm hàng trong Hộp thư.
+Hide call buttons	Ẩn nút gọi
+Hide sticker suggestions	Ẩn gợi ý nhãn dán
+Hide suggested replies	Ẩn câu trả lời gợi ý
+Turn off double tap to react	Tắt phản ứng bằng cách chạm hai lần
+Turn off swipe to reply	Tắt vuốt để trả lời
+Hide new follower notifications	Ẩn thông báo người theo dõi mới
+Turn off push notifications	Tắt thông báo đẩy
+Hide message streaks	Ẩn chuỗi tin nhắn
+Expand activity list	Mở rộng danh sách Hoạt động
+Streak	Chuỗi liên tiếp
+Keep a streak going	Duy trì chuỗi liên tiếp
+Who to message	Người nhận tin nhắn
+When to send	Thời điểm gửi
+Message	Tin nhắn
+Stop TikTok reading what you copied. Copying a link from TikTok still works.	Ngăn TikTok đọc nội dung bạn đã sao chép. Sao chép liên kết từ TikTok vẫn hoạt động.
+Stop TikTok's speed tests	Ngăn TikTok kiểm tra tốc độ
+Show when the camera or microphone is in use	Hiển thị khi camera hoặc micro đang được sử dụng
+Cuts the tracking bits out of links you share.	Loại bỏ thành phần theo dõi khỏi liên kết bạn chia sẻ.
+Swap the website in shared links	Thay tên trang web trong liên kết chia sẻ
+Protect external pages in TikTok's browser	Bảo vệ trang web bên ngoài trong trình duyệt TikTok
+Screen time	Thời gian sử dụng
+Lock the feed at set times	Khóa feed theo giờ đã đặt
+Open shared videos alone	Mở riêng video được chia sẻ
+Don't start the feed on returning	Không tự chạy feed khi quay lại
+Don't start the first video	Không tự phát video đầu tiên
+Today: %1$d video	Hôm nay: %1$d video
+Today: %1$d videos	Hôm nay: %1$d video
+Today: %1$d minute	Hôm nay: %1$d phút
+Today: %1$d minutes	Hôm nay: %1$d phút
+Let the last video finish	Cho video cuối phát hết
+Show what is left of the budget	Hiển thị hạn mức còn lại
+Start the day at	Bắt đầu ngày lúc
+Lock today's budget	Khóa hạn mức hôm nay
+Times you can open the feed anyway	Số lần vẫn có thể mở feed
+%1$s time	%1$s lần
+%1$s times	%1$s lần
+Wait a day to loosen the budget	Chờ sang ngày mới để nới hạn mức
+Today's budget is locked. This can be changed again at %1$s.	Hạn mức hôm nay đã khóa. Có thể thay đổi lại lúc %1$s.
+Hide sharing apps	Ẩn ứng dụng chia sẻ
+Hide video actions	Ẩn thao tác video
+Hide the Send to row	Ẩn hàng Gửi đến
+Hide people and options by name	Ẩn người và tùy chọn theo tên
