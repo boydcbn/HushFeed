@@ -478,6 +478,7 @@ Cover saved to %1$s,Cover saved to %1$s
 Create,Create
 Creator exceptions,Creator exceptions
 Creators and sounds,Creators and sounds
+Creators hidden on this phone,Creators hidden on this phone
 Creators you hid from a video. Search the list and remove one at a time.,Creators you hid from a video. Search the list and remove one at a time.
 Crop the video until it covers the whole window. On a tall phone the black strip TikTok leaves under a video goes and so does a little of each side.,Crop the video until it covers the whole window. On a tall phone the black strip TikTok leaves under a video goes and so does a little of each side.
 Current,Current
@@ -532,6 +533,7 @@ Don't open a reply under each comment. View replies still shows all of them.,Don
 Don't save new searches,Don't save new searches
 Don't start the feed on returning,Don't start the feed on returning
 Don't start the first video,Don't start the first video
+Done,Done
 Double tap,Double tap
 Double tap by corner,Double tap by corner
 "Download lists the qualities this video comes in, with the size TikTok gives for each, and saves the one you pick. The quality above stays as it is for the next save.","Download lists the qualities this video comes in, with the size TikTok gives for each, and saves the one you pick. The quality above stays as it is for the next save."
@@ -680,6 +682,7 @@ Hand-off,Hand-off
 Handle or id,Handle or id
 Haptic style,Haptic style
 Haptics on the tabs,Haptics on the tabs
+Hidden %1$s on this phone,Hidden %1$s on this phone
 Hidden LIVE categories,Hidden LIVE categories
 Hidden commenters,Hidden commenters
 Hidden: %1$s,Hidden: %1$s
@@ -851,6 +854,7 @@ Hide the tab names above the feed,Hide the tab names above the feed
 Hide the track name beside the caption.,Hide the track name beside the caption.
 Hide the unread badges on the bottom tabs,Hide the unread badges on the bottom tabs
 "Hide the whole column on the right, from the avatar down to the music disc.","Hide the whole column on the right, from the avatar down to the music disc."
+Hide this creator on this phone,Hide this creator on this phone
 Hide unpersonalized For You videos,Hide unpersonalized For You videos
 Hide unverified content notices,Hide unverified content notices
 Hide verified accounts,Hide verified accounts
@@ -1235,6 +1239,7 @@ Open external links directly,Open external links directly
 Open messages,Open messages
 Open profile and story website links in your system browser instead of TikTok's in-app browser.,Open profile and story website links in your system browser instead of TikTok's in-app browser.
 Open setting location,Open setting location
+Open shared videos alone,Open shared videos alone
 Open the Story when a creator is LIVE,Open the Story when a creator is LIVE
 Open the comments at full height,Open the comments at full height
 Open the feed anyway,Open the feed anyway
@@ -1701,6 +1706,7 @@ Show the switch,Show the switch
 Show the time beside the progress bar,Show the time beside the progress bar
 Show the time played and the video's length at the end of the progress bar while it's on screen.,Show the time played and the video's length at the end of the progress bar while it's on screen.
 Show the time to the second,Show the time to the second
+Show the time zone,Show the time zone
 Show the whole Activity and New followers lists instead of stopping at a View all button.,Show the whole Activity and New followers lists instead of stopping at a View all button.
 "Show the whole video instead of cropping it to the window. Nothing changes on a tall phone, where it already fits. On a folding phone opened up, a squarer screen or a split view the sides or the ends stop being cut off. Photo slideshows get the same treatment on a squarer screen.","Show the whole video instead of cropping it to the window. Nothing changes on a tall phone, where it already fits. On a folding phone opened up, a squarer screen or a split view the sides or the ends stop being cut off. Photo slideshows get the same treatment on a squarer screen."
 Show translation,Show translation
@@ -1780,6 +1786,7 @@ Sticker saved to %1$s,Sticker saved to %1$s
 Stickers: %1$s,Stickers: %1$s
 Still here. Nothing is waiting.,Still here. Nothing is waiting.
 Still reading the record. Tap again in a moment.,Still reading the record. Tap again in a moment.
+Still saving the last one,Still saving the last one
 Still waiting for the file app.,Still waiting for the file app.
 Still waiting for the file app. Tap to stop waiting.,Still waiting for the file app. Tap to stop waiting.
 Stop,Stop
