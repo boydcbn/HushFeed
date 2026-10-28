@@ -1323,3 +1323,52 @@ Hide search rewards	Ẩn phần thưởng tìm kiếm
 Hide search suggestions above comments	Ẩn gợi ý tìm kiếm phía trên phần bình luận
 Hide sharing apps	Ẩn ứng dụng chia sẻ
 Hide shopping LIVEs	Ẩn LIVE mua sắm
+Fold the search into a button	Thu gọn tìm kiếm thành một nút
+Hide the status bar	Ẩn thanh trạng thái
+See-through status bar	Thanh trạng thái trong suốt
+Show follow status	Hiển thị trạng thái theo dõi
+Search loaded activity	Tìm kiếm hoạt động đã tải
+Logging, hook status and reports	Nhật ký, trạng thái hook và báo cáo
+No current value and no active override	Không có giá trị hiện tại hoặc ghi đè đang hoạt động
+Overrides are disabled in the Feature Gate Lab.	Các tùy chọn ghi đè đang bị tắt trong Phòng thử nghiệm tính năng.
+Overrides disabled. Restart TikTok to apply this.	Đã tắt ghi đè. Khởi động lại TikTok để áp dụng.
+Overrides enabled. Restart TikTok to apply this.	Đã bật ghi đè. Khởi động lại TikTok để áp dụng.
+Hushfeed is paused. Ghost mode isn't active.	Hushfeed đang tạm dừng. Chế độ ẩn danh không hoạt động.
+Hushfeed's switches are paused. Your settings stay saved. Changes made when you patched, like the app's name or icon, stay.	Các công tắc của Hushfeed đang tạm dừng. Cài đặt vẫn được lưu. Những thay đổi khi vá ứng dụng, như tên hoặc biểu tượng, vẫn được giữ.
+Pause Hushfeed's switches after TikTok restarts. Your settings stay saved. Changes made when you patched, like the app's name or icon, stay.	Tạm dừng các công tắc của Hushfeed sau khi TikTok khởi động lại. Cài đặt vẫn được lưu. Những thay đổi khi vá ứng dụng, như tên hoặc biểu tượng, vẫn được giữ.
+Layout	Bố cục
+Layout, search, profile and system	Bố cục, tìm kiếm, hồ sơ và hệ thống
+Light	Sáng
+Profile banner and new profile layout	Ảnh bìa hồ sơ và bố cục hồ sơ mới
+Message bubble colors, Inbox archive and sharing to more chats	Màu bong bóng tin nhắn, lưu trữ hộp thư và chia sẻ đến nhiều cuộc trò chuyện
+Long-press Home for Hushfeed settings	Nhấn giữ Trang chủ để mở cài đặt Hushfeed
+Long-press Profile for Watch history	Nhấn giữ Hồ sơ để mở lịch sử xem
+Open Hushfeed settings	Mở cài đặt Hushfeed
+Settings couldn't open	Không thể mở cài đặt
+Settings couldn't refresh completely. Reopen settings and try again.	Không thể làm mới hoàn toàn cài đặt. Hãy mở lại cài đặt và thử lại.
+Profile background	Nền hồ sơ
+Profile banner	Ảnh bìa hồ sơ
+Profile picture	Ảnh đại diện
+Profile tab name	Tên thẻ hồ sơ
+Same as profile grids	Giống lưới video trên hồ sơ
+Pick videos to save from profile grids	Chọn video để lưu từ lưới video trên hồ sơ
+Save a profile picture on a long press	Nhấn giữ để lưu ảnh đại diện
+Use an imported font	Dùng phông chữ đã nhập
+Import a font file	Nhập tệp phông chữ
+No font is imported	Chưa nhập phông chữ nào
+Reading the font file	Đang đọc tệp phông chữ
+Remove the imported font	Xóa phông chữ đã nhập
+That file is larger than %1$s MB. Choose a smaller font file.	Tệp lớn hơn %1$s MB. Hãy chọn tệp phông chữ nhỏ hơn.
+That file isn't a font Android can use. Choose a .ttf or .otf file.	Tệp này không phải phông chữ Android hỗ trợ. Hãy chọn tệp .ttf hoặc .otf.
+Pick a .ttf or .otf file of up to %1$s MB.	Chọn tệp .ttf hoặc .otf có dung lượng tối đa %1$s MB.
+Save details as JSON	Lưu chi tiết dưới dạng JSON
+Record a screen's layout	Ghi lại bố cục màn hình
+Screen layout recorded. Export the diagnostic report to send it.	Đã ghi lại bố cục màn hình. Hãy xuất báo cáo chẩn đoán để gửi đi.
+Loaded-value file export failed	Không thể xuất tệp giá trị đã tải
+Restore settings	Khôi phục cài đặt
+Restoring your settings	Đang khôi phục cài đặt
+Settings backup saved	Đã lưu bản sao lưu cài đặt
+Settings restored. Restart TikTok to apply all changes.	Đã khôi phục cài đặt. Khởi động lại TikTok để áp dụng mọi thay đổi.
+Save, restore, reset and undo your settings	Lưu, khôi phục, đặt lại và hoàn tác cài đặt
+Put every setting back to its default straight away. Your current settings are kept for Undo.	Đặt ngay mọi cài đặt về mặc định. Cài đặt hiện tại được giữ lại để hoàn tác.
+Put back the settings saved before the last restore or reset.	Khôi phục cài đặt đã lưu trước lần khôi phục hoặc đặt lại gần nhất.
