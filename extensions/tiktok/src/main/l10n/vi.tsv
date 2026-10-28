@@ -1265,3 +1265,48 @@ Keep captions in Clear display	Giữ phụ đề trong chế độ Màn hình s�
 Show the current spoken caption while the other controls are hidden.	Hiển thị phụ đề lời nói hiện tại khi các nút điều khiển khác bị ẩn.
 Caption height in Clear display	Chiều cao phụ đề trong Màn hình sạch
 Lifts the kept caption above its usual spot in Clear display. Use 0 for the usual spot, or up to %1$d.	Đẩy phụ đề được giữ lên cao hơn vị trí thông thường trong Màn hình sạch. Nhập 0 để dùng vị trí mặc định hoặc tối đa %1$d.
+Sort loaded videos on Liked grids	Sắp xếp video đã tải trong lưới Đã thích
+Same as profile grids	Giống lưới hồ sơ
+Show where a video was posted	Hiển thị nơi đăng video
+Show the country a video was posted from next to the creator's name.	Hiển thị quốc gia đăng video bên cạnh tên nhà sáng tạo.
+Show the country as a flag	Hiển thị quốc gia bằng lá cờ
+Show the handle instead of the name	Hiển thị tên tài khoản thay cho tên hiển thị
+Show engagement rate	Hiển thị tỷ lệ tương tác
+Hide the caption	Ẩn chú thích
+Hide the description under the creator's name on the feed.	Ẩn mô tả bên dưới tên nhà sáng tạo trên feed.
+Hide the music line	Ẩn dòng âm nhạc
+Hide the track name beside the caption.	Ẩn tên bản nhạc bên cạnh chú thích.
+Around the video	Xung quanh video
+Hide the LIVE button in the top left corner of the feed.	Ẩn nút LIVE ở góc trên bên trái feed.
+Hide the side menu button	Ẩn nút menu bên
+Turn off the swipe to the side menu	Tắt thao tác vuốt mở menu bên
+Also on opened videos	Áp dụng cả với video đã mở
+Hide the Full screen button	Ẩn nút Toàn màn hình
+Hide the Report button on videos	Ẩn nút Báo cáo trên video
+Hide location labels	Ẩn nhãn vị trí
+Hide effect and template tags	Ẩn thẻ hiệu ứng và mẫu
+Hide surveys	Ẩn khảo sát
+Hide the question cards TikTok slides over a video near its end.	Ẩn thẻ câu hỏi TikTok phủ lên video gần cuối.
+Hide Footnotes	Ẩn Footnotes
+Hide the LIVE row on Following	Ẩn hàng LIVE trong Đang theo dõi
+Bring back TikTok's captions switch in its accessibility settings, and the caption controls on videos, when TikTok leaves them out. Captions only show on videos that have them.	Khôi phục công tắc phụ đề trong cài đặt trợ năng TikTok và các nút điều khiển phụ đề trên video khi TikTok không hiển thị chúng. Phụ đề chỉ xuất hiện trên video có hỗ trợ.
+Hide controls after each video starts. Tap to restore them.	Ẩn nút điều khiển sau khi video bắt đầu phát. Chạm để hiện lại.
+Wait before hiding the controls.	Chờ trước khi ẩn nút điều khiển.
+%1$s millisecond	%1$s mili giây
+%1$s milliseconds	%1$s mili giây
+Hide the Clear display controls	Ẩn nút điều khiển trong Màn hình sạch
+While Clear display is on, also hide the progress bar, the close button and the pause and speed buttons at the bottom. You can still drag along the bottom edge to move through the video. To leave Clear display, press and hold the video and tap Restore display, or pinch the screen.	Khi bật Màn hình sạch, đồng thời ẩn thanh tiến trình, nút đóng và các nút tạm dừng, tốc độ ở cạnh dưới. Bạn vẫn có thể kéo dọc cạnh dưới để tua video. Để thoát Màn hình sạch, nhấn giữ video rồi chạm Khôi phục hiển thị hoặc chụm hai ngón tay.
+Keep the progress bar	Giữ thanh tiến trình
+Hide the Clear display controls leaves the progress bar in sight, so you can still see and drag it.	Khi ẩn nút điều khiển trong Màn hình sạch, thanh tiến trình vẫn hiển thị để bạn xem và kéo.
+Keep Clear display across videos	Giữ Màn hình sạch giữa các video
+Clear display you turn on stays on as you swipe to the next video. Off, each new video starts with its controls showing.	Màn hình sạch vẫn bật khi bạn vuốt sang video tiếp theo. Nếu tắt, mỗi video mới sẽ hiện các nút điều khiển.
+Fade the video controls	Làm mờ nút điều khiển video
+Fade the buttons, caption and tabs over the video to this level instead of hiding them. 100 leaves them as TikTok draws them. Faded controls still take taps. At 0 the buttons and caption are hidden, and the tabs stay at 10.	Làm mờ các nút, chú thích và tab phủ trên video theo mức này thay vì ẩn chúng. Giá trị 100 giữ nguyên như TikTok hiển thị. Các nút đã làm mờ vẫn nhận thao tác chạm. Ở mức 0, nút và chú thích bị ẩn còn tab giữ mức 10.
+Keep faded controls in Clear display	Giữ nút đã làm mờ trong Màn hình sạch
+With the fade below 100, the buttons and caption stay on screen at that level in Clear display, and taps go through them to the video. Off, Clear display hides them the way it does at 100.	Khi mức làm mờ dưới 100, các nút và chú thích vẫn hiện ở mức đó trong Màn hình sạch; thao tác chạm xuyên qua chúng đến video. Nếu tắt, Màn hình sạch sẽ ẩn chúng như khi đặt mức 100.
+See-through bottom bar	Thanh dưới trong suốt
+Let the video reach the bottom of the screen on the main feed and show the tabs over it with no bar behind them.	Cho video kéo dài đến cạnh dưới màn hình trên feed chính và hiển thị các tab phủ lên mà không có thanh nền.
+Floating bottom bar	Thanh dưới nổi
+Show the main feed's tabs on a rounded, see-through dark pill that floats over the video. Needs See-through bottom bar.	Hiển thị tab feed chính trên một thanh tối, bo tròn và trong suốt nổi trên video. Cần bật Thanh dưới trong suốt.
+Pill height	Chiều cao thanh nổi
+Standard	Tiêu chuẩn
