@@ -15,7 +15,7 @@ final class L10nTranslationsVi {
     }
 
     static Map<String, String> build() {
-        Map<String, String> table = new HashMap<>(968);
+        Map<String, String> table = new HashMap<>(2454);
         fill0(table);
         fill1(table);
         fill2(table);
@@ -25,24 +25,94 @@ final class L10nTranslationsVi {
         fill6(table);
         fill7(table);
         fill8(table);
+        fill9(table);
+        fill10(table);
+        fill11(table);
+        fill12(table);
+        fill13(table);
+        fill14(table);
+        fill15(table);
+        fill16(table);
+        fill17(table);
+        fill18(table);
+        fill19(table);
+        fill20(table);
         return table;
     }
 
     private static void fill0(Map<String, String> table) {
+        table.put("%1$s day",
+                "%1$s ngày");
+        table.put("%1$s days",
+                "%1$s ngày");
+        table.put("%1$s dp",
+                "%1$s dp");
         table.put("%1$s left",
                 "Còn %1$s");
         table.put("%1$s minute",
                 "%1$s phút");
         table.put("%1$s minutes",
                 "%1$s phút");
+        table.put("%1$s point",
+                "%1$s điểm");
+        table.put("%1$s points",
+                "%1$s điểm");
+        table.put("%1$s second",
+                "%1$s giây");
+        table.put("%1$s seconds",
+                "%1$s giây");
+        table.put("%1$s time",
+                "%1$s lần");
+        table.put("%1$s times",
+                "%1$s lần");
         table.put("%1$s video",
                 "%1$s video");
         table.put("%1$s videos",
                 "%1$s video");
+        table.put("%1$s view per comment",
+                "%1$s lượt xem mỗi bình luận");
+        table.put("%1$s view per like",
+                "%1$s lượt xem mỗi lượt thích");
+        table.put("%1$s views per comment",
+                "%1$s lượt xem mỗi bình luận");
+        table.put("%1$s views per like",
+                "%1$s lượt xem mỗi lượt thích");
+        table.put("%1$s%%",
+                "%1$s%%");
         table.put("1 result",
                 "1 kết quả");
         table.put("1 video left",
                 "Còn 1 video");
+        table.put("A LIVE in the feed can count down and take you into the room on its own. This keeps you in the feed until you tap it.",
+                "LIVE xuất hiện trên feed có thể đếm ngược rồi tự mở phòng. Tùy chọn này giữ bạn ở feed cho đến khi chạm vào LIVE.");
+        table.put("A LIVE room shows how many people are watching as a rounded number like 1.2K. This shows the exact count instead.",
+                "Phòng LIVE thường hiển thị số người xem được làm tròn, chẳng hạn 1,2K. Tùy chọn này hiển thị số lượng chính xác.");
+        table.put("A change that makes your budget looser waits until the day starts over, and a stricter one applies at once. Looser means a higher or no budget, a shorter hold, more times to open the feed anyway, a new start hour, or turning this off. A restored backup follows the same rule, and Start today over is off while this is on.",
+                "Thay đổi nới lỏng hạn mức sẽ chờ đến ngày mới; thay đổi nghiêm ngặt hơn có hiệu lực ngay. Nới lỏng gồm tăng hoặc bỏ hạn mức, rút ngắn thời gian khóa, tăng số lần được mở feed, đổi giờ bắt đầu hoặc tắt tính năng. Khôi phục từ bản sao lưu cũng áp dụng quy tắc này; không thể dùng Bắt đầu lại ngày hôm nay khi tùy chọn đang bật.");
+        table.put("A comment poll shows how many picked each answer before you vote. Tapping an answer still votes.",
+                "Hiển thị số người chọn từng đáp án trong bình chọn bình luận trước khi bạn bỏ phiếu. Chạm vào đáp án vẫn ghi nhận phiếu.");
+        table.put("A double tap on a message no longer adds a heart to it. A single tap and a long press work as before.",
+                "Chạm hai lần vào tin nhắn sẽ không còn thêm trái tim. Chạm một lần và nhấn giữ vẫn hoạt động như trước.");
+        table.put("A few seconds",
+                "Vài giây");
+        table.put("A green square in the top corner while TikTok has the camera open, and an orange diamond while it records sound. They go when the access ends.",
+                "Hiển thị hình vuông xanh ở góc trên khi TikTok mở camera và hình thoi cam khi TikTok ghi âm. Các biểu tượng biến mất khi quyền truy cập kết thúc.");
+        table.put("A link to one video opens just that video, and the feed won't swipe past it. It swipes again once another video plays, like after a refresh or a tap on Following, or when you come back to TikTok after %1$d minutes or more away. Auto-advance doesn't move on from it either.",
+                "Liên kết đến một video chỉ mở video đó và feed sẽ không tự vuốt qua. Feed tiếp tục vuốt khi video khác phát, chẳng hạn sau khi làm mới hoặc chạm Đang theo dõi, hoặc khi bạn quay lại TikTok sau ít nhất %1$d phút. Tự động chuyển tiếp cũng không bỏ qua video đó.");
+        table.put("A name of your own under this tab's icon. Leave it empty to keep TikTok's.",
+                "Tên tùy chỉnh hiển thị dưới biểu tượng tab này. Để trống để giữ tên của TikTok.");
+        table.put("A press on Share under a video copies its link instead of opening the share sheet. Press Share again right after to open the sheet.",
+                "Chạm vào Chia sẻ bên dưới video sẽ sao chép liên kết thay vì mở bảng chia sẻ. Chạm lại ngay để mở bảng này.");
+        table.put("A profile's share sheet gets an Account facts button. It shows what TikTok already sent about the account: when it joined, its region and language, when its username and display name last changed, whether it's private and whether its liked videos are public. Nothing extra is fetched.",
+                "Bảng chia sẻ hồ sơ có nút Thông tin tài khoản. Nút này hiển thị dữ liệu TikTok đã gửi: thời điểm tham gia, khu vực và ngôn ngữ, lần đổi tên người dùng và tên hiển thị gần nhất, trạng thái riêng tư và việc video đã thích có công khai hay không. Không tải thêm dữ liệu.");
+        table.put("A small label on the feed shows the minutes or videos left of today's budget, whichever is closer to running out.",
+                "Một nhãn nhỏ trên feed hiển thị số phút hoặc số video còn lại trong hạn mức hôm nay, tùy mục nào sắp hết trước.");
+        table.put("A tap on Home or on the For You tab while For You is showing no longer reloads it. The video you're on stays.",
+                "Chạm Trang chủ hoặc tab Dành cho bạn khi feed Dành cho bạn đang mở sẽ không tải lại feed. Video hiện tại vẫn được giữ.");
+        table.put("A video you paused stays paused when you come back to the app instead of starting again. One you left playing starts as usual. It works on Android 10 and newer.",
+                "Video bạn đã tạm dừng sẽ tiếp tục ở trạng thái tạm dừng khi quay lại ứng dụng. Video đang phát trước đó vẫn phát như bình thường. Tính năng yêu cầu Android 10 trở lên.");
+        table.put("A web address someone left in a comment can be tapped instead of copied out by hand. Tapping anywhere else in the comment still does what it did.",
+                "Có thể chạm vào địa chỉ web trong bình luận để mở thay vì phải sao chép thủ công. Chạm vào vị trí khác trong bình luận vẫn hoạt động như trước.");
         table.put("AI Self",
                 "AI Self");
         table.put("AI chat",
@@ -51,12 +121,20 @@ final class L10nTranslationsVi {
                 "Bài đăng do AI tạo");
         table.put("About",
                 "Giới thiệu");
+        table.put("About %1$s of storage at this limit",
+                "Khoảng %1$s dung lượng lưu trữ ở giới hạn này");
         table.put("About Hushfeed",
                 "Giới thiệu Hushfeed");
         table.put("About overrides",
                 "Giới thiệu các ghi đè");
+        table.put("Above moves the caption and the buttons up a little so the time fits over the right end of the bar. When something else is in the way, the time goes beside the bar.",
+                "Tùy chọn phía trên đẩy chú thích và các nút lên một chút để thời gian nằm phía trên đầu phải của thanh. Nếu có nội dung che chỗ đó, thời gian sẽ chuyển sang cạnh thanh.");
+        table.put("Above the bar",
+                "Phía trên thanh");
         table.put("Account facts",
                 "Thông tin tài khoản");
+        table.put("Account facts on profiles",
+                "Thông tin tài khoản trên hồ sơ");
         table.put("Account region",
                 "Khu vực tài khoản");
         table.put("Active",
@@ -67,10 +145,25 @@ final class L10nTranslationsVi {
                 "Trung tâm hoạt động (PIA)");
         table.put("Add",
                 "Thêm");
+        table.put("Add a button beside the block control that turns the feed's sound off and on.",
+                "Thêm nút cạnh nút chặn để bật hoặc tắt âm thanh feed.");
+        table.put("Add a button beside the block control to send feedback about the current video.",
+                "Thêm nút cạnh nút chặn để gửi phản hồi về video hiện tại.");
+        table.put("Add a button that hides the current creator on this phone without blocking them.",
+                "Thêm nút ẩn nhà sáng tạo hiện tại trên điện thoại này mà không chặn họ.");
         table.put("Add a creator",
                 "Thêm người sáng tạo");
+        table.put("Add a line along the bottom of a sound's cover while its preview plays, with the time played and the preview's length. Tap or drag it to move through the preview.",
+                "Thêm thanh tiến trình ở cuối ảnh bìa âm thanh khi phát thử, hiển thị thời gian đã phát và tổng thời lượng xem trước. Chạm hoặc kéo thanh để tua.");
+        table.put("Add a separate button that skips videos using the current sound.",
+                "Thêm nút riêng để bỏ qua video sử dụng âm thanh hiện tại.");
+        table.put("Add a thin line along the bottom of a video story that you can drag to go back or skip ahead. The time shows while you drag, and a tap on it still moves between stories.",
+                "Thêm thanh mảnh ở cuối Story video để kéo lùi hoặc tua tới. Thời gian sẽ hiện khi kéo; chạm vào thanh vẫn chuyển giữa các Story.");
         table.put("Add apps to Share via",
                 "Thêm ứng dụng vào Chia sẻ qua");
+    }
+
+    private static void fill1(Map<String, String> table) {
         table.put("Add hidden creator",
                 "Thêm người sáng tạo ẩn");
         table.put("Add older seen videos to this account",
@@ -79,10 +172,28 @@ final class L10nTranslationsVi {
                 "Đã thêm %1$s");
         table.put("Added one older seen video to this account",
                 "Đã thêm một video cũ vào tài khoản này");
+        table.put("Adds Export CSV and Export JSON buttons under the search box, so Search within comments must be on. They save the comments and replies loaded so far to a file you pick. Open the reply threads you want first.",
+                "Thêm nút Xuất CSV và Xuất JSON bên dưới ô tìm kiếm; cần bật Tìm kiếm trong bình luận. Các nút lưu bình luận và câu trả lời đã tải vào tệp bạn chọn. Hãy mở trước các chuỗi trả lời muốn xuất.");
+        table.put("Adds Save cover next to Download when you share a video, so you save the cover only when you want it. While this is on, Download saves just the video, even with Save the cover as well on.",
+                "Thêm nút Lưu ảnh bìa cạnh Tải xuống khi chia sẻ video để bạn chỉ lưu ảnh bìa khi cần. Khi bật, Tải xuống chỉ lưu video, kể cả khi bật Lưu cả ảnh bìa.");
+        table.put("Adds TikTok's translate button next to the comment count. One tap translates every comment, and another shows the originals again.",
+                "Thêm nút dịch của TikTok bên cạnh số bình luận. Chạm một lần để dịch tất cả bình luận, chạm lần nữa để xem lại bản gốc.");
+        table.put("Adds a Record button to LIVE rooms. A recording starts when you tap it and ends when you tap Stop or leave the room. Nothing before that is saved.",
+                "Thêm nút Ghi vào phòng LIVE. Bản ghi bắt đầu khi bạn chạm nút và kết thúc khi chạm Dừng hoặc rời phòng. Nội dung trước khi bắt đầu không được lưu.");
+        table.put("Adds a search box that finds comments already loaded on this video, by words or username. It doesn't search all of TikTok.",
+                "Thêm ô tìm kiếm bình luận đã tải trên video này theo từ khóa hoặc tên người dùng. Tính năng không tìm kiếm trên toàn TikTok.");
+        table.put("Ads",
+                "Quảng cáo");
         table.put("Advanced",
                 "Nâng cao");
         table.put("Advanced JSON value",
                 "Giá trị JSON nâng cao");
+        table.put("After 1 minute",
+                "Sau 1 phút");
+        table.put("After 15 minutes",
+                "Sau 15 phút");
+        table.put("After 5 minutes",
+                "Sau 5 phút");
         table.put("All",
                 "Tất cả");
         table.put("All available languages",
@@ -95,6 +206,8 @@ final class L10nTranslationsVi {
                 "Vẫn cho phép Thêm vào Story");
         table.put("Allow Duet and Stitch anyway",
                 "Vẫn cho phép Duet và Stitch");
+        table.put("Allow photo comments",
+                "Cho phép bình luận bằng ảnh");
         table.put("Allow screenshots and Circle to Search",
                 "Cho phép chụp màn hình và Circle to Search");
         table.put("Allow storage for TikTok in Android settings to save covers",
@@ -103,12 +216,48 @@ final class L10nTranslationsVi {
                 "Cho phép bình luận bằng giọng nói");
         table.put("Already marked as not interested",
                 "Đã đánh dấu là không quan tâm");
+        table.put("Also apply these filters to downloaded videos TikTok uses when the feed can't load enough new items.",
+                "Áp dụng các bộ lọc này cho cả video đã tải xuống mà TikTok dùng khi feed không tải đủ nội dung mới.");
+        table.put("Also change the region TikTok reports internally and set TikTok to the country's time zone. Keeps your interface language. Your IP address and your account's own rules still apply.",
+                "Đồng thời thay đổi khu vực TikTok báo cáo nội bộ và đặt múi giờ theo quốc gia. Ngôn ngữ giao diện vẫn được giữ nguyên. Địa chỉ IP và các quy tắc riêng của tài khoản vẫn được áp dụng.");
+        table.put("Also hide videos whose text stickers match a blocked caption word. Text stickers are the words a creator types over the video in TikTok's editor. Text that's part of the picture itself can't be read.",
+                "Đồng thời ẩn video có nhãn chữ khớp với từ khóa chú thích bị chặn. Nhãn chữ là phần chữ nhà sáng tạo thêm lên video bằng trình chỉnh sửa TikTok. Không thể đọc chữ vốn nằm sẵn trong hình ảnh.");
+        table.put("Also replaces the saved region and country code TikTok sends with every request. Signing in still sends your real region. Your IP address and your account's own rules still apply.",
+                "Đồng thời thay thế khu vực đã lưu và mã quốc gia TikTok gửi trong mỗi yêu cầu. Khi đăng nhập, khu vực thật vẫn được gửi đi. Địa chỉ IP và các quy tắc riêng của tài khoản vẫn được áp dụng.");
+        table.put("Also turns on TikTok's own Auto scroll for videos opened from search. Restart TikTok to apply this.",
+                "Đồng thời bật Tự cuộn của TikTok cho video mở từ tìm kiếm. Khởi động lại TikTok để áp dụng.");
+        table.put("Always show publish date",
+                "Luôn hiển thị ngày đăng");
+        table.put("Always show the publish date in video author information. Restart TikTok to apply this.",
+                "Luôn hiển thị ngày đăng trong thông tin tác giả video. Khởi động lại TikTok để áp dụng.");
+        table.put("Always upload in HD",
+                "Luôn tải lên ở HD");
+        table.put("Amazon Appstore",
+                "Amazon Appstore");
+        table.put("An @username in a profile's bio opens that profile when you tap it. The rest of the bio still translates on a tap.",
+                "Chạm vào @username trong tiểu sử sẽ mở hồ sơ đó. Phần còn lại của tiểu sử vẫn được dịch khi chạm.");
+        table.put("An operator code is five or six digits, like 310260",
+                "Mã nhà mạng gồm 5 hoặc 6 chữ số, chẳng hạn 310260");
+        table.put("Android stops telling TikTok a VPN is on, and the VPN's tunnel is left out of the network list. TikTok can still see the VPN's IP address. Leave this off if you need a feature that checks for a VPN.",
+                "Android sẽ không báo cho TikTok rằng VPN đang bật và đường hầm VPN bị loại khỏi danh sách mạng. TikTok vẫn có thể thấy địa chỉ IP của VPN. Hãy tắt tùy chọn này nếu bạn cần tính năng kiểm tra VPN.");
+        table.put("Animated sticker format",
+                "Định dạng nhãn dán động");
+        table.put("Animated stickers and GIFs decode each frame as it's shown instead of a few ahead, so they use a little less memory. Applies to the next ones that load.",
+                "Nhãn dán động và GIF sẽ giải mã từng khung hình khi hiển thị thay vì giải mã trước nhiều khung, giúp giảm nhẹ bộ nhớ sử dụng. Áp dụng cho nội dung tải sau khi bật.");
         table.put("App",
                 "Ứng dụng");
         table.put("App AB",
                 "Ứng dụng AB");
+        table.put("App lock",
+                "Khóa ứng dụng");
+        table.put("AppGallery",
+                "AppGallery");
         table.put("Appearance",
                 "Giao diện");
+        table.put("Applies to Save the sound as well and to Save the original sound on a long press. Opus makes a smaller file, but the sound is encoded again from TikTok's copy.",
+                "Áp dụng cho Lưu cả âm thanh và Lưu âm thanh gốc khi nhấn giữ. Opus tạo tệp nhỏ hơn nhưng âm thanh được mã hóa lại từ bản TikTok cung cấp.");
+        table.put("Applies to both video and photo downloads.",
+                "Áp dụng cho cả tải video và ảnh.");
         table.put("Apply",
                 "Áp dụng");
         table.put("Apply overrides",
@@ -117,8 +266,16 @@ final class L10nTranslationsVi {
                 "Sắp xếp feed và tab dưới cùng");
         table.put("As TikTok sent it (M4A or MP3)",
                 "Như TikTok gửi (M4A hoặc MP3)");
+        table.put("Ask TikTok for search results that aren't personalized to your account. This changes results, not search buttons or suggestions.",
+                "Yêu cầu TikTok hiển thị kết quả tìm kiếm không cá nhân hóa theo tài khoản. Tùy chọn này thay đổi kết quả, không thay đổi nút tìm kiếm hay gợi ý.");
+        table.put("Ask for the quality on each save",
+                "Hỏi chất lượng mỗi lần lưu");
+        table.put("Ask for the unlock your phone uses, like a fingerprint or a PIN, when TikTok starts and when you come back to it. A link you open from another app still goes to its video once you unlock. While this is on, TikTok's preview in recent apps stays blank. Needs a screen lock on the phone.",
+                "Yêu cầu mở khóa bằng phương thức của điện thoại, như vân tay hoặc mã PIN, khi khởi động TikTok và khi quay lại ứng dụng. Liên kết từ ứng dụng khác vẫn mở video sau khi bạn mở khóa. Khi bật, bản xem trước TikTok trong danh sách ứng dụng gần đây sẽ để trống. Điện thoại phải có khóa màn hình.");
         table.put("Audio",
                 "Âm thanh");
+        table.put("Author text size",
+                "Cỡ chữ tác giả");
         table.put("Auto translate comments",
                 "Tự động dịch bình luận");
         table.put("Auto-advance",
@@ -127,6 +284,9 @@ final class L10nTranslationsVi {
                 "Tự động chuyển tiếp trong kết quả tìm kiếm");
         table.put("Auto-advance session limit",
                 "Giới hạn phiên tự động chuyển tiếp");
+    }
+
+    private static void fill2(Map<String, String> table) {
         table.put("Auto-advance stopped after %1$d videos",
                 "Tự động chuyển tiếp dừng sau %1$d video");
         table.put("Auto-advance stopped after one video",
@@ -145,15 +305,18 @@ final class L10nTranslationsVi {
                 "Sao lưu cài đặt");
         table.put("Backup and restore",
                 "Sao lưu và khôi phục");
+        table.put("Beside the bar",
+                "Bên cạnh thanh");
+        table.put("Bigger progress bar handle",
+                "Nút kéo thanh tiến trình lớn hơn");
         table.put("Black",
                 "Đen");
         table.put("Block clipboard reads",
                 "Chặn đọc clipboard");
-    }
-
-    private static void fill1(Map<String, String> table) {
         table.put("Block contact list access",
                 "Chặn quyền truy cập danh bạ");
+        table.put("Block from a comment's menu",
+                "Chặn từ menu bình luận");
         table.put("Block installed app scanning",
                 "Chặn quét ứng dụng đã cài");
         table.put("Block location",
@@ -170,6 +333,8 @@ final class L10nTranslationsVi {
                 "Chặn thông báo video gợi ý");
         table.put("Block the advertising ID",
                 "Chặn ID quảng cáo");
+        table.put("Block the creator in one tap. Once TikTok confirms, skip to the next video. A small Unblock button appears at the top left for two seconds. You can also unblock later in TikTok's Privacy > Blocked accounts.",
+                "Chặn nhà sáng tạo chỉ bằng một lần chạm. Khi TikTok xác nhận, chuyển sang video tiếp theo. Nút Bỏ chặn nhỏ sẽ xuất hiện ở góc trên bên trái trong hai giây. Bạn cũng có thể bỏ chặn trong TikTok > Quyền riêng tư > Tài khoản bị chặn.");
         table.put("Block this commenter",
                 "Chặn người bình luận này");
         table.put("Block this creator",
@@ -208,6 +373,10 @@ final class L10nTranslationsVi {
                 "Tab dưới cùng cần giữ");
         table.put("Brightness",
                 "Độ sáng");
+        table.put("Bring back TikTok's translation",
+                "Khôi phục bản dịch của TikTok");
+        table.put("Brings back the translation rows on TikTok's Language page, under Settings and privacy, for accounts that only see App language there.",
+                "Khôi phục các mục dịch trên trang Ngôn ngữ của TikTok trong Cài đặt và quyền riêng tư cho tài khoản chỉ thấy Ngôn ngữ ứng dụng.");
         table.put("Browse",
                 "Duyệt");
         table.put("Budgets and reminders",
@@ -238,12 +407,17 @@ final class L10nTranslationsVi {
                 "Cỡ chữ phụ đề");
         table.put("Captions",
                 "Phụ đề");
+    }
+
+    private static void fill3(Map<String, String> table) {
         table.put("Capture crash reports locally",
                 "Ghi báo cáo sự cố cục bộ");
         table.put("Capture the feed",
                 "Ghi lại feed");
         table.put("Check for already-saved videos",
                 "Kiểm tra video đã lưu");
+        table.put("Choose %1$d to %2$d videos. Values outside this range use the nearest valid limit. Restart TikTok to apply this.",
+                "Chọn từ %1$d đến %2$d video. Giá trị ngoài khoảng sẽ được đưa về giới hạn hợp lệ gần nhất. Khởi động lại TikTok để áp dụng.");
         table.put("Choose a backup file. Your current settings are kept for Undo.",
                 "Chọn tệp sao lưu. Cài đặt hiện tại của bạn được giữ để Hoàn tác.");
         table.put("Choose a folder on internal storage. SD cards aren't supported.",
@@ -254,6 +428,8 @@ final class L10nTranslationsVi {
                 "Chọn nội dung đến feed của bạn");
         table.put("Choose which bottom tabs stay visible.",
                 "Chọn những tab dưới cùng nào vẫn hiển thị.");
+        table.put("Choose which feed tabs stay visible. If only For You is left, its tab name is hidden.",
+                "Chọn các tab feed cần giữ hiển thị. Nếu chỉ còn Dành cho bạn, tên tab đó sẽ tự ẩn.");
         table.put("Choose which rows and controls appear",
                 "Chọn dòng và điều khiển nào xuất hiện");
         table.put("Clean up shared links",
@@ -270,11 +446,10 @@ final class L10nTranslationsVi {
                 "Độ trễ hiển thị rõ");
         table.put("Clear preset",
                 "Xóa cài đặt mẫu");
+        table.put("Clear screen hides a LIVE's chat, gifts and buttons so only the stream shows. TikTok puts it in the menu of only some rooms. This adds it to the others.",
+                "Màn hình sạch ẩn trò chuyện, quà tặng và nút trong LIVE để chỉ còn luồng phát. TikTok chỉ đặt tùy chọn này trong menu của một số phòng; mục này bổ sung nó vào các phòng khác.");
         table.put("Clear search",
                 "Xóa tìm kiếm");
-    }
-
-    private static void fill2(Map<String, String> table) {
         table.put("Clear seen videos",
                 "Xóa video đã xem");
         table.put("Clear the search",
@@ -285,12 +460,16 @@ final class L10nTranslationsVi {
                 "Đang xóa");
         table.put("Clearing seen videos",
                 "Đang xóa video đã xem");
+        table.put("Clears the recent events, saved crash reports, a recorded screen layout and the Hook status results above.",
+                "Xóa sự kiện gần đây, báo cáo sự cố đã lưu, bố cục màn hình đã ghi và kết quả Trạng thái hook ở trên.");
         table.put("Close",
                 "Đóng");
         table.put("Close TikTok after",
                 "Đóng TikTok sau");
         table.put("Color commenter names",
                 "Tô màu tên người bình luận");
+        table.put("Comma separated names exactly as the row under a profile's bio shows them, such as TikTok Studio or Your orders. Restart TikTok to apply this.",
+                "Nhập tên phân tách bằng dấu phẩy, đúng như hàng bên dưới tiểu sử hiển thị, chẳng hạn TikTok Studio hoặc Đơn hàng của bạn. Khởi động lại TikTok để áp dụng.");
         table.put("Comment export failed",
                 "Xuất bình luận thất bại");
         table.put("Comment media filename",
@@ -351,6 +530,9 @@ final class L10nTranslationsVi {
                 "Sao chép báo cáo");
         table.put("Copy the full link for short links",
                 "Sao chép liên kết đầy đủ cho liên kết ngắn");
+    }
+
+    private static void fill4(Map<String, String> table) {
         table.put("Copy the link with one press on Share",
                 "Sao chép liên kết bằng một lần chạm vào Chia sẻ");
         table.put("Copy the sound link",
@@ -369,6 +551,8 @@ final class L10nTranslationsVi {
                 "Không thể thay đổi cài đặt Lab. Thử lại.");
         table.put("Couldn't clear seen videos. Try again.",
                 "Không thể xóa video đã xem. Thử lại.");
+        table.put("Couldn't copy the report. Use Save report instead.",
+                "Không thể sao chép báo cáo. Hãy dùng Lưu báo cáo.");
         table.put("Couldn't open the file picker to export. Try again.",
                 "Không thể mở bộ chọn tệp để xuất. Thử lại.");
         table.put("Couldn't open the file picker to import. Try again.",
@@ -383,21 +567,26 @@ final class L10nTranslationsVi {
                 "Không thể lưu thay đổi. Thử lại.");
         table.put("Couldn't save the settings backup. Try again.",
                 "Không thể lưu bản sao lưu cài đặt. Thử lại.");
+        table.put("Couldn't save these choices. Try again.",
+                "Không thể lưu các lựa chọn này. Hãy thử lại.");
         table.put("Couldn't save this override. Try again.",
                 "Không thể lưu ghi đè này. Thử lại.");
         table.put("Couldn't send the feedback. Try again in a moment.",
                 "Không thể gửi phản hồi. Thử lại sau ít phút.");
+        table.put("Couldn't set up a new device identity. Try again.",
+                "Không thể thiết lập danh tính thiết bị mới. Hãy thử lại.");
         table.put("Couldn't start the Lab change. Try again in a moment.",
                 "Không thể bắt đầu thay đổi Lab. Thử lại sau ít phút.");
+        table.put("Couldn't start the report export. Try again in a moment.",
+                "Không thể bắt đầu xuất báo cáo. Hãy thử lại sau ít phút.");
         table.put("Couldn't start the settings change. Try again in a moment.",
                 "Không thể bắt đầu thay đổi cài đặt. Thử lại sau ít phút.");
+        table.put("Count a video as seen after",
+                "Đánh dấu video đã xem sau");
         table.put("Country and network preferences",
                 "Tùy chọn quốc gia và mạng");
         table.put("Country code",
                 "Mã quốc gia");
-    }
-
-    private static void fill3(Map<String, String> table) {
         table.put("Country filters",
                 "Bộ lọc quốc gia");
         table.put("Counts under the buttons",
@@ -412,6 +601,10 @@ final class L10nTranslationsVi {
                 "Người sáng tạo và âm thanh");
         table.put("Creators hidden on this phone",
                 "Người sáng tạo bị ẩn trên điện thoại này");
+        table.put("Creators you hid from a video. Search the list and remove one at a time.",
+                "Các nhà sáng tạo bạn đã ẩn từ video. Tìm trong danh sách và xóa từng người.");
+        table.put("Crop the video until it covers the whole window. On a tall phone the black strip TikTok leaves under a video goes and so does a little of each side.",
+                "Cắt video để phủ kín toàn bộ cửa sổ. Trên điện thoại màn hình cao, dải đen bên dưới video của TikTok sẽ biến mất, đồng thời một phần nhỏ ở hai bên có thể bị cắt.");
         table.put("Current",
                 "Hiện tại");
         table.put("Current %1$s",
@@ -424,6 +617,10 @@ final class L10nTranslationsVi {
                 "Giá trị tùy chỉnh");
         table.put("Custom value…",
                 "Giá trị tùy chỉnh…");
+        table.put("Cuts the tracking bits out of links you share.",
+                "Loại bỏ thành phần theo dõi khỏi liên kết bạn chia sẻ.");
+        table.put("DM translation preview",
+                "Xem trước bản dịch tin nhắn");
         table.put("Daily budget",
                 "Ngân sách hàng ngày");
         table.put("Daily budgets, reminders and the hold",
@@ -436,6 +633,12 @@ final class L10nTranslationsVi {
                 "Tối");
         table.put("Dark Favorites popup",
                 "Cửa sổ yêu thích tối");
+        table.put("Dark LIVE panels in dark mode",
+                "Dùng bảng LIVE tối trong chế độ tối");
+        table.put("Days to remember a video. Zero removes the age limit. History keeps at most %1$s videos.",
+                "Số ngày ghi nhớ video. Giá trị 0 bỏ giới hạn độ cũ. Lịch sử lưu tối đa %1$s video.");
+        table.put("Days. Zero keeps every age. Posts without a usable timestamp, including future posts, stay visible.",
+                "Tính bằng ngày. Giá trị 0 giữ mọi độ mới. Bài đăng không có dấu thời gian hợp lệ, kể cả bài có thời gian trong tương lai, vẫn hiển thị.");
         table.put("Default",
                 "Mặc định");
         table.put("Default playback speed",
@@ -444,8 +647,17 @@ final class L10nTranslationsVi {
                 "Xóa tìm kiếm");
         table.put("Description text size",
                 "Cỡ chữ mô tả");
+        table.put("Descriptions, captions and text on videos stay in the language they were made in, even with TikTok's Always translate on. See translation still works when you tap it. Comments have their own switch above.",
+                "Mô tả, chú thích và chữ trên video giữ nguyên ngôn ngữ gốc, kể cả khi TikTok bật Luôn dịch. Bạn vẫn có thể chạm để xem bản dịch. Bình luận có công tắc riêng ở phía trên.");
         table.put("Device access",
                 "Quyền truy cập thiết bị");
+        table.put("Device language, then original",
+                "Ngôn ngữ thiết bị, sau đó ngôn ngữ gốc");
+    }
+
+    private static void fill5(Map<String, String> table) {
+        table.put("Diagnostic data cleared. Tap again to put it back.",
+                "Đã xóa dữ liệu chẩn đoán. Chạm lại để khôi phục.");
         table.put("Diagnostics",
                 "Chẩn đoán");
         table.put("Disable",
@@ -460,12 +672,28 @@ final class L10nTranslationsVi {
                 "Tên hiển thị đã thay đổi lần cuối");
         table.put("Do nothing",
                 "Không làm gì");
+        table.put("Don't auto translate these languages",
+                "Không tự động dịch các ngôn ngữ này");
+        table.put("Don't auto translate videos",
+                "Không tự động dịch video");
+        table.put("Don't decode animated frames ahead",
+                "Không giải mã trước khung hình động");
+        table.put("Don't open a reply under each comment. View replies still shows all of them.",
+                "Không tự mở câu trả lời bên dưới từng bình luận. Mục Xem câu trả lời vẫn hiển thị đầy đủ.");
+        table.put("Don't save new searches",
+                "Không lưu tìm kiếm mới");
+        table.put("Don't start the feed on returning",
+                "Không tự chạy feed khi quay lại");
+        table.put("Don't start the first video",
+                "Không tự phát video đầu tiên");
         table.put("Done",
                 "Xong");
         table.put("Double tap",
                 "Nhấn kép");
         table.put("Double tap by corner",
                 "Nhấn kép theo góc");
+        table.put("Download lists the qualities this video comes in, with the size TikTok gives for each, and saves the one you pick. The quality above stays as it is for the next save.",
+                "Khi tải, danh sách hiển thị các mức chất lượng có sẵn cùng dung lượng TikTok cung cấp cho từng mức. Video sẽ được lưu theo mức bạn chọn; chất lượng mặc định phía trên không thay đổi cho lần tải sau.");
         table.put("Download original photos",
                 "Tải ảnh gốc");
         table.put("Downloads",
@@ -474,10 +702,16 @@ final class L10nTranslationsVi {
                 "Kéo để di chuyển, thả để đặt");
         table.put("Drama and Series",
                 "Phim và loạt phim");
+        table.put("Draw a larger handle and a slightly thicker line on the progress bar, so it's easier to see where you are.",
+                "Hiển thị nút kéo lớn hơn và đường tiến trình dày hơn một chút để dễ nhận biết vị trí phát.");
         table.put("Easier comment likes",
                 "Thích bình luận dễ hơn");
+        table.put("Effects ask TikTok's server whether your phone can run them, and some get turned down on older phones. This tells the effects server you have a Galaxy S24 Ultra instead. Sign-in and everything else still see your real phone. An effect your phone really can't run may still fail or look wrong.",
+                "Hiệu ứng hỏi máy chủ TikTok xem điện thoại có chạy được hay không; một số hiệu ứng bị giảm chất lượng trên máy cũ. Tùy chọn này báo với máy chủ hiệu ứng rằng bạn dùng Galaxy S24 Ultra. Đăng nhập và các chức năng khác vẫn nhận diện điện thoại thật. Hiệu ứng vượt quá khả năng phần cứng vẫn có thể lỗi hoặc hiển thị sai.");
         table.put("Empty",
                 "Trống");
+        table.put("Empty the menu that opens when you press and hold TikTok's icon on the home screen. Turning this off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut you pinned yourself stays where you put it.",
+                "Xóa các mục trong menu xuất hiện khi nhấn giữ biểu tượng TikTok trên màn hình chính. Tắt tùy chọn này để TikTok tạo lại menu. Chạm biểu tượng vẫn mở ứng dụng và các lối tắt bạn tự ghim vẫn giữ nguyên.");
         table.put("Enable",
                 "Bật");
         table.put("Enabled",
@@ -486,16 +720,24 @@ final class L10nTranslationsVi {
                 "Nhập tên người dùng hoặc ID người sáng tạo");
         table.put("Enter a number.",
                 "Nhập một số.");
+        table.put("Enter a valid two-letter country code",
+                "Nhập mã quốc gia hợp lệ gồm hai chữ cái");
         table.put("Enter a whole number.",
                 "Nhập một số nguyên.");
         table.put("Enter true or false.",
                 "Nhập true hoặc false.");
+        table.put("Enter up to %1$d comma-separated speeds from %2$s to %3$s",
+                "Nhập tối đa %1$d mức tốc độ, phân tách bằng dấu phẩy, từ %2$s đến %3$s");
         table.put("Errors",
                 "Lỗi");
+        table.put("Expand activity list",
+                "Mở rộng danh sách Hoạt động");
         table.put("Export CSV",
                 "Xuất CSV");
         table.put("Export JSON",
                 "Xuất JSON");
+        table.put("Export comments",
+                "Xuất bình luận");
         table.put("Export diagnostic report",
                 "Xuất báo cáo chẩn đoán");
         table.put("Export loaded values",
@@ -504,6 +746,8 @@ final class L10nTranslationsVi {
                 "Đã xuất %1$d giá trị đã tải");
         table.put("Fade the feed out before the hold",
                 "Làm mờ feed trước khi khóa");
+        table.put("Fall back to the watermarked copy",
+                "Dùng bản có hình mờ nếu cần");
         table.put("Favorites range",
                 "Phạm vi yêu thích");
         table.put("Feature Gate Lab",
@@ -518,9 +762,6 @@ final class L10nTranslationsVi {
                 "Kích thước nút feed");
         table.put("Feed capture saved to %1$s. Read it before you share it.",
                 "Đã lưu bản ghi feed vào %1$s. Đọc trước khi chia sẻ.");
-    }
-
-    private static void fill4(Map<String, String> table) {
         table.put("Feed filter",
                 "Bộ lọc feed");
         table.put("Feed screen",
@@ -533,14 +774,25 @@ final class L10nTranslationsVi {
                 "Các thay đổi trường chưa được lưu");
         table.put("Files",
                 "Tệp");
+        table.put("Fill the screen with the video",
+                "Để video phủ kín màn hình");
+    }
+
+    private static void fill6(Map<String, String> table) {
+        table.put("Filter TikTok's offline videos",
+                "Lọc video ngoại tuyến của TikTok");
         table.put("Filter bottom tabs",
                 "Bộ lọc tab dưới cùng");
         table.put("Filter comments by keyword",
                 "Lọc bình luận theo từ khóa");
         table.put("Filter feed tabs",
                 "Lọc tab feed");
+        table.put("Filter location-tagged videos",
+                "Lọc video có gắn địa điểm");
         table.put("Filter settings",
                 "Cài đặt bộ lọc");
+        table.put("Filter the LIVE feed",
+                "Lọc feed LIVE");
         table.put("Filter the list",
                 "Lọc danh sách");
         table.put("Filter: %1$s",
@@ -553,6 +805,8 @@ final class L10nTranslationsVi {
                 "Vừa video với màn hình");
         table.put("Focus",
                 "Tập trung");
+        table.put("Fold the search into a button",
+                "Thu gọn tìm kiếm thành nút");
         table.put("Follow probe",
                 "Kiểm tra theo dõi");
         table.put("Followers",
@@ -561,6 +815,12 @@ final class L10nTranslationsVi {
                 "Đang theo dõi");
         table.put("For You",
                 "Dành cho bạn");
+        table.put("For You, Following and the other feed tabs stay behind a calm panel and won't swipe. Messages, profiles and search work as usual, a link to one video still opens that video, and the app opens on Inbox instead of the feed.",
+                "Các tab Dành cho bạn, Đang theo dõi và những feed khác sẽ bị khóa sau một màn hình yên tĩnh và không thể vuốt. Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động; liên kết đến một video vẫn mở video đó. Ứng dụng sẽ mở ở Hộp thư thay vì feed.");
+        table.put("For accounts TikTok took translation away from. Brings back See translation under video descriptions and in captions, and the translation rows on the Language page in Settings and privacy. Restart TikTok to see it on videos.",
+                "Khôi phục Xem bản dịch bên dưới mô tả video, trong chú thích và các mục dịch trên trang Ngôn ngữ trong Cài đặt và quyền riêng tư cho tài khoản bị TikTok tắt tính năng dịch. Khởi động lại TikTok để thấy thay đổi trên video.");
+        table.put("For accounts TikTok took translation away from. Brings back See translation under video descriptions and in captions. Restart TikTok to see the change.",
+                "Khôi phục Xem bản dịch bên dưới mô tả video và trong chú thích cho tài khoản bị TikTok tắt tính năng dịch. Khởi động lại TikTok để áp dụng.");
         table.put("Forced %1$d gates. Restart TikTok to apply this.",
                 "Đã ép %1$d cổng. Khởi động lại TikTok để áp dụng.");
         table.put("Forced 1 gate. Restart TikTok to apply this.",
@@ -577,14 +837,22 @@ final class L10nTranslationsVi {
                 "Tìm thấy %1$s trong trò chuyện của bạn.");
         table.put("Friends",
                 "Bạn bè");
+        table.put("Friends tab name",
+                "Tên tab Bạn bè");
+        table.put("Friends won't see a green dot or Active now while you're in TikTok. Needs Ghost mode on. Their status may stop updating for you, and your last status can linger.",
+                "Bạn bè sẽ không thấy chấm xanh hoặc trạng thái Đang hoạt động khi bạn dùng TikTok. Cần bật Chế độ ẩn. Trạng thái của họ có thể ngừng cập nhật với bạn và trạng thái hoạt động gần nhất của bạn có thể còn hiển thị một lúc.");
         table.put("Full comment sort options",
                 "Tùy chọn sắp xếp bình luận đầy đủ");
         table.put("Full license",
                 "Giấy phép đầy đủ");
         table.put("Full report saved to %1$s",
                 "Đã lưu báo cáo đầy đủ vào %1$s");
+        table.put("Full-width progress bar",
+                "Thanh tiến trình toàn chiều rộng");
         table.put("GIF",
                 "GIF");
+        table.put("Galaxy Store",
+                "Galaxy Store");
         table.put("Gate data unavailable",
                 "Dữ liệu cổng không có sẵn");
         table.put("Gate details",
@@ -597,12 +865,22 @@ final class L10nTranslationsVi {
                 "Chế độ ma");
         table.put("Ghost mode diagnostics",
                 "Chẩn đoán chế độ ma");
+        table.put("Give each commenter's name a color of its own, the same one every time you see that account, so a long thread is easier to follow.",
+                "Gán cho tên mỗi người bình luận một màu riêng và giữ màu đó ở mọi nơi để dễ theo dõi chuỗi bình luận dài.");
         table.put("Go to the screen now. Hushfeed records its layout in %1$d seconds.",
                 "Đi đến màn hình ngay bây giờ. Hushfeed sẽ ghi lại bố cục trong %1$d giây.");
         table.put("Got it",
                 "Đã hiểu");
+        table.put("HDR videos light the screen extra bright. This plays the standard (SDR) version instead, so the screen doesn't jump to full brightness. Videos with no standard version still play in HDR.",
+                "Video HDR làm màn hình sáng hơn bình thường. Tùy chọn này phát bản tiêu chuẩn (SDR) để độ sáng không tăng đột ngột. Video không có bản tiêu chuẩn vẫn phát ở HDR.");
+        table.put("HTTP",
+                "HTTP");
+        table.put("Hand-off",
+                "Chuyển sang ứng dụng khác");
         table.put("Hidden %1$s on this phone",
                 "%1$s đã bị ẩn trên điện thoại này");
+        table.put("Hidden LIVE categories",
+                "Danh mục LIVE bị ẩn");
         table.put("Hidden commenters",
                 "Người bình luận bị ẩn");
         table.put("Hidden: %1$s",
@@ -613,26 +891,321 @@ final class L10nTranslationsVi {
                 "Ẩn video do AI tạo");
         table.put("Hide Add friends",
                 "Ẩn Thêm bạn bè");
+        table.put("Hide Balance from the menu your profile's top right button opens. Your coins and gifts stay as they are.",
+                "Ẩn mục Số dư trong menu mở từ nút góc trên bên phải hồ sơ. Xu và quà tặng không thay đổi.");
+        table.put("Hide Balance in the profile menu",
+                "Ẩn Số dư trong menu hồ sơ");
+        table.put("Hide Bulletin board",
+                "Ẩn Bảng tin");
         table.put("Hide CAPTCHA popups",
                 "Ẩn cửa sổ CAPTCHA");
+    }
+
+    private static void fill7(Map<String, String> table) {
+        table.put("Hide LIVE replays",
+                "Ẩn bản phát lại LIVE");
+        table.put("Hide LIVE videos",
+                "Ẩn video LIVE");
+        table.put("Hide LIVE videos from the feed.",
+                "Ẩn video LIVE khỏi feed.");
+        table.put("Hide LIVEs hosted by verified accounts.",
+                "Ẩn LIVE do tài khoản đã xác minh phát.");
+        table.put("Hide LIVEs that TikTok labels as a paid partnership or promotional content.",
+                "Ẩn LIVE được TikTok đánh dấu là hợp tác trả phí hoặc nội dung quảng bá.");
+        table.put("Hide LIVEs that TikTok tags with a game or a gaming category.",
+                "Ẩn LIVE được TikTok gắn thẻ trò chơi hoặc danh mục chơi game.");
+        table.put("Hide LIVEs that sell products or carry a TikTok Shop tag.",
+                "Ẩn LIVE bán sản phẩm hoặc có thẻ TikTok Shop.");
+        table.put("Hide Series",
+                "Ẩn Series");
+        table.put("Hide Thoughts on profiles",
+                "Ẩn Thoughts trên hồ sơ");
+        table.put("Hide TikTok Shop",
+                "Ẩn TikTok Shop");
+        table.put("Hide TikTok Shop in search",
+                "Ẩn TikTok Shop trong tìm kiếm");
+        table.put("Hide TikTok Shop posts from the feed.",
+                "Ẩn bài đăng TikTok Shop khỏi feed.");
+        table.put("Hide TikTok's \"Search: ...\" banner above the comment count. This doesn't hide the comments or Hushfeed's comment-search box.",
+                "Ẩn biểu ngữ \"Tìm kiếm: ...\" của TikTok phía trên số bình luận. Bình luận và ô tìm kiếm bình luận của Hushfeed vẫn hiển thị.");
+        table.put("Hide TikTok's Auto scroll button",
+                "Ẩn nút Tự cuộn của TikTok");
+        table.put("Hide TikTok's short drama episodes and the cards that promote them.",
+                "Ẩn các tập phim ngắn dạng drama của TikTok và thẻ quảng bá chúng.");
+        table.put("Hide a VPN connection",
+                "Ẩn kết nối VPN");
+        table.put("Hide activity",
+                "Ẩn Hoạt động");
+        table.put("Hide activity status",
+                "Ẩn trạng thái hoạt động");
+        table.put("Hide archive",
+                "Ẩn Lưu trữ");
+        table.put("Hide bottom tabs TikTok adds later unless you allow them.",
+                "Ẩn các tab dưới cùng mà TikTok thêm về sau, trừ khi bạn cho phép.");
+        table.put("Hide buttons in the right column",
+                "Ẩn nút ở cột bên phải");
+        table.put("Hide call buttons",
+                "Ẩn nút gọi");
+        table.put("Hide comment box buttons",
+                "Ẩn nút trong ô bình luận");
+        table.put("Hide comment polls",
+                "Ẩn bình chọn trong bình luận");
+        table.put("Hide comment popup ads",
+                "Ẩn quảng cáo bật lên trong bình luận");
+        table.put("Hide comment surveys",
+                "Ẩn khảo sát trong bình luận");
+        table.put("Hide comment typing suggestions",
+                "Ẩn gợi ý khi nhập bình luận");
         table.put("Hide comments made of an image or a sticker instead of words.",
                 "Ẩn bình luận được tạo bằng hình ảnh hoặc nhãn dán thay vì chữ.");
+        table.put("Hide comments that contain any of the words below, or that come from the accounts below.",
+                "Ẩn bình luận chứa bất kỳ từ nào bên dưới hoặc đến từ các tài khoản được liệt kê.");
+        table.put("Hide comments that send you to a profile, a bio link, a website or a messenger, or offer free followers. Your own comments stay, and so do the creator's and the ones they pinned or liked.",
+                "Ẩn bình luận dẫn đến hồ sơ, liên kết trong tiểu sử, trang web hoặc ứng dụng nhắn tin, cũng như bình luận mời chào người theo dõi miễn phí. Bình luận của bạn, của nhà sáng tạo và các bình luận họ ghim hoặc thích vẫn được giữ.");
+        table.put("Hide conversations",
+                "Ẩn các cuộc trò chuyện");
+        table.put("Hide every direct message conversation. Leaves the Inbox empty apart from whatever else is still turned on.",
+                "Ẩn mọi cuộc trò chuyện tin nhắn trực tiếp. Hộp thư sẽ trống, ngoại trừ các mục khác vẫn đang bật.");
+        table.put("Hide feed videos with place badges, even when they aren't paid ads. To keep the video and hide only its badge, use Hide location labels in Feed screen.",
+                "Ẩn video trên feed có nhãn địa điểm, kể cả khi không phải quảng cáo trả phí. Để giữ video và chỉ ẩn nhãn, dùng Ẩn nhãn vị trí trong mục Màn hình feed.");
         table.put("Hide floating promotions",
                 "Ẩn quảng cáo nổi");
+        table.put("Hide gaming LIVEs",
+                "Ẩn LIVE chơi game");
         table.put("Hide message requests",
                 "Ẩn yêu cầu tin nhắn");
+        table.put("Hide message streaks",
+                "Ẩn chuỗi tin nhắn");
+        table.put("Hide mini dramas",
+                "Ẩn phim ngắn dạng drama");
+        table.put("Hide new follower notifications",
+                "Ẩn thông báo người theo dõi mới");
+        table.put("Hide new followers",
+                "Ẩn người theo dõi mới");
+        table.put("Hide online status",
+                "Ẩn trạng thái trực tuyến");
+        table.put("Hide paid partnerships",
+                "Ẩn nội dung hợp tác trả phí");
+        table.put("Hide people and options by name",
+                "Ẩn người và tùy chọn theo tên");
+        table.put("Hide photo posts",
+                "Ẩn bài đăng ảnh");
+        table.put("Hide photo posts from the feed.",
+                "Ẩn bài đăng ảnh khỏi feed.");
+        table.put("Hide picture comments",
+                "Ẩn bình luận có ảnh");
+        table.put("Hide place badges on videos, including cards with multiple places. Videos and your location permissions stay unchanged.",
+                "Ẩn nhãn địa điểm trên video, kể cả thẻ có nhiều địa điểm. Video và quyền truy cập vị trí không thay đổi.");
+        table.put("Hide playlist videos",
+                "Ẩn video trong danh sách phát");
+        table.put("Hide posts only a creator's subscribers can watch, the ones with a lock, on the feed and on profiles.",
+                "Ẩn bài đăng chỉ dành cho người đăng ký của nhà sáng tạo (có biểu tượng khóa) trên feed và hồ sơ.");
         table.put("Hide profile shortcuts",
                 "Ẩn phím tắt hồ sơ");
+        table.put("Hide profile shortcuts by name",
+                "Ẩn lối tắt hồ sơ theo tên");
+        table.put("Hide profile views",
+                "Ẩn lượt xem hồ sơ");
+        table.put("Hide promotional music",
+                "Ẩn nhạc quảng bá");
+        table.put("Hide recommended searches before you type on TikTok's search page. Your search history stays. This doesn't hide suggestions above comments.",
+                "Ẩn các tìm kiếm được đề xuất trước khi bạn nhập trên trang tìm kiếm TikTok. Lịch sử tìm kiếm vẫn được giữ. Tùy chọn này không ẩn gợi ý phía trên bình luận.");
+        table.put("Hide recorded LIVE broadcasts from the feed.",
+                "Ẩn các buổi LIVE đã phát lại khỏi feed.");
+        table.put("Hide reply previews",
+                "Ẩn bản xem trước câu trả lời");
+        table.put("Hide root",
+                "Ẩn trạng thái root");
+        table.put("Hide root status and details about root tools from TikTok.",
+                "Ẩn trạng thái root và thông tin về công cụ root khỏi TikTok.");
+        table.put("Hide rows by title",
+                "Ẩn hàng theo tiêu đề");
+        table.put("Hide search rewards",
+                "Ẩn phần thưởng tìm kiếm");
+    }
+
+    private static void fill8(Map<String, String> table) {
+        table.put("Hide search suggestions above comments",
+                "Ẩn gợi ý tìm kiếm phía trên bình luận");
+        table.put("Hide share actions",
+                "Ẩn hành động chia sẻ");
+        table.put("Hide sharing apps",
+                "Ẩn ứng dụng chia sẻ");
+        table.put("Hide shopping LIVEs",
+                "Ẩn LIVE bán hàng");
+        table.put("Hide spam comments",
+                "Ẩn bình luận rác");
+        table.put("Hide sponsored LIVEs",
+                "Ẩn LIVE được tài trợ");
+        table.put("Hide sticker suggestions",
+                "Ẩn gợi ý nhãn dán");
+        table.put("Hide stories",
+                "Ẩn Story");
+        table.put("Hide stories from the feed.",
+                "Ẩn Story khỏi feed.");
+        table.put("Hide stories tray",
+                "Ẩn hàng Story");
+        table.put("Hide subscriber-only videos",
+                "Ẩn video chỉ dành cho người đăng ký");
+        table.put("Hide suggested accounts",
+                "Ẩn tài khoản được đề xuất");
+        table.put("Hide suggested replies",
+                "Ẩn câu trả lời gợi ý");
         table.put("Hide suggestions on the search page",
                 "Ẩn gợi ý trên trang tìm kiếm");
+        table.put("Hide tabs TikTok adds later unless you allow them.",
+                "Ẩn các tab TikTok thêm về sau, trừ khi bạn cho phép.");
+        table.put("Hide the \"Search this image\" prompt shown over videos. The feed search button and suggestions above comments are separate settings.",
+                "Ẩn lời nhắc \"Tìm kiếm hình ảnh này\" phủ trên video. Nút tìm kiếm của feed và gợi ý phía trên bình luận có cài đặt riêng.");
+        table.put("Hide the AI Cast button",
+                "Ẩn nút AI Cast");
+        table.put("Hide the Add friends button at the top of your profile. The menu button stays where it is.",
+                "Ẩn nút Thêm bạn bè ở đầu hồ sơ. Nút menu vẫn giữ nguyên vị trí.");
+        table.put("Hide the Footnotes banner TikTok shows on a video that has a note attached. The video and its comments stay as they are.",
+                "Ẩn biểu ngữ Footnotes mà TikTok hiển thị trên video có ghi chú đính kèm. Video và bình luận vẫn giữ nguyên.");
+        table.put("Hide the Full screen button over videos. Playback and automatic rotation keep working as before.",
+                "Ẩn nút Toàn màn hình trên video. Phát video và tự động xoay màn hình vẫn hoạt động như trước.");
+        table.put("Hide the Hushfeed row",
+                "Ẩn hàng Hushfeed");
+        table.put("Hide the Inbox search button",
+                "Ẩn nút tìm kiếm trong Hộp thư");
         table.put("Hide the LIVE button",
                 "Ẩn nút LIVE");
+        table.put("Hide the Products block and product cards in search results.",
+                "Ẩn khối Sản phẩm và thẻ sản phẩm trong kết quả tìm kiếm.");
+        table.put("Hide the Send to row",
+                "Ẩn hàng Gửi đến");
+        table.put("Hide the Share via row.",
+                "Ẩn hàng Chia sẻ qua.");
+        table.put("Hide the Tako AI bubble above the profile button or in the bottom corner of videos, the Ask bar under videos, the Ask Tako button on the search page, the Ask Tako tab on search results and the Tako bar above comments.",
+                "Ẩn bong bóng Tako AI phía trên nút Hồ sơ hoặc ở góc dưới video, thanh Hỏi bên dưới video, nút Hỏi Tako trên trang tìm kiếm, tab Hỏi Tako trong kết quả tìm kiếm và thanh Tako phía trên bình luận.");
+        table.put("Hide the Tako bubble",
+                "Ẩn bong bóng Tako");
+        table.put("Hide the Tako chat",
+                "Ẩn cuộc trò chuyện Tako");
+        table.put("Hide the Thoughts bubble TikTok shows above a profile picture, and the prompt to share one on your own profile. Restart TikTok to apply this.",
+                "Ẩn bong bóng Thoughts phía trên ảnh hồ sơ và lời nhắc chia sẻ Thoughts trên hồ sơ của bạn. Khởi động lại TikTok để áp dụng.");
+        table.put("Hide the TikTok Minis icons in the profile menu",
+                "Ẩn biểu tượng TikTok Minis trong menu hồ sơ");
+        table.put("Hide the actions row of the share sheet.",
+                "Ẩn hàng hành động của bảng chia sẻ.");
+        table.put("Hide the add people icon",
+                "Ẩn biểu tượng thêm người");
+        table.put("Hide the bottom tab names",
+                "Ẩn tên các tab dưới cùng");
+        table.put("Hide the button at the top left of the feed that opens TikTok's side menu, with Your orders, TikTok Minis and more.",
+                "Ẩn nút ở góc trên bên trái feed dùng để mở menu bên của TikTok, nơi có Đơn hàng của bạn, TikTok Minis và các mục khác.");
+        table.put("Hide the fill-in videos TikTok sends to For You without picking them for you. When a whole batch is fill-in, it stays so the feed doesn't run dry.",
+                "Ẩn video lấp chỗ mà TikTok đưa vào Dành cho bạn mà không chọn riêng cho bạn. Nếu cả một nhóm video đều thuộc loại này, nhóm đó vẫn được giữ để feed không bị trống.");
+        table.put("Hide the flag button TikTok puts above the creator's picture in some regions. You can still report a video from the share menu.",
+                "Ẩn nút lá cờ mà TikTok đặt phía trên ảnh nhà sáng tạo ở một số khu vực. Bạn vẫn có thể báo cáo video từ menu chia sẻ.");
+        table.put("Hide the follow button on the feed",
+                "Ẩn nút theo dõi trên feed");
+        table.put("Hide the friend recommendation card and the other cards TikTok slots between videos.",
+                "Ẩn thẻ đề xuất bạn bè và các thẻ khác mà TikTok chèn giữa những video.");
+        table.put("Hide the group chat prompt",
+                "Ẩn lời mời tạo trò chuyện nhóm");
+        table.put("Hide the launcher shortcuts",
+                "Ẩn lối tắt trình khởi chạy");
+        table.put("Hide the magnifying glass at the top of Inbox. Search on the feed and in comments is unchanged.",
+                "Ẩn biểu tượng kính lúp ở đầu Hộp thư. Tìm kiếm trên feed và trong bình luận không thay đổi.");
+        table.put("Hide the magnifying glass at the top right of the feed. Search in Inbox and suggestions above comments stay unchanged.",
+                "Ẩn biểu tượng kính lúp ở góc trên bên phải feed. Tìm kiếm trong Hộp thư và gợi ý phía trên bình luận không thay đổi.");
+        table.put("Hide the notification saying somebody new followed you before it reaches the drawer. Every other notification is left alone, and the follower still appears in the Inbox.",
+                "Ẩn thông báo người mới theo dõi bạn trước khi nó xuất hiện trong ngăn thông báo. Các thông báo khác không bị ảnh hưởng và người theo dõi vẫn xuất hiện trong Hộp thư.");
+        table.put("Hide the photo, @ and gift buttons in the box where you write a comment. Emoji and sending work as before.",
+                "Ẩn các nút ảnh, @ và quà tặng trong ô viết bình luận. Emoji và gửi bình luận vẫn hoạt động như trước.");
+        table.put("Hide the playlist bar along the bottom of videos that belong to a series.",
+                "Ẩn thanh danh sách phát ở cuối video thuộc một series.");
+        table.put("Hide the plus button under the creator's picture in the right column. Ticking Avatar and follow button above hides the picture with it.",
+                "Ẩn nút dấu cộng bên dưới ảnh nhà sáng tạo ở cột bên phải. Nếu bật Ảnh đại diện và nút theo dõi ở phía trên, ảnh cũng sẽ bị ẩn.");
+        table.put("Hide the points banner under the search box and the coin counter floating over search results, which TikTok shows in some regions. Searching works as before.",
+                "Ẩn biểu ngữ điểm bên dưới ô tìm kiếm và bộ đếm xu nổi trên kết quả tìm kiếm mà TikTok hiển thị ở một số khu vực. Tìm kiếm vẫn hoạt động như trước.");
+        table.put("Hide the profile views button at the top of your profile. Your profile view history setting doesn't change.",
+                "Ẩn nút lượt xem hồ sơ ở đầu hồ sơ. Cài đặt lịch sử xem hồ sơ không thay đổi.");
+        table.put("Hide the purple rewards button beside Add friends on your profile.",
+                "Ẩn nút phần thưởng màu tím bên cạnh Thêm bạn bè trên hồ sơ.");
+        table.put("Hide the question cards TikTok sometimes puts in a comment list to ask what you think.",
+                "Ẩn thẻ câu hỏi mà TikTok đôi khi chèn vào danh sách bình luận để hỏi ý kiến.");
+        table.put("Hide the quick emoji row and automatic sticker suggestions that appear while you type. The emoji and sticker buttons still work.",
+                "Ẩn hàng emoji nhanh và gợi ý nhãn dán tự động khi bạn nhập. Các nút emoji và nhãn dán vẫn hoạt động.");
+        table.put("Hide the red counts and dots on every bottom tab, Inbox and Profile included, and the bubble over Inbox that counts new likes, followers, comments and who's LIVE. The inbox itself still shows what came in.",
+                "Ẩn số đỏ và chấm thông báo trên mọi tab phía dưới, bao gồm Hộp thư và Hồ sơ, cùng bong bóng trên Hộp thư báo lượt thích, người theo dõi, bình luận mới và tài khoản đang LIVE. Nội dung trong Hộp thư vẫn hiển thị.");
+        table.put("Hide the restriction notice on your own profile on this phone. TikTok's restrictions and appeals still apply.",
+                "Ẩn thông báo hạn chế trên hồ sơ của bạn ở điện thoại này. Các hạn chế và quy trình khiếu nại của TikTok vẫn được áp dụng.");
+        table.put("Hide the rewards shortcut",
+                "Ẩn lối tắt phần thưởng");
+        table.put("Hide the right column",
+                "Ẩn cột bên phải");
+        table.put("Hide the row of LIVE and story circles across the top of the Following feed, and the pill that counts them. For You is left as it is.",
+                "Ẩn hàng biểu tượng LIVE và Story ở đầu feed Đang theo dõi cùng nhãn đếm số lượng. Feed Dành cho bạn không thay đổi.");
+        table.put("Hide the row of friends at the top of the share sheet.",
+                "Ẩn hàng bạn bè ở đầu bảng chia sẻ.");
+        table.put("Hide the save button in the right column. Ticking Save in the list above hides it too.",
+                "Ẩn nút lưu ở cột bên phải. Nếu chọn Lưu trong danh sách phía trên, nút này cũng bị ẩn.");
+        table.put("Hide the save button on the feed",
+                "Ẩn nút lưu trên feed");
+    }
+
+    private static void fill9(Map<String, String> table) {
+        table.put("Hide the search bar at the top of videos you open from search, a profile or your watch history. The Back button stays.",
+                "Ẩn thanh tìm kiếm ở đầu video mở từ kết quả tìm kiếm, hồ sơ hoặc lịch sử xem. Nút Quay lại vẫn được giữ.");
         table.put("Hide the search button on the feed",
                 "Ẩn nút tìm kiếm trên feed");
+        table.put("Hide the status bar",
+                "Ẩn thanh trạng thái");
+        table.put("Hide the status bar in LIVE rooms",
+                "Ẩn thanh trạng thái trong phòng LIVE");
+        table.put("Hide the suggested-search strip above the bottom tabs and let video details and side controls use its space. The top search button and comments stay unchanged.",
+                "Ẩn dải tìm kiếm gợi ý phía trên các tab dưới cùng để phần thông tin video và nút điều khiển bên cạnh dùng khoảng trống đó. Nút tìm kiếm phía trên và bình luận không thay đổi.");
+        table.put("Hide the tab names above the feed",
+                "Ẩn tên tab phía trên feed");
+        table.put("Hide the tags above a video's description that invite you to try an effect, a template, CapCut or an AI style. Location labels and the music line have their own switches.",
+                "Ẩn các thẻ phía trên mô tả video mời bạn thử hiệu ứng, mẫu, CapCut hoặc phong cách AI. Nhãn vị trí và dòng nhạc có công tắc riêng.");
+        table.put("Hide the unread badges on the bottom tabs",
+                "Ẩn huy hiệu chưa đọc trên các tab dưới cùng");
+        table.put("Hide the whole column on the right, from the avatar down to the music disc.",
+                "Ẩn toàn bộ cột bên phải, từ ảnh đại diện đến đĩa nhạc.");
         table.put("Hide this creator on this phone",
                 "Ẩn người sáng tạo này trên điện thoại này");
+        table.put("Hide unpersonalized For You videos",
+                "Ẩn video Dành cho bạn không cá nhân hóa");
         table.put("Hide verified accounts",
                 "Ẩn tài khoản đã xác minh");
+        table.put("Hide verified creators' LIVEs",
+                "Ẩn LIVE của nhà sáng tạo đã xác minh");
+        table.put("Hide video actions",
+                "Ẩn thao tác video");
+        table.put("Hide videos marked as paid partnership or branded content.",
+                "Ẩn video được đánh dấu là hợp tác trả phí hoặc nội dung thương hiệu.");
+        table.put("Hide videos marked as using promotional music.",
+                "Ẩn video được đánh dấu là sử dụng nhạc quảng bá.");
+        table.put("Hide videos posted as part of a playlist.",
+                "Ẩn video được đăng trong danh sách phát.");
+        table.put("Hide videos posted by verified accounts.",
+                "Ẩn video do tài khoản đã xác minh đăng.");
+        table.put("Hide videos that belong to a paid Series.",
+                "Ẩn video thuộc Series trả phí.");
+        table.put("Hide videos that use a sound blocked with the player's sound button, or named below.",
+                "Ẩn video dùng âm thanh đã chặn bằng nút âm thanh của trình phát hoặc được liệt kê bên dưới.");
+        table.put("Hide videos with TikTok's AI-generated label, AI content credentials, a TikTok AI effect such as AI Alive, or a tag like #ai or #aigenerated.",
+                "Ẩn video có nhãn do AI tạo của TikTok, thông tin xác thực nội dung AI, hiệu ứng AI của TikTok như AI Alive hoặc thẻ như #ai hay #aigenerated.");
+        table.put("Hide videos with a lot of views and few comments. Works the same way as views per like. Zero turns it off.",
+                "Ẩn video có nhiều lượt xem nhưng ít bình luận. Cách hoạt động giống tỷ lệ lượt xem trên lượt thích. Giá trị 0 sẽ tắt.");
+        table.put("Hide videos with a lot of views and few likes. Lower numbers are stricter, zero turns the rule off, and one video is kept back if everything the feed just sent would go.",
+                "Ẩn video có nhiều lượt xem nhưng ít lượt thích. Giá trị càng thấp thì lọc càng chặt; 0 tắt quy tắc. Nếu toàn bộ video vừa tải đều bị loại, một video sẽ được giữ lại.");
+        table.put("Hide videos with blocked sounds",
+                "Ẩn video có âm thanh bị chặn");
+        table.put("Hide videos you have already seen",
+                "Ẩn video bạn đã xem");
+        table.put("Hide voting cards and poll results above the comments, including polls that have ended.",
+                "Ẩn thẻ bình chọn và kết quả bình chọn phía trên bình luận, kể cả bình chọn đã kết thúc.");
+        table.put("Hide your account warning",
+                "Ẩn cảnh báo tài khoản của bạn");
+        table.put("Hides rooms in the LIVE feed you swipe through, using the rules below. Blocked creators, Creators hidden on this phone and Creator exceptions apply here too, and Blocked caption words are checked against each LIVE's title. The first room the LIVE button opens isn't filtered. If every room would be hidden, one gets through so the feed keeps loading.",
+                "Ẩn các phòng trong feed LIVE mà bạn vuốt qua theo quy tắc bên dưới. Tài khoản bị chặn, nhà sáng tạo bị ẩn trên điện thoại và ngoại lệ nhà sáng tạo cũng được áp dụng; từ khóa chú thích bị chặn sẽ được đối chiếu với tiêu đề LIVE. Phòng đầu tiên mở bằng nút LIVE không bị lọc. Nếu tất cả phòng đều bị ẩn, một phòng vẫn được hiển thị để feed tiếp tục tải.");
+        table.put("Hides the comment count, the sort and close buttons and the suggestions above them. Use Back or swipe down to close comments.",
+                "Ẩn số bình luận, nút sắp xếp, nút đóng và các gợi ý phía trên. Dùng nút Quay lại hoặc vuốt xuống để đóng bình luận.");
         table.put("Hiding",
                 "Đang ẩn");
         table.put("Highest",
@@ -641,19 +1214,28 @@ final class L10nTranslationsVi {
                 "Lịch sử");
         table.put("Historical values",
                 "Giá trị lịch sử");
-    }
-
-    private static void fill5(Map<String, String> table) {
         table.put("Hold a gate to choose several",
                 "Giữ cổng để chọn nhiều");
+        table.put("Hold a photo story",
+                "Giữ Story ảnh");
         table.put("Hold the feed after the budget",
                 "Khóa feed sau ngân sách");
+        table.put("Hold the music disc at the bottom of the right column still, even where TikTok turns it. This overrides Spin the music disc.",
+                "Giữ đĩa nhạc ở cuối cột bên phải đứng yên, kể cả khi TikTok xoay nó. Tùy chọn này ghi đè Xoay đĩa nhạc.");
         table.put("Home",
                 "Trang chủ");
+        table.put("Home tab name",
+                "Tên tab Trang chủ");
         table.put("Hook status",
                 "Trạng thái hook");
         table.put("How far each edge press moves the video.",
                 "Mỗi lần nhấn mép di chuyển video bao xa.");
+        table.put("How long each photo stays on screen in a video made from a photo post.",
+                "Thời gian hiển thị mỗi ảnh trong video tạo từ bài đăng ảnh.");
+        table.put("How many saves run at the same time. The others wait in line and start as each one ends.",
+                "Số tác vụ lưu chạy đồng thời. Các tác vụ còn lại xếp hàng và bắt đầu khi tác vụ trước kết thúc.");
+        table.put("How much of a video you watch before it's hidden next time. Zero counts it after a few seconds.",
+                "Tỷ lệ video bạn cần xem trước khi video đó bị ẩn ở lần xuất hiện sau. Giá trị 0 sẽ tính sau vài giây.");
         table.put("Hushfeed",
                 "Hushfeed");
         table.put("Hushfeed is active",
@@ -684,38 +1266,123 @@ final class L10nTranslationsVi {
                 "Chẩn đoán đã bao gồm");
         table.put("Includes all diagnostic events.",
                 "Bao gồm tất cả sự kiện chẩn đoán.");
+        table.put("Includes these events: %1$s",
+                "Bao gồm các sự kiện: %1$s");
+    }
+
+    private static void fill10(Map<String, String> table) {
+        table.put("Keep For You on a Home tap",
+                "Giữ Dành cho bạn khi chạm Trang chủ");
+        table.put("Keep For You on a pull down",
+                "Giữ Dành cho bạn khi vuốt xuống");
+        table.put("Keep a local record of what you have watched and hide those videos when the feed sends them again.",
+                "Lưu lịch sử video đã xem trên thiết bị và ẩn những video đó nếu feed gửi lại.");
         table.put("Keep a paused video paused",
                 "Giữ video đang tạm dừng ở trạng thái tạm dừng");
+        table.put("Keep a photo story on screen until you tap or swipe, instead of moving on after a few seconds.",
+                "Giữ Story ảnh trên màn hình cho đến khi bạn chạm hoặc vuốt, thay vì tự chuyển sau vài giây.");
+        table.put("Keep a streak going",
+                "Duy trì chuỗi liên tiếp");
         table.put("Keep captions available",
                 "Giữ phụ đề có sẵn");
         table.put("Keep going",
                 "Tiếp tục");
+        table.put("Keep offline videos out of the feed",
+                "Không đưa video ngoại tuyến vào feed");
+        table.put("Keep offline videos until you delete them",
+                "Giữ video ngoại tuyến cho đến khi bạn xóa");
+        table.put("Keep photos as TikTok sent them",
+                "Giữ nguyên ảnh theo định dạng TikTok gửi");
         table.put("Keep playing in the background",
                 "Tiếp tục phát nền");
         table.put("Keep the Favorites tab",
                 "Giữ tab Yêu thích");
+        table.put("Keep the For You feed on your real SIM",
+                "Dùng SIM thật cho feed Dành cho bạn");
+        table.put("Keep the LIVE quality after TikTok restarts",
+                "Giữ chất lượng LIVE sau khi khởi động lại TikTok");
+        table.put("Keep the TikTok Minis entry in the menu your profile's top right button opens, and hide the row of app icons under it so the menu is shorter.",
+                "Giữ mục TikTok Minis trong menu mở từ nút góc trên bên phải hồ sơ, đồng thời ẩn hàng biểu tượng ứng dụng bên dưới để menu ngắn hơn.");
+        table.put("Keep the clock and status icons off the screen while TikTok is open. Swipe down from the top to peek at them.",
+                "Ẩn đồng hồ và biểu tượng trạng thái khi TikTok đang mở. Vuốt xuống từ mép trên để xem tạm thời.");
         table.put("Keep the language picked in TikTok",
                 "Giữ ngôn ngữ đã chọn trong TikTok");
         table.put("Keep the music disc still",
                 "Giữ đĩa nhạc đứng yên");
+        table.put("Keep the screen's brightness in the camera",
+                "Giữ nguyên độ sáng màn hình khi dùng camera");
         table.put("Keep the screen's refresh rate",
                 "Giữ tốc độ làm mới màn hình");
+        table.put("Keep the speed you chose for the next video. Off, each new video starts at 1x and a manual choice lasts for that video only.",
+                "Giữ tốc độ đã chọn cho video tiếp theo. Nếu tắt, mỗi video mới bắt đầu ở tốc độ 1x và lựa chọn thủ công chỉ áp dụng cho video đó.");
         table.put("Keep this string to %1$s characters or fewer.",
                 "Giữ chuỗi này trong %1$s ký tự hoặc ít hơn.");
+        table.put("Keep videos out of Watch history",
+                "Không lưu video vào Lịch sử xem");
+        table.put("Keep watching in a small window",
+                "Tiếp tục xem trong cửa sổ nhỏ");
+        table.put("Keep what you search for out of the search history TikTok saves on this phone. Searches already there stay until you delete them, and TikTok's servers may still keep their own record.",
+                "Không lưu nội dung tìm kiếm mới vào lịch sử tìm kiếm trên điện thoại. Các tìm kiếm đã lưu vẫn còn cho đến khi bạn xóa; máy chủ TikTok vẫn có thể giữ bản ghi riêng.");
+        table.put("Keeps logging until you turn it off, even after a restart. TikTok can feel slower while it's on.",
+                "Tiếp tục ghi nhật ký cho đến khi bạn tắt, kể cả sau khi khởi động lại. TikTok có thể chậm hơn khi bật.");
         table.put("Kept to %1$s, the nearest value this row allows",
                 "Đã giữ ở %1$s, giá trị gần nhất mà hàng này cho phép");
         table.put("Kinds of post",
                 "Loại bài đăng");
+        table.put("LIVE feed",
+                "Feed LIVE");
+        table.put("LIVE followers range",
+                "Khoảng số người theo dõi của LIVE");
+        table.put("LIVE recording quality",
+                "Chất lượng ghi LIVE");
+        table.put("LIVE recording source",
+                "Nguồn ghi LIVE");
+        table.put("LIVE share actions",
+                "Hành động chia sẻ LIVE");
+        table.put("LIVE viewers range",
+                "Khoảng số người xem LIVE");
         table.put("Language",
                 "Ngôn ngữ");
+        table.put("Larger (1.25x)",
+                "Lớn hơn (1,25 lần)");
+        table.put("Last recording: %1$d gates.",
+                "Bản ghi gần nhất: %1$d cổng.");
+        table.put("Last recording: 1 gate.",
+                "Bản ghi gần nhất: 1 cổng.");
+        table.put("Latest first on Following",
+                "Bài mới nhất trước trong Đang theo dõi");
+        table.put("Layout",
+                "Bố cục");
+        table.put("Least liked first",
+                "Ít lượt thích nhất trước");
+        table.put("Least viewed first",
+                "Ít lượt xem nhất trước");
+        table.put("Leave out the interest picker, the language and gender questions, the creators to follow, the swipe up tutorial and TikTok's notification page when TikTok runs its setup. Consent, age and sign-in screens still show.",
+                "Bỏ qua màn hình chọn sở thích, câu hỏi về ngôn ngữ và giới tính, danh sách nhà sáng tạo cần theo dõi, hướng dẫn vuốt lên và trang thông báo khi TikTok thiết lập lần đầu. Màn hình đồng ý điều khoản, tuổi và đăng nhập vẫn xuất hiện.");
+        table.put("Leave the sound out of the saved video. Save the sound as well still writes the sound file beside it if you want both.",
+                "Không đưa âm thanh vào video đã lưu. Nếu bật Lưu cả âm thanh, tệp âm thanh riêng vẫn được lưu bên cạnh để bạn có cả hai.");
         table.put("Leave when TikTok says time is up",
                 "Rời đi khi TikTok nói hết giờ");
         table.put("Left edge strip",
                 "Vạch mép trái");
         table.put("Less than a minute left",
                 "Còn dưới một phút");
+        table.put("Let a LIVE fill the screen up to the top edge. The status bar comes back when you leave the LIVE. Swipe down from the top to peek at it.",
+                "Cho LIVE hiển thị tràn màn hình đến sát mép trên. Thanh trạng thái sẽ xuất hiện lại khi bạn rời LIVE. Vuốt từ mép trên xuống để xem tạm thời.");
+        table.put("Let a LIVE reach the top edge with the clock and status icons over it, instead of a black strip. Hide the status bar in LIVE rooms takes them away instead.",
+                "Cho LIVE hiển thị đến sát mép trên với đồng hồ và biểu tượng trạng thái phủ lên, thay vì để một dải đen. Tùy chọn Ẩn thanh trạng thái trong phòng LIVE sẽ ẩn chúng hoàn toàn.");
+        table.put("Let comments, repost notes and your bio run past the length TikTok's app stops at. TikTok's servers can still turn down a long one.",
+                "Cho phép bình luận, ghi chú đăng lại và tiểu sử dài hơn giới hạn trong ứng dụng TikTok. Máy chủ TikTok vẫn có thể từ chối nội dung quá dài.");
+        table.put("Let screenshots, screen recording and Circle to Search work on TikTok again. Restart TikTok to apply this.",
+                "Cho phép chụp ảnh màn hình, quay màn hình và Circle to Search hoạt động trở lại trong TikTok. Khởi động lại TikTok để áp dụng.");
+        table.put("Let the Offline videos menu use your own limit instead of TikTok's fixed one. Restart TikTok to apply this.",
+                "Cho menu Video ngoại tuyến dùng giới hạn riêng thay vì giới hạn cố định của TikTok. Khởi động lại TikTok để áp dụng.");
+        table.put("Let the last video finish",
+                "Cho video cuối phát hết");
         table.put("Licenses",
                 "Giấy phép");
+        table.put("Lift text length limits",
+                "Bỏ giới hạn độ dài văn bản");
         table.put("Like",
                 "Thích");
         table.put("Like or unlike the video",
@@ -724,6 +1391,9 @@ final class L10nTranslationsVi {
                 "Video đã thích");
         table.put("Likes aren't available for this video",
                 "Không có lượt thích cho video này");
+    }
+
+    private static void fill11(Map<String, String> table) {
         table.put("Likes range",
                 "Phạm vi lượt thích");
         table.put("Limit background traffic",
@@ -750,6 +1420,8 @@ final class L10nTranslationsVi {
                 "Đang tải cổng…");
         table.put("Local profile counts",
                 "Số liệu hồ sơ cục bộ");
+        table.put("Local verified badge",
+                "Huy hiệu xác minh cục bộ");
         table.put("Location-tagged videos",
                 "Video có nhãn vị trí");
         table.put("Lock TikTok",
@@ -758,55 +1430,113 @@ final class L10nTranslationsVi {
                 "Khóa lại sau");
         table.put("Lock the feed",
                 "Khóa feed");
+        table.put("Lock the feed at set times",
+                "Khóa feed theo giờ đã đặt");
+        table.put("Lock today's budget",
+                "Khóa hạn mức hôm nay");
         table.put("Log diagnostics",
                 "Ghi nhật ký chẩn đoán");
         table.put("Long press",
                 "Nhấn giữ");
+        table.put("Long-press Home for Hushfeed settings",
+                "Nhấn giữ Trang chủ để mở cài đặt Hushfeed");
+        table.put("Long-press Profile for Watch history",
+                "Nhấn giữ Hồ sơ để mở Lịch sử xem");
+        table.put("Long-press a bio to copy it. A profile's share sheet gets buttons that copy its username and user ID, and a video's share sheet one that copies the video ID.",
+                "Nhấn giữ tiểu sử để sao chép. Bảng chia sẻ hồ sơ có nút sao chép tên người dùng và ID người dùng; bảng chia sẻ video có nút sao chép ID video.");
+        table.put("Longest first",
+                "Dài nhất trước");
+        table.put("Loop a story",
+                "Lặp lại Story");
         table.put("Lowest",
                 "Thấp nhất");
-    }
-
-    private static void fill6(Map<String, String> table) {
+        table.put("Makes TikTok see the country and carrier you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.",
+                "Khiến TikTok nhận quốc gia và nhà mạng bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; bất kỳ yếu tố nào vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.");
+        table.put("Makes TikTok see the country you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.",
+                "Khiến TikTok nhận quốc gia bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; các yếu tố này vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.");
+        table.put("Makes the heart easier to tap by using the empty space around it. The icon and spacing look the same, and Reply and other buttons keep their own space.",
+                "Giúp chạm nút trái tim dễ hơn bằng cách tận dụng vùng trống xung quanh. Biểu tượng và khoảng cách hiển thị không đổi; nút Trả lời và các nút khác vẫn có vùng riêng.");
         table.put("Manager",
                 "Trình quản lý");
+        table.put("Mark saved videos",
+                "Đánh dấu video đã lưu");
+        table.put("Match locale and timezone to country",
+                "Đồng bộ ngôn ngữ vùng và múi giờ theo quốc gia");
+        table.put("Match region fields in requests",
+                "Đồng bộ trường khu vực trong yêu cầu");
+        table.put("Match text stickers too",
+                "Đối chiếu cả nhãn dán chữ");
         table.put("Maximum",
                 "Tối đa");
+        table.put("Maximum post age",
+                "Độ cũ tối đa của bài đăng");
+        table.put("Maximum video length",
+                "Thời lượng video tối đa");
         table.put("Maximum views per comment",
                 "Số lượt xem tối đa mỗi bình luận");
         table.put("Maximum views per like",
                 "Số lượt xem tối đa mỗi lượt thích");
         table.put("Media",
                 "Phương tiện");
+        table.put("Message",
+                "Tin nhắn");
         table.put("Messages, profiles and search still work.",
                 "Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động.");
         table.put("Microphone in use",
                 "Mic đang được sử dụng");
         table.put("Minimum",
                 "Tối thiểu");
+        table.put("Minimum video length",
+                "Thời lượng video tối thiểu");
+        table.put("More opens the comments",
+                "Nút Xem thêm mở bình luận");
         table.put("More options",
                 "Tùy chọn khác");
+        table.put("Most liked first",
+                "Nhiều lượt thích nhất trước");
+        table.put("Most viewed first",
+                "Nhiều lượt xem nhất trước");
         table.put("Move down",
                 "Di chuyển xuống");
         table.put("Move left",
                 "Di chuyển trái");
         table.put("Move right",
                 "Di chuyển phải");
+        table.put("Move to the next video when the current one ends. Pauses, open dialogs and screen-time holds stop it. Restart TikTok to apply this.",
+                "Tự chuyển sang video tiếp theo khi video hiện tại kết thúc. Tính năng tạm dừng khi video bị tạm dừng, có hộp thoại mở hoặc đang bị khóa do giới hạn thời gian. Khởi động lại TikTok để áp dụng.");
         table.put("Move up",
                 "Di chuyển lên");
         table.put("Music disc",
                 "Đĩa nhạc");
+        table.put("Mute feed videos",
+                "Tắt tiếng video trên feed");
         table.put("Nearby",
                 "Gần đây");
+        table.put("Network proxy",
+                "Proxy mạng");
+    }
+
+    private static void fill12(Map<String, String> table) {
         table.put("Never from these countries",
                 "Không bao giờ từ các quốc gia này");
+        table.put("Newest first",
+                "Mới nhất trước");
         table.put("No",
                 "Không");
+        table.put("No apps can receive shared links",
+                "Không có ứng dụng nào nhận được liên kết chia sẻ");
+        table.put("No apps found",
+                "Không tìm thấy ứng dụng nào");
         table.put("No current value",
                 "Không có giá trị hiện tại");
         table.put("No delay",
                 "Không có độ trễ");
+        table.put("No gate reads were recorded. Use a TikTok feature while recording.",
+                "Không ghi nhận lần đọc cổng nào. Hãy dùng tính năng TikTok trong khi đang ghi.");
         table.put("No limit",
                 "Không giới hạn");
+        table.put("No matching countries. Try a country name or a two-letter code.",
+                "Không có quốc gia phù hợp. Hãy thử tên quốc gia hoặc mã gồm hai chữ cái.");
         table.put("No matching settings",
                 "Không có cài đặt phù hợp");
         table.put("No preset selected. Choose a preset above.",
@@ -815,6 +1545,8 @@ final class L10nTranslationsVi {
                 "Chưa có bản ghi nào. Bắt đầu một bản ghi, dùng tính năng rồi quay lại đây.");
         table.put("No seen videos recorded yet.",
                 "Chưa có video nào được ghi nhận là đã xem.");
+        table.put("No share actions have been seen yet",
+                "Chưa phát hiện hành động chia sẻ nào");
         table.put("None of these gates takes a true or false value.",
                 "Không cổng nào trong số này nhận giá trị true/false.");
         table.put("Normal",
@@ -835,20 +1567,46 @@ final class L10nTranslationsVi {
                 "Không có gì đang phát để tua");
         table.put("Off",
                 "Tắt");
+        table.put("Offer LIVE quality in more rooms",
+                "Cho phép chọn chất lượng LIVE ở nhiều phòng hơn");
+        table.put("Offer clear screen in every LIVE room",
+                "Hiển thị Màn hình sạch trong mọi phòng LIVE");
         table.put("Offline videos",
                 "Video ngoại tuyến");
         table.put("Offline videos limit",
                 "Giới hạn video ngoại tuyến");
+        table.put("Oldest first",
+                "Cũ nhất trước");
+        table.put("On a one-photo post, Download video makes an MP4 with the post's sound and no TikTok logo or end card. On a post with several photos, Download asks if you want the originals or one video.",
+                "Với bài đăng một ảnh, Tải video tạo tệp MP4 có âm thanh của bài đăng, không có logo TikTok hoặc thẻ kết thúc. Với bài đăng nhiều ảnh, mục Tải xuống sẽ hỏi bạn muốn lưu ảnh gốc hay một video.");
         table.put("On mobile data",
                 "Trên dữ liệu di động");
+        table.put("On the Friends tab, hide posts, reposts and LIVEs from accounts that aren't a mutual follow, suggested accounts included. Your own posts stay.",
+                "Trong tab Bạn bè, ẩn bài đăng, bài đăng lại và LIVE từ tài khoản không theo dõi lẫn nhau, kể cả tài khoản được đề xuất. Bài đăng của bạn vẫn được giữ.");
+        table.put("Once today's budget runs out, the hold stays and can't be dismissed. The budget settings are locked until the day starts over. Turn this off any time before the budget runs out.",
+                "Khi hết hạn mức hôm nay, màn hình khóa sẽ giữ nguyên và không thể đóng. Cài đặt hạn mức bị khóa cho đến ngày mới. Bạn có thể tắt tùy chọn này trước khi hết hạn mức.");
+        table.put("One at a time",
+                "Mỗi lần một tác vụ");
+        table.put("One language code, like en or es. Comments and captions TikTok translates come out in this language instead of the app's. Leave it empty to keep TikTok's choice.",
+                "Mã một ngôn ngữ, chẳng hạn en hoặc es. Bình luận và chú thích được TikTok dịch sẽ dùng ngôn ngữ này thay vì ngôn ngữ ứng dụng. Để trống để TikTok tự chọn.");
         table.put("One minute left",
                 "Còn một phút");
         table.put("One value per line",
                 "Một giá trị mỗi dòng");
         table.put("Only fields the Lab can check and copy safely are shown.",
                 "Chỉ các trường mà Lab có thể kiểm tra và sao chép an toàn mới được hiển thị.");
+        table.put("Only from these countries",
+                "Chỉ từ các quốc gia này");
+        table.put("Only these caption languages",
+                "Chỉ các ngôn ngữ chú thích này");
         table.put("Open",
                 "Mở");
+        table.put("Open TikTok on",
+                "Mở TikTok tại");
+        table.put("Open a share sheet once, then return here to choose its actions.",
+                "Mở bảng chia sẻ một lần, sau đó quay lại đây để chọn hành động cần ẩn.");
+        table.put("Open and close TikTok's screens without their slide. Swipes inside a screen still follow your finger.",
+                "Mở và đóng màn hình TikTok mà không có hiệu ứng trượt. Thao tác vuốt bên trong màn hình vẫn theo ngón tay như bình thường.");
         table.put("Open comments",
                 "Mở bình luận");
         table.put("Open external links directly",
@@ -857,20 +1615,43 @@ final class L10nTranslationsVi {
                 "Mở tin nhắn");
         table.put("Open profile and story website links in your system browser instead of TikTok's in-app browser.",
                 "Mở liên kết website hồ sơ và story trong trình duyệt hệ thống thay vì trình duyệt trong ứng dụng của TikTok.");
+        table.put("Open shared videos alone",
+                "Mở riêng video được chia sẻ");
+        table.put("Open the Story when a creator is LIVE",
+                "Mở Story khi nhà sáng tạo đang LIVE");
+        table.put("Open the comments at full height",
+                "Mở bình luận toàn màn hình");
         table.put("Open the feed anyway",
                 "Vẫn mở feed");
         table.put("Open the profile again and try once more",
                 "Mở lại hồ sơ và thử lại lần nữa");
         table.put("Open the story again and try once more",
                 "Mở lại story và thử lại lần nữa");
+        table.put("Opens TikTok's own profile background editor in Edit profile, and shows the backgrounds other profiles have set. TikTok's servers may still refuse to save one for an account TikTok hasn't offered it to yet.",
+                "Mở trình chỉnh sửa nền hồ sơ của TikTok trong mục Sửa hồ sơ và hiển thị nền các hồ sơ khác đã thiết lập. Máy chủ TikTok vẫn có thể từ chối lưu nền cho tài khoản chưa được cung cấp tính năng.");
+        table.put("Opens the comment sheet at the full height of the screen instead of part way up. Drag it down to close it, as before.",
+                "Mở bảng bình luận với chiều cao toàn màn hình thay vì chỉ chiếm một phần. Vuốt kéo xuống để đóng như bình thường.");
         table.put("Operator code",
                 "Mã nhà mạng");
         table.put("Operator name",
                 "Tên nhà mạng");
+        table.put("Optional, used with the user name. It isn't shown, logged or put in a backup.",
+                "Không bắt buộc, dùng cùng tên người dùng. Mật khẩu không hiển thị, không ghi nhật ký và không được đưa vào bản sao lưu.");
+    }
+
+    private static void fill13(Map<String, String> table) {
+        table.put("Optional. Only connections made by Android itself can sign in to a proxy, not TikTok's own. Leave empty for a proxy without a password.",
+                "Không bắt buộc. Chỉ kết nối do Android tạo mới có thể đăng nhập proxy, không áp dụng cho kết nối riêng của TikTok. Để trống nếu proxy không có mật khẩu.");
+        table.put("Opus (.ogg), a smaller file",
+                "Opus (.ogg), tệp nhỏ hơn");
+        table.put("Opus needs Android 10 or later, so sounds save as TikTok sent them.",
+                "Opus yêu cầu Android 10 trở lên; nếu không, âm thanh được lưu theo định dạng TikTok gửi.");
         table.put("Original",
                 "Gốc");
         table.put("Original language",
                 "Ngôn ngữ gốc");
+        table.put("Original order",
+                "Thứ tự ban đầu");
         table.put("Other",
                 "Khác");
         table.put("Overridden",
@@ -879,19 +1660,52 @@ final class L10nTranslationsVi {
                 "Ghi đè");
         table.put("Override SIM details",
                 "Ghi đè thông tin SIM");
+        table.put("Override store region (experimental)",
+                "Ghi đè khu vực cửa hàng (thử nghiệm)");
+        table.put("Pass TikTok's install checks",
+                "Vượt qua kiểm tra cài đặt của TikTok");
         table.put("Pause the video while comments are open",
                 "Tạm dừng video khi bình luận đang mở");
+        table.put("Pauses the video behind the comment sheet while you read. It plays on from the same spot when the sheet closes.",
+                "Tạm dừng video phía sau bảng bình luận trong khi bạn đọc. Khi đóng bảng, video tiếp tục từ đúng vị trí đã dừng.");
         table.put("People, shortcuts and sending controls",
                 "Người, phím tắt và điều khiển gửi");
+        table.put("Performance",
+                "Hiệu năng");
         table.put("Photo",
                 "Ảnh");
         table.put("Photo and image posts",
                 "Bài đăng ảnh và hình ảnh");
-    }
-
-    private static void fill7(Map<String, String> table) {
         table.put("Photo destination",
                 "Thư mục lưu ảnh");
+        table.put("Photo filename",
+                "Tên tệp ảnh");
+        table.put("Photos and stickers",
+                "Ảnh và nhãn dán");
+        table.put("Pick apps to add to the Share via row, before More. Each gets the same link the other apps get.",
+                "Chọn ứng dụng để thêm vào hàng Chia sẻ qua, trước mục Thêm. Mỗi ứng dụng sẽ nhận cùng liên kết như các ứng dụng khác.");
+        table.put("Pick the actions to remove from the share sheet. Names you typed by hand that TikTok hasn't shown yet stay in the list above.",
+                "Chọn hành động cần xóa khỏi bảng chia sẻ. Tên bạn tự nhập mà TikTok chưa hiển thị vẫn được giữ trong danh sách bên trên.");
+        table.put("Pick the buttons to take off the column. The rest stay where they are.",
+                "Chọn các nút cần ẩn khỏi cột. Các nút còn lại vẫn ở nguyên vị trí.");
+        table.put("Pick the popups to stop. The list holds the ones TikTok has tried to show on this phone, so a popup appears here after its first showing. CAPTCHA, verification, sign-in, age, ban and legal consent screens are never listed or blocked.",
+                "Chọn cửa sổ bật lên cần chặn. Danh sách lưu những cửa sổ TikTok đã thử hiển thị trên điện thoại này, nên một mục sẽ xuất hiện sau lần đầu được hiển thị. CAPTCHA, xác minh, đăng nhập, tuổi, lệnh cấm và chấp thuận pháp lý sẽ không được liệt kê hoặc chặn.");
+        table.put("Pick the shortcuts to remove from the row under a profile's bio, such as TikTok Studio or Your orders. Restart TikTok to apply this.",
+                "Chọn phím tắt cần xóa khỏi hàng bên dưới tiểu sử hồ sơ, chẳng hạn TikTok Studio hoặc Đơn hàng của bạn. Khởi động lại TikTok để áp dụng.");
+        table.put("Pick videos to save from profile grids",
+                "Chọn video để lưu từ lưới hồ sơ");
+        table.put("Play SDR instead of HDR",
+                "Phát SDR thay cho HDR");
+        table.put("Play Store",
+                "Play Store");
+        table.put("Play feed videos without sound and leave the phone's volume alone. Music from another app keeps playing while it's on. DMs, stories and LIVE keep their sound.",
+                "Phát video trên feed không có âm thanh mà không thay đổi âm lượng điện thoại. Nhạc từ ứng dụng khác vẫn tiếp tục phát khi bật. Tin nhắn trực tiếp, Story và LIVE vẫn có âm thanh.");
+        table.put("Play sounds TikTok pulled",
+                "Phát âm thanh TikTok đã gỡ");
+        table.put("Play the Following feed newest post first. A newer post that loads later moves up to right after the video you're watching, and nothing you've already scrolled past moves. Ads and LIVEs keep their place.",
+                "Sắp xếp feed Đang theo dõi theo bài mới nhất trước. Bài mới tải sau sẽ chuyển lên ngay sau video đang xem; các video đã cuộn qua không đổi vị trí. Quảng cáo và LIVE giữ nguyên vị trí.");
+        table.put("Play the audio on videos TikTok silenced because their sound was pulled for copyright or in your region. TikTok may still say the sound isn't available.",
+                "Phát âm thanh của video mà TikTok đã tắt tiếng do bản quyền hoặc giới hạn khu vực. TikTok vẫn có thể báo âm thanh không khả dụng.");
         table.put("Playback",
                 "Phát lại");
         table.put("Player",
@@ -900,22 +1714,81 @@ final class L10nTranslationsVi {
                 "Bài đăng trong danh sách phát");
         table.put("Popular",
                 "Phổ biến");
+        table.put("Post every video as if you'd turned on TikTok's own HD upload on the post page. A clip TikTok doesn't count as high quality posts as before.",
+                "Đăng mọi video như thể bạn đã bật tính năng tải lên HD của TikTok trên trang đăng bài. Đoạn video mà TikTok không nhận là chất lượng cao vẫn được đăng như trước.");
+        table.put("Posting",
+                "Đăng bài");
+        table.put("Press and hold a comment to find Block this commenter in its menu. Their comments leave the list right away and an undo banner follows.",
+                "Nhấn giữ bình luận để tìm mục Chặn người bình luận trong menu. Bình luận của họ sẽ biến mất khỏi danh sách ngay và xuất hiện thông báo hoàn tác.");
+        table.put("Press and hold a profile picture to save the full size original to your photo destination.",
+                "Nhấn giữ ảnh đại diện để lưu ảnh gốc kích thước đầy đủ vào thư mục ảnh đã chọn.");
+        table.put("Press and hold a story to save it. Stories have no save button of their own, and holding one is how TikTok pauses it, so this takes that gesture over.",
+                "Nhấn giữ Story để lưu. Story không có nút lưu riêng và TikTok vốn dùng thao tác nhấn giữ để tạm dừng, nên tùy chọn này sẽ thay thế thao tác đó.");
+        table.put("Press and hold the Profile tab to open your Watch history. A tap on Profile works as before. If holding Profile switches accounts for you, this takes that press, and the name at the top of your profile still switches accounts.",
+                "Nhấn giữ tab Hồ sơ để mở Lịch sử xem. Chạm tab Hồ sơ vẫn hoạt động như trước. Nếu thao tác nhấn giữ Hồ sơ đang dùng để đổi tài khoản, tùy chọn này sẽ chiếm thao tác đó; tên ở đầu hồ sơ vẫn dùng để đổi tài khoản.");
+        table.put("Preview a translation from a received text message's menu. The original message stays unchanged.",
+                "Xem trước bản dịch từ menu của tin nhắn nhận được. Tin nhắn gốc không thay đổi.");
+        table.put("Preview a translation of your draft before sending it.",
+                "Xem trước bản dịch tin nhắn nháp trước khi gửi.");
+        table.put("Preview shortened. Save report keeps the full report.",
+                "Bản xem trước đã được rút gọn. Lưu báo cáo để giữ toàn bộ nội dung.");
         table.put("Privacy",
                 "Quyền riêng tư");
         table.put("Profile",
                 "Hồ sơ");
+        table.put("Profile background",
+                "Nền hồ sơ");
         table.put("Profile picture saved to %1$s",
                 "Ảnh hồ sơ đã lưu vào %1$s");
         table.put("Profile share actions",
                 "Hành động chia sẻ hồ sơ");
+        table.put("Profile tab name",
+                "Tên tab Hồ sơ");
+        table.put("Protect external pages in TikTok's browser",
+                "Bảo vệ trang web bên ngoài trong trình duyệt TikTok");
+        table.put("Proxy host",
+                "Máy chủ proxy");
+        table.put("Proxy password",
+                "Mật khẩu proxy");
+        table.put("Proxy port",
+                "Cổng proxy");
+        table.put("Proxy type",
+                "Loại proxy");
+        table.put("Proxy user name",
+                "Tên người dùng proxy");
+        table.put("Pulling down at the top of For You no longer reloads it.",
+                "Vuốt xuống ở đầu mục Dành cho bạn sẽ không còn tải lại feed.");
+        table.put("Puts a circle on each video in a profile, Liked or Favorites grid. Pick up to %1$s, then tap Save to save them one after another, with a count and Cancel.",
+                "Thêm vòng chọn lên từng video trong lưới hồ sơ, Đã thích hoặc Yêu thích. Chọn tối đa %1$s rồi chạm Lưu để lưu lần lượt; có hiển thị tiến độ và nút Hủy.");
+    }
+
+    private static void fill14(Map<String, String> table) {
+        table.put("Puts a save button in the sheet a story's Share button opens. It saves the story you're watching, and holding a story still pauses it.",
+                "Thêm nút lưu vào bảng mở ra khi nhấn Chia sẻ trên Story. Nút này lưu Story đang xem; nhấn giữ Story vẫn dùng để tạm dừng.");
+        table.put("Puts a ✓ by videos and photo posts you saved with Hushfeed, on profile grids and next to the time in the feed. Works only while Check for already-saved videos is on.",
+                "Đánh dấu ✓ cạnh video và bài đăng ảnh bạn đã lưu bằng Hushfeed, trên lưới hồ sơ và cạnh thời gian trên feed. Chỉ hoạt động khi bật Kiểm tra video đã lưu.");
+        table.put("Puts your time zone after the time to the second, like EDT.",
+                "Hiển thị múi giờ của bạn sau thời gian chính xác đến giây, chẳng hạn EDT.");
         table.put("Quality",
                 "Chất lượng");
+        table.put("Reading",
+                "Đang đọc");
+        table.put("Received message translation",
+                "Dịch tin nhắn đã nhận");
         table.put("Recent searches",
                 "Tìm kiếm gần đây");
+        table.put("Record LIVEs you watch",
+                "Ghi lại LIVE bạn xem");
+        table.put("Recorded gate reads (%1$d)",
+                "Các lần đọc cổng đã ghi (%1$d)");
+        table.put("Recording gate reads. Use a feature, then return here to stop.",
+                "Đang ghi các lần đọc cổng. Hãy dùng một tính năng rồi quay lại đây để dừng.");
         table.put("Region",
                 "Khu vực");
         table.put("Remember the last speed",
                 "Ghi nhớ tốc độ cuối");
+        table.put("Remembers up to %1$s videos you saved here. If the file is still there, you get Open or Save again instead of a second copy.",
+                "Ghi nhớ tối đa %1$s video bạn đã lưu tại đây. Nếu tệp vẫn còn, bạn sẽ thấy Mở hoặc Lưu lại thay vì tạo bản sao thứ hai.");
         table.put("Remind me every",
                 "Nhắc tôi mỗi");
         table.put("Remove",
@@ -926,8 +1799,22 @@ final class L10nTranslationsVi {
                 "Xóa tất cả ghi đè");
         table.put("Remove feed ads",
                 "Xóa quảng cáo feed");
+        table.put("Remove feed ads, creator commission posts, paid partnerships, and branded content.",
+                "Xóa quảng cáo trên feed, bài đăng nhận hoa hồng của nhà sáng tạo, nội dung hợp tác trả phí và nội dung thương hiệu.");
+        table.put("Remove story rings",
+                "Bỏ vòng Story");
+        table.put("Remove the LIVE ring",
+                "Bỏ vòng LIVE");
         table.put("Remove watermark",
                 "Xóa dấu nước");
+        table.put("Replay a story from the start when it ends instead of moving to the next one. Tap or swipe to move on.",
+                "Phát lại Story từ đầu khi kết thúc thay vì chuyển sang Story tiếp theo. Chạm hoặc vuốt để chuyển tiếp.");
+        table.put("Replay in the background",
+                "Phát lại khi chạy nền");
+        table.put("Report a newer phone to effects",
+                "Báo với hiệu ứng rằng đây là điện thoại đời mới hơn");
+        table.put("Report saved to %1$s",
+                "Đã lưu báo cáo vào %1$s");
         table.put("Reset",
                 "Đặt lại");
         table.put("Reset override",
@@ -944,82 +1831,729 @@ final class L10nTranslationsVi {
                 "Thử lại");
         table.put("Return after using a TikTok feature to see every gate read during the recording.",
                 "Quay lại sau khi dùng tính năng của TikTok để xem tất cả cổng được đọc trong quá trình ghi.");
+        table.put("Right away",
+                "Ngay lập tức");
         table.put("Right column",
                 "Cột phải");
         table.put("Rows",
                 "Hàng");
+        table.put("Run the progress bar from one screen edge to the other, without the gap TikTok leaves at each end.",
+                "Kéo dài thanh tiến trình từ mép này sang mép kia màn hình, bỏ khoảng trống TikTok để lại ở hai đầu.");
+        table.put("SOCKS5",
+                "SOCKS5");
+        table.put("Same as the room records the quality you're watching. Highest records the best stream the room has, even while you watch it lower. A number records that quality, or the closest one the room has when it isn't offered.",
+                "Cùng phòng sẽ ghi ở chất lượng bạn đang xem. Cao nhất sẽ ghi luồng tốt nhất mà phòng cung cấp, kể cả khi bạn đang xem ở chất lượng thấp hơn. Chọn một con số để ghi ở mức đó hoặc mức gần nhất nếu phòng không hỗ trợ.");
+        table.put("Sample caption to test",
+                "Chú thích mẫu để kiểm tra");
+        table.put("Sample category to test",
+                "Danh mục mẫu để kiểm tra");
         table.put("Save",
                 "Lưu");
+        table.put("Save a profile picture on a long press",
+                "Nhấn giữ ảnh đại diện để lưu");
+        table.put("Save a story from its share sheet",
+                "Lưu Story từ bảng chia sẻ");
+        table.put("Save a story on a long press",
+                "Nhấn giữ Story để lưu");
+        table.put("Save cover button in the share sheet",
+                "Nút Lưu ảnh bìa trong bảng chia sẻ");
+        table.put("Save details as JSON",
+                "Lưu thông tin dưới dạng JSON");
+        table.put("Save details beside the video",
+                "Lưu thông tin bên cạnh video");
+        table.put("Save every photo in the post at full size, not as the screen shows it. Each one is a JPEG unless Keep photos as TikTok sent them is on.",
+                "Lưu mọi ảnh trong bài đăng ở kích thước đầy đủ, không phải kích thước đang hiển thị trên màn hình. Ảnh được lưu dưới dạng JPEG, trừ khi bật Giữ nguyên định dạng ảnh TikTok gửi.");
+        table.put("Save full report",
+                "Lưu toàn bộ báo cáo");
+        table.put("Save only on Wi-Fi",
+                "Chỉ lưu qua Wi-Fi");
+        table.put("Save photo posts as a video",
+                "Lưu bài đăng ảnh thành video");
         table.put("Save report",
                 "Lưu báo cáo");
+        table.put("Save subtitles beside videos",
+                "Lưu phụ đề cùng video");
+        table.put("Save the cover as well",
+                "Lưu cả ảnh bìa");
         table.put("Save the original sound",
                 "Lưu âm thanh gốc");
+        table.put("Save the sound as well",
+                "Lưu cả âm thanh");
+        table.put("Save the video's cover picture at the largest size TikTok has, each time you tap Download. It goes to your photo folder, named after the video.",
+                "Mỗi lần chạm Tải xuống, lưu ảnh bìa video ở kích thước lớn nhất TikTok có. Ảnh được lưu vào thư mục ảnh với tên dựa trên video.");
         table.put("Save videos without sound",
                 "Lưu video không âm thanh");
+    }
+
+    private static void fill15(Map<String, String> table) {
         table.put("Saved",
                 "Đã lưu");
         table.put("Saved %1$s",
                 "Đã lưu %1$s");
+        table.put("Saved photos, covers, story photos and stickers that don't move are the exact files TikTok sent, not a new JPEG or PNG. Some galleries and computers can't open HEIF or WebP.",
+                "Ảnh, ảnh bìa, ảnh Story và nhãn dán tĩnh được lưu đúng tệp TikTok gửi, không chuyển thành JPEG hoặc PNG mới. Một số thư viện ảnh và máy tính không mở được định dạng HEIF hoặc WebP.");
+        table.put("Saved videos show the @username and the first line of the caption in the bottom left corner. The phone encodes the whole video again to do it, so saving takes longer. Applies to saves made by Hushfeed.",
+                "Video đã lưu sẽ hiển thị @tên người dùng và dòng đầu chú thích ở góc dưới bên trái. Điện thoại phải mã hóa lại toàn bộ video nên thời gian lưu lâu hơn. Áp dụng cho video Hushfeed lưu.");
         table.put("Saved. Restart TikTok to apply this.",
                 "Đã lưu. Khởi động lại TikTok để áp dụng.");
+        table.put("Saves TikTok's latest crash report on this phone so it can go in the diagnostic report.",
+                "Lưu báo cáo sự cố TikTok gần nhất trên điện thoại để đưa vào báo cáo chẩn đoán.");
+        table.put("Saves at once",
+                "Số tác vụ lưu đồng thời");
+        table.put("Saves subtitle (SRT) files with the video. They go to Movies on Android 11 and newer, Download on Android 10, and your video folder on older versions. On Android 11 and newer with Save details on, the video moves to Download or Documents and the subtitles stay in Movies.",
+                "Lưu tệp phụ đề (SRT) cùng video. Trên Android 11 trở lên, phụ đề nằm trong Movies; Android 10 lưu vào Download; phiên bản cũ hơn lưu vào thư mục video. Trên Android 11 trở lên khi bật Lưu thông tin, video chuyển sang Download hoặc Documents còn phụ đề vẫn ở Movies.");
+        table.put("Saves the caption, creator, link and post date in a text file next to the video, or one file for a photo post's original photos. On Android 10 and later, they go in Download or Documents under the same folder name. Applies to saves made by Hushfeed.",
+                "Lưu chú thích, nhà sáng tạo, liên kết và ngày đăng vào tệp văn bản cạnh video, hoặc một tệp cho ảnh gốc của bài đăng ảnh. Trên Android 10 trở lên, tệp nằm trong Download hoặc Documents với cùng tên thư mục. Áp dụng cho nội dung Hushfeed lưu.");
+        table.put("Saves the details file in JSON format instead of plain text. Useful if another tool will read it.",
+                "Lưu tệp thông tin ở định dạng JSON thay vì văn bản thuần. Hữu ích khi một công cụ khác cần đọc tệp này.");
+        table.put("Saves wait for Wi-Fi or another network that isn't metered, for up to 30 minutes, and stop if you leave it. Saving a frame still works anywhere.",
+                "Tác vụ lưu sẽ chờ Wi-Fi hoặc mạng không tính dung lượng, tối đa 30 phút, và dừng nếu bạn rời mạng đó. Lưu một khung hình vẫn hoạt động trên mọi mạng.");
         table.put("Saving",
                 "Đang lưu");
         table.put("Saving settings backup",
                 "Đang lưu bản sao lưu cài đặt");
+        table.put("Screen time",
+                "Thời gian sử dụng");
         table.put("Search",
                 "Tìm kiếm");
+        table.put("Search Activity notifications already loaded on this screen. Loading more pauses while you search.",
+                "Tìm thông báo Hoạt động đã tải trên màn hình này. Việc tải thêm sẽ tạm dừng khi bạn tìm kiếm.");
+        table.put("Search apps",
+                "Tìm ứng dụng");
         table.put("Search by name, description or category.",
                 "Tìm theo tên, mô tả hoặc danh mục.");
+        table.put("Search countries",
+                "Tìm quốc gia");
+        table.put("Search loaded activity",
+                "Tìm trong hoạt động đã tải");
         table.put("Search settings",
                 "Cài đặt tìm kiếm");
         table.put("Search these comments",
                 "Tìm những bình luận này");
         table.put("Search within comments",
                 "Tìm trong bình luận");
+        table.put("Seconds per photo",
+                "Số giây cho mỗi ảnh");
+        table.put("Seconds. Zero keeps every length. If everything the feed just sent would be filtered out, the video closest to your limit is kept so the feed isn't empty.",
+                "Tính bằng giây. Giá trị 0 giữ mọi thời lượng. Nếu tất cả video vừa được tải đều bị lọc, video gần giới hạn nhất sẽ được giữ để feed không trống.");
+        table.put("Seconds. Zero keeps every length. Photo posts and videos without a known length stay. If everything the feed just sent would be filtered out, the video closest to your limit is kept.",
+                "Tính bằng giây. Giá trị 0 giữ mọi độ dài. Bài đăng ảnh và video chưa rõ thời lượng vẫn được giữ. Nếu bộ lọc loại bỏ toàn bộ video vừa tải, video gần giới hạn nhất sẽ được giữ.");
+        table.put("Seek bar on sound previews",
+                "Thanh tua khi nghe thử âm thanh");
+        table.put("Seek bar on video stories",
+                "Thanh tua trên Story video");
         table.put("Seek by",
                 "Tua theo");
         table.put("Seek from the edges",
                 "Tua từ mép");
+        table.put("Seen videos",
+                "Video đã xem");
+        table.put("Send TikTok through a proxy",
+                "Chuyển lưu lượng TikTok qua proxy");
+        table.put("Send links to another app",
+                "Gửi liên kết sang ứng dụng khác");
+        table.put("Sends TikTok's feed, search, comments and other app traffic through the proxy below. Videos and LIVE streams still connect directly. Saves and short-link lookups from Hushfeed also connect directly, after their own address checks. Other apps aren't affected.",
+                "Chuyển feed, tìm kiếm, bình luận và lưu lượng TikTok khác qua proxy bên dưới. Video và LIVE vẫn kết nối trực tiếp. Thao tác lưu và tra cứu liên kết ngắn của Hushfeed cũng kết nối trực tiếp sau khi kiểm tra địa chỉ. Ứng dụng khác không bị ảnh hưởng.");
+        table.put("Sends one message a day to each person below at the time below, so your streaks keep going on days you don't open TikTok.",
+                "Gửi một tin nhắn mỗi ngày cho từng người bên dưới vào thời gian đã chọn, giúp duy trì chuỗi ngay cả khi bạn không mở TikTok.");
+        table.put("Separate account handles or user IDs with commas. Videos from these accounts are always hidden. An entry between slashes, like /^news_/, is a search pattern checked against the handle and display name.",
+                "Phân tách tên tài khoản hoặc ID người dùng bằng dấu phẩy. Video từ các tài khoản này luôn bị ẩn. Mẫu đặt giữa hai dấu gạch chéo, như /^news_/, sẽ được đối chiếu với tên tài khoản và tên hiển thị.");
+        table.put("Separate country codes with commas, like GB, IE. Videos posted from anywhere else are hidden. Leave empty for all countries.",
+                "Phân tách mã quốc gia bằng dấu phẩy, chẳng hạn GB, IE. Video đăng từ quốc gia khác sẽ bị ẩn. Để trống để áp dụng cho tất cả quốc gia.");
+        table.put("Separate country codes with commas. Videos posted from these are hidden, whatever the list above says.",
+                "Phân tách mã quốc gia bằng dấu phẩy. Video đăng từ các quốc gia này sẽ bị ẩn, bất kể danh sách phía trên quy định thế nào.");
+        table.put("Separate handles or user IDs with commas. Their videos stay when a filter on post type, labels, age, length or counts would hide them. Ads, blocked creators, words, sounds, countries, caption languages and seen videos still apply.",
+                "Phân tách tên tài khoản hoặc ID người dùng bằng dấu phẩy. Video của họ vẫn được giữ nếu bộ lọc loại bài đăng, nhãn, độ mới, thời lượng hoặc số liệu định ẩn. Bộ lọc quảng cáo, nhà sáng tạo bị chặn, từ khóa, âm thanh, quốc gia, ngôn ngữ chú thích và video đã xem vẫn áp dụng.");
+        table.put("Separate language codes with commas, like en, es. A video whose original caption is in another language is hidden. Videos with no caption, or only translated ones, always stay.",
+                "Phân tách mã ngôn ngữ bằng dấu phẩy, chẳng hạn en, es. Video có chú thích gốc bằng ngôn ngữ khác sẽ bị ẩn. Video không có chú thích hoặc chỉ có chú thích đã dịch luôn được giữ.");
+        table.put("Separate language codes with commas, like es, de. When TikTok translates for you, captions and comments in these languages stay as they were written. See translation still works when you tap it. TikTok's own Don't translate list stays the way it is.",
+                "Phân tách mã ngôn ngữ bằng dấu phẩy, chẳng hạn es, de. Khi TikTok tự dịch, phụ đề và bình luận bằng các ngôn ngữ này sẽ giữ nguyên bản gốc. Bạn vẫn có thể chạm để xem bản dịch. Danh sách Không dịch của TikTok không thay đổi.");
+        table.put("Separate names with commas, exactly as the share sheet shows them. These can be friends in the Send to row, apps such as Facebook, or actions such as Create group or Repost. The words copy, save and dislike also work before the sheet has opened.",
+                "Phân tách tên bằng dấu phẩy, đúng như cách chúng xuất hiện trong bảng chia sẻ. Đây có thể là bạn bè trong hàng Gửi đến, ứng dụng như Facebook hoặc hành động như Tạo nhóm hay Đăng lại. Các từ sao chép, lưu và không thích cũng hoạt động trước khi bảng chia sẻ mở.");
+        table.put("Separate the titles of any other Inbox rows you want to hide with commas, spelled exactly. Use this for anything not listed above.",
+                "Phân tách tiêu đề các hàng Hộp thư khác muốn ẩn bằng dấu phẩy và nhập chính xác tên hiển thị. Dùng mục này cho những hàng chưa được liệt kê ở trên.");
+        table.put("Separate usernames or display names with commas. Their comments are hidden.",
+                "Phân tách tên người dùng hoặc tên hiển thị bằng dấu phẩy. Bình luận của họ sẽ bị ẩn.");
+        table.put("Separate words or phrases with commas. Videos whose caption matches are hidden. Capital letters don't matter. Write \"a\" & \"b\" to need both phrases, or \"a\" !& \"b\" to need the first without the second.",
+                "Phân tách từ hoặc cụm từ bằng dấu phẩy. Video có chú thích khớp sẽ bị ẩn; không phân biệt chữ hoa và chữ thường. Viết \"a\" & \"b\" để yêu cầu cả hai cụm từ, hoặc \"a\" !& \"b\" để yêu cầu cụm đầu tiên nhưng không có cụm thứ hai.");
+        table.put("Separate words with commas, like music, chat. A LIVE is hidden when its category, topic tags or game name contains one. Capital letters don't matter.",
+                "Phân tách từ bằng dấu phẩy, chẳng hạn music, chat. LIVE sẽ bị ẩn nếu danh mục, thẻ chủ đề hoặc tên trò chơi chứa từ đó. Không phân biệt chữ hoa và chữ thường.");
+        table.put("Separate words with commas, like saxophone, to match against sound names. Capital letters don't matter.",
+                "Phân tách các từ bằng dấu phẩy, chẳng hạn saxophone, để đối chiếu tên âm thanh. Chữ hoa hay chữ thường đều được.");
+        table.put("Separate words with commas. A comment is hidden if it contains any of them. Capital letters don't matter. Write \"a\" & \"b\" to need both phrases, or \"a\" !& \"b\" to need the first without the second.",
+                "Phân tách các từ bằng dấu phẩy. Bình luận sẽ bị ẩn nếu chứa bất kỳ từ nào trong danh sách; không phân biệt chữ hoa và chữ thường. Viết \"a\" & \"b\" để yêu cầu cả hai cụm từ, hoặc \"a\" !& \"b\" để yêu cầu cụm đầu tiên nhưng không có cụm thứ hai.");
         table.put("Settings",
                 "Cài đặt");
+        table.put("Share",
+                "Chia sẻ");
         table.put("Share sheet",
                 "Bảng chia sẻ");
+        table.put("Shares range",
+                "Khoảng lượt chia sẻ");
+        table.put("Shop order updates and coupon messages no longer take up rows in the Inbox. Your orders are unchanged.",
+                "Thông báo cập nhật đơn hàng và tin nhắn mã giảm giá của Shop sẽ không còn chiếm hàng trong Hộp thư. Đơn hàng không thay đổi.");
+        table.put("Shop tab name",
+                "Tên tab Shop");
+        table.put("Short date",
+                "Ngày dạng ngắn");
+        table.put("Shortest first",
+                "Ngắn nhất trước");
+        table.put("Show @username beside a video instead of the display name the creator chose.",
+                "Hiển thị @tên người dùng cạnh video thay cho tên hiển thị do nhà sáng tạo chọn.");
+        table.put("Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one.",
+                "Hiển thị Thoughts trên hồ sơ và Hộp thư, cùng lời nhắc chia sẻ, cho các tài khoản chưa được TikTok bật tính năng này. Máy chủ TikTok vẫn có thể từ chối đăng.");
+        table.put("Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one. Restart TikTok to apply this.",
+                "Hiển thị Thoughts trên hồ sơ và Hộp thư, cùng lời nhắc chia sẻ, cho tài khoản chưa được TikTok bật tính năng này. Máy chủ TikTok vẫn có thể từ chối đăng. Khởi động lại TikTok để áp dụng.");
+        table.put("Show TikTok's button for recording a spoken comment, on accounts that don't have it yet. It hasn't been tried on a real account, so it may not work.",
+                "Hiển thị nút ghi âm bình luận của TikTok cho tài khoản chưa có tính năng này. Chưa thử trên tài khoản thật nên có thể không hoạt động.");
+    }
+
+    private static void fill16(Map<String, String> table) {
+        table.put("Show TikTok's feed buttons",
+                "Hiển thị nút feed của TikTok");
+        table.put("Show TikTok's own progress bar on videos where it's normally hidden.",
+                "Hiển thị thanh tiến trình riêng của TikTok trên những video thường bị ẩn thanh này.");
+        table.put("Show a LIVE under the status bar",
+                "Hiển thị LIVE bên dưới thanh trạng thái");
+        table.put("Show a progress bar while a video saves.",
+                "Hiển thị thanh tiến trình khi lưu video.");
+        table.put("Show a verified badge on your own profile on this phone. Other people see your real status.",
+                "Hiển thị dấu xác minh trên hồ sơ của bạn ở điện thoại này. Người khác vẫn thấy trạng thái thật.");
+        table.put("Show a video preview thumbnail while dragging the progress bar.",
+                "Hiển thị hình thu nhỏ xem trước video khi kéo thanh tiến trình.");
+        table.put("Show chosen counts on your own profile on this phone. Other people see the real counts.",
+                "Hiển thị số liệu đã chọn trên hồ sơ của bạn ở điện thoại này. Người khác vẫn thấy số liệu thật.");
+        table.put("Show commenters' handles",
+                "Hiển thị tên tài khoản người bình luận");
+        table.put("Show counts as full numbers, like 1,234,567 instead of 1.2M.",
+                "Hiển thị số đầy đủ, chẳng hạn 1.234.567 thay vì 1,2M.");
+        table.put("Show dates on profile grids",
+                "Hiển thị ngày trên lưới hồ sơ");
+        table.put("Show download progress",
+                "Hiển thị tiến trình tải xuống");
+        table.put("Show each commenter's @username instead of the display name they chose. A reply to a reply names the person it answers the same way once their own comment has loaded.",
+                "Hiển thị @tên người dùng của người bình luận thay cho tên hiển thị họ chọn. Câu trả lời lồng nhau cũng sẽ nêu tên người được trả lời theo cách tương tự sau khi bình luận của họ tải xong.");
+        table.put("Show exact LIVE viewer counts",
+                "Hiển thị chính xác số người xem LIVE");
+        table.put("Show exact counts",
+                "Hiển thị số liệu chính xác");
+        table.put("Show failures on screen",
+                "Hiển thị lỗi trên màn hình");
+        table.put("Show follow status",
+                "Hiển thị trạng thái theo dõi");
+        table.put("Show how long each video runs under its view count on profile grids. Photo posts and videos TikTok sent no length for show none.",
+                "Hiển thị thời lượng video bên dưới số lượt xem trong lưới hồ sơ. Bài đăng ảnh và video không có thông tin thời lượng sẽ không hiển thị gì.");
+        table.put("Show how many were filtered",
+                "Hiển thị số video đã lọc");
+        table.put("Show likes, comments, shares and saves as a percentage of views, next to the creator's name and after the view count on profile grids.",
+                "Hiển thị lượt thích, bình luận, chia sẻ và lưu dưới dạng tỷ lệ phần trăm lượt xem, bên cạnh tên nhà sáng tạo và sau số lượt xem trong lưới hồ sơ.");
+        table.put("Show only LIVEs from creators with this many followers.",
+                "Chỉ hiển thị LIVE từ nhà sáng tạo có số người theo dõi trong khoảng này.");
+        table.put("Show only LIVEs with this many people watching.",
+                "Chỉ hiển thị LIVE có số người xem trong khoảng này.");
+        table.put("Show only mutual friends on the Friends tab",
+                "Chỉ hiển thị bạn bè theo dõi lẫn nhau trong tab Bạn bè");
+        table.put("Show only videos with this many comments.",
+                "Chỉ hiển thị video có số bình luận trong khoảng này.");
+        table.put("Show only videos with this many favorites.",
+                "Chỉ hiển thị video có số lượt yêu thích trong khoảng này.");
+        table.put("Show only videos with this many likes.",
+                "Chỉ hiển thị video có số lượt thích trong khoảng này.");
+        table.put("Show only videos with this many shares.",
+                "Chỉ hiển thị video có số lượt chia sẻ trong khoảng này.");
+        table.put("Show only videos with this many views.",
+                "Chỉ hiển thị video có số lượt xem trong khoảng này.");
         table.put("Show poll results before voting",
                 "Hiển thị kết quả bình chọn trước khi đánh giá");
+        table.put("Show search in LIVE",
+                "Hiển thị tìm kiếm trong LIVE");
+        table.put("Show the Not interested button",
+                "Hiển thị nút Không quan tâm");
+        table.put("Show the block button on videos",
+                "Hiển thị nút chặn trên video");
+        table.put("Show the block sound button",
+                "Hiển thị nút chặn âm thanh");
+        table.put("Show the comments count, the sort and close buttons and the suggestions above them. Use Back or swipe down to close comments.",
+                "Hiển thị số bình luận, nút sắp xếp, nút đóng và các gợi ý phía trên. Dùng Quay lại hoặc vuốt xuống để đóng bình luận.");
+        table.put("Show the country a commenter's account is set to after the comment's time. Comments from accounts TikTok sends no country for stay as they are.",
+                "Hiển thị quốc gia được đặt cho tài khoản người bình luận bên cạnh thời gian bình luận. Bình luận từ tài khoản mà TikTok không cung cấp quốc gia sẽ giữ nguyên.");
+        table.put("Show the day each video was posted under its view count on profile grids.",
+                "Hiển thị ngày đăng của từng video bên dưới số lượt xem trong lưới hồ sơ.");
+        table.put("Show the gallery tab in the comment box, so you can add a photo to a comment like on TikTok. PineDrama turns it off for everyone. TikTok's server still decides whether your account can post one.",
+                "Hiển thị tab thư viện trong ô bình luận để bạn thêm ảnh như trên TikTok. PineDrama tắt tính năng này cho mọi người. Máy chủ TikTok vẫn quyết định tài khoản của bạn có được đăng ảnh hay không.");
+        table.put("Show the hide button on videos",
+                "Hiển thị nút ẩn trên video");
+        table.put("Show the mute button on videos",
+                "Hiển thị nút tắt tiếng trên video");
         table.put("Show the progress bar",
                 "Hiển thị thanh tiến độ");
         table.put("Show the progress bar thumbnail",
                 "Hiển thị ảnh thu nhỏ của thanh tiến độ");
+        table.put("Show the search entry inside TikTok's LIVE drawer, where available. This doesn't add a search box to video comments.",
+                "Hiển thị mục tìm kiếm trong ngăn LIVE của TikTok nếu được hỗ trợ. Tùy chọn này không thêm ô tìm kiếm vào bình luận video.");
+        table.put("Show the time beside the progress bar",
+                "Hiển thị thời gian cạnh thanh tiến trình");
+        table.put("Show the time played and the video's length at the end of the progress bar while it's on screen.",
+                "Hiển thị thời gian đã phát và tổng thời lượng video ở cuối thanh tiến trình khi thanh này xuất hiện.");
+        table.put("Show the time to the second",
+                "Hiển thị thời gian đến từng giây");
+        table.put("Show the time zone",
+                "Hiển thị múi giờ");
+        table.put("Show the whole Activity and New followers lists instead of stopping at a View all button.",
+                "Hiển thị toàn bộ danh sách Hoạt động và Người theo dõi mới thay vì dừng ở nút Xem tất cả.");
+        table.put("Show the whole video instead of cropping it to the window. Nothing changes on a tall phone, where it already fits. On a folding phone opened up, a squarer screen or a split view the sides or the ends stop being cut off. Photo slideshows get the same treatment on a squarer screen.",
+                "Hiển thị toàn bộ video thay vì cắt theo khung. Trên điện thoại màn hình cao, hình ảnh không đổi vì vốn đã vừa khung. Khi mở điện thoại gập, dùng màn hình gần vuông hoặc chia đôi màn hình, video sẽ không bị cắt hai bên hoặc hai đầu. Trình chiếu ảnh cũng được xử lý tương tự trên màn hình gần vuông.");
+        table.put("Show video length on profile grids",
+                "Hiển thị thời lượng video trên lưới hồ sơ");
+        table.put("Show what is left of the budget",
+                "Hiển thị hạn mức còn lại");
+        table.put("Show when a video was posted down to the second, with your time zone, in place of TikTok's short date by the creator's name.",
+                "Hiển thị thời điểm đăng video chính xác đến giây theo múi giờ của bạn, thay cho ngày ngắn bên cạnh tên nhà sáng tạo của TikTok.");
+        table.put("Show when the camera or microphone is in use",
+                "Hiển thị khi camera hoặc micro đang được sử dụng");
+        table.put("Show where commenters are from",
+                "Hiển thị quốc gia của người bình luận");
+        table.put("Shows Add to Story in the share sheet and on stories even when the creator turned off content reuse. TikTok may still refuse to post it.",
+                "Hiển thị Thêm vào Story trong bảng chia sẻ và trên các Story ngay cả khi người sáng tạo đã tắt tính năng dùng lại nội dung. TikTok vẫn có thể từ chối đăng.");
+        table.put("Shows TikTok's full sort menu on every post, with hot, newest, media and creator options, instead of the shorter one your account got. Restart TikTok to see the change.",
+                "Hiển thị đầy đủ menu sắp xếp của TikTok trên mọi bài đăng, gồm phổ biến, mới nhất, nội dung đa phương tiện và nhà sáng tạo, thay cho menu rút gọn của tài khoản. Khởi động lại TikTok để áp dụng.");
+        table.put("Shows TikTok's play, pause, previous and next buttons on the feed. TikTok normally shows them only to people who use a screen reader. TikTok can see when you use them.",
+                "Hiển thị các nút phát, tạm dừng, trước và tiếp theo trên feed. TikTok thường chỉ hiển thị chúng cho người dùng trình đọc màn hình. TikTok vẫn có thể nhận biết khi bạn sử dụng.");
+        table.put("Shows TikTok's text in the font file you import below. While both are on, this one wins over Use system font. If the file is removed or can't be read, the text goes back to what Use system font shows.",
+                "Hiển thị chữ TikTok bằng tệp phông bạn nhập bên dưới. Nếu cả hai tùy chọn cùng bật, tùy chọn này được ưu tiên hơn Dùng phông hệ thống. Nếu tệp bị xóa hoặc không đọc được, chữ sẽ trở về phông hệ thống.");
+        table.put("Shows TikTok's text in your phone's font instead of TikTok Sans. Icons and gift animations keep their own fonts. Restart TikTok to see the change.",
+                "Hiển thị chữ TikTok bằng phông chữ của điện thoại thay cho TikTok Sans. Biểu tượng và hoạt ảnh quà tặng vẫn dùng phông chữ riêng. Khởi động lại TikTok để áp dụng.");
+        table.put("Shows a search button at the top left of the comments instead of the box, so the comments get that room back. Tap it to search, and tap it again to put the box away. Search within comments must be on.",
+                "Thay ô tìm kiếm bằng nút tìm kiếm ở góc trên bên trái để dành thêm chỗ cho bình luận. Chạm nút để tìm kiếm, chạm lần nữa để ẩn ô. Cần bật Tìm kiếm trong bình luận.");
+        table.put("Shows a small count under TikTok's top tabs of what the feed filter has removed since TikTok started. It shows only on the feed, and taps on it go through to the video under it.",
+                "Hiển thị số lượng nhỏ bên dưới các tab trên cùng của TikTok, cho biết bộ lọc feed đã loại bao nhiêu video kể từ khi TikTok khởi chạy. Chỉ hiện trên feed; chạm vào số sẽ mở video bên dưới.");
+        table.put("Shows every emoji in your phone's own emoji font. The newest emoji your phone doesn't have yet may show as a box or in pieces.",
+                "Hiển thị mọi biểu tượng cảm xúc bằng phông emoji của điện thoại. Emoji mới mà điện thoại chưa hỗ trợ có thể hiện thành ô vuông hoặc bị vỡ nét.");
+    }
+
+    private static void fill17(Map<String, String> table) {
+        table.put("Shows the Duet and Stitch options even when the creator turned them off. TikTok may still refuse to accept the result.",
+                "Hiển thị tùy chọn Duet và Stitch ngay cả khi người sáng tạo đã tắt chúng. TikTok vẫn có thể từ chối kết quả.");
+        table.put("Shows the country's flag in place of its two letters, by the creator's name and by a commenter's time.",
+                "Hiển thị cờ quốc gia thay cho mã hai chữ cái bên cạnh tên nhà sáng tạo và thời gian của người bình luận.");
+        table.put("Sign in without a passkey",
+                "Đăng nhập không cần passkey");
+        table.put("Skip TikTok's setup screens",
+                "Bỏ qua màn hình thiết lập TikTok");
         table.put("Skip content warnings",
                 "Bỏ qua cảnh báo nội dung");
+        table.put("Skip the Share to sheet after a save",
+                "Bỏ qua bảng Chia sẻ đến sau khi lưu");
+        table.put("Skip the puzzle TikTok shows while you're just browsing. A puzzle right after you like, follow, comment or repost still shows, and so do sign-in, SMS and two-step checks. If something stops working, turn this off.",
+                "Bỏ qua câu đố xác minh TikTok hiển thị khi bạn chỉ đang duyệt. Câu đố xuất hiện sau khi thích, theo dõi, bình luận hoặc đăng lại vẫn hiện, cũng như bước đăng nhập, SMS và xác minh hai bước. Nếu có chức năng ngừng hoạt động, hãy tắt tùy chọn này.");
+        table.put("Skip the splash ad",
+                "Bỏ qua quảng cáo mở đầu");
+        table.put("Skip update checks",
+                "Bỏ qua kiểm tra cập nhật");
+        table.put("Slide to change the hold speed",
+                "Trượt để đổi tốc độ khi nhấn giữ");
+        table.put("Sort loaded videos on profile grids",
+                "Sắp xếp video đã tải trên lưới hồ sơ");
+        table.put("Sorts a profile or Liked grid with pinned videos first. While an order is on, the grid keeps loading by itself up to 300 videos, so the order covers more than the first screen. A button in the grid's top corner changes the order right there.",
+                "Sắp xếp lưới hồ sơ hoặc Đã thích để video được ghim lên trước. Khi bật sắp xếp, lưới tự tải thêm tối đa 300 video để sắp xếp vượt quá màn hình đầu tiên. Nút ở góc trên lưới cho phép đổi thứ tự ngay tại đó.");
+        table.put("Sound IDs saved by the player's sound button, separated by commas. Remove one to unblock it.",
+                "Các ID âm thanh đã lưu bằng nút âm thanh của trình phát, phân tách bằng dấu phẩy. Xóa một ID để bỏ chặn âm thanh đó.");
         table.put("Sound format",
                 "Định dạng âm thanh");
+        table.put("Speed",
+                "Tốc độ");
+        table.put("Speed menu choices",
+                "Các lựa chọn tốc độ");
+        table.put("Speed while you hold the video",
+                "Tốc độ khi nhấn giữ video");
         table.put("Spin the music disc",
                 "Quay đĩa nhạc");
+        table.put("Split comment minimum width",
+                "Chiều rộng tối thiểu của bình luận khi chia đôi");
+        table.put("Start each new video at your default. A manual choice lasts until the video changes.",
+                "Bắt đầu mỗi video mới ở tốc độ mặc định. Lựa chọn thủ công có hiệu lực đến khi chuyển video.");
+        table.put("Start the day at",
+                "Bắt đầu ngày lúc");
+        table.put("Stay on the video in full screen",
+                "Giữ video ở chế độ toàn màn hình");
+        table.put("Staying on a video",
+                "Giữ nguyên video");
+        table.put("Sticker destination",
+                "Thư mục lưu nhãn dán");
+        table.put("Sticker search, PineDrama and the rest of TikTok still see the SIM above, while For You asks for videos with your phone's own SIM country and carrier. Your IP address and account history still count.",
+                "Tìm kiếm nhãn dán, PineDrama và các phần khác của TikTok vẫn thấy SIM ở trên, trong khi mục Dành cho bạn yêu cầu video theo quốc gia và nhà mạng của SIM thật trên điện thoại. Địa chỉ IP và lịch sử tài khoản vẫn được tính.");
         table.put("Stop",
                 "Dừng");
+        table.put("Stop LIVE previews opening by themselves",
+                "Ngăn bản xem trước LIVE tự mở");
+        table.put("Stop TikTok loading upcoming videos ahead of time and setting up notifications. You won't get notifications, messages included, while this is on. Videos may take a moment longer to start.",
+                "Ngăn TikTok tải trước video sắp phát và thiết lập thông báo. Khi bật, bạn sẽ không nhận thông báo, kể cả tin nhắn. Video có thể mất thêm chút thời gian để bắt đầu phát.");
+        table.put("Stop TikTok loading upcoming videos ahead of time. It uses less data, but videos may take a moment longer to start.",
+                "Ngăn TikTok tải trước các video tiếp theo. Tùy chọn này giảm dữ liệu sử dụng nhưng video có thể bắt đầu phát chậm hơn một chút.");
+        table.put("Stop TikTok reading what you copied. Copying a link from TikTok still works.",
+                "Ngăn TikTok đọc nội dung bạn đã sao chép. Sao chép liên kết từ TikTok vẫn hoạt động.");
+        table.put("Stop TikTok's built-in AI engine from starting, so it doesn't get a copy of everything TikTok logs about your use. TikTok works as if the engine weren't there.",
+                "Ngăn công cụ AI tích hợp của TikTok khởi chạy để nó không nhận bản sao dữ liệu TikTok ghi lại về hoạt động của bạn. TikTok sẽ hoạt động như thể công cụ này không tồn tại.");
+        table.put("Stop TikTok's speed tests",
+                "Ngăn TikTok kiểm tra tốc độ");
+        table.put("Stop analytics and tracking",
+                "Tắt phân tích và theo dõi");
+        table.put("Stop on-device AI profiling",
+                "Tắt lập hồ sơ AI trên thiết bị");
+        table.put("Stop search results playing on their own",
+                "Ngăn kết quả tìm kiếm tự phát");
+        table.put("Stop the brand animation that plays over the comments when what someone typed matches an advertiser's trigger.",
+                "Tắt hoạt ảnh thương hiệu phủ lên bình luận khi nội dung người dùng nhập khớp với từ kích hoạt của nhà quảng cáo.");
+        table.put("Stop the full-screen ad TikTok can show while it starts up.",
+                "Chặn quảng cáo toàn màn hình TikTok có thể hiển thị khi khởi động.");
+        table.put("Stop the notifications TikTok sends about popular videos it picked for you. Messages, comments, likes, follows and videos from accounts you follow still come through.",
+                "Chặn thông báo về video phổ biến do TikTok chọn cho bạn. Tin nhắn, bình luận, lượt thích, lượt theo dõi và video từ tài khoản bạn theo dõi vẫn được gửi đến.");
+        table.put("Stop the short vibrations TikTok plays on its own taps and gestures. Your keyboard and your phone's own haptics stay as they are.",
+                "Tắt rung ngắn do các thao tác chạm và cử chỉ của TikTok tạo ra. Rung bàn phím và phản hồi xúc giác của điện thoại không bị ảnh hưởng.");
+        table.put("Stop the two background tasks TikTok uses to check for updates, one of them when your phone starts. Some in-app update prompts may stop. Play Store updates still work.",
+                "Dừng hai tác vụ nền TikTok dùng để kiểm tra cập nhật, trong đó có một tác vụ chạy khi điện thoại khởi động. Một số lời nhắc cập nhật trong ứng dụng có thể không còn xuất hiện. Cập nhật qua Play Store vẫn hoạt động.");
         table.put("Stop video looping",
                 "Dừng lặp video");
+        table.put("Stop videos at the end instead of replaying them.",
+                "Dừng video khi kết thúc thay vì phát lại.");
+        table.put("Stops TikTok from reading your phone's motion and compass sensors. Apps can use them to recognize your phone.",
+                "Ngăn TikTok đọc cảm biến chuyển động và la bàn của điện thoại. Ứng dụng có thể dùng các cảm biến này để nhận diện thiết bị.");
+        table.put("Stops TikTok from reporting the videos you watch, so they don't get added to Watch history in Activity center. Your views won't count and For You learns less. Likes, follows and searches are still seen.",
+                "Ngăn TikTok ghi nhận video bạn xem để chúng không được thêm vào Lịch sử xem trong Trung tâm hoạt động. Lượt xem của bạn không được tính và mục Dành cho bạn ít dữ liệu hơn. Lượt thích, theo dõi và tìm kiếm vẫn được ghi nhận.");
+        table.put("Stops TikTok from sending usage reports, ad tracking and crash reports. TikTok's own diagnostic tools go quiet too.",
+                "Ngăn TikTok gửi báo cáo sử dụng, dữ liệu theo dõi quảng cáo và báo cáo sự cố. Các công cụ chẩn đoán riêng của TikTok cũng ngừng hoạt động.");
+        table.put("Stops TikTok from slowing your screen to match each video's frame rate. On a 90 or 120 Hz phone, that request makes the whole app, scrolling too, run slower.",
+                "Ngăn TikTok giảm tần số quét màn hình để khớp với tốc độ khung hình của từng video. Trên điện thoại 90 hoặc 120 Hz, yêu cầu này khiến toàn bộ ứng dụng, kể cả thao tác cuộn, chạy chậm hơn.");
+        table.put("Stops TikTok from turning your screen brighter while you film, edit or post a video. The front flash still turns the screen white, but at your own brightness.",
+                "Ngăn TikTok tự tăng độ sáng màn hình khi quay, chỉnh sửa hoặc đăng video. Đèn flash trước vẫn làm màn hình trắng, nhưng theo mức sáng bạn đặt.");
+        table.put("Stops websites you open from inside TikTok from reaching back into the app. TikTok's own pages, such as Activity center, Watch history, shop checkout and CAPTCHA, keep working.",
+                "Ngăn trang web mở bên trong TikTok truy cập ngược vào ứng dụng. Các trang riêng của TikTok như Trung tâm hoạt động, Lịch sử xem, thanh toán Shop và CAPTCHA vẫn hoạt động.");
+        table.put("Store TikTok thinks it came from",
+                "Cửa hàng mà TikTok nghĩ ứng dụng được tải từ");
+        table.put("Stores the caption, creator, post date and link inside the video file, where media players can read them. Applies to saves made by Hushfeed.",
+                "Lưu chú thích, nhà sáng tạo, ngày đăng và liên kết bên trong tệp video để trình phát đa phương tiện có thể đọc. Áp dụng cho nội dung Hushfeed lưu.");
+        table.put("Stories",
+                "Story");
+        table.put("Streak",
+                "Chuỗi liên tiếp");
+        table.put("Stream only saves the room's own video, as before. Screen records what your phone shows while you watch, with the sound the app plays when TikTok has the microphone permission. Android asks you to allow screen recording each time, and shows its own notice while it records.",
+                "Ghi luồng chỉ lưu video gốc của phòng như trước. Ghi màn hình lưu những gì điện thoại hiển thị khi xem, kèm âm thanh ứng dụng phát nếu TikTok có quyền dùng micro. Android sẽ yêu cầu cho phép quay màn hình mỗi lần và hiển thị thông báo trong lúc ghi.");
+        table.put("Subtitle language",
+                "Ngôn ngữ phụ đề");
+        table.put("Subtitles",
+                "Phụ đề");
+        table.put("Swap the website in shared links",
+                "Thay tên trang web trong liên kết chia sẻ");
+        table.put("Swiping a message sideways no longer starts a reply to it. Taps and long presses work as before.",
+                "Vuốt ngang tin nhắn sẽ không còn bắt đầu trả lời. Chạm và nhấn giữ vẫn hoạt động như trước.");
+        table.put("Swiping right on the For You feed no longer opens TikTok's side menu, with Your orders, TikTok Minis and more.",
+                "Vuốt sang phải trên feed Dành cho bạn sẽ không còn mở menu bên của TikTok gồm Đơn hàng của bạn, TikTok Minis và các mục khác.");
         table.put("System",
                 "Hệ thống");
+        table.put("Tag saved videos with their details",
+                "Gắn thông tin vào video đã lưu");
+    }
+
+    private static void fill18(Map<String, String> table) {
+        table.put("Take Hushfeed out of TikTok's Settings and privacy. To open these settings, press and hold For You at the top of the feed, or Home if Long-press Home for Hushfeed settings is on.",
+                "Ẩn Hushfeed khỏi mục Cài đặt và quyền riêng tư của TikTok. Để mở cài đặt này, nhấn giữ Dành cho bạn ở đầu feed, hoặc nhấn giữ Trang chủ nếu bật tùy chọn mở cài đặt Hushfeed bằng cách nhấn giữ Trang chủ.");
+        table.put("Take the Add comment bar off videos you open from a profile, a hashtag, a sound or search, so the video fills the screen down to the bottom. The comment button on the right still opens comments.",
+                "Ẩn thanh Thêm bình luận trên video mở từ hồ sơ, hashtag, âm thanh hoặc tìm kiếm để video hiển thị đến sát cạnh dưới màn hình. Nút bình luận bên phải vẫn mở bình luận.");
+        table.put("Take the pulsing LIVE ring off profile pictures on the feed and in comments. Tapping the picture of a creator who's live opens their profile instead of the LIVE.",
+                "Bỏ vòng LIVE nhấp nháy quanh ảnh đại diện trên feed và trong bình luận. Chạm ảnh của nhà sáng tạo đang LIVE sẽ mở hồ sơ thay vì vào LIVE.");
+        table.put("Take the story ring off profile pictures on the feed, in comments and on profiles. Tapping a picture opens the profile instead of the story.",
+                "Bỏ vòng Story quanh ảnh đại diện trên feed, trong bình luận và hồ sơ. Chạm ảnh sẽ mở hồ sơ thay vì Story.");
+        table.put("Takes TikTok's AI Cast button off the camera's side toolbar. Open the camera again to see the change.",
+                "Ẩn nút AI Cast của TikTok khỏi thanh công cụ bên cạnh camera. Mở lại camera để thấy thay đổi.");
+        table.put("Takes TikTok's own Auto scroll action out of the video panel and the Auto scroll switch beside videos on tablets and unfolded foldables. Works with Auto-advance off too.",
+                "Ẩn thao tác Tự cuộn của TikTok khỏi bảng điều khiển video và công tắc Tự cuộn bên cạnh video trên máy tính bảng hoặc điện thoại gập đang mở. Vẫn hoạt động khi tắt Tự chuyển tiếp.");
+        table.put("Tap @names in bios",
+                "Chạm vào @tên trong tiểu sử");
+        table.put("Tapping more under a video opens its comments with the whole caption at the top instead of spreading the caption over the video. A tap on the caption itself does the same. Photo posts keep TikTok's own page for this.",
+                "Chạm Xem thêm bên dưới video sẽ mở bình luận và hiển thị toàn bộ chú thích ở phía trên thay vì phủ chú thích lên video. Chạm trực tiếp vào chú thích cũng có tác dụng tương tự. Bài đăng ảnh vẫn dùng trang riêng của TikTok.");
+        table.put("The Activity row of likes and comments on your posts leaves the Inbox. Notifications about them still arrive.",
+                "Hàng Hoạt động về lượt thích và bình luận trên bài đăng sẽ bị xóa khỏi Hộp thư. Bạn vẫn nhận được thông báo về chúng.");
+        table.put("The Archive row leaves the Inbox. Archived chats are kept.",
+                "Hàng Lưu trữ sẽ bị xóa khỏi Hộp thư. Các cuộc trò chuyện đã lưu trữ vẫn được giữ.");
+        table.put("The Bulletin board rows TikTok adds to the Inbox leave the list. Chats and the other rows stay where they are.",
+                "Ẩn các hàng Bảng tin mà TikTok thêm vào Hộp thư. Cuộc trò chuyện và các hàng khác vẫn giữ nguyên.");
+        table.put("The Following and For You names above the feed go away. Swiping between the feeds and the search button stay as they are.",
+                "Ẩn tên Đang theo dõi và Dành cho bạn phía trên feed. Thao tác vuốt chuyển feed và nút tìm kiếm vẫn giữ nguyên.");
+        table.put("The Message requests row leaves the Inbox. Requests keep arriving and wait there until you turn this off.",
+                "Hàng Yêu cầu tin nhắn sẽ bị xóa khỏi Hộp thư. Yêu cầu mới vẫn được nhận và chờ ở đó cho đến khi bạn tắt tùy chọn này.");
+        table.put("The New followers row leaves the top of the Inbox. The accounts still follow you.",
+                "Hàng Người theo dõi mới sẽ bị xóa khỏi đầu Hộp thư. Các tài khoản đó vẫn theo dõi bạn.");
+        table.put("The Tako assistant's conversation leaves the Inbox list. The Tako bubble on the feed has its own switch under Feed tabs.",
+                "Cuộc trò chuyện với trợ lý Tako sẽ bị xóa khỏi danh sách Hộp thư. Bong bóng Tako trên feed có công tắc riêng trong mục Tab feed.");
+        table.put("The accounts TikTok suggests you follow no longer take up rows in the Inbox.",
+                "Các tài khoản TikTok đề xuất theo dõi sẽ không còn chiếm hàng trong Hộp thư.");
+        table.put("The activity status control leaves the Inbox header. Whether others see you as active is unchanged.",
+                "Ẩn nút trạng thái hoạt động khỏi đầu Hộp thư. Việc người khác có thấy bạn đang hoạt động hay không không thay đổi.");
+        table.put("The add people icon leaves the Inbox header. Only the shortcut goes, so friend suggestions elsewhere are unchanged.",
+                "Ẩn biểu tượng thêm người ở đầu Hộp thư. Chỉ lối tắt này bị ẩn; gợi ý bạn bè ở nơi khác không thay đổi.");
+        table.put("The banner at the top of the Inbox that invites you to start a group chat stops showing. Groups you're already in are unchanged.",
+                "Ẩn biểu ngữ ở đầu Hộp thư mời bạn bắt đầu trò chuyện nhóm. Các nhóm bạn đã tham gia không thay đổi.");
+        table.put("The comment button also opens a video's comments with its caption at the top. The caption over the video goes away while this is on.",
+                "Nút bình luận cũng mở phần bình luận với chú thích ở phía trên. Khi bật tùy chọn này, chú thích phủ trên video sẽ bị ẩn.");
+        table.put("The feed locks by itself during these hours, on your phone's clock. Write days and hours like Mon-Fri 21:00-07:00; Sat Sun 13:00-15:00. Leave the days out for every day. A time that ends earlier than it starts runs past midnight.",
+                "Feed tự khóa trong các khung giờ này theo đồng hồ điện thoại. Nhập ngày và giờ như Mon-Fri 21:00-07:00; Sat Sun 13:00-15:00. Bỏ phần ngày để áp dụng hằng ngày. Nếu giờ kết thúc sớm hơn giờ bắt đầu, khoảng thời gian sẽ kéo dài qua nửa đêm.");
+        table.put("The feed slowly dims during the last 45 seconds before the hold, so it doesn't come as a sudden stop. Needs a time budget and a hold.",
+                "Feed sẽ tối dần trong 45 giây cuối trước khi khóa để tránh dừng đột ngột. Cần bật giới hạn thời gian và màn hình khóa feed.");
+        table.put("The feed waits for one tap before it starts playing again when you come back to the app. Messages, profiles and search are still one tap away.",
+                "Khi bạn quay lại ứng dụng, feed sẽ chờ một lần chạm trước khi phát lại. Tin nhắn, hồ sơ và tìm kiếm vẫn mở được chỉ với một lần chạm.");
+        table.put("The hour both budgets reset, on a 24 hour clock. The default is 4 in the morning, so a late night still counts as the same day.",
+                "Giờ đặt lại cả hai hạn mức, theo định dạng 24 giờ. Mặc định là 4 giờ sáng để thời gian dùng khuya vẫn được tính cùng một ngày.");
+        table.put("The last report is still being saved",
+                "Báo cáo trước đó vẫn đang được lưu");
+        table.put("The port the proxy listens on, like 8080 or 1080.",
+                "Cổng proxy đang lắng nghe, chẳng hạn 8080 hoặc 1080.");
+        table.put("The proxy's address, like 192.168.1.20 or proxy.example.com.",
+                "Địa chỉ proxy, chẳng hạn 192.168.1.20 hoặc proxy.example.com.");
+        table.put("The report couldn't be saved. Try again.",
+                "Không thể lưu báo cáo. Hãy thử lại.");
+        table.put("The row of story avatars across the top of the Inbox goes. Stories still play from the feed and from profiles.",
+                "Ẩn hàng ảnh đại diện Story ở đầu Hộp thư. Story vẫn phát được từ feed và hồ sơ.");
+        table.put("The sticker suggestion banner stops showing in a chat. Your own stickers are still in the sticker picker.",
+                "Biểu ngữ đề xuất nhãn dán sẽ không còn hiển thị trong cuộc trò chuyện. Nhãn dán của bạn vẫn có trong bộ chọn nhãn dán.");
+        table.put("The thumbs down on each comment blocks the commenter instead of disliking. The comment dims, an undo banner follows, and a second tap unblocks.",
+                "Nút không thích ở mỗi bình luận sẽ chặn người bình luận thay vì bày tỏ không thích. Bình luận mờ đi và xuất hiện thông báo hoàn tác; chạm lần nữa để bỏ chặn.");
+        table.put("The time of day the message goes out.",
+                "Thời điểm trong ngày tin nhắn được gửi.");
+        table.put("The video you're watching keeps playing to its end after you leave TikTok or turn the screen off, with TikTok's own media notification to pause it. TikTok's background play switch stays on while this is on. Restart TikTok to apply this.",
+                "Video đang xem tiếp tục phát đến hết sau khi bạn rời TikTok hoặc tắt màn hình; có thông báo phương tiện của TikTok để tạm dừng. Tùy chọn phát nền của TikTok vẫn bật khi tính năng này được bật. Khởi động lại TikTok để áp dụng.");
+        table.put("The voice and video call buttons leave the top of a chat. Calls still ring, and the chat details button stays.",
+                "Các nút gọi thoại và gọi video sẽ bị xóa khỏi đầu cuộc trò chuyện. Cuộc gọi vẫn đổ chuông và nút thông tin cuộc trò chuyện vẫn được giữ.");
+        table.put("The words under the bottom tab icons go away. The icons stay, and each tab opens what it always did.",
+                "Ẩn chữ bên dưới biểu tượng các tab phía dưới. Biểu tượng vẫn còn và mỗi tab vẫn mở đúng nội dung như trước.");
+        table.put("Their usernames, separated by commas or new lines. Each person must already have a chat with you.",
+                "Tên người dùng, phân tách bằng dấu phẩy hoặc dòng mới. Mỗi người phải có sẵn cuộc trò chuyện với bạn.");
+        table.put("Three at once",
+                "Ba tác vụ cùng lúc");
+        table.put("Thumbs down blocks the commenter",
+                "Nút không thích sẽ chặn người bình luận");
+        table.put("TikTok checks how it was signed and installed. This answers those checks the way the Play Store version would. Try it if follows or likes undo themselves after a refresh. It may not help, since TikTok has other checks.",
+                "TikTok kiểm tra cách ứng dụng được ký và cài đặt. Tùy chọn này phản hồi như phiên bản từ Play Store. Hãy thử nếu lượt theo dõi hoặc thích tự mất sau khi làm mới. Cách này có thể không hiệu quả vì TikTok còn các bước kiểm tra khác.");
+        table.put("TikTok default",
+                "Mặc định của TikTok");
+        table.put("TikTok forgets the LIVE quality you picked when it closes. This starts rooms at that quality again after a restart. A room whose stream doesn't have it opens at TikTok's choice.",
+                "TikTok quên chất lượng LIVE bạn chọn khi đóng ứng dụng. Tùy chọn này dùng lại chất lượng đó sau khi khởi động lại. Nếu phòng không có luồng ở chất lượng ấy, TikTok sẽ tự chọn.");
+        table.put("TikTok gets a blank advertising ID, like the one Android gives after you delete yours. Apps can't use it to recognize your phone.",
+                "TikTok nhận ID quảng cáo trống, giống ID Android cấp sau khi bạn xóa ID hiện tại. Ứng dụng không thể dùng ID này để nhận diện điện thoại.");
+        table.put("TikTok gets no location from your phone. The Region settings change your country and time zone. This switch stops the exact position.",
+                "TikTok không nhận được vị trí chính xác từ điện thoại. Cài đặt Khu vực thay đổi quốc gia và múi giờ; công tắc này chặn việc chia sẻ vị trí cụ thể.");
+        table.put("TikTok lets you pick a LIVE's quality only in some rooms. This adds Video quality to the menu in most of the others, and the next room opens at the quality you picked last.",
+                "TikTok chỉ cho chọn chất lượng LIVE ở một số phòng. Tùy chọn này thêm Chất lượng video vào menu của hầu hết phòng còn lại; phòng tiếp theo sẽ mở ở mức chất lượng bạn chọn lần trước.");
+        table.put("TikTok opens a Share to sheet a few seconds after it saves a video. This stops it. The share button and the saved notice stay as they are.",
+                "Vài giây sau khi lưu video, TikTok sẽ mở bảng Chia sẻ đến. Tùy chọn này ngăn bảng đó xuất hiện; nút chia sẻ và thông báo đã lưu vẫn giữ nguyên.");
+        table.put("TikTok removes videos saved for offline viewing after a set time, sometimes only two days, watched or not. With this on they stay until you delete them in TikTok's Offline videos settings. TikTok can still clear watched ones when your phone is low on space.",
+                "TikTok xóa video đã lưu để xem ngoại tuyến sau một khoảng thời gian, đôi khi chỉ hai ngày, dù đã xem hay chưa. Khi bật, video sẽ được giữ đến khi bạn xóa trong cài đặt Video ngoại tuyến của TikTok. TikTok vẫn có thể xóa video đã xem khi điện thoại sắp hết dung lượng.");
+        table.put("TikTok sees an empty contact list instead of yours. Find Friends and People you may know can no longer use your contacts.",
+                "TikTok sẽ thấy danh bạ trống thay vì danh bạ thật của bạn. Tìm bạn bè và mục Những người bạn có thể biết sẽ không thể dùng danh bạ.");
+        table.put("TikTok sees an empty list of apps instead of the apps on your phone. Checks for one specific app, such as when TikTok opens an app you tap, still work.",
+                "TikTok sẽ thấy danh sách ứng dụng trống thay vì các ứng dụng trên điện thoại. Việc kiểm tra một ứng dụng cụ thể, chẳng hạn khi TikTok mở ứng dụng bạn chạm, vẫn hoạt động.");
+        table.put("TikTok slips the videos it saved for offline viewing back into For You when it can't load enough new ones. This takes them all out. Your offline list stays as it is.",
+                "Khi không tải đủ video mới, TikTok có thể đưa video đã lưu để xem ngoại tuyến trở lại mục Dành cho bạn. Tùy chọn này loại bỏ tất cả video đó khỏi feed. Danh sách ngoại tuyến không thay đổi.");
+        table.put("TikTok sometimes tests a change that empties the Favorites tab on your profile. This keeps the tab and your saved videos.",
+                "Đôi khi TikTok thử nghiệm thay đổi khiến tab Yêu thích trong hồ sơ bị trống. Tùy chọn này giữ lại tab và video đã lưu.");
+        table.put("TikTok sometimes tests your phone's speed in a background process that can use a lot of memory. This stops that test from starting. One already running ends when TikTok restarts.",
+                "Đôi khi TikTok kiểm tra tốc độ điện thoại bằng tiến trình nền có thể dùng nhiều bộ nhớ. Tùy chọn này ngăn bài kiểm tra khởi chạy. Bài kiểm tra đang chạy sẽ kết thúc khi khởi động lại TikTok.");
+        table.put("TikTok starts as a new phone after the restart. Tap again to cancel.",
+                "Sau khi khởi động lại, TikTok sẽ hoạt động như trên điện thoại mới. Chạm lại để hủy.");
+        table.put("TikTok treats your phone as one without passkeys, so signing in asks for your password or a code by email or text instead. Password managers won't hand a passkey to a patched app.",
+                "TikTok sẽ coi điện thoại không có passkey, nên khi đăng nhập sẽ yêu cầu mật khẩu hoặc mã qua email/tin nhắn. Trình quản lý mật khẩu sẽ không cung cấp passkey cho ứng dụng đã chỉnh sửa.");
+        table.put("TikTok's own daily screen-time reminder sends the app to the background instead of waiting to be dismissed. Coming straight back leaves the reminder on screen, so the limit stays reachable. Needs a daily limit set under TikTok's Settings and privacy, under Time and well-being.",
+                "Nhắc nhở thời gian sử dụng hằng ngày của TikTok sẽ đưa ứng dụng xuống nền thay vì chờ bạn đóng thông báo. Nếu quay lại ngay, lời nhắc vẫn hiện để bạn có thể truy cập giới hạn. Cần đặt giới hạn hằng ngày trong Cài đặt và quyền riêng tư > Thời gian và sức khỏe trên TikTok.");
+        table.put("TikTok's size",
+                "Kích thước của TikTok");
+        table.put("TikTok's suggested reply cells and their intro banner stop showing in a chat. Messages you type or receive are untouched.",
+                "Các ô trả lời gợi ý của TikTok và biểu ngữ giới thiệu sẽ không còn hiển thị. Tin nhắn bạn gửi hoặc nhận không bị ảnh hưởng.");
+        table.put("Times you can open the feed anyway",
+                "Số lần vẫn có thể mở feed");
+        table.put("Today's budget is locked. This can be changed again at %1$s.",
+                "Hạn mức hôm nay đã khóa. Có thể thay đổi lại lúc %1$s.");
+        table.put("Today: %1$d minute",
+                "Hôm nay: %1$d phút");
+        table.put("Today: %1$d minutes",
+                "Hôm nay: %1$d phút");
+    }
+
+    private static void fill19(Map<String, String> table) {
+        table.put("Today: %1$d video",
+                "Hôm nay: %1$d video");
+        table.put("Today: %1$d videos",
+                "Hôm nay: %1$d video");
         table.put("Top left double tap",
                 "Nhấn kép trái trên");
         table.put("Top right double tap",
                 "Nhấn kép phải trên");
+        table.put("Tracking",
+                "Theo dõi");
+        table.put("Translate button in comments",
+                "Nút dịch trong bình luận");
+        table.put("Translate comments as they load, using TikTok's own translator.",
+                "Dịch bình luận ngay khi tải bằng công cụ dịch của TikTok.");
         table.put("Translate into",
                 "Dịch sang");
         table.put("Turn Clear display on or off",
                 "Bật hoặc tắt Hiển thị rõ");
-    }
-
-    private static void fill8(Map<String, String> table) {
+        table.put("Turn off double tap to react",
+                "Tắt phản ứng bằng cách chạm hai lần");
+        table.put("Turn off haptics",
+                "Tắt phản hồi rung");
+        table.put("Turn off push notifications",
+                "Tắt thông báo đẩy");
+        table.put("Turn off screen transitions",
+                "Tắt hiệu ứng chuyển màn hình");
+        table.put("Turn off swipe to reply",
+                "Tắt vuốt để trả lời");
+        table.put("Turn on Thoughts",
+                "Bật Thoughts");
+        table.put("Turn the music disc at the bottom of the right column while a video plays, the way TikTok used to.",
+                "Xoay đĩa nhạc ở cuối cột bên phải khi video phát, giống cách TikTok từng hoạt động.");
+        table.put("Turns off TikTok's notification service, so nothing it sends reaches your notification shade and it can't wake your phone. You won't hear about new messages until you open TikTok. Notifications hidden while this is on don't come back. Ongoing ones like media controls stay.",
+                "Tắt dịch vụ thông báo của TikTok, nên thông báo mới không xuất hiện trong ngăn thông báo và TikTok không thể đánh thức điện thoại. Bạn sẽ không biết có tin nhắn mới cho đến khi mở TikTok. Thông báo bị ẩn trong thời gian này sẽ không xuất hiện lại; thông báo đang hoạt động như điều khiển phương tiện vẫn được giữ.");
+        table.put("Two at once",
+                "Hai tác vụ cùng lúc");
+        table.put("Two letters, like us, gb or jp.",
+                "Hai chữ cái, chẳng hạn us, gb hoặc jp.");
+        table.put("Type a website name to use instead of tiktok.com in links you share or copy, like vxtiktok.com. Leave empty to share TikTok's own links. Only TikTok links change, and only the website name.",
+                "Nhập tên trang web dùng thay cho tiktok.com trong liên kết bạn chia sẻ hoặc sao chép, chẳng hạn vxtiktok.com. Để trống để dùng liên kết TikTok gốc. Chỉ tên miền trong liên kết TikTok được thay đổi.");
+        table.put("Type the other app's ID, like com.dv.adm. The save button sends the video's link there instead of saving. Leave empty to save here.",
+                "Nhập ID ứng dụng khác, chẳng hạn com.dv.adm. Nút lưu sẽ gửi liên kết video sang ứng dụng đó thay vì lưu tại đây. Để trống để lưu bằng Hushfeed.");
+        table.put("Under the @username on a profile, say whether it follows you or doesn't follow you back. Follower and following lists mark the accounts you follow that don't follow you back.",
+                "Bên dưới @username trên hồ sơ, hiển thị tài khoản đó có theo dõi bạn hay không. Danh sách người theo dõi và đang theo dõi đánh dấu các tài khoản bạn theo dõi nhưng không theo dõi lại.");
+        table.put("Until you choose here, this sheet follows your choices under Hide share actions.",
+                "Cho đến khi bạn chọn tại đây, bảng này sẽ dùng các lựa chọn trong mục Ẩn hành động chia sẻ.");
+        table.put("Up to %1$d speeds from %2$s to %3$s, separated by commas. Example: 0.5, 1, 1.5, 2, 2.5, 3. Leave empty for TikTok's list. Restart TikTok to apply this.",
+                "Nhập tối đa %1$d tốc độ từ %2$s đến %3$s, phân tách bằng dấu phẩy. Ví dụ: 0.5, 1, 1.5, 2, 2.5, 3. Để trống để dùng danh sách của TikTok. Khởi động lại TikTok để áp dụng.");
+        table.put("Use 0 for TikTok's size, or %1$d to %2$d. Sizes the author's name and the post date next to it, and keeps Android's font scaling.",
+                "Nhập 0 để dùng kích thước của TikTok, hoặc từ %1$d đến %2$d. Tùy chỉnh cỡ tên tác giả và ngày đăng bên cạnh, đồng thời vẫn tuân theo tỷ lệ phông chữ của Android.");
+        table.put("Use 0 for TikTok's size, or %1$d to %2$d. Sizes the description below the author's name and keeps Android's font scaling.",
+                "Nhập 0 để dùng kích thước của TikTok, hoặc từ %1$d đến %2$d. Tùy chỉnh cỡ mô tả bên dưới tên tác giả và vẫn tuân theo tỷ lệ phông chữ của Android.");
+        table.put("Use Save report for this large report",
+                "Hãy dùng Lưu báo cáo cho báo cáo lớn này.");
+        table.put("Use a default playback speed",
+                "Dùng tốc độ phát mặc định");
+        table.put("Use an imported font",
+                "Dùng phông chữ đã nhập");
+        table.put("Use non-personalized search",
+                "Dùng tìm kiếm không cá nhân hóa");
+        table.put("Use system emoji",
+                "Dùng emoji hệ thống");
         table.put("Use system font",
                 "Dùng phông chữ hệ thống");
+        table.put("Use the preset for the region TikTok reports for your account and its shop too. May affect search.",
+                "Dùng mẫu khu vực mà TikTok báo cáo cho tài khoản của bạn và cả Shop. Có thể ảnh hưởng đến kết quả tìm kiếm.");
+        table.put("Use the split layout on wider screens. Restart TikTok to apply this. If the old layout is still there, unfold again.",
+                "Dùng bố cục chia đôi trên màn hình rộng. Khởi động lại TikTok để áp dụng. Nếu bố cục cũ vẫn còn, hãy gập rồi mở màn hình lại.");
+        table.put("Use your own offline videos limit",
+                "Dùng giới hạn video ngoại tuyến riêng");
+        table.put("Use {creator}, {date} and {video_id} to build the name. Start with {creator}/ to put each creator in a folder. The file ending is added for you.",
+                "Dùng {creator}, {date} và {video_id} để tạo tên tệp. Bắt đầu bằng {creator}/ để lưu mỗi nhà sáng tạo vào một thư mục riêng. Phần đuôi tệp sẽ được tự thêm.");
+        table.put("Use {creator}, {date}, {video_id} and {index} to build the name. {index} numbers the photos of a slideshow saved with Download original photos. TikTok's own save button numbers files by folder instead. The file ending is added for you.",
+                "Dùng {creator}, {date}, {video_id} và {index} để tạo tên tệp. {index} đánh số ảnh trong trình chiếu khi dùng Tải ảnh gốc. Nút lưu của TikTok đánh số tệp theo thư mục. Phần đuôi tệp sẽ được tự thêm.");
+        table.put("Use {date} and {media_id} to build the name. Works for image and video stickers.",
+                "Dùng {date} và {media_id} để tạo tên tệp. Áp dụng cho nhãn dán ảnh và video.");
         table.put("Video",
                 "Video");
+        table.put("Video (MP4)",
+                "Video (MP4)");
+        table.put("Video destination",
+                "Thư mục lưu video");
+        table.put("Video download quality",
+                "Chất lượng tải video");
+        table.put("Video filename",
+                "Tên tệp video");
+        table.put("Video info",
+                "Thông tin video");
+        table.put("Video playback quality",
+                "Chất lượng phát video");
         table.put("Video player settings",
                 "Cài đặt trình phát video");
+        table.put("Videos in search results show their cover and play when you open them. The feed and the videos you open play as usual.",
+                "Video trong kết quả tìm kiếm hiển thị ảnh bìa và phát khi bạn mở. Feed và các video mở theo cách khác vẫn phát như bình thường.");
+        table.put("Views range",
+                "Khoảng lượt xem");
+        table.put("Wait a day to loosen the budget",
+                "Chờ sang ngày mới để nới hạn mức");
+        table.put("WebP, exactly as TikTok sent it",
+                "WebP, giữ nguyên như TikTok gửi");
+        table.put("What gets sent each day.",
+                "Nội dung được gửi mỗi ngày.");
+        table.put("When Copy link gives a short vt.tiktok.com or vm.tiktok.com link, Hushfeed opens it once in the background to find the full video link and copies that instead. TikTok sees that visit, and it connects directly even when a proxy is on. Links you send to another app go out as they were.",
+                "Khi Sao chép liên kết trả về liên kết ngắn vt.tiktok.com hoặc vm.tiktok.com, Hushfeed sẽ mở liên kết đó một lần ở nền để tìm liên kết video đầy đủ rồi sao chép liên kết đầy đủ. TikTok ghi nhận lượt truy cập này và kết nối trực tiếp ngay cả khi bật proxy. Liên kết gửi sang ứng dụng khác không thay đổi.");
+        table.put("When TikTok is in dark mode, the list of collections you get by holding the Favorites button is dark too instead of white.",
+                "Khi TikTok ở chế độ tối, danh sách bộ sưu tập mở ra khi nhấn giữ nút Yêu thích cũng có nền tối thay vì trắng.");
+        table.put("When TikTok starts and decides the phone's language changed, it forgets the language you picked in its settings and follows the phone. With this on, your pick stays. Counts from TikTok's next start.",
+                "Khi khởi động, nếu TikTok phát hiện ngôn ngữ điện thoại đã đổi, ứng dụng sẽ quên ngôn ngữ bạn chọn và dùng ngôn ngữ của điện thoại. Bật tùy chọn này để giữ lựa chọn của bạn. Có hiệu lực từ lần khởi động TikTok tiếp theo.");
+        table.put("When a creator who's LIVE also has a Story, tapping their picture on their profile or on your chat with them in the Inbox opens the Story. Tap the picture again to join the LIVE.",
+                "Nếu nhà sáng tạo đang LIVE đồng thời có Story, chạm ảnh của họ trên hồ sơ hoặc trong cuộc trò chuyện ở Hộp thư sẽ mở Story. Chạm ảnh lần nữa để vào LIVE.");
+        table.put("When a video ends in full screen, stay on it instead of moving to the next one. Swiping still moves on.",
+                "Khi video kết thúc ở chế độ toàn màn hình, tiếp tục giữ video đó thay vì chuyển sang video tiếp theo. Bạn vẫn có thể vuốt để chuyển.");
+        table.put("When a video ends while TikTok plays in the background, it starts over instead of waiting for you to press Play in the notification. A call or another app's sound still pauses it.",
+                "Khi video kết thúc lúc TikTok chạy nền, video sẽ phát lại từ đầu thay vì chờ bạn nhấn Phát trong thông báo. Cuộc gọi hoặc âm thanh từ ứng dụng khác vẫn tạm dừng video.");
+        table.put("When the budget runs out, the video on screen plays to its end before the hold starts, and you can't swipe to another video meanwhile. If the fade already dimmed the feed, the hold starts right away. Needs a hold. It waits %1$d minutes at most.",
+                "Khi hết hạn mức, video đang xem sẽ phát đến hết rồi feed mới khóa; trong lúc đó bạn không thể vuốt sang video khác. Nếu feed đã tối dần, màn hình khóa xuất hiện ngay. Cần bật khóa feed. Thời gian chờ tối đa là %1$d phút.");
+        table.put("When the video without the watermark can't be fetched, save TikTok's own watermarked copy instead and say so. It's the size TikTok's own save uses, so it may be smaller than the quality you picked.",
+                "Nếu không lấy được video không có hình mờ, hãy lưu bản có hình mờ của TikTok và thông báo cho bạn. Bản này dùng chất lượng lưu mặc định của TikTok nên có thể nhỏ hơn mức bạn đã chọn.");
+        table.put("When to send",
+                "Thời điểm gửi");
+    }
+
+    private static void fill20(Map<String, String> table) {
+        table.put("When you leave TikTok while a video plays, it keeps playing in a small window over your other apps, with a button to pause it. Works in the feed and on videos you open from a profile, search or a sound. Needs Android 8 or later.",
+                "Khi rời TikTok trong lúc video đang phát, video tiếp tục trong cửa sổ nhỏ nổi trên các ứng dụng khác, có nút tạm dừng. Hoạt động trên feed và video mở từ hồ sơ, tìm kiếm hoặc âm thanh. Yêu cầu Android 8 trở lên.");
+        table.put("When you open TikTok from its icon, the first video in the feed waits for one tap before it plays. A link, a notification or a shortcut opens as usual.",
+                "Khi mở TikTok từ biểu tượng ứng dụng, video đầu tiên trên feed sẽ chờ bạn chạm mới phát. Mở từ liên kết, thông báo hoặc phím tắt vẫn như bình thường.");
+        table.put("Where the time goes",
+                "Vị trí hiển thị thời gian");
+        table.put("While diagnostic logging is on, a message names the part of Hushfeed that failed. Off keeps failures in the report only.",
+                "Khi bật ghi nhật ký chẩn đoán, thông báo sẽ cho biết phần Hushfeed gặp lỗi. Khi tắt, lỗi chỉ được ghi trong báo cáo.");
+        table.put("While you hold a video, slide left or right to change its speed, and a bubble shows it. Letting go goes back to normal. A pull-down lock keeps the speed you slid to.",
+                "Khi nhấn giữ video, trượt sang trái hoặc phải để đổi tốc độ; bong bóng sẽ hiển thị tốc độ hiện tại. Thả tay để trở về bình thường. Khóa bằng cách vuốt xuống sẽ giữ tốc độ bạn chọn.");
+        table.put("Who to message",
+                "Người nhận tin nhắn");
+        table.put("Window width needed to enable the layout. Restart TikTok to apply this.",
+                "Chiều rộng cửa sổ tối thiểu để bật bố cục này. Khởi động lại TikTok để áp dụng.");
+        table.put("Wipe TikTok's data and give it a new Android ID and advertising ID on the next start, so it sees a phone it hasn't met. You'll be signed out and lose your drafts. Hushfeed's settings stay.",
+                "Xóa dữ liệu TikTok và cấp Android ID cùng ID quảng cáo mới ở lần khởi động tiếp theo, để TikTok nhận diện như một điện thoại mới. Bạn sẽ bị đăng xuất và mất bản nháp. Cài đặt Hushfeed vẫn được giữ.");
+        table.put("With TikTok in dark mode, a LIVE room still opens its share menu, fan club and other panels in light colors. This opens them dark.",
+                "Khi TikTok ở chế độ tối, menu chia sẻ, câu lạc bộ người hâm mộ và các bảng khác trong phòng LIVE vẫn có màu sáng. Tùy chọn này chuyển chúng sang màu tối.");
+        table.put("Words, countries and languages",
+                "Từ khóa, quốc gia và ngôn ngữ");
+        table.put("Works only with YTDLnis (com.deniscerri.ytdl). Picks audio or video when the save button sends it a link.",
+                "Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Chọn âm thanh hoặc video khi nút lưu gửi liên kết sang ứng dụng này.");
+        table.put("Works only with YTDLnis (com.deniscerri.ytdl). Starts the download in the background without showing its download card.",
+                "Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Bắt đầu tải ở chế độ nền mà không hiển thị thẻ tải xuống.");
+        table.put("Write the username and caption on the video",
+                "Ghi tên người dùng và chú thích lên video");
+        table.put("Write the video's sound beside it, in the format picked under Sound format. Android 10 and later file audio separately, so it lands in Music under the same folder name as your videos.",
+                "Lưu âm thanh của video thành tệp riêng theo định dạng trong mục Định dạng âm thanh. Trên Android 10 trở lên, tệp sẽ nằm trong thư mục Music với tên thư mục giống video.");
+        table.put("Writes the date before the time to the second the short way your language does, like 10/7/25.",
+                "Hiển thị ngày trước giờ đến từng giây theo định dạng ngắn của ngôn ngữ bạn, chẳng hạn 10/7/25.");
+        table.put("Writing",
+                "Đang viết");
+        table.put("YTDLnis background mode",
+                "Chế độ nền YTDLnis");
+        table.put("YTDLnis download type",
+                "Loại tải xuống YTDLnis");
         table.put("Yes",
                 "Có");
+        table.put("Your operator's name, like T-Mobile.",
+                "Tên nhà mạng, chẳng hạn T-Mobile.");
+        table.put("Your operator's numeric code, like 310260.",
+                "Mã số nhà mạng, chẳng hạn 310260.");
+        table.put("Zero means no limit. Counts the videos Hushfeed advanced past for you, not the ones you swiped yourself, and starts again when the feed is rebuilt or you change this number.",
+                "Giá trị 0 nghĩa là không giới hạn. Chỉ đếm video Hushfeed tự chuyển qua, không tính video bạn tự vuốt qua. Bộ đếm bắt đầu lại khi feed được tải lại hoặc khi bạn đổi giá trị.");
+        table.put("Zero means the way out of the hold is always there. Any other number is how many times a day it works. Once they're used up, the hold stays until the day starts over. Ignored while the budget is locked, which removes the way out.",
+                "Giá trị 0 cho phép luôn thoát khỏi màn hình khóa. Giá trị khác là số lần thoát mỗi ngày. Khi dùng hết lượt, màn hình khóa sẽ giữ đến ngày mới. Tùy chọn bị bỏ qua khi hạn mức đang khóa cài đặt và không cho thoát.");
+        table.put("Zero shows the notice and leaves the feed alone. Anything else covers the feed for that many minutes once a budget is reached. Messages, profiles and search keep working, and nothing in the feed is thrown away.",
+                "Giá trị 0 chỉ hiển thị thông báo và không chặn feed. Giá trị khác sẽ phủ màn hình feed trong số phút tương ứng khi đạt giới hạn. Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động; không có nội dung feed nào bị xóa.");
+        table.put("Zero switches this off. A short reminder after that many minutes of watching, and again after the same again. Time on messages, a profile or search doesn't count, and nothing is shown while the feed is on hold.",
+                "Giá trị 0 sẽ tắt tùy chọn. Hiển thị lời nhắc ngắn sau số phút xem đã đặt và lặp lại sau mỗi khoảng thời gian tương tự. Thời gian ở tin nhắn, hồ sơ hoặc tìm kiếm không được tính; lời nhắc không xuất hiện khi feed đang bị khóa.");
+        table.put("Zero switches this off. Count the minutes the player spends running in the feed. Time on messages, a profile or search doesn't count.",
+                "Giá trị 0 sẽ tắt tùy chọn. Đếm số phút trình phát hoạt động trên feed. Thời gian ở tin nhắn, hồ sơ hoặc tìm kiếm không được tính.");
+        table.put("Zero switches this off. Counts every video that comes up in the feed and tells you when you reach the limit. Separate from the auto-advance session limit under Playback, which counts only videos Hushfeed moved past for you.",
+                "Giá trị 0 sẽ tắt tùy chọn. Đếm mọi video xuất hiện trên feed và thông báo khi đạt giới hạn. Đây là giới hạn riêng với giới hạn phiên tự động chuyển tiếp trong mục Phát lại, vốn chỉ đếm video mà Hushfeed tự chuyển qua.");
     }
 }
