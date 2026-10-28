@@ -1126,8 +1126,6 @@ Next message: tomorrow at %1$s.,Next message: tomorrow at %1$s.
 No,No
 No app on this phone opens that file,No app on this phone opens that file
 No app on this phone opens web links,No app on this phone opens web links
-No apps can receive shared links,No apps can receive shared links
-No apps found,No apps found
 No apps match this search,No apps match this search
 "No chat with @%1$s turned up on this account. Open your chat with them once, then try again.","No chat with @%1$s turned up on this account. Open your chat with them once, then try again."
 No cleared videos fit the current history limits.,No cleared videos fit the current history limits.
@@ -1575,7 +1573,6 @@ Search Activity notifications already loaded on this screen. Loading more pauses
 Search apps,Search apps
 Search by name or gate key,Search by name or gate key
 "Search by name, description or category.","Search by name, description or category."
-Search countries,Search countries
 Search countries or operators,Search countries or operators
 Search hidden creators,Search hidden creators
 Search is unavailable on this screen,Search is unavailable on this screen
@@ -1650,7 +1647,6 @@ Shortest first,Shortest first
 Show,Show
 Show @username beside a video instead of the display name the creator chose.,Show @username beside a video instead of the display name the creator chose.
 Show See translation,Show See translation
-"Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one.","Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one."
 "Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one. Restart TikTok to apply this.","Show Thoughts on profiles and in your inbox, and the prompt to share one, for accounts TikTok hasn't turned them on for. TikTok's servers may still refuse to post one. Restart TikTok to apply this."
 "Show TikTok's button for recording a spoken comment, on accounts that don't have it yet. It hasn't been tried on a real account, so it may not work.","Show TikTok's button for recording a spoken comment, on accounts that don't have it yet. It hasn't been tried on a real account, so it may not work."
 Show TikTok's feed buttons,Show TikTok's feed buttons
