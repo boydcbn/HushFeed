@@ -1,0 +1,97 @@
+# Settings text, English on the left, Vietnamese on the right, one entry per line, tab separated.
+# Starter Vietnamese translations for the Hushfeed settings UI.
+# Keep %s and %d placeholders, {tokens} and brand names as they are.
+
+%1$s left	Còn %1$s
+%1$s minute	%1$s phút
+%1$s minutes	%1$s phút
+%1$s result	%1$s kết quả
+%1$s results	%1$s kết quả
+%1$s video	%1$s video
+%1$s videos	%1$s video
+1 result	1 kết quả
+1 video left	Còn 1 video
+About	Giới thiệu
+About Hushfeed	Giới thiệu Hushfeed
+Add	Thêm
+Add a creator	Thêm người sáng tạo
+Advanced	Nâng cao
+All	Tất cả
+Appearance	Giao diện
+Apply	Áp dụng
+Audio	Âm thanh
+Auto-advance	Tự động chuyển tiếp
+Auto-advance videos	Video tự động chuyển tiếp
+Back	Quay lại
+Back up settings	Sao lưu cài đặt
+Backup and restore	Sao lưu và khôi phục
+Blocked	Đã chặn
+Browse	Duyệt
+Cancel	Hủy
+Captions	Phụ đề
+Capture the feed	Ghi lại feed
+Choose what reaches your feed	Chọn nội dung đến feed của bạn
+Choose which rows and controls appear	Chọn dòng và điều khiển nào xuất hiện
+Clear	Xóa
+Clear all	Xóa tất cả
+Close	Đóng
+Comments	Bình luận
+Comments beside the video	Bình luận bên cạnh video
+Continue supported videos from where you stopped when you scroll back to them.	Tiếp tục video được hỗ trợ từ nơi bạn dừng khi cuộn trở lại
+Controls	Điều khiển
+Copy	Sao chép
+Copy quick report	Sao chép báo cáo nhanh
+Copy report	Sao chép báo cáo
+Country and network preferences	Tùy chọn quốc gia và mạng
+Country code	Mã quốc gia
+Create	Tạo
+Creator exceptions	Ngoại lệ người sáng tạo
+Creators and sounds	Người sáng tạo và âm thanh
+Current	Hiện tại
+Current %1$s	Hiện tại %1$s
+Current state	Trạng thái hiện tại
+Daily budget	Ngân sách hàng ngày
+Daily time budget	Ngân sách thời gian hàng ngày
+Daily video budget	Ngân sách video hàng ngày
+Dark	Tối
+Default	Mặc định
+Description text size	Cỡ chữ mô tả
+Diagnostics	Chẩn đoán
+Disable	Tắt
+Disabled	Đã tắt
+Downloads	Tải xuống
+Enable	Bật
+Enabled	Đã bật
+Export diagnostic report	Xuất báo cáo chẩn đoán
+Feed and navigation	Feed và điều hướng
+Feed button size	Kích thước nút feed
+Feed filter	Bộ lọc feed
+Filter settings	Cài đặt bộ lọc
+Hide profile shortcuts	Ẩn phím tắt hồ sơ
+Home	Trang chủ
+Import watch history	Nhập lịch sử xem
+Keep the language picked in TikTok	Giữ ngôn ngữ đã chọn trong TikTok
+Language	Ngôn ngữ
+Load	Tải
+Log diagnostics	Ghi nhật ký chẩn đoán
+No	Không
+Open	Mở
+Privacy	Quyền riêng tư
+Profile	Hồ sơ
+Recent searches	Tìm kiếm gần đây
+Region	Khu vực
+Remove	Xóa
+Reset	Đặt lại
+Restart TikTok	Khởi động lại TikTok
+Save	Lưu
+Save report	Lưu báo cáo
+Search	Tìm kiếm
+Search history	Lịch sử tìm kiếm
+Settings	Cài đặt
+Sound format	Định dạng âm thanh
+Start	Bắt đầu
+Stop	Dừng
+Translate into	Dịch sang
+Video	Video
+Videos	Video
+Yes	Có
