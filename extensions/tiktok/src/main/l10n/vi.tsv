@@ -1125,3 +1125,53 @@ Unblock	Bỏ chặn
 %1$s: one of %3$s files might not have finished	%1$s: có thể 1 trong số %3$s tệp chưa hoàn tất
 1 comment or reply loaded	Đã tải 1 bình luận hoặc câu trả lời
 1 filtered out	Đã lọc bỏ 1 mục
+A different account is signed in. Switch back to the one you set this up on, or enter who to message again.	Bạn đang đăng nhập tài khoản khác. Hãy chuyển về tài khoản đã thiết lập hoặc nhập lại người cần nhắn tin.
+A file named hushfeed-safe-mode in TikTok's folder under Android/data paused Hushfeed. Your settings stay as they are.	Tệp hushfeed-safe-mode trong thư mục TikTok tại Android/data đã tạm dừng Hushfeed. Cài đặt vẫn được giữ nguyên.
+A message is already on its way	Tin nhắn đang được gửi
+A port is a whole number from 1 to 65535	Cổng phải là số nguyên từ 1 đến 65535
+A screen's layout is recorded. Export the diagnostic report to send it, or tap to record another.	Bố cục màn hình đã được ghi lại. Xuất báo cáo chẩn đoán để gửi đi hoặc nhấn để ghi lại lần nữa.
+About %1$s of storage at this limit	Khoảng %1$s dung lượng ở giới hạn này
+Account facts copied	Đã sao chép thông tin tài khoản
+Account facts on profiles	Thông tin tài khoản trên hồ sơ
+Add a seen-history file saved by Hushfeed to the videos @%1$s has seen. A video in both keeps the newer date.	Thêm tệp lịch sử đã xem của Hushfeed vào danh sách video @%1$s đã xem. Nếu trùng video, giữ ngày mới hơn.
+Add a seen-history file saved by Hushfeed to this account's seen videos. A video in both keeps the newer date.	Thêm tệp lịch sử đã xem của Hushfeed vào danh sách video đã xem của tài khoản này. Nếu trùng video, giữ ngày mới hơn.
+Added %1$s seen videos	Đã thêm %1$s video đã xem
+Added %1$s seen videos.	Đã thêm %1$s video đã xem.
+Added 1 seen video	Đã thêm 1 video đã xem
+Added 1 seen video.	Đã thêm 1 video đã xem.
+Allow storage for TikTok in Android settings to record LIVEs	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để ghi LIVE
+Allow storage for TikTok in Android settings to save frames	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để lưu khung hình
+Allow storage for TikTok in Android settings to save profile pictures	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để lưu ảnh đại diện
+Allow storage for TikTok in Android settings to save sounds	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để lưu âm thanh
+Allow storage for TikTok in Android settings to save stories	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để lưu tin
+Allow storage for TikTok in Android settings to save the live photo's clip	Trong cài đặt Android, cấp quyền lưu trữ cho TikTok để lưu video của ảnh động
+An exception names one creator, so a pattern can't be one: %1$s	Ngoại lệ chỉ định một nhà sáng tạo cụ thể nên không thể dùng mẫu: %1$s
+An exception takes a handle or id, not a display name: %1$s	Ngoại lệ cần tên người dùng hoặc ID, không phải tên hiển thị: %1$s
+An interrupted settings change couldn't be recovered, so its record was set aside. Check your settings or restore a backup.	Không thể khôi phục thay đổi cài đặt bị gián đoạn nên bản ghi đã được tách riêng. Hãy kiểm tra cài đặt hoặc khôi phục bản sao lưu.
+An override changes the value TikTok reads from this gate. It doesn't change TikTok's saved copy or prove the named feature changed.	Ghi đè thay đổi giá trị TikTok đọc từ cổng tính năng này. Nó không sửa bản lưu của TikTok hay đảm bảo tính năng đã thay đổi.
+Applies to both video and photo downloads.	Áp dụng cho cả tải video và ảnh.
+Apply enables these overrides. Undo last Lab change puts your previous rules back until you change anything else in the Lab.	Áp dụng sẽ bật các mục ghi đè này. Hoàn tác thay đổi Lab gần nhất sẽ khôi phục quy tắc trước đó cho đến khi bạn thay đổi gì khác trong Lab.
+Apply saves these overrides. Turn on overrides in the Lab to use them. Turning them on is a Lab change too, so after that Undo turns them off rather than putting your previous rules back.	Áp dụng sẽ lưu các mục ghi đè này. Hãy bật ghi đè trong Lab để sử dụng. Việc bật cũng là thay đổi trong Lab, nên Hoàn tác sau đó sẽ tắt chúng thay vì khôi phục quy tắc cũ.
+Ask for the quality on each save	Hỏi chất lượng mỗi lần lưu
+Automatic (TikTok's file)	Tự động (tệp của TikTok)
+Bio copied	Đã sao chép tiểu sử
+Blocked %1$s	Đã chặn %1$s
+Blocked %1$s. Unblock	Đã chặn %1$s. Bỏ chặn
+Can't check yet: %1$s	Chưa thể kiểm tra: %1$s
+Choose a subfolder under %1$s.	Chọn thư mục con bên trong %1$s.
+Choose counts for this signed-in account. Leave a field empty to use TikTok's count. Zero shows zero. Choices stay on this phone.	Chọn số liệu cho tài khoản đang đăng nhập. Để trống để dùng số liệu TikTok; nhập 0 để hiển thị 0. Lựa chọn chỉ lưu trên điện thoại này.
+Clear all Lab data (overrides, switch, recordings)	Xóa toàn bộ dữ liệu Lab (ghi đè, công tắc, bản ghi)
+Clear all suggested accounts	Xóa tất cả tài khoản được đề xuất
+Clear search history	Xóa lịch sử tìm kiếm
+Clearing, %1$d so far	Đang xóa, hiện đã xử lý %1$d mục
+Completed an interrupted settings change. Restart TikTok to apply this.	Đã hoàn tất thay đổi cài đặt bị gián đoạn. Khởi động lại TikTok để áp dụng.
+Copy or save which patches and options this Hushfeed was built with.	Sao chép hoặc lưu danh sách bản vá và tùy chọn dùng để tạo bản Hushfeed này.
+Couldn't clear the suggested accounts. Reopen the Inbox and try again.	Không thể xóa tài khoản được đề xuất. Hãy mở lại Hộp thư đến rồi thử lại.
+Couldn't confirm the block for %1$s. Open their profile to check.	Không thể xác nhận đã chặn %1$s. Hãy mở hồ sơ của họ để kiểm tra.
+Couldn't confirm the unblock for %1$s. Open their profile to check.	Không thể xác nhận đã bỏ chặn %1$s. Hãy mở hồ sơ của họ để kiểm tra.
+Couldn't find this LIVE's stream to record. Leave the room and open it again.	Không tìm thấy luồng LIVE để ghi. Hãy rời phòng rồi mở lại.
+Couldn't forget the saved videos. Try again.	Không thể xóa lịch sử video đã lưu. Hãy thử lại.
+Couldn't list your apps. Tap here to try again.	Không thể lấy danh sách ứng dụng. Nhấn vào đây để thử lại.
+Couldn't put back the diagnostic data. Try again.	Không thể khôi phục dữ liệu chẩn đoán. Hãy thử lại.
+Couldn't put the saved videos back. Try again.	Không thể khôi phục danh sách video đã lưu. Hãy thử lại.
+Couldn't reach the proxy at %1$s. TikTok may not load until it's back or you turn the proxy off.	Không thể kết nối proxy tại %1$s. TikTok có thể không tải được cho đến khi proxy hoạt động lại hoặc bạn tắt proxy.
