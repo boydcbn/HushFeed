@@ -3,9 +3,11 @@ name: Validate Vietnamese translations
 on:
   pull_request:
     branches: [main]
-  push:
-    branches: [i18n/vietnamese-settings-descriptions]
   workflow_dispatch:
+
+concurrency:
+  group: l10n-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -13,7 +15,7 @@ permissions:
 
 jobs:
   l10n:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
