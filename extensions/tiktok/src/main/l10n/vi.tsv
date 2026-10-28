@@ -1046,3 +1046,90 @@ Hide sharing apps	Ẩn ứng dụng chia sẻ
 Hide video actions	Ẩn thao tác video
 Hide the Send to row	Ẩn hàng Gửi đến
 Hide people and options by name	Ẩn người và tùy chọn theo tên
+Save a profile picture on a long press	Nhấn giữ ảnh đại diện để lưu
+Save a story on a long press	Nhấn giữ Story để lưu
+Stories	Story
+Save a story from its share sheet	Lưu Story từ bảng chia sẻ
+Subtitles	Phụ đề
+Save subtitles beside videos	Lưu phụ đề cùng video
+Subtitle language	Ngôn ngữ phụ đề
+Device language, then original	Ngôn ngữ thiết bị, sau đó ngôn ngữ gốc
+Hand-off	Chuyển sang ứng dụng khác
+Send links to another app	Gửi liên kết sang ứng dụng khác
+YTDLnis download type	Loại tải xuống YTDLnis
+YTDLnis background mode	Chế độ nền YTDLnis
+Works only with YTDLnis (com.deniscerri.ytdl). Starts the download in the background without showing its download card.	Chỉ hoạt động với YTDLnis (com.deniscerri.ytdl). Bắt đầu tải ở chế độ nền mà không hiển thị thẻ tải xuống.
+Use your own offline videos limit	Dùng giới hạn video ngoại tuyến riêng
+Let the Offline videos menu use your own limit instead of TikTok's fixed one. Restart TikTok to apply this.	Cho menu Video ngoại tuyến dùng giới hạn riêng thay vì giới hạn cố định của TikTok. Khởi động lại TikTok để áp dụng.
+About %1$s of storage at this limit	Khoảng %1$s dung lượng lưu trữ ở giới hạn này
+Keep offline videos until you delete them	Giữ video ngoại tuyến cho đến khi bạn xóa
+TikTok removes videos saved for offline viewing after a set time, sometimes only two days, watched or not. With this on they stay until you delete them in TikTok's Offline videos settings. TikTok can still clear watched ones when your phone is low on space.	TikTok xóa video đã lưu để xem ngoại tuyến sau một khoảng thời gian, đôi khi chỉ hai ngày, dù đã xem hay chưa. Khi bật, video sẽ được giữ đến khi bạn xóa trong cài đặt Video ngoại tuyến của TikTok. TikTok vẫn có thể xóa video đã xem khi điện thoại sắp hết dung lượng.
+Hide the launcher shortcuts	Ẩn lối tắt trình khởi chạy
+Hide the Hushfeed row	Ẩn hàng Hushfeed
+Skip TikTok's setup screens	Bỏ qua màn hình thiết lập TikTok
+Pass TikTok's install checks	Vượt qua kiểm tra cài đặt của TikTok
+Store TikTok thinks it came from	Cửa hàng mà TikTok nghĩ ứng dụng được tải từ
+Play Store	Play Store
+Galaxy Store	Galaxy Store
+AppGallery	AppGallery
+Amazon Appstore	Amazon Appstore
+Sign in without a passkey	Đăng nhập không cần passkey
+Performance	Hiệu năng
+Skip the splash ad	Bỏ qua quảng cáo mở đầu
+Stop the full-screen ad TikTok can show while it starts up.	Chặn quảng cáo toàn màn hình TikTok có thể hiển thị khi khởi động.
+Skip update checks	Bỏ qua kiểm tra cập nhật
+Don't decode animated frames ahead	Không giải mã trước khung hình động
+Match text stickers too	Đối chiếu cả nhãn dán chữ
+Only from these countries	Chỉ từ các quốc gia này
+Only these caption languages	Chỉ các ngôn ngữ chú thích này
+LIVE feed	Feed LIVE
+Filter the LIVE feed	Lọc feed LIVE
+Hide gaming LIVEs	Ẩn LIVE chơi game
+Hide LIVEs that TikTok tags with a game or a gaming category.	Ẩn LIVE được TikTok gắn thẻ trò chơi hoặc danh mục chơi game.
+Hide shopping LIVEs	Ẩn LIVE bán hàng
+Hide LIVEs that sell products or carry a TikTok Shop tag.	Ẩn LIVE bán sản phẩm hoặc có thẻ TikTok Shop.
+Hide sponsored LIVEs	Ẩn LIVE được tài trợ
+Hide LIVEs that TikTok labels as a paid partnership or promotional content.	Ẩn LIVE được TikTok đánh dấu là hợp tác trả phí hoặc nội dung quảng bá.
+Hide verified creators' LIVEs	Ẩn LIVE của nhà sáng tạo đã xác minh
+Hide LIVEs hosted by verified accounts.	Ẩn LIVE do tài khoản đã xác minh phát.
+Hidden LIVE categories	Danh mục LIVE bị ẩn
+Sample category to test	Danh mục mẫu để kiểm tra
+LIVE viewers range	Khoảng số người xem LIVE
+Show only LIVEs with this many people watching.	Chỉ hiển thị LIVE có số người xem trong khoảng này.
+LIVE followers range	Khoảng số người theo dõi của LIVE
+Show only LIVEs from creators with this many followers.	Chỉ hiển thị LIVE từ nhà sáng tạo có số người theo dõi trong khoảng này.
+Seen videos	Video đã xem
+Hide the save button in the right column. Ticking Save in the list above hides it too.	Ẩn nút lưu ở cột bên phải. Nếu chọn Lưu trong danh sách phía trên, nút này cũng bị ẩn.
+Show exact counts	Hiển thị số liệu chính xác
+Show counts as full numbers, like 1,234,567 instead of 1.2M.	Hiển thị số đầy đủ, chẳng hạn 1.234.567 thay vì 1,2M.
+Remove story rings	Bỏ vòng Story
+Remove the LIVE ring	Bỏ vòng LIVE
+Open the Story when a creator is LIVE	Mở Story khi nhà sáng tạo đang LIVE
+Show the block button on videos	Hiển thị nút chặn trên video
+Show the hide button on videos	Hiển thị nút ẩn trên video
+Add a button that hides the current creator on this phone without blocking them.	Thêm nút ẩn nhà sáng tạo hiện tại trên điện thoại này mà không chặn họ.
+Show the block sound button	Hiển thị nút chặn âm thanh
+Add a separate button that skips videos using the current sound.	Thêm nút riêng để bỏ qua video sử dụng âm thanh hiện tại.
+Show the Not interested button	Hiển thị nút Không quan tâm
+Add a button beside the block control to send feedback about the current video.	Thêm nút cạnh nút chặn để gửi phản hồi về video hiện tại.
+Show the mute button on videos	Hiển thị nút tắt tiếng trên video
+Add a button beside the block control that turns the feed's sound off and on.	Thêm nút cạnh nút chặn để bật hoặc tắt âm thanh feed.
+Video info	Thông tin video
+%1$s point	%1$s điểm
+%1$s points	%1$s điểm
+TikTok's size	Kích thước của TikTok
+Author text size	Cỡ chữ tác giả
+Stop videos at the end instead of replaying them.	Dừng video khi kết thúc thay vì phát lại.
+Show TikTok's own progress bar on videos where it's normally hidden.	Hiển thị thanh tiến trình riêng của TikTok trên những video thường bị ẩn thanh này.
+Show the time beside the progress bar	Hiển thị thời gian cạnh thanh tiến trình
+Where the time goes	Vị trí hiển thị thời gian
+Beside the bar	Bên cạnh thanh
+Above the bar	Phía trên thanh
+Full-width progress bar	Thanh tiến trình toàn chiều rộng
+Bigger progress bar handle	Nút kéo thanh tiến trình lớn hơn
+Seek bar on video stories	Thanh tua trên Story video
+Seek bar on sound previews	Thanh tua khi nghe thử âm thanh
+Show a video preview thumbnail while dragging the progress bar.	Hiển thị hình thu nhỏ xem trước video khi kéo thanh tiến trình.
+Fill the screen with the video	Để video phủ kín màn hình
+Mute feed videos	Tắt tiếng video trên feed
+Play sounds TikTok pulled	Phát âm thanh TikTok đã gỡ
