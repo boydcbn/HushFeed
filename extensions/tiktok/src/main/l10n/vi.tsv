@@ -626,6 +626,7 @@ Fold the search into a button	Thu gọn tìm kiếm thành một nút
 Follow probe	Kiểm tra theo dõi
 Followers	Người theo dõi
 Following	Đang theo dõi
+Follows you	Đang theo dõi bạn
 For OLED screens. After 5 seconds without a touch, the buttons, caption and tabs over the video dim to a quarter, and your next touch brings them back. Shift also moves everything on the feed a few pixels every 2 minutes.	Dành cho màn hình OLED. Sau 5 giây không chạm, các nút, chú thích và tab phủ trên video giảm sáng còn một phần tư; lần chạm tiếp theo sẽ khôi phục. Dịch chuyển cũng đẩy các thành phần trên feed vài pixel mỗi 2 phút.
 For You	Dành cho bạn
 For You, Following and the other feed tabs stay behind a calm panel and won't swipe. Messages, profiles and search work as usual, a link to one video still opens that video, and the app opens on Inbox instead of the feed.	Các tab Dành cho bạn, Đang theo dõi và những feed khác sẽ bị khóa sau một màn hình yên tĩnh và không thể vuốt. Tin nhắn, hồ sơ và tìm kiếm vẫn hoạt động; liên kết đến một video vẫn mở video đó. Ứng dụng sẽ mở ở Hộp thư thay vì feed.
@@ -653,6 +654,7 @@ Full comment sort options	Tùy chọn sắp xếp bình luận đầy đủ
 Full license	Giấy phép đầy đủ
 Full report saved to %1$s	Đã lưu báo cáo đầy đủ vào %1$s
 GIF	GIF
+Galaxy Store	Galaxy Store
 Gate data unavailable	Dữ liệu cổng không có sẵn
 Gate details	Chi tiết cổng
 Generated defaults	Mặc định được tạo
@@ -667,6 +669,7 @@ HDR videos light the screen extra bright. This plays the standard (SDR) version 
 Hand-off	Chuyển giao
 Handle or id	Tên người dùng hoặc ID
 Hidden %1$s on this phone	%1$s đã bị ẩn trên điện thoại này
+Hidden LIVE categories	Danh mục LIVE bị ẩn
 Hidden commenters	Người bình luận bị ẩn
 Hidden: %1$s	Đã ẩn: %1$s
 Hide	Ẩn
@@ -750,18 +753,22 @@ Hide sharing apps	Ẩn ứng dụng chia sẻ
 Hide shopping LIVEs	Ẩn LIVE mua sắm
 Hide spam comments	Ẩn bình luận rác
 Hide sponsored LIVEs	Ẩn LIVE được tài trợ
+Hide sticker suggestions	Ẩn gợi ý nhãn dán
 Hide stories	Ẩn Story
 Hide stories from the feed.	Ẩn Story khỏi feed.
 Hide stories tray	Ẩn dải Story
 Hide subscriber-only videos	Ẩn video chỉ dành cho người đăng ký
 Hide suggested accounts	Ẩn tài khoản được đề xuất
+Hide suggested replies	Ẩn câu trả lời được đề xuất
 Hide suggestions on the search page	Ẩn gợi ý trên trang tìm kiếm
 Hide surveys	Ẩn khảo sát
 Hide tabs TikTok adds later unless you allow them.	Ẩn các tab TikTok bổ sung sau này, trừ khi bạn cho phép.
 Hide the "Search this image" prompt shown over videos. The feed search button and suggestions above comments are separate settings.	Ẩn lời nhắc "Tìm kiếm hình ảnh này" phủ trên video. Nút tìm kiếm feed và gợi ý phía trên bình luận có cài đặt riêng.
+Hide the AI Cast button	Ẩn nút AI Cast
 Hide the Add friends button at the top of your profile. The menu button stays where it is.	Ẩn nút Thêm bạn bè ở đầu hồ sơ. Nút menu vẫn giữ nguyên vị trí.
 Hide the Check sources banner TikTok puts on videos it marks as unverified, and the warnings it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn trên video TikTok đánh dấu là chưa xác minh và cảnh báo xuất hiện khi bạn chia sẻ video đó.
 Hide the Check your sources banner TikTok puts across the top of some videos, and the prompt it shows when you share one.	Ẩn biểu ngữ Kiểm tra nguồn TikTok đặt ở đầu một số video và lời nhắc xuất hiện khi bạn chia sẻ.
+Hide the Clear display controls	Ẩn các điều khiển Màn hình gọn
 Hide the Clear display controls leaves the progress bar in sight, so you can still see and drag it.	Ẩn các điều khiển trong Màn hình sạch nhưng vẫn giữ thanh tiến trình để bạn xem và kéo thanh.
 Hide the Footnotes banner TikTok shows on a video that has a note attached. The video and its comments stay as they are.	Ẩn biểu ngữ Footnotes TikTok hiển thị trên video có ghi chú đính kèm. Video và bình luận vẫn giữ nguyên.
 Hide the Full screen button	Ẩn nút Toàn màn hình
@@ -782,6 +789,7 @@ Hide the actions row of the share sheet.	Ẩn hàng hành động của bảng c
 Hide the add people icon	Ẩn biểu tượng thêm người
 Hide the button at the top left of the feed that opens TikTok's side menu, with Your orders, TikTok Minis and more.	Ẩn nút ở góc trên bên trái feed để mở menu bên của TikTok, nơi có Đơn hàng của bạn, TikTok Minis và các mục khác.
 Hide the caption	Ẩn chú thích
+Hide the comment bar on opened videos	Ẩn thanh bình luận trên video đã mở
 Hide the description under the creator's name on the feed.	Ẩn phần mô tả bên dưới tên nhà sáng tạo trên feed.
 Hide the event badge	Ẩn huy hiệu sự kiện
 Hide the fill-in videos TikTok sends to For You without picking them for you. When a whole batch is fill-in, it stays so the feed doesn't run dry.	Ẩn video lấp chỗ mà TikTok đưa vào Dành cho bạn mà không chọn riêng cho bạn. Nếu cả một nhóm video đều thuộc loại này, nhóm đó vẫn được giữ để feed không bị trống.
@@ -827,6 +835,7 @@ Hide the track name beside the caption.	Ẩn tên bản nhạc bên cạnh chú 
 Hide the unread badges on the bottom tabs	Ẩn huy hiệu chưa đọc trên các tab dưới cùng
 Hide the whole column on the right, from the avatar down to the music disc.	Ẩn toàn bộ cột bên phải, từ ảnh đại diện đến đĩa nhạc.
 Hide this creator on this phone	Ẩn người sáng tạo này trên điện thoại này
+Hide unpersonalized For You videos	Ẩn video Dành cho bạn không cá nhân hóa
 Hide verified accounts	Ẩn tài khoản đã xác minh
 Hide verified creators' LIVEs	Ẩn LIVE của nhà sáng tạo đã xác minh
 Hide video actions	Ẩn các thao tác trên video
@@ -849,6 +858,7 @@ Highest	Cao nhất
 Historical	Lịch sử
 Historical values	Giá trị lịch sử
 Hold a gate to choose several	Giữ cổng để chọn nhiều
+Hold a photo story	Nhấn giữ Story ảnh
 Hold speed on Comment	Tốc độ nhấn giữ khi bình luận
 Hold speed on Favorites	Tốc độ nhấn giữ khi yêu thích
 Hold speed on Share	Tốc độ nhấn giữ khi chia sẻ
@@ -873,6 +883,7 @@ Hushfeed is active	Hushfeed đang hoạt động
 Hushfeed is paused	Hushfeed đã tạm dừng
 Hushfeed is paused. Ghost mode isn't active.	Hushfeed đang tạm dừng. Chế độ ẩn danh không hoạt động.
 Hushfeed turns back on when TikTok restarts.	Hushfeed sẽ bật lại khi TikTok khởi động lại.
+Hushfeed's downloader: %1$s	Trình tải xuống của Hushfeed: %1$s
 Hushfeed's switches are paused. Your settings stay saved. Changes made when you patched, like the app's name or icon, stay.	Các công tắc của Hushfeed đang tạm dừng. Cài đặt vẫn được lưu. Những thay đổi khi vá ứng dụng, như tên hoặc biểu tượng, vẫn được giữ.
 Import a font file	Nhập tệp phông chữ
 Import finished	Nhập hoàn tất
@@ -901,6 +912,7 @@ Keep a photo story on screen until you tap or swipe, instead of moving on after 
 Keep a streak going	Duy trì chuỗi
 Keep captions available	Giữ phụ đề có sẵn
 Keep captions in Clear display	Giữ chú thích trong chế độ Màn hình gọn
+Keep faded controls in Clear display	Giữ các nút đã làm mờ trong chế độ Màn hình gọn
 Keep going	Tiếp tục
 Keep long press from quick sharing	Ngăn nhấn giữ mở chia sẻ nhanh
 Keep long press from reposting	Ngăn nhấn giữ đăng lại
@@ -908,25 +920,31 @@ Keep photos as TikTok sent them	Giữ nguyên ảnh như TikTok gửi
 Keep playing in the background	Tiếp tục phát nền
 Keep playing in the background is on in Hushfeed's Playback settings, so TikTok gets 2 for this key and an override here has no effect until that switch is off.	Tùy chọn Tiếp tục phát ở chế độ nền đang bật trong phần Phát lại của Hushfeed, vì vậy TikTok nhận giá trị 2 cho khóa này và giá trị ghi đè tại đây không có tác dụng cho đến khi tắt công tắc đó.
 Keep the Favorites tab	Giữ tab Yêu thích
+Keep the For You feed on your real SIM	Giữ bảng tin Dành cho bạn theo SIM thật của bạn
+Keep the LIVE quality after TikTok restarts	Giữ chất lượng LIVE sau khi TikTok khởi động lại
 Keep the TikTok Minis entry in the menu your profile's top right button opens, and hide the row of app icons under it so the menu is shorter.	Giữ mục TikTok Minis trong menu mở từ nút góc trên bên phải hồ sơ, đồng thời ẩn hàng biểu tượng ứng dụng bên dưới để menu ngắn hơn.
 Keep the clock and status icons off the screen while TikTok is open. Swipe down from the top to peek at them.	Ẩn đồng hồ và biểu tượng trạng thái khi TikTok đang mở. Vuốt xuống từ cạnh trên để xem tạm.
 Keep the language picked in TikTok	Giữ ngôn ngữ đã chọn trong TikTok
 Keep the music disc still	Giữ đĩa nhạc đứng yên
+Keep the progress bar	Giữ thanh tiến trình
 Keep the screen's brightness in the camera	Giữ độ sáng màn hình khi mở máy ảnh
 Keep the screen's refresh rate	Giữ tốc độ làm mới màn hình
 Keep the speed you chose for the next video. Off, each new video starts at 1x and a manual choice lasts for that video only.	Giữ tốc độ bạn đã chọn cho video tiếp theo. Nếu tắt, mỗi video mới bắt đầu ở tốc độ 1x và lựa chọn thủ công chỉ áp dụng cho video đó.
 Keep this string to %1$s characters or fewer.	Giữ chuỗi này trong %1$s ký tự hoặc ít hơn.
 Keep this structured value to %1$s KB or less.	Giữ giá trị có cấu trúc này ở mức %1$s KB trở xuống.
+Keep watching in a small window	Tiếp tục xem trong cửa sổ nhỏ
 Keep what you search for out of the search history TikTok saves on this phone. Searches already there stay until you delete them, and TikTok's servers may still keep their own record.	Không lưu nội dung tìm kiếm mới vào lịch sử tìm kiếm TikTok trên điện thoại. Các tìm kiếm đã có vẫn còn cho đến khi bạn xóa; máy chủ TikTok vẫn có thể lưu lịch sử riêng.
 Keeps logging until you turn it off, even after a restart. TikTok can feel slower while it's on.	Tiếp tục ghi nhật ký cho đến khi bạn tắt, kể cả sau khi khởi động lại. TikTok có thể chậm hơn khi bật.
 Kept to %1$s, the nearest value this row allows	Đã giữ ở %1$s, giá trị gần nhất mà hàng này cho phép
 Kinds of post	Loại bài đăng
 LIVE	LIVE
 LIVE feed	Bảng tin LIVE
+LIVE followers range	Phạm vi người theo dõi LIVE
 LIVE replays	Phát lại LIVE
 LIVE settings	Cài đặt LIVE
 LIVE share actions	Hành động chia sẻ LIVE
 LIVE videos	Video LIVE
+LIVE viewers range	Phạm vi người xem LIVE
 Lab data reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại dữ liệu Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
 Lab data was over its rule limit, so it was cleared without an undo copy. Restart TikTok to apply this.	Dữ liệu Lab vượt quá giới hạn quy tắc nên đã bị xóa mà không tạo bản sao để hoàn tác. Khởi động lại TikTok để áp dụng.
 Lab overrides reset. Undo last Lab change is in the menu. Restart TikTok to apply this.	Đã đặt lại các mục ghi đè của Lab. Có thể hoàn tác thay đổi Lab gần nhất trong menu. Khởi động lại TikTok để áp dụng.
@@ -939,6 +957,7 @@ Last original value	Giá trị gốc gần nhất
 Last recording: %1$d gates.	Bản ghi gần nhất: %1$d cổng.
 Last recording: 1 gate.	Bản ghi gần nhất: 1 cổng.
 Later	Để sau
+Latest first on Following	Hiển thị mới nhất trước trong mục Đang theo dõi
 Layout	Bố cục
 Layout, search, profile and system	Bố cục, tìm kiếm, hồ sơ và hệ thống
 Leave maximum empty to keep it unlimited.	Để trống giá trị tối đa nếu không muốn đặt giới hạn.
@@ -957,6 +976,7 @@ Let the last video finish	Để video cuối phát hết
 Let the video reach the bottom of the screen on the main feed and show the tabs over it with no bar behind them.	Cho video hiển thị đến cạnh dưới màn hình trên feed chính và đặt các tab đè lên video mà không có thanh nền.
 Let the video reach the top of the screen on the main feed, with the clock and status icons over it. The tabs at the top stay where they are.	Cho video hiển thị đến cạnh trên màn hình trên feed chính, với đồng hồ và biểu tượng trạng thái phủ lên. Các tab phía trên giữ nguyên vị trí.
 Licenses	Giấy phép
+Lift text length limits	Nới giới hạn độ dài văn bản
 Lifts spoken captions above TikTok's spot while the phone is sideways. Use 0 for TikTok's spot, or up to %1$d.	Kéo phụ đề lời nói lên cao hơn vị trí mặc định của TikTok khi điện thoại đặt ngang. Nhập 0 để dùng vị trí TikTok hoặc tối đa %1$d.
 Lifts spoken captions above TikTok's spot while the phone is upright. Use 0 for TikTok's spot, or up to %1$d.	Kéo phụ đề lời nói lên cao hơn vị trí mặc định của TikTok khi điện thoại đặt dọc. Nhập 0 để dùng vị trí TikTok hoặc tối đa %1$d.
 Lifts the kept caption above its usual spot in Clear display. Use 0 for the usual spot, or up to %1$d.	Đẩy phụ đề được giữ lên cao hơn vị trí thông thường trong chế độ Màn hình sạch. Nhập 0 để dùng vị trí mặc định hoặc tối đa %1$d.
@@ -987,19 +1007,28 @@ Lock the feed	Khóa feed
 Lock the hold speed with a pull down	Khóa tốc độ nhấn giữ bằng thao tác kéo xuống
 Lock today's budget	Khóa ngân sách hôm nay
 Log diagnostics	Ghi nhật ký chẩn đoán
+Log diagnostics for 15 minutes	Ghi chẩn đoán trong 15 phút
+Logging diagnostics until %1$s	Đang ghi chẩn đoán đến %1$s
+Logging until %1$s. Tap to stop now.	Đang ghi nhật ký đến %1$s. Chạm để dừng ngay.
 Logging, hook status and reports	Nhật ký, trạng thái hook và báo cáo
+Logs for 15 minutes, then stops on its own. Restarting TikTok doesn't move the end, and the switch above stays as you set it.	Ghi nhật ký trong 15 phút rồi tự dừng. Khởi động lại TikTok không thay đổi thời điểm kết thúc, còn công tắc phía trên vẫn giữ nguyên lựa chọn của bạn.
 Long press	Nhấn giữ
 Long-press Home for Hushfeed settings	Nhấn giữ Trang chủ để mở cài đặt Hushfeed
 Long-press Profile for Watch history	Nhấn giữ Hồ sơ để mở lịch sử xem
 Long-press a bio to copy it. A profile's share sheet gets buttons that copy its username and user ID, and a video's share sheet one that copies the video ID.	Nhấn giữ tiểu sử để sao chép. Bảng chia sẻ hồ sơ có nút sao chép tên người dùng và ID người dùng; bảng chia sẻ video có nút sao chép ID video.
+Long-press menu on every post	Menu nhấn giữ trên mọi bài đăng
 Looking for apps	Đang tìm ứng dụng
+Loop a story	Phát lặp Story
 Lowest	Thấp nhất
 Makes TikTok see the country and carrier you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.	Khiến TikTok nhận quốc gia và nhà mạng bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; bất kỳ yếu tố nào vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.
 Makes TikTok see the country you pick as your SIM. Your IP address, account history and language don't change, and any one of them can make TikTok keep your current region. Restart TikTok to see the change.	Khiến TikTok nhận quốc gia bạn chọn là thông tin SIM. Địa chỉ IP, lịch sử tài khoản và ngôn ngữ không thay đổi; các yếu tố này vẫn có thể khiến TikTok giữ khu vực hiện tại. Khởi động lại TikTok để áp dụng.
 Makes the heart easier to tap by using the empty space around it. The icon and spacing look the same, and Reply and other buttons keep their own space.	Mở rộng vùng chạm quanh biểu tượng trái tim để dễ bấm hơn. Biểu tượng và khoảng cách nhìn vẫn như cũ; Trả lời và các nút khác vẫn có vùng riêng.
+Making a video of the photos	Đang tạo video từ các ảnh
+Manage topics	Quản lý chủ đề
 Manager	Trình quản lý
 Marked as not interested	Đã đánh dấu là không quan tâm
 Match locale and timezone to country	Khớp ngôn ngữ và múi giờ với quốc gia
+Match region fields in requests	Khớp các trường khu vực trong yêu cầu
 Maximum	Tối đa
 Maximum post age	Tuổi tối đa của bài đăng
 Maximum video length	Độ dài video tối đa
@@ -1017,6 +1046,7 @@ Minimum	Tối thiểu
 Minimum video length	Độ dài video tối thiểu
 More opens the comments	Mở bình luận khi chạm Thêm
 More options	Tùy chọn khác
+More than %1$d comments were loaded, so the rest aren't in the file.	Đã tải hơn %1$d bình luận nên các bình luận còn lại không có trong tệp.
 Move down	Di chuyển xuống
 Move left	Di chuyển trái
 Move right	Di chuyển phải
@@ -1034,6 +1064,8 @@ No	Không
 No app on this phone opens that file	Không có ứng dụng nào trên điện thoại mở được file đó.
 No apps match this search	Không có ứng dụng nào khớp với tìm kiếm này
 No chat with @%1$s turned up on this account. Open your chat with them once, then try again.	Không tìm thấy cuộc trò chuyện với @%1$s trên tài khoản này. Hãy mở cuộc trò chuyện với họ một lần rồi thử lại.
+No cleared videos fit the current history limits.	Không có video nào đã xóa phù hợp với giới hạn lịch sử hiện tại.
+No comments are loaded to export yet.	Chưa có bình luận nào được tải để xuất.
 No creator to block on this video	Không có nhà sáng tạo nào để chặn trong video này
 No creator to hide on this video	Không có nhà sáng tạo nào để ẩn trong video này
 No creators are hidden yet. Hide one from a video, or add a handle above.	Chưa ẩn nhà sáng tạo nào. Hãy ẩn một người từ video hoặc thêm tên tài khoản ở trên.
@@ -1052,7 +1084,9 @@ No matching countries. Try a country name or a two-letter code.	Không có quố
 No matching diagnostics found	Không tìm thấy chẩn đoán phù hợp
 No matching settings	Không có cài đặt phù hợp
 No other app takes shared text	Không có ứng dụng nào khác nhận văn bản được chia sẻ
+No popups have been seen yet	Chưa thấy cửa sổ bật lên nào
 No preset selected. Choose a preset above.	Chưa chọn mẫu nào. Chọn mẫu ở trên.
+No presets have been reviewed for TikTok %1$s yet	Chưa có thiết lập sẵn nào được kiểm tra cho TikTok %1$s
 No profile shortcuts have been seen yet	Chưa phát hiện lối tắt hồ sơ nào.
 No recording yet. Start one, use a feature, then return here.	Chưa có bản ghi nào. Bắt đầu một bản ghi, dùng tính năng rồi quay lại đây.
 No seen videos recorded yet.	Chưa có video nào được ghi nhận là đã xem.
@@ -1086,11 +1120,14 @@ Nothing new was imported. %1$d already matched, %2$d unavailable, %3$d rejected.
 Nothing on this page changes what TikTok does until they are on.	Các mục trên trang này không ảnh hưởng đến hoạt động của TikTok cho đến khi được bật
 Nothing to undo yet.	Chưa có thao tác nào để hoàn tác.
 Nothing was recorded because Hushfeed settings were still open. Start again, then leave settings.	Không có gì được ghi lại vì cài đặt Hushfeed vẫn đang mở. Hãy bắt đầu lại rồi rời khỏi phần cài đặt.
+Nothing was sent. Check the streak settings and try again.	Chưa gửi gì. Hãy kiểm tra cài đặt chuỗi và thử lại.
 Notices from this project and the ones it's built on	Thông báo từ dự án này và các dự án nền tảng
 OK	OK
 Off	Tắt
 Off forces the value to false, on forces it to true. Reset lets TikTok decide again.	Tắt sẽ ép giá trị thành false, bật sẽ ép thành true. Đặt lại để TikTok tự quyết định.
 Off. TikTok can report views and typing.	Tắt. TikTok có thể báo cáo lượt xem và thao tác nhập.
+Offer LIVE quality in more rooms	Cho phép chất lượng LIVE ở nhiều phòng hơn
+Offer clear screen in every LIVE room	Cho phép màn hình trong suốt ở mọi phòng LIVE
 Offline videos	Video ngoại tuyến
 Offline videos limit	Giới hạn video ngoại tuyến
 On a one-photo post, Download video makes an MP4 with the post's sound and no TikTok logo or end card. On a post with several photos, Download asks if you want the originals or one video.	Với bài đăng một ảnh, Tải video tạo file MP4 có âm thanh bài đăng, không có logo TikTok hoặc thẻ kết thúc. Với bài nhiều ảnh, ứng dụng hỏi bạn muốn lưu ảnh gốc hay ghép thành video.
@@ -1123,6 +1160,7 @@ Open comments	Mở bình luận
 Open external links directly	Mở liên kết ngoài trực tiếp
 Open messages	Mở tin nhắn
 Open profile and story website links in your system browser instead of TikTok's in-app browser.	Mở liên kết website hồ sơ và story trong trình duyệt hệ thống thay vì trình duyệt trong ứng dụng của TikTok.
+Open the Story when a creator is LIVE	Mở Story khi nhà sáng tạo đang LIVE
 Open the feed anyway	Vẫn mở feed
 Open the feed anyway, %1$d left today	Vẫn mở bảng tin, hôm nay còn %1$d lần
 Open the feed anyway, the last time today	Vẫn mở bảng tin, lần cuối cùng hôm nay
@@ -1159,6 +1197,7 @@ Overrides disabled. Restart TikTok to apply this.	Đã tắt ghi đè. Khởi đ
 Overrides enabled. Restart TikTok to apply this.	Đã bật ghi đè. Khởi động lại TikTok để áp dụng.
 Paid partnerships	Quan hệ đối tác trả phí
 Pass TikTok's install checks	Bỏ qua kiểm tra cài đặt TikTok
+Pause	Tạm dừng
 Pause Hushfeed	Tạm dừng Hushfeed
 Pause Hushfeed's switches after TikTok restarts. Your settings stay saved. Changes made when you patched, like the app's name or icon, stay.	Tạm dừng các công tắc của Hushfeed sau khi TikTok khởi động lại. Cài đặt vẫn được lưu. Những thay đổi khi vá ứng dụng, như tên hoặc biểu tượng, vẫn được giữ.
 Pause the video while comments are open	Tạm dừng video khi bình luận đang mở
@@ -1178,7 +1217,11 @@ Pick the popups to stop. The list holds the ones TikTok has tried to show on thi
 Pick the shortcuts to remove from the row under a profile's bio, such as TikTok Studio or Your orders. Restart TikTok to apply this.	Chọn phím tắt cần xóa khỏi hàng bên dưới tiểu sử hồ sơ, chẳng hạn TikTok Studio hoặc Đơn hàng của bạn. Khởi động lại TikTok để áp dụng.
 Pick videos to save from profile grids	Chọn video để lưu từ lưới video trên hồ sơ
 Picks the older H.264 video format when TikTok also offers a newer one (HEVC or ByteVC2). It helps phones that stutter or run hot. Videos without an H.264 version still play.	Ưu tiên định dạng video H.264 cũ khi TikTok cũng cung cấp định dạng mới hơn (HEVC hoặc ByteVC2). Có thể giúp điện thoại bị giật hoặc nóng. Video không có bản H.264 vẫn phát bình thường.
+Play	Phát
+Play SDR instead of HDR	Phát SDR thay vì HDR
+Play Store	Play Store
 Play feed videos without sound and leave the phone's volume alone. Music from another app keeps playing while it's on. DMs, stories and LIVE keep their sound.	Phát video trên feed không tiếng mà không thay đổi âm lượng điện thoại. Nhạc từ ứng dụng khác vẫn phát khi bật tùy chọn này. Tin nhắn, Story và LIVE vẫn có âm thanh.
+Play sounds TikTok pulled	Phát các âm thanh TikTok đã tải
 Play the Following feed newest post first. A newer post that loads later moves up to right after the video you're watching, and nothing you've already scrolled past moves. Ads and LIVEs keep their place.	Sắp xếp feed Đang theo dõi theo bài mới nhất trước. Bài mới tải sau sẽ chuyển lên ngay sau video đang xem; các video đã cuộn qua không đổi vị trí. Quảng cáo và LIVE giữ nguyên vị trí.
 Play the audio on videos TikTok silenced because their sound was pulled for copyright or in your region. TikTok may still say the sound isn't available.	Phát âm thanh của video mà TikTok đã tắt tiếng do bản quyền hoặc giới hạn khu vực. TikTok vẫn có thể báo âm thanh không khả dụng.
 Playback	Phát lại
@@ -1189,7 +1232,10 @@ Plays videos that TikTok covers with a content warning without asking you to tap
 Popular	Phổ biến
 Popups	Cửa sổ bật lên
 Post age	Tuổi bài đăng
+Post dates in the feed	Ngày đăng trên bảng tin
 Post every video as if you'd turned on TikTok's own HD upload on the post page. A clip TikTok doesn't count as high quality posts as before.	Đăng mọi video như thể bạn đã bật tải lên HD của TikTok trên trang đăng bài. Clip mà TikTok không nhận diện là chất lượng cao vẫn được đăng như trước.
+Posting	Đang đăng
+Prefer H.264 video	Ưu tiên video H.264
 Preset applied. Restart TikTok to use it.	Đã áp dụng cấu hình đặt sẵn. Khởi động lại TikTok để sử dụng.
 Preset saved. Turn on overrides in the Lab to use it.	Đã lưu cấu hình đặt sẵn. Bật ghi đè trong Lab để sử dụng.
 Press and hold a comment to find Block this commenter in its menu. Their comments leave the list right away and an undo banner follows.	Nhấn giữ bình luận để chọn Chặn người này trong menu. Bình luận của họ sẽ biến mất khỏi danh sách ngay và biểu ngữ hoàn tác xuất hiện.
@@ -1201,6 +1247,7 @@ Press and hold the left or right third of the screen to jump back or forward. Th
 Preview a translation from a received text message's menu. The original message stays unchanged.	Xem trước bản dịch từ menu của tin nhắn nhận được. Tin nhắn gốc không thay đổi.
 Preview a translation of your draft before sending it.	Xem trước bản dịch tin nhắn nháp trước khi gửi.
 Preview shortened. Save report keeps the full report.	Bản xem trước đã được rút gọn. Lưu báo cáo để giữ toàn bộ nội dung.
+Preview with a made-up post:	Xem trước bằng một bài đăng giả lập:
 Privacy	Quyền riêng tư
 Problem detected.	Đã phát hiện sự cố.
 Problem detected. Story views may still be reported. Check Ghost mode diagnostics. The warning stays until TikTok restarts.	Đã phát hiện sự cố. Lượt xem Story vẫn có thể bị báo cáo. Hãy kiểm tra chẩn đoán chế độ Ghost. Cảnh báo sẽ còn cho đến khi TikTok khởi động lại.
@@ -1223,6 +1270,7 @@ Puts a circle on each video in a profile, Liked or Favorites grid. Pick up to %1
 Puts a save button in the sheet a story's Share button opens. It saves the story you're watching, and holding a story still pauses it.	Thêm nút lưu vào bảng mở ra khi chạm Chia sẻ trên Story. Nút này lưu Story đang xem; nhấn giữ Story vẫn có thể tạm dừng.
 Puts a ✓ by videos and photo posts you saved with Hushfeed, on profile grids and next to the time in the feed. Works only while Check for already-saved videos is on.	Đánh dấu ✓ cạnh video và bài đăng ảnh bạn đã lưu bằng Hushfeed trong lưới hồ sơ và cạnh thời gian trên feed. Chỉ hoạt động khi bật Kiểm tra video đã lưu.
 Puts your time zone after the time to the second, like EDT.	Hiển thị múi giờ sau thời gian chính xác đến giây, ví dụ EDT.
+Putting seen videos back	Đang khôi phục video đã xem
 Putting the saved videos back	Đang khôi phục video đã lưu
 Putting the settings back to their defaults	Đang khôi phục cài đặt mặc định
 Quality	Chất lượng
@@ -1254,6 +1302,8 @@ Remove %1$s	Xóa %1$s
 Remove all overrides	Xóa tất cả ghi đè
 Remove feed ads	Xóa quảng cáo feed
 Remove feed ads, creator commission posts, paid partnerships, and branded content.	Xóa quảng cáo trên feed, bài đăng nhận hoa hồng của nhà sáng tạo, nội dung hợp tác trả phí và nội dung thương hiệu.
+Remove story rings	Xóa vòng Story
+Remove the LIVE ring	Xóa vòng LIVE
 Remove the imported font	Xóa phông chữ đã nhập
 Remove watermark	Xóa dấu nước
 Removed %1$s	Đã xóa %1$s
@@ -1263,6 +1313,7 @@ Replay a story from the start when it ends instead of moving to the next one. Ta
 Replay in the background	Phát lại ở chế độ nền
 Report a newer phone to effects	Báo cho hiệu ứng biết đây là điện thoại đời mới hơn
 Report saved to %1$s	Đã lưu báo cáo vào %1$s
+Repost with a comment	Đăng lại kèm bình luận
 Required	Bắt buộc
 Researched	Đã tra cứu
 Researched values	Các giá trị đã tra cứu
@@ -1293,7 +1344,10 @@ Return after using a TikTok feature to see every gate read during the recording.
 Returns %1$s	Trả về %1$s
 Reviewed for TikTok %1$s	Đã kiểm tra cho TikTok %1$s
 Reviewed presets	Các thiết lập sẵn đã được kiểm tra
+Reviewed presets for TikTok %1$s	Đã kiểm tra thiết lập sẵn cho TikTok %1$s
+Right away	Ngay lập tức
 Right column	Cột phải
+Right edge strip	Dải cạnh phải
 Rows	Hàng
 Run the progress bar from one screen edge to the other, without the gap TikTok leaves at each end.	Kéo dài thanh tiến trình từ mép này sang mép kia màn hình, bỏ khoảng trống TikTok để lại ở hai đầu.
 SIM country preset	Thiết lập sẵn quốc gia SIM
@@ -1305,7 +1359,10 @@ Save a profile picture on a long press	Nhấn giữ để lưu ảnh đại di�
 Save a story from its share sheet	Lưu Story từ bảng chia sẻ.
 Save a story on a long press	Lưu Story khi nhấn giữ
 Save again	Lưu lại
+Save as video	Lưu thành video
+Save build details	Lưu thông tin bản dựng
 Save cancelled. Nothing was saved.	Đã hủy lưu. Không có gì được lưu.
+Save comments to Favorites	Lưu bình luận vào mục Yêu thích
 Save cover	Lưu ảnh bìa.
 Save cover button in the share sheet	Nút Lưu ảnh bìa trong bảng chia sẻ.
 Save details as JSON	Lưu chi tiết dưới dạng JSON
@@ -1314,6 +1371,9 @@ Save every photo in the post at full size, not as the screen shows it. Each one 
 Save field values	Lưu giá trị trường
 Save full report	Lưu báo cáo đầy đủ
 Save media	Lưu phương tiện
+Save photo posts as a video	Lưu bài đăng ảnh dưới dạng video
+Save photos	Lưu ảnh
+Save photos or a video?	Lưu ảnh hay video?
 Save report	Lưu báo cáo
 Save subtitles beside videos	Lưu phụ đề bên cạnh video
 Save the feed capture	Lưu bản ghi bảng tin
@@ -1334,6 +1394,7 @@ Saved %1$s of %2$s. The server asked us to wait. Try again later.	Đã lưu %1$s
 Saved %1$s original photos	Đã lưu %1$s ảnh gốc
 Saved one original photo	Đã lưu một ảnh gốc
 Saved photos, covers, story photos and stickers that don't move are the exact files TikTok sent, not a new JPEG or PNG. Some galleries and computers can't open HEIF or WebP.	Ảnh, ảnh bìa, ảnh Story và nhãn dán tĩnh được lưu đúng file TikTok gửi, không chuyển thành JPEG hoặc PNG mới. Một số thư viện ảnh và máy tính không mở được HEIF hoặc WebP.
+Saved the photos as a video in %1$s	Đã lưu ảnh thành video tại %1$s
 Saved the photos as a video in %1$s. The sound couldn't be added, so it's silent.	Đã lưu ảnh thành video tại %1$s. Không thể thêm âm thanh nên video không có tiếng.
 Saved videos forgotten. The files are still there.	Đã xóa ghi nhớ về video đã lưu. Các tệp vẫn còn.
 Saved videos put back	Đã khôi phục video đã lưu
@@ -1375,6 +1436,7 @@ Search settings	Cài đặt tìm kiếm
 Search share actions	Tìm thao tác chia sẻ
 Search these comments	Tìm những bình luận này
 Search within comments	Tìm trong bình luận
+Seconds per photo	Số giây cho mỗi ảnh
 Seconds. Zero keeps every length. If everything the feed just sent would be filtered out, the video closest to your limit is kept so the feed isn't empty.	Tính bằng giây. Giá trị 0 giữ mọi độ dài. Nếu bộ lọc loại bỏ toàn bộ video vừa tải, video gần giới hạn nhất sẽ được giữ để feed không trống.
 Seconds. Zero keeps every length. Photo posts and videos without a known length stay. If everything the feed just sent would be filtered out, the video closest to your limit is kept.	Tính bằng giây. Giá trị 0 giữ mọi độ dài. Bài đăng ảnh và video chưa rõ thời lượng vẫn được giữ. Nếu bộ lọc loại bỏ toàn bộ video vừa tải, video gần giới hạn nhất sẽ được giữ.
 See-through status bar	Thanh trạng thái trong suốt
@@ -1387,6 +1449,7 @@ Seen this session	Đã xem trong phiên này
 Seen videos	Video đã xem
 Seen videos cleared. You can undo until TikTok closes.	Đã xóa danh sách video đã xem. Bạn có thể hoàn tác trước khi TikTok đóng.
 Seen videos put back	Đã khôi phục lịch sử video đã xem
+Seen videos put back: %1$s of %2$s	Đã khôi phục video đã xem: %1$s/%2$s
 Select	Chọn
 Select at least one field.	Hãy chọn ít nhất một trường.
 Select every tab	Chọn tất cả các tab
@@ -1398,6 +1461,8 @@ Sending the message	Đang gửi tin nhắn
 Sends TikTok's feed, search, comments and other app traffic through the proxy below. Videos and LIVE streams still connect directly. Saves and short-link lookups from Hushfeed also connect directly, after their own address checks. Other apps aren't affected.	Chuyển feed, tìm kiếm, bình luận và lưu lượng TikTok khác qua proxy bên dưới. Video và LIVE vẫn kết nối trực tiếp. Thao tác lưu và tra cứu liên kết ngắn của Hushfeed cũng kết nối trực tiếp sau khi kiểm tra địa chỉ. Ứng dụng khác không bị ảnh hưởng.
 Sends one message a day to each person below at the time below, so your streaks keep going on days you don't open TikTok.	Gửi một tin nhắn mỗi ngày cho từng người bên dưới vào thời gian đã chọn, giúp duy trì chuỗi ngay cả khi bạn không mở TikTok.
 Sends today's message right away. The daily one then waits for tomorrow.	Gửi tin nhắn hôm nay ngay lập tức. Tin nhắn hằng ngày tiếp theo sẽ chờ đến ngày mai.
+Sent to %1$d/%2$d chats. The rest still need a message.	Đã gửi đến %1$d/%2$d cuộc trò chuyện. Các cuộc trò chuyện còn lại vẫn cần một tin nhắn.
+Sent to %1$d/%2$d chats. They won't get another message today.	Đã gửi đến %1$d/%2$d cuộc trò chuyện. Họ sẽ không nhận thêm tin nhắn nào hôm nay.
 Separate account handles or user IDs with commas. Videos from these accounts are always hidden. An entry between slashes, like /^news_/, is a search pattern checked against the handle and display name.	Phân tách tên tài khoản hoặc ID người dùng bằng dấu phẩy. Video từ các tài khoản này luôn bị ẩn. Mẫu đặt giữa hai dấu gạch chéo, như /^news_/, sẽ được dùng để tìm trong tên tài khoản và tên hiển thị.
 Separate country codes with commas, like GB, IE. Videos posted from anywhere else are hidden. Leave empty for all countries.	Phân tách mã quốc gia bằng dấu phẩy, ví dụ GB, IE. Video đăng từ quốc gia khác sẽ bị ẩn. Để trống để áp dụng cho mọi quốc gia.
 Separate country codes with commas. Videos posted from these are hidden, whatever the list above says.	Phân tách mã quốc gia bằng dấu phẩy. Video đăng từ các quốc gia này sẽ bị ẩn bất kể danh sách bên trên.
@@ -1441,6 +1506,9 @@ Show commenters' handles	Hiển thị tên tài khoản người bình luận
 Show counts as full numbers, like 1,234,567 instead of 1.2M.	Hiển thị số đầy đủ, ví dụ 1.234.567 thay vì 1,2M.
 Show download progress	Hiện tiến trình tải xuống
 Show each commenter's @username instead of the display name they chose. A reply to a reply names the person it answers the same way once their own comment has loaded.	Hiển thị @username của người bình luận thay cho tên hiển thị họ chọn. Câu trả lời cho một câu trả lời cũng sẽ ghi tên người được trả lời theo cách này khi bình luận gốc đã tải.
+Show engagement rate	Hiện tỷ lệ tương tác
+Show exact LIVE viewer counts	Hiện chính xác số người xem LIVE
+Show exact counts	Hiện số liệu chính xác
 Show failures on screen	Hiển thị lỗi trên màn hình
 Show follow status	Hiển thị trạng thái theo dõi
 Show gates	Hiện các cổng
@@ -1449,6 +1517,7 @@ Show last report	Hiện báo cáo gần nhất
 Show likes, comments, shares and saves as a percentage of views, next to the creator's name and after the view count on profile grids.	Hiển thị lượt thích, bình luận, chia sẻ và lưu dưới dạng phần trăm lượt xem, cạnh tên nhà sáng tạo và sau số lượt xem trong lưới hồ sơ.
 Show only LIVEs from creators with this many followers.	Chỉ hiển thị LIVE từ nhà sáng tạo có ít nhất số người theo dõi đã đặt.
 Show only LIVEs with this many people watching.	Chỉ hiển thị LIVE có ít nhất số người xem đã đặt.
+Show only mutual friends on the Friends tab	Chỉ hiện bạn chung trên tab Bạn bè
 Show only videos with this many comments.	Chỉ hiển thị video có số bình luận này.
 Show only videos with this many favorites.	Chỉ hiển thị video có số lượt yêu thích này.
 Show only videos with this many likes.	Chỉ hiển thị video có số lượt thích này.
@@ -1499,6 +1568,7 @@ Skip the puzzle TikTok shows while you're just browsing. A puzzle right after yo
 Skipped entries are invalid, expired, already recorded, or older than the newest %1$s videos.	Các mục bị bỏ qua không hợp lệ, đã hết hạn, đã được ghi nhận hoặc cũ hơn %1$s video mới nhất.
 Skipping videos with %1$s	Đang bỏ qua video có %1$s
 Slide to change the hold speed	Trượt để thay đổi tốc độ khi nhấn giữ
+Some of these notes are in English.	Một số ghi chú này bằng tiếng Anh.
 Some recording files remain. Try deleting them again.	Vẫn còn một số tệp ghi. Hãy thử xóa lại.
 Something is missing from %1$s. Tap for the whole report.	Thiếu một phần trong %1$s. Chạm để xem toàn bộ báo cáo.
 Sorts a profile or Liked grid with pinned videos first. While an order is on, the grid keeps loading by itself up to 300 videos, so the order covers more than the first screen. A button in the grid's top corner changes the order right there.	Sắp xếp lưới hồ sơ hoặc Đã thích để video ghim lên đầu. Khi bật sắp xếp, lưới tự tải tối đa 300 video để sắp xếp nhiều hơn màn hình đầu tiên. Nút ở góc trên của lưới cho phép đổi thứ tự ngay tại đó.
@@ -1537,6 +1607,7 @@ Still saving the last one	Vẫn đang lưu mục trước đó
 Still waiting for the file app.	Vẫn đang chờ ứng dụng quản lý tệp.
 Still waiting for the file app. Tap to stop waiting.	Vẫn đang chờ ứng dụng quản lý tệp. Nhấn để ngừng chờ.
 Stop	Dừng
+Stop LIVE previews opening by themselves	Ngăn bản xem trước LIVE tự mở
 Stop TikTok loading upcoming videos ahead of time and setting up notifications. You won't get notifications, messages included, while this is on. Videos may take a moment longer to start.	Ngăn TikTok tải trước video sắp tới và thiết lập thông báo. Khi bật, bạn sẽ không nhận thông báo, kể cả tin nhắn. Video có thể mất thêm chút thời gian để bắt đầu phát.
 Stop TikTok loading upcoming videos ahead of time. It uses less data, but videos may take a moment longer to start.	Ngăn TikTok tải trước các video tiếp theo. Tùy chọn này giảm dữ liệu sử dụng nhưng video có thể mất thêm chút thời gian để phát.
 Stop TikTok reading what you copied. Copying a link from TikTok still works.	Ngăn TikTok đọc nội dung bạn đã sao chép. Sao chép liên kết từ TikTok vẫn hoạt động.
@@ -1547,6 +1618,7 @@ Stop a long press on Share from opening TikTok's quick share action.	Ngăn thao 
 Stop analytics and tracking	Dừng phân tích và theo dõi
 Stop and save the feed capture	Dừng và lưu bản ghi bảng tin
 Stop feature gate recording	Dừng ghi cổng tính năng
+Stop search results playing on their own	Ngăn kết quả tìm kiếm tự phát
 Stop the brand animation that plays over the comments when what someone typed matches an advertiser's trigger.	Ngăn hoạt ảnh thương hiệu phủ lên bình luận khi nội dung người dùng nhập khớp với điều kiện quảng cáo.
 Stop the bubble TikTok floats at the top of the feed to point you to a LIVE.	Ẩn bong bóng TikTok nổi ở đầu feed để hướng bạn đến một LIVE.
 Stop the bubble that asks you to share a video with friends after you like it.	Ẩn bong bóng nhắc bạn chia sẻ video với bạn bè sau khi thích.
@@ -1556,6 +1628,7 @@ Stop the short vibrations TikTok plays on its own taps and gestures. Your keyboa
 Stop the two background tasks TikTok uses to check for updates, one of them when your phone starts. Some in-app update prompts may stop. Play Store updates still work.	Dừng hai tác vụ nền TikTok dùng để kiểm tra cập nhật, trong đó có một tác vụ chạy khi điện thoại khởi động. Một số lời nhắc cập nhật trong ứng dụng có thể không xuất hiện; cập nhật qua Play Store vẫn hoạt động.
 Stop video looping	Dừng lặp video
 Stop videos at the end instead of replaying them.	Dừng video khi phát hết thay vì tự phát lại.
+Stop waiting	Dừng chờ
 Stopped after dismissing %1$s suggested accounts	Đã dừng sau khi bỏ qua %1$s tài khoản được đề xuất
 Stopped after dismissing one suggested account	Đã dừng sau khi bỏ qua một tài khoản được đề xuất
 Stopped by an unexpected error	Đã dừng do lỗi không mong muốn
@@ -1572,6 +1645,7 @@ Stops TikTok from slowing your screen to match each video's frame rate. On a 90 
 Stops TikTok from turning your screen brighter while you film, edit or post a video. The front flash still turns the screen white, but at your own brightness.	Ngăn TikTok tự tăng độ sáng màn hình khi quay, chỉnh sửa hoặc đăng video. Đèn flash trước vẫn làm màn hình trắng nhưng theo mức sáng bạn đặt.
 Stops the bedtime wind-down, the breathing exercise and the daily limit screen TikTok puts over the feed. Works only on accounts TikTok knows belong to adults. Teen accounts, and ones a parent links with Family Pairing, keep them. With Leave when TikTok says time is up on, the daily limit screen still shows so that switch can work.	Chặn màn hình thư giãn trước giờ ngủ, bài tập hít thở và màn hình giới hạn hằng ngày mà TikTok phủ lên feed. Chỉ áp dụng cho tài khoản TikTok xác định là người lớn. Tài khoản thanh thiếu niên và tài khoản được phụ huynh liên kết bằng Family Pairing vẫn giữ các mục này. Nếu bật Rời ứng dụng khi TikTok báo hết giờ, màn hình giới hạn hằng ngày vẫn hiện để công tắc đó hoạt động.
 Stops websites you open from inside TikTok from reaching back into the app. TikTok's own pages, such as Activity center, Watch history, shop checkout and CAPTCHA, keep working.	Ngăn các trang web mở bên trong TikTok truy cập ngược vào ứng dụng. Các trang riêng của TikTok như Trung tâm hoạt động, Lịch sử xem, thanh toán Shop và CAPTCHA vẫn hoạt động.
+Store TikTok thinks it came from	Cửa hàng mà TikTok cho rằng ứng dụng đến từ
 Stores the caption, creator, post date and link inside the video file, where media players can read them. Applies to saves made by Hushfeed.	Ghi chú thích, nhà sáng tạo, ngày đăng và liên kết vào bên trong file video để trình phát có thể đọc. Chỉ áp dụng cho nội dung lưu bằng Hushfeed.
 Stories	Story
 Story	Story
@@ -1584,6 +1658,7 @@ Subscriber-only posts	Bài đăng chỉ dành cho người đăng ký
 Subtitle language	Ngôn ngữ phụ đề
 Subtitles	Phụ đề
 Swap the website in shared links	Thay trang web trong các liên kết được chia sẻ
+Swipe for brightness and volume	Vuốt để chỉnh độ sáng và âm lượng
 Swipe left	Vuốt sang trái
 Swiping a message sideways no longer starts a reply to it. Taps and long presses work as before.	Vuốt ngang tin nhắn sẽ không còn bắt đầu trả lời. Chạm và nhấn giữ vẫn hoạt động như trước.
 Swiping right on the For You feed no longer opens TikTok's side menu, with Your orders, TikTok Minis and more.	Vuốt sang phải trên feed Dành cho bạn sẽ không còn mở menu bên của TikTok, nơi có Đơn hàng của bạn, TikTok Minis và các mục khác.
@@ -1671,14 +1746,17 @@ The cover couldn't be saved. Try again.	Không thể lưu ảnh bìa. Hãy thử
 The diagnostic report couldn't be saved yet. Try again in a moment.	Chưa thể lưu báo cáo chẩn đoán. Hãy thử lại sau giây lát.
 The diagnostic report couldn't be saved. Try again.	Không thể lưu báo cáo chẩn đoán. Hãy thử lại.
 The downloader app you chose isn't installed. Check Send links to another app under Downloads.	Ứng dụng tải xuống bạn chọn chưa được cài đặt. Hãy kiểm tra mục Gửi liên kết sang ứng dụng khác trong phần Tải xuống.
+The export wasn't saved. Export again when the file app is ready.	Chưa lưu được bản xuất. Hãy xuất lại khi ứng dụng quản lý tệp sẵn sàng.
 The feed capture couldn't be saved. Tap the row to try again.	Không thể lưu bản ghi bảng tin. Chạm vào hàng này để thử lại.
 The feed capture is still being saved	Đang lưu bản ghi bảng tin
 The feed doesn't end. This is a fine time to leave it.	Bảng tin không có điểm kết thúc. Đây là lúc thích hợp để dừng lại.
+The feed is locked	Bảng tin đã bị khóa
 The feed is open again	Bảng tin đã mở lại
 The feed locks by itself during these hours, on your phone's clock. Write days and hours like Mon-Fri 21:00-07:00; Sat Sun 13:00-15:00. Leave the days out for every day. A time that ends earlier than it starts runs past midnight.	Feed tự khóa trong các khung giờ này theo đồng hồ điện thoại. Nhập ngày và giờ như Mon-Fri 21:00-07:00; Sat Sun 13:00-15:00. Bỏ phần ngày để áp dụng hằng ngày. Nếu giờ kết thúc sớm hơn giờ bắt đầu, khoảng thời gian sẽ kéo dài qua nửa đêm.
 The feed slowly dims during the last 45 seconds before the hold, so it doesn't come as a sudden stop. Needs a time budget and a hold.	Feed sẽ tối dần trong 45 giây cuối trước khi khóa để tránh dừng đột ngột. Cần đặt giới hạn thời gian và thời gian khóa.
 The feed stops when this video ends.	Bảng tin sẽ dừng khi video này kết thúc.
 The feed waits for one tap before it starts playing again when you come back to the app. Messages, profiles and search are still one tap away.	Khi bạn quay lại ứng dụng, feed sẽ chờ một lần chạm trước khi phát lại. Tin nhắn, hồ sơ và tìm kiếm vẫn mở được chỉ với một lần chạm.
+The file app still has the last file. Try again once it lets go, or restart TikTok.	Ứng dụng quản lý tệp vẫn đang giữ tệp gần nhất. Hãy thử lại khi ứng dụng nhả tệp hoặc khởi động lại TikTok.
 The file hushfeed-safe-mode couldn't be removed. Delete it from TikTok's folder under Android/data to turn Hushfeed back on.	Không thể xóa tệp hushfeed-safe-mode. Hãy xóa tệp này khỏi thư mục TikTok trong Android/data để bật lại Hushfeed.
 The frame couldn't be read. Try again.	Không thể đọc khung hình. Hãy thử lại.
 The frame couldn't be saved. Try again.	Không thể lưu khung hình. Hãy thử lại.
@@ -1733,6 +1811,7 @@ There is no diagnostic data to put back	Không có dữ liệu chẩn đoán nà
 There was nothing to put back	Không có gì để khôi phục
 There were no saved videos to forget	Không có video đã lưu nào để quên
 These loaded values are for a different TikTok version.	Các giá trị đã tải này dành cho phiên bản TikTok khác.
+These notes are in English.	Các ghi chú này bằng tiếng Anh.
 This catalog entry is no longer available. Refresh the Lab and try again.	Mục trong danh mục này không còn khả dụng. Hãy làm mới Lab rồi thử lại.
 This change couldn't be saved. Try again.	Không thể lưu thay đổi này. Hãy thử lại.
 This configuration has no fields that can be copied and changed safely on this build.	Cấu hình này không có trường nào có thể sao chép và thay đổi an toàn trong bản dựng này.
@@ -1774,7 +1853,10 @@ TikTok forgets the LIVE quality you picked when it closes. This starts rooms at 
 TikTok gets a blank advertising ID, like the one Android gives after you delete yours. Apps can't use it to recognize your phone.	TikTok nhận ID quảng cáo trống, giống ID Android cấp sau khi bạn xóa ID hiện tại. Ứng dụng không thể dùng ID này để nhận diện điện thoại.
 TikTok gets no location from your phone. The Region settings change your country and time zone. This switch stops the exact position.	TikTok không nhận vị trí từ điện thoại. Cài đặt Khu vực vẫn thay đổi quốc gia và múi giờ; công tắc này ngăn chia sẻ vị trí chính xác.
 TikTok hasn't loaded this setting yet. Open the part of the app that uses it, then come back.	TikTok chưa tải cài đặt này. Hãy mở phần ứng dụng sử dụng cài đặt đó rồi quay lại.
+TikTok is locked	TikTok đã bị khóa
+TikTok isn't locked because this phone has no screen lock	TikTok không bị khóa vì điện thoại này chưa thiết lập khóa màn hình
 TikTok lets you pick a LIVE's quality only in some rooms. This adds Video quality to the menu in most of the others, and the next room opens at the quality you picked last.	TikTok chỉ cho chọn chất lượng LIVE ở một số phòng. Tùy chọn này thêm mục Chất lượng video vào menu của hầu hết phòng còn lại; phòng tiếp theo sẽ dùng chất lượng bạn chọn gần nhất.
+TikTok may have taken this message. Delivery isn't confirmed, so it won't be retried today.	TikTok có thể đã nhận tin nhắn này. Chưa xác nhận được việc gửi nên hôm nay sẽ không thử gửi lại.
 TikTok only had its watermarked copy of this story, so that copy was saved to %1$s	TikTok chỉ cung cấp bản Story có watermark, nên bản đó đã được lưu vào %1$s.
 TikTok opens a Share to sheet a few seconds after it saves a video. This stops it. The share button and the saved notice stay as they are.	TikTok mở bảng Chia sẻ đến vài giây sau khi lưu video. Tùy chọn này ngăn bảng đó xuất hiện; nút chia sẻ và thông báo đã lưu vẫn giữ nguyên.
 TikTok read it	TikTok đã đọc giá trị này
@@ -1783,6 +1865,7 @@ TikTok refused the follow with code %1$s	TikTok đã từ chối theo dõi với
 TikTok refused the follow with code %1$s. A hidden CAPTCHA may be the cause.	TikTok đã từ chối theo dõi với mã %1$s. Nguyên nhân có thể là CAPTCHA bị ẩn.
 TikTok refused the follow: %1$s	TikTok đã từ chối theo dõi: %1$s
 TikTok refused the follow: %1$s A hidden CAPTCHA may be the cause	TikTok từ chối theo dõi: %1$s Có thể do CAPTCHA bị ẩn gây ra
+TikTok refused the follow: %1$s A hidden CAPTCHA may be the cause.	TikTok từ chối theo dõi: %1$s. Nguyên nhân có thể là CAPTCHA bị ẩn.
 TikTok removes videos saved for offline viewing after a set time, sometimes only two days, watched or not. With this on they stay until you delete them in TikTok's Offline videos settings. TikTok can still clear watched ones when your phone is low on space.	TikTok xóa video đã lưu để xem ngoại tuyến sau một thời gian, đôi khi chỉ sau hai ngày dù đã xem hay chưa. Khi bật tùy chọn này, video được giữ cho đến khi bạn xóa trong cài đặt Video ngoại tuyến của TikTok. TikTok vẫn có thể xóa video đã xem nếu điện thoại sắp hết dung lượng.
 TikTok sees an empty contact list instead of yours. Find Friends and People you may know can no longer use your contacts.	TikTok sẽ thấy danh bạ trống thay vì danh bạ của bạn. Tìm bạn bè và Những người bạn có thể biết sẽ không thể dùng danh bạ của bạn.
 TikTok sees an empty list of apps instead of the apps on your phone. Checks for one specific app, such as when TikTok opens an app you tap, still work.	TikTok sẽ thấy danh sách ứng dụng trống thay vì các ứng dụng trên điện thoại. Việc kiểm tra một ứng dụng cụ thể, chẳng hạn khi TikTok mở ứng dụng bạn chạm vào, vẫn hoạt động.
@@ -1791,12 +1874,15 @@ TikTok sometimes tests a change that empties the Favorites tab on your profile. 
 TikTok sometimes tests your phone's speed in a background process that can use a lot of memory. This stops that test from starting. One already running ends when TikTok restarts.	Đôi khi TikTok kiểm tra tốc độ điện thoại trong tiến trình nền có thể dùng nhiều bộ nhớ. Tùy chọn này ngăn kiểm tra bắt đầu; tiến trình đang chạy sẽ kết thúc khi TikTok khởi động lại.
 TikTok starts as a new phone after the restart. Tap again to cancel.	Sau khi khởi động lại, TikTok sẽ hoạt động như trên điện thoại mới. Chạm lại để hủy.
 TikTok treats your phone as one without passkeys, so signing in asks for your password or a code by email or text instead. Password managers won't hand a passkey to a patched app.	TikTok xem điện thoại như thiết bị không có passkey, nên khi đăng nhập sẽ yêu cầu mật khẩu hoặc mã qua email/SMS. Trình quản lý mật khẩu sẽ không cung cấp passkey cho ứng dụng đã được vá.
+TikTok's background play and Auto scroll	Phát nền và Tự động cuộn của TikTok
+TikTok's hold to speed up	Tăng tốc khi nhấn giữ của TikTok
 TikTok's messages didn't start in time. It tries again at %1$s.	Tin nhắn của TikTok không bắt đầu kịp lúc. Hệ thống sẽ thử lại lúc %1$s.
 TikTok's own daily screen-time reminder sends the app to the background instead of waiting to be dismissed. Coming straight back leaves the reminder on screen, so the limit stays reachable. Needs a daily limit set under TikTok's Settings and privacy, under Time and well-being.	Nhắc nhở thời gian sử dụng hằng ngày của TikTok sẽ đưa ứng dụng xuống nền thay vì chờ bạn đóng thông báo. Nếu quay lại ngay, lời nhắc vẫn hiện để bạn có thể truy cập giới hạn. Cần đặt giới hạn hằng ngày trong Cài đặt và quyền riêng tư > Thời gian và sức khỏe trên TikTok.
 TikTok's own value	Giá trị của TikTok
 TikTok's search page couldn't be opened. Restart TikTok and try again.	Không thể mở trang tìm kiếm của TikTok. Hãy khởi động lại TikTok rồi thử lại.
 TikTok's size	Kích thước của TikTok
 TikTok's suggested reply cells and their intro banner stop showing in a chat. Messages you type or receive are untouched.	Các ô trả lời gợi ý của TikTok và biểu ngữ giới thiệu sẽ không còn hiển thị. Tin nhắn bạn gửi hoặc nhận không bị ảnh hưởng.
+Timed logging stopped	Đã dừng ghi theo thời gian
 Times you can open the feed anyway	Số lần có thể mở bảng tin bất chấp giới hạn
 Today can't start over while Wait a day to loosen the budget is on. The day starts over at %1$s.	Không thể bắt đầu lại ngày khi đang bật Chờ một ngày để nới giới hạn. Ngày mới bắt đầu lúc %1$s.
 Today has moved on, so there's nothing to put back	Ngày đã chuyển sang thời điểm mới nên không có gì để khôi phục
@@ -1853,16 +1939,21 @@ Undo forgetting saved videos	Hoàn tác việc quên video đã lưu
 Undo last Lab change	Hoàn tác thay đổi Lab gần nhất
 Undo last restore or reset	Hoàn tác lần khôi phục hoặc đặt lại gần nhất
 Undoing the last change	Đang hoàn tác thay đổi gần nhất
+Unlock	Mở khóa
+Unlock TikTok	Mở khóa TikTok
+Unpersonalized For You videos	Video Dành cho bạn không cá nhân hóa
 Until you choose here, this sheet follows your choices under Hide share actions.	Cho đến khi bạn chọn tại đây, bảng này sẽ dùng các lựa chọn trong mục Ẩn hành động chia sẻ.
 Up to %1$d speeds from %2$s to %3$s, separated by commas. Example: 0.5, 1, 1.5, 2, 2.5, 3. Leave empty for TikTok's list. Restart TikTok to apply this.	Nhập tối đa %1$d tốc độ trong khoảng %2$s đến %3$s, phân tách bằng dấu phẩy. Ví dụ: 0.5, 1, 1.5, 2, 2.5, 3. Để trống để dùng danh sách của TikTok. Khởi động lại TikTok để áp dụng.
 Use 0 for TikTok's size, or %1$d to %2$d. Applies to the next caption.	Nhập 0 để dùng kích thước của TikTok hoặc từ %1$d đến %2$d. Áp dụng cho phụ đề tiếp theo.
 Use 0 for TikTok's size, or %1$d to %2$d. Sizes the author's name and the post date next to it, and keeps Android's font scaling.	Nhập 0 để dùng kích thước của TikTok hoặc từ %1$d đến %2$d. Điều chỉnh cỡ tên tác giả và ngày đăng bên cạnh, đồng thời vẫn tuân theo tỷ lệ phông chữ Android.
 Use 0 for TikTok's size, or %1$d to %2$d. Sizes the description below the author's name and keeps Android's font scaling.	Nhập 0 để dùng kích thước của TikTok hoặc từ %1$d đến %2$d. Điều chỉnh cỡ mô tả bên dưới tên tác giả và vẫn tuân theo tỷ lệ phông chữ Android.
 Use Save report for this large report	Hãy dùng Lưu báo cáo cho báo cáo lớn này.
+Use TikTok for a while. A popup shows up here after TikTok first tries to show it.	Hãy dùng TikTok một lúc. Cửa sổ bật lên sẽ xuất hiện ở đây sau lần đầu TikTok cố hiển thị nó.
 Use TikTok's own hold, pull down and release gesture to keep playing at the hold speed, 2x unless Playback sets another.	Dùng cử chỉ nhấn giữ, kéo xuống rồi thả của TikTok để tiếp tục phát ở tốc độ nhấn giữ; mặc định là 2x trừ khi mục Phát lại đặt tốc độ khác.
 Use a default playback speed	Dùng tốc độ phát mặc định
 Use an imported font	Dùng phông chữ đã nhập
 Use non-personalized search	Dùng tìm kiếm không cá nhân hóa
+Use screen lock	Dùng khóa màn hình
 Use system font	Dùng phông chữ hệ thống
 Use the preset for the region TikTok reports for your account and its shop too. May affect search.	Dùng mẫu khu vực mà TikTok báo cáo cho tài khoản và cả Shop của bạn. Có thể ảnh hưởng đến tìm kiếm.
 Use the split layout on wider screens. Restart TikTok to apply this. If the old layout is still there, unfold again.	Dùng bố cục chia đôi trên màn hình rộng. Khởi động lại TikTok để áp dụng. Nếu bố cục cũ vẫn còn, hãy gập rồi mở điện thoại lại.
@@ -1872,6 +1963,8 @@ Use your own offline videos limit	Dùng giới hạn video ngoại tuyến của
 Use {creator}, {date} and {video_id} to build the name. Start with {creator}/ to put each creator in a folder. The file ending is added for you.	Dùng {creator}, {date} và {video_id} để tạo tên file. Thêm {creator}/ ở đầu để lưu mỗi nhà sáng tạo vào một thư mục riêng. Phần mở rộng file sẽ được tự thêm.
 Use {creator}, {date}, {video_id} and {index} to build the name. {index} numbers the photos of a slideshow saved with Download original photos. TikTok's own save button numbers files by folder instead. The file ending is added for you.	Dùng {creator}, {date}, {video_id} và {index} để tạo tên file. {index} đánh số ảnh trong trình chiếu được lưu bằng Tải ảnh gốc. Nút lưu của TikTok đánh số file theo thư mục. Phần mở rộng file sẽ được tự thêm.
 Use {date} and {media_id} to build the name. Works for image and video stickers.	Dùng {date} và {media_id} để tạo tên file. Áp dụng cho nhãn dán ảnh và video.
+User ID copied	Đã sao chép ID người dùng
+Username copied	Đã sao chép tên người dùng
 Using TikTok's value	Đang dùng giá trị của TikTok
 Value	Giá trị
 Value to return	Giá trị cần trả về
@@ -1882,11 +1975,13 @@ Version %1$s for PineDrama %2$s	Phiên bản %1$s cho PineDrama %2$s
 Version %1$s for TikTok %2$s	Phiên bản %1$s cho TikTok %2$s
 Video	Video
 Video (MP4)	Video (MP4)
+Video ID copied	Đã sao chép ID video
 Video and details saved to %1$s	Đã lưu video và thông tin vào %1$s
 Video destination	Thư mục lưu video
 Video download quality	Chất lượng tải video
 Video filename	Tên tệp video
 Video info	Thông tin video
+Video of photos	Video ghép từ ảnh
 Video playback quality	Chất lượng phát video
 Video player settings	Cài đặt trình phát video
 Video saved	Đã lưu video
@@ -1895,9 +1990,12 @@ Video saved with %1$s subtitles in %2$s	Đã lưu video kèm %1$s phụ đề b�
 Videos can't be saved to the folder in that file, so your video folder was kept	Không thể lưu video vào thư mục trong tệp đó nên thư mục video hiện tại được giữ nguyên
 Videos in search results show their cover and play when you open them. The feed and the videos you open play as usual.	Video trong kết quả tìm kiếm hiển thị ảnh bìa và phát khi bạn mở. Feed và các video mở theo cách khác vẫn phát như thường.
 Views range	Phạm vi lượt xem
+Visual search	Tìm kiếm bằng hình ảnh
+Volume	Âm lượng
 Wait a day to loosen the budget	Chờ một ngày để nới giới hạn
 Wait a day to loosen the budget is on, so Hushfeed stays on	Đang bật Chờ một ngày để nới giới hạn nên Hushfeed vẫn hoạt động
 Wait before hiding the controls.	Chờ trước khi ẩn các nút điều khiển.
+Waiting for the file app to let go of the last file. Restart TikTok if it doesn't.	Đang chờ ứng dụng quản lý tệp nhả tệp gần nhất. Hãy khởi động lại TikTok nếu ứng dụng vẫn giữ tệp.
 Waiting to record. Go to the screen you want recorded.	Đang chờ ghi lại. Hãy mở màn hình bạn muốn ghi lại.
 Waiting to save %1$s files	Đang chờ lưu %1$s tệp
 Waiting to save one file	Đang chờ lưu một tệp
@@ -1933,6 +2031,7 @@ Works only with YTDLnis (com.deniscerri.ytdl). Starts the download in the backgr
 Write the username and caption on the video	Ghi tên người dùng và chú thích lên video.
 Write the video's sound beside it, in the format picked under Sound format. Android 10 and later file audio separately, so it lands in Music under the same folder name as your videos.	Lưu âm thanh của video thành file riêng bên cạnh, theo định dạng trong mục Định dạng âm thanh. Android 10 trở lên tách âm thanh thành file riêng trong thư mục Music, cùng tên thư mục với video.
 Writes the date before the time to the second the short way your language does, like 10/7/25.	Hiển thị ngày trước thời gian chính xác đến giây theo định dạng ngắn của ngôn ngữ, ví dụ 10/7/25.
+Writing	Đang ghi
 Writing the caption on the video	Đang ghi chú thích lên video.
 Writing the caption on the video: %1$s	Đang ghi chú thích lên video: %1$s.
 YTDLnis background mode	Chế độ chạy nền của YTDLnis
@@ -1955,5 +2054,6 @@ Zero switches this off. A short reminder after that many minutes of watching, an
 Zero switches this off. Count the minutes the player spends running in the feed. Time on messages, a profile or search doesn't count.	Giá trị 0 sẽ tắt tùy chọn. Đếm số phút trình phát hoạt động trên feed. Thời gian ở tin nhắn, hồ sơ hoặc tìm kiếm không được tính.
 Zero switches this off. Counts every video that comes up in the feed and tells you when you reach the limit. Separate from the auto-advance session limit under Playback, which counts only videos Hushfeed moved past for you.	Giá trị 0 sẽ tắt tùy chọn. Đếm mọi video xuất hiện trên feed và thông báo khi đạt giới hạn. Đây là giới hạn riêng với giới hạn phiên tự động chuyển tiếp trong mục Phát lại, vốn chỉ đếm video mà Hushfeed tự chuyển qua.
 collapsed	đã thu gọn
+debug debugging logs logging	debug, debugging, logs, logging
 expanded	đã mở rộng
 this creator	nhà sáng tạo này
