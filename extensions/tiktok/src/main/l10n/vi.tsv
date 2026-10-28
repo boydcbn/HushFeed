@@ -1175,3 +1175,49 @@ Couldn't list your apps. Tap here to try again.	Không thể lấy danh sách �
 Couldn't put back the diagnostic data. Try again.	Không thể khôi phục dữ liệu chẩn đoán. Hãy thử lại.
 Couldn't put the saved videos back. Try again.	Không thể khôi phục danh sách video đã lưu. Hãy thử lại.
 Couldn't reach the proxy at %1$s. TikTok may not load until it's back or you turn the proxy off.	Không thể kết nối proxy tại %1$s. TikTok có thể không tải được cho đến khi proxy hoạt động lại hoặc bạn tắt proxy.
+Couldn't read %1$s. Write days and hours like Mon-Fri 21:00-07:00.	Không thể đọc %1$s. Nhập ngày và giờ theo dạng Mon-Fri 21:00-07:00.
+Couldn't read this list. Close it and try again.	Không thể đọc danh sách này. Hãy đóng rồi thử lại.
+Couldn't read who posted this comment. Open their profile and block them there.	Không thể xác định người đăng bình luận này. Hãy mở hồ sơ của họ và chặn tại đó.
+Couldn't remove the imported font. Try again.	Không thể xóa phông chữ đã nhập. Hãy thử lại.
+Couldn't reset the settings. Try again.	Không thể đặt lại cài đặt. Hãy thử lại.
+Couldn't reset this override. Try again.	Không thể đặt lại mục ghi đè này. Hãy thử lại.
+Couldn't restore seen history. Your saved history is unchanged.	Không thể khôi phục lịch sử đã xem. Lịch sử đã lưu không thay đổi.
+Couldn't save the font in TikTok's storage. Free up some space and try again.	Không thể lưu phông chữ vào bộ nhớ TikTok. Hãy giải phóng dung lượng rồi thử lại.
+Couldn't save the seen-history file. Try again.	Không thể lưu tệp lịch sử đã xem. Hãy thử lại.
+Couldn't start saving the feed capture. Try again in a moment.	Không thể bắt đầu ghi lại bảng tin. Hãy thử lại sau ít phút.
+Couldn't start the export. Try again in a moment.	Không thể bắt đầu xuất dữ liệu. Hãy thử lại sau ít phút.
+Couldn't tell which folder to update. Choose it again.	Không xác định được thư mục cần cập nhật. Hãy chọn lại.
+Couldn't translate this draft. Try again in a moment.	Không thể dịch bản nháp này. Hãy thử lại sau ít phút.
+Couldn't translate this message. Try again in a moment.	Không thể dịch tin nhắn này. Hãy thử lại sau ít phút.
+Couldn't undo the clear. Try again.	Không thể hoàn tác thao tác xóa. Hãy thử lại.
+Couldn't undo the last change. Try again.	Không thể hoàn tác thay đổi gần nhất. Hãy thử lại.
+Cover saved to %1$s	Đã lưu ảnh bìa vào %1$s
+Current: %1$s	Hiện tại: %1$s
+Delete recording files	Xóa các tệp bản ghi
+Deletes %1$s from TikTok's storage.	Xóa %1$s khỏi bộ nhớ của TikTok.
+Delivery unconfirmed: %1$d/%2$d chats. Remaining chats still need a message.	Chưa xác nhận gửi: %1$d/%2$d cuộc trò chuyện. Các cuộc trò chuyện còn lại vẫn cần gửi tin nhắn.
+Delivery unconfirmed: %1$d/%2$d chats. Those chats won't be retried today.	Chưa xác nhận gửi: %1$d/%2$d cuộc trò chuyện. Hôm nay sẽ không thử gửi lại cho các cuộc trò chuyện đó.
+Destination updated	Đã cập nhật đích đến
+Details: %1$s	Chi tiết: %1$s
+Device language, then original	Ngôn ngữ thiết bị, sau đó đến ngôn ngữ gốc
+Diagnostic data put back	Đã khôi phục dữ liệu chẩn đoán
+Diagnostic report copied to the clipboard	Đã sao chép báo cáo chẩn đoán vào bộ nhớ tạm
+Dismissed one suggested account	Đã ẩn một tài khoản được đề xuất
+Doesn't follow you back	Không theo dõi lại bạn
+Don't auto translate these languages	Không tự động dịch các ngôn ngữ này
+Don't auto translate videos	Không tự động dịch video
+Don't decode animated frames ahead	Không giải mã trước các khung hình động
+Don't save new searches	Không lưu các tìm kiếm mới
+Don't start the feed on returning	Không tự chạy bảng tin khi quay lại
+Don't start the first video	Không tự phát video đầu tiên
+Each area shows how many of the things Hushfeed looks for were found in this TikTok and how many are missing.	Mỗi mục cho biết Hushfeed tìm thấy bao nhiêu thành phần trong phiên bản TikTok này và còn thiếu bao nhiêu.
+Enter a JSON object or array.	Nhập một đối tượng hoặc mảng JSON.
+Enter a finite number.	Nhập một số hữu hạn.
+Enter a server name or IP address, without http:// or a port number	Nhập tên máy chủ hoặc địa chỉ IP, không kèm http:// hay số cổng
+Enter a valid structured value.	Nhập giá trị có cấu trúc hợp lệ.
+Enter a valid two-letter country code	Nhập mã quốc gia hợp lệ gồm hai chữ cái
+Enter a whole number, or one like 20K, 1.5M or 2B	Nhập số nguyên hoặc dạng như 20K, 1.5M hay 2B
+Enter an hour, like 6 or 06:00.	Nhập giờ, ví dụ 6 hoặc 06:00.
+Enter who to message below to start.	Nhập người cần nhắn tin bên dưới để bắt đầu.
+Entry %1$d has a field with the wrong data type.	Mục %1$d có trường sai kiểu dữ liệu.
+Entry %1$d isn't an object.	Mục %1$d không phải là một đối tượng.
