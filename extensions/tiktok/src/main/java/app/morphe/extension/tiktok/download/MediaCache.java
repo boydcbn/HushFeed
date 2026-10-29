@@ -58,6 +58,30 @@ public final class MediaCache {
     private static final Set<String> ACTIVE_FILES = Collections.newSetFromMap(
             new ConcurrentHashMap<String, Boolean>());
 
+    /**
+     * Narrow seam for exercising journal I/O failures. Production always uses ordinary files;
+     * tests can model AtomicFile's silent commit failure and a torn/incorrect commit without
+     * shadowing Android framework code.
+     */
+    interface PendingJournalIo {
+        FileOutputStream openTemporary(File temporary) throws IOException;
+        boolean commit(File temporary, File base) throws IOException;
+    }
+
+    private static final PendingJournalIo DEFAULT_JOURNAL_IO = new PendingJournalIo() {
+        @Override public FileOutputStream openTemporary(File temporary) throws IOException {
+            return new FileOutputStream(temporary);
+        }
+        @Override public boolean commit(File temporary, File base) {
+            return temporary.renameTo(base);
+        }
+    };
+    private static volatile PendingJournalIo pendingJournalIo = DEFAULT_JOURNAL_IO;
+
+    static void setPendingJournalIoForTests(PendingJournalIo io) {
+        pendingJournalIo = io == null ? DEFAULT_JOURNAL_IO : io;
+    }
+
     private MediaCache() {}
 
     static File createTempFile(Context context, String prefix, String suffix) throws IOException {
@@ -440,7 +464,8 @@ public final class MediaCache {
             return;
         }
 
-        try (FileOutputStream output = new FileOutputStream(temporary)) {
+        PendingJournalIo journalIo = pendingJournalIo;
+        try (FileOutputStream output = journalIo.openTemporary(temporary)) {
             Writer writer = new OutputStreamWriter(output, StandardCharsets.UTF_8);
             for (Map.Entry<String, Long> entry : records.entrySet()) {
                 writer.write(Long.toString(entry.getValue()));
@@ -471,7 +496,8 @@ public final class MediaCache {
             }
         }
 
-        if (!temporary.renameTo(base)) {
+        boolean committed = journalIo.commit(temporary, base);
+        if (!committed || !base.isFile() || temporary.exists()) {
             IOException failure = new IOException("Could not commit media publication journal");
             rollbackPendingWrite(directory, failure);
             throw failure;
@@ -483,13 +509,16 @@ public final class MediaCache {
         } catch (IOException error) {
             retained = false;
             error.addSuppressed(new IOException("Could not verify new media publication journal"));
-            rollbackPendingWrite(directory, error);
+            // Leave the bad generation in place as forensic evidence. The old backup, if any,
+            // remains authoritative, and legacy ownership is not retired because this method
+            // throws before readPendingAndMigrate can complete the handoff.
             throw error;
         }
         if (!retained) {
             IOException failure = new IOException(
                     "Media publication journal commit did not retain its records");
-            rollbackPendingWrite(directory, failure);
+            // Keep the committed-but-invalid bytes as evidence of a broken filesystem/provider.
+            // The legacy source is retained because the handoff caller has not returned yet.
             throw failure;
         }
 
