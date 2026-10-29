@@ -496,7 +496,13 @@ public final class MediaCache {
             }
         }
 
-        boolean committed = journalIo.commit(temporary, base);
+        boolean committed;
+        try {
+            committed = journalIo.commit(temporary, base);
+        } catch (IOException | RuntimeException failure) {
+            rollbackPendingWrite(directory, failure);
+            throw failure;
+        }
         if (!committed || !base.isFile() || temporary.exists()) {
             IOException failure = new IOException("Could not commit media publication journal");
             rollbackPendingWrite(directory, failure);
