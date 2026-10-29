@@ -33,7 +33,7 @@ import java.util.regex.Pattern;
 public class PineDramaRestartTextTest {
     private static final String TIKTOK = "com.zhiliaoapp.musically";
     private static final Pattern ENGLISH_RESTART = Pattern.compile("[Rr]estart(?:ing)? TikTok\\b");
-    private static final String[] TABLES = {"az", "de", "es", "in", "it", "pt-rbr", "ru", "tr", "zh-hans"};
+    private static final String[] TABLES = {"az", "de", "es", "in", "it", "pt-rbr", "ru", "tr", "vi", "zh-hans"};
 
     @After
     public void tearDown() {

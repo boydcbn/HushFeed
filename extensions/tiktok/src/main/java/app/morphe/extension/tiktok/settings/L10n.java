@@ -97,6 +97,7 @@ public final class L10n {
             Pattern.compile("TikTok'u (yeniden)"),
             Pattern.compile("TikTok (yeniden başlatılamadı)"),
             Pattern.compile("(重新启动|重启) TikTok\\b"),
+            Pattern.compile("([Kk]hởi động lại) TikTok\\b"),
     };
 
     private static final String[] PINEDRAMA_PHRASES = {
@@ -109,6 +110,7 @@ public final class L10n {
             "$1 PineDrama",
             "PineDrama'yı $1",
             "PineDrama $1",
+            "$1 PineDrama",
             "$1 PineDrama",
     };
 
