@@ -525,8 +525,21 @@ public final class MediaCache {
     }
 
     private static void rollbackPendingWrite(File directory, Throwable failure) {
+        File base = new File(directory, PENDING_FILE_NAME);
+        File backup = new File(directory, PENDING_FILE_NAME + ".bak");
+        File temporary = new File(directory, PENDING_FILE_NAME + ".new");
         try {
-            restorePendingFiles(directory);
+            if (backup.exists()) {
+                restorePendingFiles(directory);
+            } else {
+                // A first write has no previous generation to restore.
+                if (base.exists() && !base.delete()) {
+                    throw new IOException("Could not discard uncommitted media journal");
+                }
+                if (temporary.exists() && !temporary.delete()) {
+                    throw new IOException("Could not remove incomplete media journal");
+                }
+            }
         } catch (IOException rollbackFailure) {
             failure.addSuppressed(rollbackFailure);
         }
