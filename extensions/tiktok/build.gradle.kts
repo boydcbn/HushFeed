@@ -243,6 +243,15 @@ android {
         unitTests.isIncludeAndroidResources = true
         unitTests.all {
             it.maxHeapSize = "1g"
+            // Preserve assertion messages and nested causes in CI output so failures can be
+            // diagnosed from the run log without downloading Gradle's local HTML report.
+            it.testLogging {
+                events(org.gradle.api.tasks.testing.logging.TestLogEvent.FAILED)
+                exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
+                showExceptions = true
+                showCauses = true
+                showStackTraces = true
+            }
             // The translation tables are read from disk at run time, by the test that compares
             // them against the generated table. Without this Gradle sees no input change when a
             // table is edited, calls the task up to date, and the comparison never runs.

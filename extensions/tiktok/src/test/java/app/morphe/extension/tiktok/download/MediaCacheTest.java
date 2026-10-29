@@ -14,6 +14,8 @@ import org.robolectric.annotation.Config;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = 28)
@@ -56,6 +58,40 @@ public class MediaCacheTest {
         } finally {
             journal.delete();
             owned.delete();
+        }
+    }
+
+    @Test public void updatingAnExistingJournalDoesNotRequireRenameOverAnExistingFile()
+            throws Exception {
+        Context context = RuntimeEnvironment.getApplication();
+        File directory = new File(context.getNoBackupFilesDir(), MediaCache.DIRECTORY_NAME);
+        assertTrue(directory.isDirectory() || directory.mkdirs());
+        File base = new File(directory, "pending-uris.tsv");
+        File backup = new File(directory, "pending-uris.tsv.bak");
+        File temporary = new File(directory, "pending-uris.tsv.new");
+        for (File file : new File[] {base, backup, temporary}) {
+            if (file.exists()) assertTrue("could not clear test journal " + file, file.delete());
+        }
+
+        try {
+            Uri first = Uri.parse("content://media/one");
+            Uri second = Uri.parse("content://media/two");
+            MediaCache.markPending(context, first);
+            assertTrue(base.isFile());
+            assertTrue(new String(Files.readAllBytes(base.toPath()), StandardCharsets.UTF_8)
+                    .contains(first.toString()));
+
+            // Updating an existing base file is the operation that fails when the framework
+            // AtomicFile implementation attempts renameTo(.new, base) on Windows.
+            MediaCache.markPending(context, second);
+
+            String contents = new String(Files.readAllBytes(base.toPath()), StandardCharsets.UTF_8);
+            assertTrue(contents, contents.contains(first.toString()));
+            assertTrue(contents, contents.contains(second.toString()));
+            assertFalse("backup should be retired after commit", backup.exists());
+            assertFalse("temporary should be moved after commit", temporary.exists());
+        } finally {
+            for (File file : new File[] {base, backup, temporary}) file.delete();
         }
     }
 }

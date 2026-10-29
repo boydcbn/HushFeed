@@ -5,6 +5,9 @@
 package app.morphe.extension.tiktok.download;
 
 import android.content.Context;
+import android.system.ErrnoException;
+import android.system.Os;
+import android.system.OsConstants;
 import android.util.AtomicFile;
 
 import org.json.JSONException;
@@ -73,6 +76,9 @@ final class RecordingRetention {
         List<File> result = new ArrayList<>();
         for (File file : files)
             if (file.isDirectory() && file.getName().matches("[a-f0-9]{32}")) {
+                // File.getCanonicalFile() does not reliably resolve symbolic links on every host.
+                // Refuse the link itself before comparing paths or opening any child.
+                if (isSymbolicLink(file)) continue;
                 if (!file.getCanonicalFile().equals(new File(root, file.getName()))) continue;
                 // No source can be allocated before the first metadata commit. Reclaim only
                 // a failed initial metadata write, never a directory containing recording bytes.
@@ -259,6 +265,8 @@ final class RecordingRetention {
         return locked(
                 () -> {
                     File directory = new File(root, id);
+                    if (isSymbolicLink(directory))
+                        throw new IOException("Recording ownership directory is a symbolic link");
                     if (!directory.isDirectory()) return null;
                     if (!directory.getCanonicalFile().equals(new File(root, id)))
                         throw new IOException("Recording ownership directory changed");
@@ -344,7 +352,28 @@ final class RecordingRetention {
                 });
     }
 
+    static boolean isSymbolicLink(File file) throws IOException {
+        // Robolectric runs the unit suite on the host OS. Use the host NIO provider there so
+        // Windows and Unix symbolic links are both detected; java.nio.file was added to Android
+        // after this module's API-23 floor, so retain the platform lstat fallback for older phones.
+        try {
+            Class<?> files = Class.forName("java.nio.file.Files");
+            Class<?> path = Class.forName("java.nio.file.Path");
+            Object nioPath = File.class.getMethod("toPath").invoke(file);
+            return Boolean.TRUE.equals(files.getMethod("isSymbolicLink", path).invoke(null, nioPath));
+        } catch (ReflectiveOperationException | LinkageError unavailable) {
+            try {
+                return OsConstants.S_ISLNK(Os.lstat(file.getPath()).st_mode);
+            } catch (ErrnoException failure) {
+                if (failure.errno == OsConstants.ENOENT) return false;
+                throw new IOException("Cannot inspect recording path ownership", failure);
+            }
+        }
+    }
+
     private static void checkDirect(File directory, File file) throws IOException {
+        if (isSymbolicLink(directory) || isSymbolicLink(file))
+            throw new IOException("Recording path is a symbolic link");
         File canonical = directory.getCanonicalFile();
         if (!file.getParentFile().getCanonicalFile().equals(canonical)
                 || !file.getCanonicalFile().equals(new File(canonical, file.getName())))

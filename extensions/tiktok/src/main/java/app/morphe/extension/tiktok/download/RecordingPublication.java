@@ -267,13 +267,25 @@ final class RecordingPublication implements MediaFileWriter.Publication {
     }
 
     private void checkLegacy(File file) throws IOException {
-        if (!file.getName().contains("_" + record.id)
-                || !file.getName().endsWith(".mp4")
-                || !file.getCanonicalPath().equals(file.getAbsolutePath())
-                || !file.getCanonicalPath()
-                        .startsWith(
-                                Environment.getExternalStorageDirectory().getCanonicalPath()
-                                        + File.separator)) {
+        // The publication directory is the ownership boundary; the provider may keep the
+        // requested filename unchanged, so requiring the record id in the basename rejects
+        // legitimate destinations such as live_creator.mp4.
+        File expectedDirectory = new File(
+                Environment.getExternalStorageDirectory(),
+                "Movies/HushfeedRetained-" + record.id).getCanonicalFile();
+        File parent = file.getParentFile();
+        File canonicalFile = file.getCanonicalFile();
+        File canonicalParent = canonicalFile.getParentFile();
+        // Canonical/absolute string equality is not portable to Windows (drive-letter casing
+        // and path normalization differ). Check the canonical destination parent and use the
+        // shared lstat/NIO check to reject file and directory symlinks explicitly.
+        if (!file.getName().endsWith(".mp4")
+                || parent == null
+                || RecordingRetention.isSymbolicLink(file)
+                || RecordingRetention.isSymbolicLink(parent)
+                || canonicalParent == null
+                || !canonicalParent.equals(expectedDirectory)
+                || !parent.getCanonicalFile().equals(expectedDirectory)) {
             throw new IOException("Legacy recording destination ownership changed");
         }
     }

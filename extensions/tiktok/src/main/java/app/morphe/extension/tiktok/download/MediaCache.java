@@ -16,7 +16,6 @@ import android.util.Base64;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.AtomicFile;
 
 import app.morphe.extension.shared.Logger;
 import app.morphe.extension.shared.Utils;
@@ -58,6 +57,30 @@ public final class MediaCache {
     private static final AtomicBoolean RECONCILIATION_STARTED = new AtomicBoolean();
     private static final Set<String> ACTIVE_FILES = Collections.newSetFromMap(
             new ConcurrentHashMap<String, Boolean>());
+
+    /**
+     * Narrow seam for exercising journal I/O failures. Production always uses ordinary files;
+     * tests can model AtomicFile's silent commit failure and a torn/incorrect commit without
+     * shadowing Android framework code.
+     */
+    interface PendingJournalIo {
+        FileOutputStream openTemporary(File temporary) throws IOException;
+        boolean commit(File temporary, File base) throws IOException;
+    }
+
+    private static final PendingJournalIo DEFAULT_JOURNAL_IO = new PendingJournalIo() {
+        @Override public FileOutputStream openTemporary(File temporary) throws IOException {
+            return new FileOutputStream(temporary);
+        }
+        @Override public boolean commit(File temporary, File base) {
+            return temporary.renameTo(base);
+        }
+    };
+    private static volatile PendingJournalIo pendingJournalIo = DEFAULT_JOURNAL_IO;
+
+    static void setPendingJournalIoForTests(PendingJournalIo io) {
+        pendingJournalIo = io == null ? DEFAULT_JOURNAL_IO : io;
+    }
 
     private MediaCache() {}
 
@@ -368,57 +391,81 @@ public final class MediaCache {
     }
 
     private static Map<String, Long> readPending(File directory) throws IOException {
-        Map<String, Long> records = new LinkedHashMap<>();
         File base = new File(directory, PENDING_FILE_NAME);
         File backup = new File(directory, PENDING_FILE_NAME + ".bak");
-        if (!hasPendingJournal(directory)) return records;
+        if (!hasPendingJournal(directory)) return new LinkedHashMap<>();
         for (String suffix : new String[]{"", ".bak", ".new"}) {
             File file = new File(directory, PENDING_FILE_NAME + suffix);
-            if (file.exists() && !file.isFile()) throw new IOException("Unreadable media publication journal");
+            if (file.exists() && !file.isFile()) {
+                throw new IOException("Unreadable media publication journal");
+            }
         }
-        if (!base.exists() && !backup.exists()) throw new IOException("Uncommitted media publication journal");
-        try {
-            // A backup is the committed record until a write retires it. AtomicFile.openRead
-            // replaces base/deletes .new before decoding; an unreadable source must stay intact.
-            File committed = backup.exists() ? backup : base;
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(
-                    new FileInputStream(committed), StandardCharsets.UTF_8.newDecoder()
-                            .onMalformedInput(CodingErrorAction.REPORT)
-                            .onUnmappableCharacter(CodingErrorAction.REPORT)))) {
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    if (line.isEmpty()) continue;
-                    int tab = line.indexOf('\t');
-                    if (tab <= 0 || tab == line.length() - 1) throw new IOException("Malformed media publication record");
-                    try {
-                        long timestamp = Long.parseLong(line.substring(0, tab));
-                        String uri = line.substring(tab + 1);
-                        if (timestamp <= 0) throw new IOException("Invalid media publication timestamp");
-                        records.put(uri, timestamp);
-                    } catch (NumberFormatException error) {
-                        throw new IOException("Unreadable media publication timestamp", error);
+        if (!base.exists() && !backup.exists()) {
+            throw new IOException("Uncommitted media publication journal");
+        }
+        // A backup is the last committed generation until it is retired. This also reads
+        // journals left by AndroidX AtomicFile and by earlier framework AtomicFile versions.
+        return readPendingFile(backup.exists() ? backup : base);
+    }
+
+    private static Map<String, Long> readPendingFile(File file) throws IOException {
+        Map<String, Long> records = new LinkedHashMap<>();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+                new FileInputStream(file), StandardCharsets.UTF_8.newDecoder()
+                        .onMalformedInput(CodingErrorAction.REPORT)
+                        .onUnmappableCharacter(CodingErrorAction.REPORT)))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.isEmpty()) continue;
+                int tab = line.indexOf('\t');
+                if (tab <= 0 || tab == line.length() - 1) {
+                    throw new IOException("Malformed media publication record");
+                }
+                try {
+                    long timestamp = Long.parseLong(line.substring(0, tab));
+                    String uri = line.substring(tab + 1);
+                    if (timestamp <= 0) {
+                        throw new IOException("Invalid media publication timestamp");
                     }
+                    records.put(uri, timestamp);
+                } catch (NumberFormatException error) {
+                    throw new IOException("Unreadable media publication timestamp", error);
                 }
             }
         } catch (IOException | RuntimeException error) {
-            IOException failure = error instanceof IOException
-                    ? (IOException) error : new IOException("Could not read media publication journal", error);
-            throw failure;
+            if (error instanceof IOException) throw (IOException) error;
+            throw new IOException("Could not read media publication journal", error);
         }
         return records;
     }
 
+    /**
+     * Writes a recoverable generation without relying on rename-over-existing semantics.
+     *
+     * <p>The framework AtomicFile implementation on recent Android releases uses
+     * File.renameTo(newFile, baseFile), which expects the underlying POSIX rename operation to
+     * replace an existing target. File.renameTo on Windows does not provide that behavior, and
+     * Robolectric runs these tests on a Windows filesystem. Move the old base to its backup first
+     * so every rename has a missing destination. The backup remains authoritative until the new
+     * base is fully written and verified; if the process stops at any intermediate point, the
+     * next writer restores the backup before continuing.
+     */
     private static void writePending(File directory, Map<String, Long> records) throws IOException {
         File base = new File(directory, PENDING_FILE_NAME);
+        File backup = new File(directory, PENDING_FILE_NAME + ".bak");
+        File temporary = new File(directory, PENDING_FILE_NAME + ".new");
+
+        restorePendingFiles(directory);
+
         if (records.isEmpty()) {
-            if (base.exists() && !base.delete()) throw new IOException("Could not clear media publication journal");
-            File backup = new File(directory, PENDING_FILE_NAME + ".bak");
-            if (backup.exists() && !backup.delete()) throw new IOException("Could not clear media journal backup");
+            if (base.exists() && !base.delete()) {
+                throw new IOException("Could not clear media publication journal");
+            }
             return;
         }
-        AtomicFile atomic = new AtomicFile(base);
-        FileOutputStream output = atomic.startWrite();
-        try {
+
+        PendingJournalIo journalIo = pendingJournalIo;
+        try (FileOutputStream output = journalIo.openTemporary(temporary)) {
             Writer writer = new OutputStreamWriter(output, StandardCharsets.UTF_8);
             for (Map.Entry<String, Long> entry : records.entrySet()) {
                 writer.write(Long.toString(entry.getValue()));
@@ -427,22 +474,115 @@ public final class MediaCache {
                 writer.write('\n');
             }
             writer.flush();
-            // AtomicFile logs some sync/rename failures instead of throwing. A successful
-            // return alone must not authorize an insert or retire legacy ownership.
             output.getFD().sync();
-            atomic.finishWrite(output);
         } catch (IOException | RuntimeException error) {
-            atomic.failWrite(output);
+            if (temporary.exists() && !temporary.delete()) {
+                error.addSuppressed(new IOException("Could not remove incomplete media journal"));
+            }
             throw error;
         }
-        // A finished write is no longer eligible for rollback. Older AtomicFile versions
-        // delete the committed base if failWrite is called after its backup is retired.
-        if (!base.isFile() || new File(directory, PENDING_FILE_NAME + ".new").exists()
-                || new File(directory, PENDING_FILE_NAME + ".bak").exists()) {
+
+        // A preceding writer must have been recovered above, so this target is free.
+        if (base.exists()) {
+            if (backup.exists()) {
+                IOException failure = new IOException("Media journal backup was not recovered");
+                deleteTemporary(temporary, failure);
+                throw failure;
+            }
+            if (!base.renameTo(backup)) {
+                IOException failure = new IOException("Could not preserve previous media journal");
+                deleteTemporary(temporary, failure);
+                throw failure;
+            }
+        }
+
+        boolean committed;
+        try {
+            committed = journalIo.commit(temporary, base);
+        } catch (IOException | RuntimeException failure) {
+            rollbackPendingWrite(directory, failure);
+            throw failure;
+        }
+        if (!committed || !base.isFile() || temporary.exists()) {
+            IOException failure = new IOException("Could not commit media publication journal");
+            rollbackPendingWrite(directory, failure);
+            throw failure;
+        }
+
+        boolean retained;
+        try {
+            retained = base.isFile() && readPendingFile(base).equals(records);
+        } catch (IOException error) {
+            retained = false;
+            error.addSuppressed(new IOException("Could not verify new media publication journal"));
+            // Leave the bad generation in place as forensic evidence. The old backup, if any,
+            // remains authoritative, and legacy ownership is not retired because this method
+            // throws before readPendingAndMigrate can complete the handoff.
+            throw error;
+        }
+        if (!retained) {
+            IOException failure = new IOException(
+                    "Media publication journal commit did not retain its records");
+            // Keep the committed-but-invalid bytes as evidence of a broken filesystem/provider.
+            // The legacy source is retained because the handoff caller has not returned yet.
+            throw failure;
+        }
+
+        // Retiring the backup is the commit point. Until then readers intentionally prefer the
+        // old generation, so a failed delete cannot make a partially acknowledged update visible.
+        if (backup.exists() && !backup.delete()) {
+            throw new IOException("Could not retire media journal backup");
+        }
+        if (!base.isFile() || temporary.exists() || backup.exists()) {
             throw new IOException("Media publication journal commit is incomplete");
         }
         if (!readPending(directory).equals(records)) {
             throw new IOException("Media publication journal commit did not retain its records");
+        }
+    }
+
+    /** Restore the previous committed generation and discard an uncommitted temporary file. */
+    private static void restorePendingFiles(File directory) throws IOException {
+        File base = new File(directory, PENDING_FILE_NAME);
+        File backup = new File(directory, PENDING_FILE_NAME + ".bak");
+        File temporary = new File(directory, PENDING_FILE_NAME + ".new");
+        if (backup.exists()) {
+            if (base.exists() && !base.delete()) {
+                throw new IOException("Could not discard uncommitted media journal");
+            }
+            if (!backup.renameTo(base)) {
+                throw new IOException("Could not restore media journal backup");
+            }
+        }
+        if (temporary.exists() && !temporary.delete()) {
+            throw new IOException("Could not remove incomplete media journal");
+        }
+    }
+
+    private static void rollbackPendingWrite(File directory, Throwable failure) {
+        File base = new File(directory, PENDING_FILE_NAME);
+        File backup = new File(directory, PENDING_FILE_NAME + ".bak");
+        File temporary = new File(directory, PENDING_FILE_NAME + ".new");
+        try {
+            if (backup.exists()) {
+                restorePendingFiles(directory);
+            } else {
+                // A first write has no previous generation to restore.
+                if (base.exists() && !base.delete()) {
+                    throw new IOException("Could not discard uncommitted media journal");
+                }
+                if (temporary.exists() && !temporary.delete()) {
+                    throw new IOException("Could not remove incomplete media journal");
+                }
+            }
+        } catch (IOException rollbackFailure) {
+            failure.addSuppressed(rollbackFailure);
+        }
+    }
+
+    private static void deleteTemporary(File temporary, Throwable failure) {
+        if (temporary.exists() && !temporary.delete()) {
+            failure.addSuppressed(new IOException("Could not remove incomplete media journal"));
         }
     }
 

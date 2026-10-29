@@ -16,7 +16,6 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.database.Cursor;
 import android.net.Uri;
-import android.util.AtomicFile;
 import android.util.Base64;
 
 import java.io.BufferedReader;
@@ -44,9 +43,6 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.annotation.Config;
-import org.robolectric.annotation.Implementation;
-import org.robolectric.annotation.Implements;
-import org.robolectric.annotation.RealObject;
 
 /** Legacy ownership, unreadable records and real process overlap at the journal boundary. */
 @RunWith(RobolectricTestRunner.class)
@@ -71,6 +67,7 @@ public class MediaCacheJournalHandoffTest {
     }
 
     @After public void tearDown() {
+        MediaCache.setPendingJournalIoForTests(null);
         MediaCacheRecoveryTest.FakeMediaProvider.reset();
     }
 
@@ -208,8 +205,9 @@ public class MediaCacheJournalHandoffTest {
         assertUnreadableAtomicFilesStay(durable, false);
     }
 
-    @Test @Config(sdk = 33, shadows = FinishWithoutPublication.class)
-    public void aSilentAtomicFinishFailureDoesNotRetireLegacyOwnership() throws Exception {
+    @Test @Config(sdk = 33)
+    public void aSilentJournalCommitFailureDoesNotRetireLegacyOwnership() throws Exception {
+        MediaCache.setPendingJournalIoForTests(new FinishWithoutPublication());
         String legacy = stale() + "\t" + uri(7) + "\n";
         write(journal(cache), legacy);
 
@@ -219,8 +217,9 @@ public class MediaCacheJournalHandoffTest {
         assertFalse("failed new journal was treated as published", journal(durable).exists());
     }
 
-    @Test @Config(sdk = {23, 33}, shadows = FinishWithWrongRecords.class)
+    @Test @Config(sdk = {23, 33})
     public void aCommittedReadBackMismatchDoesNotRetireLegacyOwnership() throws Exception {
+        MediaCache.setPendingJournalIoForTests(new FinishWithWrongRecords());
         String legacy = stale() + "\t" + uri(7) + "\n";
         write(journal(cache), legacy);
 
@@ -231,8 +230,9 @@ public class MediaCacheJournalHandoffTest {
         assertTrue(text(journal(durable)).endsWith("\tcontent://media/external_primary/downloads/777\n"));
     }
 
-    @Test @Config(sdk = 33, shadows = WriteFailure.class)
+    @Test @Config(sdk = 33)
     public void aWriteFailureAfterReadingLegacyRecordsDoesNotRetireThem() throws Exception {
+        MediaCache.setPendingJournalIoForTests(new WriteFailure());
         String legacy = stale() + "\t" + uri(7) + "\n";
         write(journal(cache), legacy);
 
@@ -357,34 +357,39 @@ public class MediaCacheJournalHandoffTest {
         return bytes;
     }
 
-    /** Models Android AtomicFile's normal return after a failed rename. */
-    @Implements(AtomicFile.class)
-    public static final class FinishWithoutPublication {
-        @Implementation protected void finishWrite(FileOutputStream output) throws IOException { output.close(); }
-    }
-
-    /** The base is published, but it does not contain the map the writer committed. */
-    @Implements(AtomicFile.class)
-    public static final class FinishWithWrongRecords {
-        @RealObject private AtomicFile actual;
-        @Implementation protected void finishWrite(FileOutputStream output) throws IOException {
-            output.close();
-            File base = actual.getBaseFile();
-            Files.write(base.toPath(), (System.currentTimeMillis()
-                    + "\tcontent://media/external_primary/downloads/777\n").getBytes(StandardCharsets.UTF_8));
-            // API23 writes the base directly; newer AtomicFile commits from .new.
-            File uncommitted = new File(base.getPath() + ".new");
-            if (uncommitted.exists()) assertTrue(uncommitted.delete());
+    /** Simulates a writer that returns success without publishing the temporary file. */
+    public static final class FinishWithoutPublication implements MediaCache.PendingJournalIo {
+        @Override public FileOutputStream openTemporary(File temporary) throws IOException {
+            return new FileOutputStream(temporary);
+        }
+        @Override public boolean commit(File temporary, File base) {
+            return true;
         }
     }
 
-    @Implements(AtomicFile.class)
-    public static final class WriteFailure {
-        @RealObject private AtomicFile actual;
-        @Implementation protected FileOutputStream startWrite() throws IOException {
-            FileOutputStream output = new FileOutputStream(actual.getBaseFile().getPath() + ".new");
+    /** Publishes a journal with incorrect bytes so read-back verification must reject it. */
+    public static final class FinishWithWrongRecords implements MediaCache.PendingJournalIo {
+        @Override public FileOutputStream openTemporary(File temporary) throws IOException {
+            return new FileOutputStream(temporary);
+        }
+        @Override public boolean commit(File temporary, File base) throws IOException {
+            if (!temporary.renameTo(base)) return false;
+            Files.write(base.toPath(), (System.currentTimeMillis()
+                    + "\tcontent://media/external_primary/downloads/777\n")
+                    .getBytes(StandardCharsets.UTF_8));
+            return true;
+        }
+    }
+
+    /** Simulates a write stream that failed after opening the temporary file. */
+    public static final class WriteFailure implements MediaCache.PendingJournalIo {
+        @Override public FileOutputStream openTemporary(File temporary) throws IOException {
+            FileOutputStream output = new FileOutputStream(temporary);
             output.close();
             return output;
+        }
+        @Override public boolean commit(File temporary, File base) {
+            return temporary.renameTo(base);
         }
     }
 
