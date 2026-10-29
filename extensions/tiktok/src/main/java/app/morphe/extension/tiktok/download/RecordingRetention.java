@@ -352,7 +352,7 @@ final class RecordingRetention {
                 });
     }
 
-    private static boolean isSymbolicLink(File file) throws IOException {
+    static boolean isSymbolicLink(File file) throws IOException {
         // Robolectric runs the unit suite on the host OS. Use the host NIO provider there so
         // Windows and Unix symbolic links are both detected; java.nio.file was added to Android
         // after this module's API-23 floor, so retain the platform lstat fallback for older phones.
