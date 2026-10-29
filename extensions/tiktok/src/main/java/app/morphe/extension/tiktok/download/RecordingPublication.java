@@ -273,14 +273,19 @@ final class RecordingPublication implements MediaFileWriter.Publication {
         File expectedDirectory = new File(
                 Environment.getExternalStorageDirectory(),
                 "Movies/HushfeedRetained-" + record.id).getCanonicalFile();
+        File parent = file.getParentFile();
         File canonicalFile = file.getCanonicalFile();
         File canonicalParent = canonicalFile.getParentFile();
-        // Compare canonical parents rather than absolute and canonical full paths. Android and
-        // Windows can normalize the same valid path differently; checking the canonical parent
-        // still rejects a symlink whose target escapes the record's owned directory.
+        // Canonical/absolute string equality is not portable to Windows (drive-letter casing
+        // and path normalization differ). Check the canonical destination parent and use the
+        // shared lstat/NIO check to reject file and directory symlinks explicitly.
         if (!file.getName().endsWith(".mp4")
+                || parent == null
+                || RecordingRetention.isSymbolicLink(file)
+                || RecordingRetention.isSymbolicLink(parent)
                 || canonicalParent == null
-                || !canonicalParent.equals(expectedDirectory)) {
+                || !canonicalParent.equals(expectedDirectory)
+                || !parent.getCanonicalFile().equals(expectedDirectory)) {
             throw new IOException("Legacy recording destination ownership changed");
         }
     }
